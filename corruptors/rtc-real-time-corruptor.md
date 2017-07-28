@@ -1,12 +1,12 @@
-## Real-Time Corruptor for Bizhawk
+# Real-Time Corruptor for Bizhawk
 
 The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. It is a mod to the Open Source BizHawk Emulator that works by modifying live data from virtual memory chips of emulated systems.
 
-**Quick Start**
+###Quick Start###
 
 The Real Time Corruptor was designed with ease of use in mind, if you want to get right into the action simply load a ROM and click “Easy Start” and you are away! \(_Instant results not always guaranteed\)_
 
-**Fundamentals of RTC**
+###Fundamentals of RTC###
 
 First, let’s go over the basic fundamentals of how this corruptor functions.
 
