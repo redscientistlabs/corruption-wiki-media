@@ -1,3 +1,6 @@
-# My Awesome Book
+# This is a placeholder.
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+The history of corruptions can go here and what corruptions actually are.
+
+
+
