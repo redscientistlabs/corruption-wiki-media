@@ -1,9 +1,9 @@
 {
     "gitbook": "2.x.x",
     "plugins": ["html5-video"],
-    "links": {
-        "sidebar": {
-            "Contact us / Support": "http://cc.r5x.cc/dokuwiki/doku.php?id=rtc_discord"
+    ##"links": {
+    ##    "sidebar": {
+    ##        "Contact us / Support": "http://cc.r5x.cc/dokuwiki/doku.php?id=rtc_discord"
         }
     },
     "pluginsConfig": {}
