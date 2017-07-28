@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* [Introduction](README.md)
+* [Introduction](Introduction.md)
 
 ## Corruptors
 
@@ -20,4 +20,8 @@
 * N64
 * [PS1](consoles/ps1.md)
 * [PC](consoles/pc.md)
+
+## Etc.
+
+* [Contributing](README.md)
 
