@@ -1,4 +1,4 @@
-## RTC Real Time Corruptor
+## Real-Time Corruptor for Bizhawk
 
 
 
