@@ -13,3 +13,10 @@
 * Cheat Engine
 * [Old Corruptors](corruptors/old-corruptors.md)
 
+## Consoles
+
+* NES
+* SNES
+* N64
+* PS1
+
