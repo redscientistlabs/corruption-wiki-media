@@ -20,3 +20,7 @@
 * [PS1](consoles/ps1.md)
 * [PC](consoles/pc.md)
 
+## test
+
+* [test](test/test.md)
+
