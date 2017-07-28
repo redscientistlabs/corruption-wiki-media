@@ -1,6 +1,4 @@
-# Everything from RTC to Corruptsor.
+Everything from RTC to Corruptsor.
 
 In a list, I recon.
-
-
 

@@ -3,20 +3,19 @@
 ## Intro
 
 * [Corruptions Introduction ](README.md)
-* [List of Corruptors](chapter1.md)
 
 ## Corruptors
 
-* Vinesauce ROM Corruptor
-* RTC Real Time Corruptor
-* VineCorrupt
-* Cheat Engine
+* [Vinesauce ROM Corruptor](corruptors/vinesauce-rom-corruptor.md)
+* [RTC Real Time Corruptor](corruptors/rtc-real-time-corruptor.md)
+* [VineCorrupt](corruptors/vinecorrupt.md)
+* [Cheat Engine](corruptors/cheat-engine.md)
 * [Old Corruptors](corruptors/old-corruptors.md)
 
 ## Consoles
 
-* NES
-* SNES
-* N64
-* PS1
+* [NES](consoles/nes.md)
+* [SNES](consoles/snes.md)
+* [N64](consoles/n64.md)
+* [PS1](consoles/ps1.md)
 
