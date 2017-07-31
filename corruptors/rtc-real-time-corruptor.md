@@ -9,6 +9,36 @@
 
 The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. It is a mod to the Open Source BizHawk Emulator that works by modifying live data from virtual memory chips of emulated systems.
 
+#
+## Index
+
+* [**Index**](#index "Literally this")
+    * [Quick Start](#quick-start)
+        * [Fundamentals of RTC](#fundamentals-of-rtc)
+    * [**Basic**](#basic-guide)
+        * [**RTC Concepts**](#rtc-concepts)
+            * [Stockpile](#stockpile)
+            * [Stash Key](#stashkey)
+            * [Blast Layer](#blastlayer)
+            * [Memory Domain](#memorydomain)
+        * [**Corruption Engines**](#corruption-engines)
+            * [Nightmare Engine](#nightmare-engine)
+            * [Hellgenie Engine](#hellgenie-engine)
+            * [Distortion Engine](#distortion-engine)
+            * [Freeze Engine](#freeze-engine)
+            * [Pipe Engine](#pipe-engine)
+            * [Vector Engine](#vector-engine)
+            * [External ROM Plugin](#external-rom-plugin)
+    * [**Advanced**](#advanced-guide)
+        * [Glitch Harvester](#glitch-harvester)
+        * [RTC Multiplayer](#rtc-multiplayer)
+        * [Bizhawk Modifications](#bizhawk-modifications)
+    * [**Expert**](#expert-guide)
+            * [Virtual Memory Domains](#virtual-memory-domains)
+            * [Generating Active Tables](#generating-active-tables)
+            * [Editing Blast Layers](#editing-blast-layers)
+    * [**Video Tutorials**](#video-tutorials)
+
 ### Quick Start
 
 The Real Time Corruptor was designed with ease of use in mind, if you want to get right into the action simply load a ROM and click “Easy Start” and you are away! \(_Instant results not always guaranteed\)_
