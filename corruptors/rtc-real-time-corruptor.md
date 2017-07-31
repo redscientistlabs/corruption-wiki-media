@@ -17,7 +17,7 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
     * [**Basic**](#basic-guide)
         * [**RTC Concepts**](#rtc-concepts)
             * [Stockpile](#stockpile)
-            * [Stash Key](#stashkey)
+            * [Stash Key](#stash-key)
             * [Blast Layer](#blastlayer)
         * [**General Parameters**](#general-parameters)
             * [Blast](#blast)
