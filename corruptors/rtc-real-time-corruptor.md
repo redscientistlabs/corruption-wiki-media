@@ -1,4 +1,11 @@
-# Real-Time Corruptor for Bizhawk
+## Real-Time Corruptor for Bizhawk
+
+###### Author: [Phil Girard](http://redscientist.com/)
+
+###### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/)
+
+###### Download: [http://redscientist.com/#/rtc](http://redscientist.com/#/rtc)
+
 
 The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. It is a mod to the Open Source BizHawk Emulator that works by modifying live data from virtual memory chips of emulated systems.
 
