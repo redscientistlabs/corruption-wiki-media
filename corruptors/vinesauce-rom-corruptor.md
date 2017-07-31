@@ -44,7 +44,7 @@ Choose a folder containing your files or ROMs, a selection of the files from the
 
 This sets the a destination path for the corrupted file/ROM, ticking "Overwrite File" will always replace the file/ROM in the set destination.
 
-##### Run Emulator after Corrupting 
+##### Run Emulator after Corrupting
 
 This launches an emulator and runs the corrupted ROM after clicking 'Run'. Some emulators may require you launch the corrupted ROM manually. See a list of recommended emulators.
 
@@ -64,13 +64,9 @@ This section is where you configure the corruptions settings.
 
 This sets the starting value for the corruption, setting this value too low will likely result in corrupting the header which can prevent the emulator from reading the file properly. A recommended starting value is 500.
 
-
-
 ##### End Byte - Hex
 
 This sets the end value for the corruption, it can be set anywhere after the start byte. Setting this value too close to the start byte makes the byte range for corrupting too narrow for any significant corruption to happen, however, this can be useful for pinpointing files or values to corrupt.
-
-
 
 ##### Increment - Decimal
 
@@ -90,7 +86,7 @@ This value sets how often to corrupt bytes, setting this to 1 will corrupt every
 
 ##### 
 
-##### Add _x _to every byte - Decimal 
+##### Add \_x \_to every byte - Decimal
 
 When using this option it will add the specified decimal value to each byte corrupted, any bytes corrupted with this option will be increased by the specified value. You can set negative values with this option too.
 
@@ -102,9 +98,9 @@ Using this option each corrupted byte will be shifted to the right from it's ori
 
 ##### 
 
-##### Replace _x _with_ y _- HEX
+##### Replace _x \_with_ y \_- HEX
 
-When using this option, each corrupted byte will be compared to the first value \(_x\), _if it matches it will be replaced with _\(y\), _the second value. So only matching bytes will be corrupted, other bytes remain untouched. 
+When using this option, each corrupted byte will be compared to the first value \(_x\), \_if it matches it will be replaced with _\(y\), \_the second value. So only matching bytes will be corrupted, other bytes remain untouched.
 
 ##### 
 
@@ -116,11 +112,11 @@ This option will increase stability and decrease crashes when corrupting NES ROM
 
 ##### Text Replacement - ASCII
 
-Anchor Text **- **Enter at least one word that you know exists in the file into this field. These words are used to understand what encoding the text in the file has. Usually one word is enough.
+Anchor Text **- **Enter at least one word that you know exists in the file into this field. These words are used to understand what encoding the text in the file has. Usually one word is enough.
 
 Text To Replace** - **Enter the text to replace into this field. Multiple sections of text can be replaced by putting pipe characters \(\|\) between them. Any characters that are not letters \(ie. numbers, spaces, hyphens, etc.\) will match any character in the file. Small sections of text will result in greater collateral corruption of the file, as they will match non-text data more often.
 
-Replace With** - **Enter what to replace the matching sections of text with into this field. If multiple sections of text were added into the box above, the same number of sections must also be entered into this box. Again, the pipe character \(\|\) is used to separate sections.
+Replace With** - **Enter what to replace the matching sections of text with into this field. If multiple sections of text were added into the box above, the same number of sections must also be entered into this box. Again, the pipe character \(\|\) is used to separate sections.
 
 A more detailed guide can be found here: [http://corruptedbytes.com/vinesauce-rom-corruptor-text-replacement-guide/](http://corruptedbytes.com/vinesauce-rom-corruptor-text-replacement-guide/)
 
@@ -128,11 +124,9 @@ A more detailed guide can be found here: [http://corruptedbytes.com/vinesauce-ro
 
 ##### Color Replacement - Hex
 
-This allows you to arbitrarily replace colors in games. Enter the hexadecimal value of the color to replace into the first text box. Multiple colors can be replaced at the same time by putting pipe characters \(\|\) between them. Enter the hexadecimal value to replace the matching color with into this text box. If multiple colors were added into the box above, the same number of colors must also be entered into this box. 
+This allows you to arbitrarily replace colors in games. Enter the hexadecimal value of the color to replace into the first text box. Multiple colors can be replaced at the same time by putting pipe characters \(\|\) between them. Enter the hexadecimal value to replace the matching color with into this text box. If multiple colors were added into the box above, the same number of colors must also be entered into this box.
 
 A more detailed guide can be found here: [http://corruptedbytes.com/vinesauce-rom-corruptor-color-replacement-guide/](http://corruptedbytes.com/vinesauce-rom-corruptor-color-replacement-guide/)
-
-
 
 ### Quick Corruption Setup
 
@@ -146,10 +140,10 @@ You can load a saved corruption from a .txt file a TinyURL link, or:
    2. Set the end byte, either by toggling Auto End or choosing a large value for a wide byte range or a small value for a narrow byte range.
    3. Set the increment, changing start and end byte values with a small increment can result in different but similar corruptions, larger increments will corrupt very different sets of bytes depending on the type of file.
    4. Set the corrupt every value, 5-10 is recommended for large byte ranges and 1-5 is best for small byte ranges \(the lower the value the more bytes corrupted\).
-5.    Choose a corruption method.
-   1. Adding _x _bytes, any value will produce a result, smaller values seem to be most effective on NES.
-   2. Shift Right _x _Bytes, 1-10 recommended for interesting results.
-   3. Replace _x _with _y_, recommended 1-10 in each field however, any number will work.
+5. Choose a corruption method.
+   1. Adding \_x \_bytes, any value will produce a result, smaller values seem to be most effective on NES.
+   2. Shift Right \_x \_Bytes, 1-10 recommended for interesting results.
+   3. Replace _x \_with \_y_, recommended 1-10 in each field however, any number will work.
 6. If corrupting NES ROMs, enable CPU Jam Protection \(optional\).
 
 7. Use Text Replacement with at least one Anchor word \(optional\).
@@ -162,11 +156,21 @@ You can load a saved corruption from a .txt file a TinyURL link, or:
 
 Some emulators aren't compatible with the option to run the corrupted ROM right after corrupting it, you may have to run the emulator choose the ROM manually.
 
-
-
 ### Example Corruption Saves
 
 TODO
+
+### Video Tutorials
+
+{% youtube src="https://www.youtube.com/watch?v=8frr4yf2Klg" %}{% endyoutube %}
+
+###### Corruption connoisseur, Zer0DucksGiven has an in-depth guide for the corruptor. 
+
+
+
+{% youtube src="https://www.youtube.com/watch?v=ZLPrPfW4CLs" %}{% endyoutube %}
+
+###### YouTube user FZERO has a simple guide showing the basics of the corruptor.
 
 
 
