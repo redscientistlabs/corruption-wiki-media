@@ -85,7 +85,7 @@ BlastLayers that are ran from inside the Stockpile Player or the Glitch Harveste
 
 Object that represents a chip or memory pool on an emulated system.
 
-General Parameters
+### General Parameters
 
 ##### Blast
 
