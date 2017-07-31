@@ -12,7 +12,7 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
 ### Index
 
 * [**Index**](#index "Literally this")
-    * [Quick Start](#quick-start)
+        * [Quick Start](#quick-start)
         * [Fundamentals of RTC](#fundamentals-of-rtc)
     * [**Basic**](#basic-guide)
         * [**RTC Concepts**](#rtc-concepts)
