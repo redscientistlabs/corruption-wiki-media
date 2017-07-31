@@ -59,6 +59,7 @@ What is usually known as an iteration in static corruptors, is called a Blast in
 
 **The Auto-Corrupt function **attaches the blast generation to the emulated game’s clock. Smaller blasts on a fast clock will create a constant flow of randomly generated corruption. This flow can be controlled by three parameters: The **Error Delay,** which is a divider linked to the game clock, The **Intensity **which is a multiplier for the number of corruption units to be generated \(which depends on the selected engine\). The **Blast Radius** determines how is the corruption is spread on the selected domains.
 
+## Basic Guide
 
 ### RTC Concepts
 
