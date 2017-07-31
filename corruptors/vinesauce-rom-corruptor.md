@@ -33,6 +33,8 @@ The Vinesauce ROM Corruptor is a corruptor that allows you to change the bytes o
     * [Color Replacement](#color-replacement---hex)
   * [**Quick Corruption Setup**](#quick-corruption-setup)
   * [**Example Corruption Saves**](#example-corruption-saves)
+  * [**Video Tutorials**](#video-tutorials)
+
 
 ### Functions
 

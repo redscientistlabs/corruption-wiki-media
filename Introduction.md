@@ -8,4 +8,7 @@ Corruptions or the act of corrupting is taking a video game and breaking it usin
 
 #### This is the GitHub project page for [https://corruption.wiki/](https://corruption.wiki/), any changes, and commits automatically sync to the wiki, if you'd like to contribute to the wiki make a pull request!
 
-#### If you are going to contribute please maintain the overall style of the current pages in the pages you'd like to submit. Good grammar is a must!
+#### If you are going to contribute please maintain the overall style of the current pages in the pages you'd like to submit.
+
+
+

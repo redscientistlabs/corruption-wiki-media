@@ -3,6 +3,7 @@
 ## Introduction
 
 * [Introduction](README.md)
+* [Emulators](emulators.md)
 
 ## Corruptors
 
@@ -16,8 +17,8 @@
 ## Consoles
 
 * [NES](consoles/nes.md)
-* SNES
-* N64
+* [SNES](consoles/snes.md)
+* [N64](consoles/n64.md)
 * [PS1](consoles/ps1.md)
 * [PC](consoles/pc.md)
 
