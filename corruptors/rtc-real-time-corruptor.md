@@ -257,3 +257,7 @@ AnyFloat: Randomly generated Float
 RTC Supports daisy chaining from ROM Corruptors. Some popular ones have been modded to work seamlessly as plugins.
 
 When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated between the original and the corrupted one, then a Blast Layer is generated from that differential. Just like with other engines, the BlastLayer can be toggled ON and OFF when ran with RTC.
+
+### Advanced Guide
+
+ #### Glitch Harvester
