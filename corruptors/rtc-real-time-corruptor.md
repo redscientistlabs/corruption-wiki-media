@@ -31,9 +31,9 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
         * [RTC Multiplayer](#rtc-multiplayer)
         * [Bizhawk Modifications](#bizhawk-modifications)
     * [**Expert**](#expert-guide)
-            * [Virtual Memory Domains](#virtual-memory-domains)
-            * [Generating Active Tables](#generating-active-tables)
-            * [Editing Blast Layers](#editing-blast-layers)
+        * [Virtual Memory Domains](#virtual-memory-domains)
+        * [Generating Active Tables](#generating-active-tables)
+        * [Editing Blast Layers](#editing-blast-layers)
     * [**Video Tutorials**](#video-tutorials)
 
 ### Quick Start
