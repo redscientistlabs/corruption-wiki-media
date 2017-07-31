@@ -95,7 +95,7 @@ A corruption in RTC is usually called a Blast. A Blast is the action of generati
 
 When this is enabled, RTC attempts to Generate and Execute a Blast Later on every Emulation Step. The amount of corruption can be set by changing the Intensity and Error Delay settings.
 
-A Blast is done on every Corrupt Step
+*A Blast is done on every Corrupt Step*
 
 ##### Error Delay
 
@@ -111,7 +111,7 @@ The Intensity is a multiplier to the amount of generated corruption in a Blast.
 
 It can represents: Bytes (Nightmare, Distortion Engines), Cheats (Hellgenie, Freeze Engines), Pipes (Pipe Engine), 32-bit floats (Vector Engine).
 
-Generally, the higher the Intensity is, the more corruption will happen
+*Generally, the higher the Intensity is, the more corruption will happen*
 
 Some engines have a configurable maximum number of concurrent elements as they can be very resource heavy. These elements get automatically discarded as newer ones get added.
 
@@ -126,3 +126,134 @@ SPREAD: Randomly spread across the Memory Domains.
 CHUNK: Sent to one single zone that is randomly selected among the selected Memory Domains.
 
 BURST: 10 Chunks of 1/10 of the total Intensity.
+
+### Corruption Engines
+
+#### Nightmare Engine
+
+This engine corrupts on the raw Byte level.
+
+*Effect: It changes Bytes in Memory once.*
+
+**Blast Type**
+
+This parameter defines the effect applied on Byte
+
+RANDOM: Will replace the Byte with a random Byte
+
+RANDOMTILT: Will replace the Byte with a random Byte or Increments it or Decrements it.
+
+TILT: Will Increment or Decrement a random Byte.
+
+#### Hellgenie Engine
+
+Uses the built-in Bizhawk Cheat Engine to generate random Cheats.
+
+Effect: It changes Bytes and forces them keep the value.
+
+**Max Cheats**
+
+Cheats are resource expensive as they re-write memory on every cycle and must be recycled. This allows you to define how many cheats are allowed. New cheats retire old ones.
+
+**Clear cheats on Rewind**
+
+Rewinding in BizHawk will force all cheats to be removed.
+
+**Shuffle cheat values**
+
+TODO: Randomize all current cheat values
+
+Clear all cheats
+
+Clears all active cheats
+
+#### Distortion Engine
+
+This engine backups Bytes and restores those backups once, later in time.
+
+*Effect: This corrupts data by restoring some of it back in time.*
+
+**Distortion Delay**
+
+This is the amounts of steps that each corruption units has to wait before restoring a backup.
+
+**Resync Distortion**
+
+This erases all corruption units pending to be restored.
+
+#### Freeze Engine
+
+Uses the built-in BizHawk Cheat Engine to generate freeze addresses.
+
+*Effect: It forces Bytes to keep their value.*
+
+**Max Freezes**
+
+Freezes are resource expensive as they re-write memory on every cycle and must be recycled. This allows you to define how many freezes are allowed. New freezes retire old ones.
+
+**Clear freezes on Rewind**
+
+Rewinding in BizHawk will force all freezes to be removed.
+
+#### Pipe Engine
+
+This engines binds addresses together and can make data bleed from a memory domain to another. It uses Pipes, which route memory change on every Emulator Step (or Corrupt Step).
+
+
+**Max Pipes**
+
+Pipes are resource expensive as they move memory memory on every cycle and must be recycled. This allows you to define how many pipes are allowed. New pipes retire old ones.
+
+**Lock Pipes**
+
+Prevents any change to be done to the current Pipes.
+
+**Process on Emulator Step**
+
+Disabling this causes the pipes to sync with the Corrupt Step instead of Emulator Step
+
+**Clear pipes on Rewind**
+
+Rewinding in BizHawk will force all pipes to be removed.
+
+#### Vector Engine
+
+This engine works exclusively on 32bit+ systems that use IEEE 754 float values.
+
+*Effect: Corrupts 32bit vectors*
+
+**Limiter List**
+
+On the generation of every Unit with this engine, the value at the randomly address is going to be compared to a list of legal values called a Limiter List. If the value at the random address isn't legal according to the list, the Unit then will not be part of the Blast Layer.
+
+**Value List**
+
+After generation of the Unit with this engine, a replacement value is assigned to the legal address. This value is randomly selected from a selected Value List.
+
+**Lists**
+
+Extended : -65536.00 to +65536.00 in low res, including tiny decimals
+
+Extended+ : 0 to +65536 in low res, including tiny decimals
+
+Extended- : 0 to -65536 in low res, including tiny decimals
+
+Whole: -65536.00 to +65536.00 in low res, integral numbers
+
+Whole+: 0 to +65536.00 in low res, integral numbers
+
+Tiny: tiny decimals between -1.00 and +1.00
+
+One: The number 1.00
+
+One*: The numbers 1.00 and -1.00
+
+Two: The number 2.00
+
+AnyFloat: Randomly generated Float
+
+#### External ROM Plugin
+
+RTC Supports daisy chaining from ROM Corruptors. Some popular ones have been modded to work seamlessly as plugins.
+
+When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated between the original and the corrupted one, then a Blast Layer is generated from that differential. Just like with other engines, the BlastLayer can be toggled ON and OFF when ran with RTC.
