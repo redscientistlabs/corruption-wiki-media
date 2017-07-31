@@ -162,15 +162,16 @@ TODO
 
 ### Video Tutorials
 
-{% youtube src="https://www.youtube.com/watch?v=8frr4yf2Klg" %}{% endyoutube %}
+
+{% youtube %}8frr4yf2Klg{% endyoutube %}
 
 ###### Corruption connoisseur, Zer0DucksGiven has an in-depth guide for the corruptor. 
 
 
-
-{% youtube src="https://www.youtube.com/watch?v=ZLPrPfW4CLs" %}{% endyoutube %}
+{% youtube %}ZLPrPfW4CLs{% endyoutube %}
 
 ###### YouTube user FZERO has a simple guide showing the basics of the corruptor.
 
+{% youtube %}yTGgPwivxak{% endyoutube %}
 
-
+###### cadcTV has a two part tutorial on using the corruptor, the first part explains the basic usage of the corruptor. 
