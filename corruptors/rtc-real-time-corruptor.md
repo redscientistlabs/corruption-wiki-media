@@ -1,4 +1,4 @@
-## Real-Time Corruptor for Bizhawk
+# Real-Time Corruptor for Bizhawk
 
 ###### Author: [Phil Girard](http://redscientist.com/)
 
@@ -59,7 +59,7 @@ What is usually known as an iteration in static corruptors, is called a Blast in
 
 **The Auto-Corrupt function **attaches the blast generation to the emulated game’s clock. Smaller blasts on a fast clock will create a constant flow of randomly generated corruption. This flow can be controlled by three parameters: The **Error Delay,** which is a divider linked to the game clock, The **Intensity **which is a multiplier for the number of corruption units to be generated \(which depends on the selected engine\). The **Blast Radius** determines how is the corruption is spread on the selected domains.
 
-## Basic Guide
+# Basic Guide
 
 ### RTC Concepts
 
@@ -258,36 +258,71 @@ RTC Supports daisy chaining from ROM Corruptors. Some popular ones have been mod
 
 When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated between the original and the corrupted one, then a Blast Layer is generated from that differential. Just like with other engines, the BlastLayer can be toggled ON and OFF when ran with RTC.
 
-### Advanced Guide
+# Advanced Guide
 
- #### Glitch Harvester
-
+ ## Glitch Harvester
+ 
 *Savestate-oriented corruption operator interface*
 
 ##EARLY WORK IN PROGRESS DOCUMENTATION
 
-##### Introduction
+### Introduction
 
 The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master. 
 
 Basic usage is fairly simple, you create a savestate, select the zones you would like to corrupt, chose an intensity and click the “Blast/Send” button, the emulator then corrupts the selected memory zones and instantly loads the savestate. (The “Blast/Send” function can be bound to any key/button)
 
-##### The interface
+### The interface
 
-This will explain the complex layout of interactive elements which makes the interface.
-Blast/Send is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items.
+*This will explain the complex layout of interactive elements which makes the interface.*
 
-The SAVE and LOAD are for saving and loading Glitch Harvester savestates. The Save/Load makes the aforementioned button shift between LOAD and SAVE. It is made this way to prevent accidental deletion.
+### Action Panel
 
-Numeric buttons (1-20) are used to select a Glitch Harvester save-state slot.
-Load on click, if checked, the Glitch Harvester will load a save state upon clicking on it. 
-Intensity multiplies the Intensity setting from the main menu.
+#### Blast/Send
+Blast/Send is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items. If *Stash Results* is checked, it will create a new item in the Stash History box.
+
+#### Send Raw to Stash
+This will create a item in the Stash History box. The generated Blast Layer is applied (Corruption occurs) then a new Savestate is created for this item. Alterating corruption (Cheats and Pipes) will be stored in the attached Blast Layer but destructive corruption (Byte changes) will be compiled in the Savestate.
+
+### Savestate Manager
+
+**Change -> SAVE/LOAD**
+
+The change button flips the one on its right between SAVE and LOAD. This button toggling system is made this way to prevent accidental overwriting of Glitch Harvester Savestates.
+
+The SAVE and LOAD are for saving and loading Glitch Harvester Savestates.
+
+##### Numeric Buttons
+Numeric buttons (1-40) are used to select a Glitch Harvester save-state slot.
+
+An associated Textbox can be used for very short descriptions.
+
+##### Back and Forward
+
+This switches between pages of 10 Glitch Harvester Savestates.
+
+##### Load on click
+If checked, the Glitch Harvester will load a save state upon clicking on it. 
+
+### Load/Save Savestate List
+
+These buttons allow you to Save and Load the 40 Glitch Harvester Savestate slot to/from a file in a similar format to a Stockpile.
+
+### Intensity
+This control is linked to the intensity controls in the Main Window. It multiplies the amount of generated Units on every Blast.
+
+
+
+#### Action modifiers
 The Corrupt, Inject and Original radio buttons will change the function of the Blast/Send button.
 
-Corrupt is the default setting, loaded states will include corruption.
+**Corrupt** is the default setting. Blast/Send will have its default behavior and loaded Stash Keys will include corruption when replayed.
 
-Inject will load the corruption layer from the selected Stash and Stockpile item.
+**Inject** will make the Blast/Send button load the corruption layer from the selected item in the Stash History or Stockpile Manager into the currently selected Glitch Harvester Savestate. The same action will happen when clicking on an item in the Stash History or Stockpile Manager if the Load on select checkbox is selected.
+
 Original will load the state from Stash and stockpile without the corruption layer.
+
+#### Action triggers
 
 Auto-Load State will automatically load the state before applying the corruption when the “Blast/Send” button is pressed.
 
