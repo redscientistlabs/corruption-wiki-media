@@ -12,8 +12,8 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
 ### Index
 
 * [**Index**](#index "Literally this")
-    * [Quick Start](#quick-start)
-    * [Fundamentals of RTC](#fundamentals-of-rtc)
+    * [**Quick Start**](#quick-start)
+    * [**Fundamentals of RTC**](#fundamentals-of-rtc)
     * [**Basic**](#basic-guide)
         * [**RTC Vocabulary**](#rtc-vocabulary)
             * [Blast](#blast)
@@ -33,6 +33,8 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
             * [Pipe Engine](#pipe-engine)
             * [Vector Engine](#vector-engine)
             * [External ROM Plugin](#external-rom-plugin)
+        * [**Main RTC Window**](#main-rtc-window)
+        * [**Stockpile Player**](#stockpile-player)
     * [**Advanced**](#advanced-guide)
         * [Glitch Harvester](#glitch-harvester)
         * [RTC Multiplayer](#rtc-multiplayer)
@@ -259,6 +261,11 @@ AnyFloat: Randomly generated Float
 RTC Supports daisy chaining from ROM Corruptors. Some popular ones have been modded to work seamlessly as plugins.
 
 When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated between the original and the corrupted one, then a BlastLayer is generated from that differential. Just like with other engines, the BlastLayer can be toggled ON and OFF when ran with RTC.
+
+## Main RTC Window
+
+## Stockpile Player
+
 
 # Advanced Guide
 
