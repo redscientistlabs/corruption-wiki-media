@@ -20,7 +20,9 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
       * [BlastLayer](#blastlayer)
       * [StashKey](#stashkey)
       * [Stockpile](#stockpile)
-      * [Memory Domain](#memorydomain)
+      * [Memory Domain](#memory-domain)
+      * [Emulation Step](#emulation-step)
+
     * [**General Parameters**](#general-parameters)
       * [Auto-Corrupt](#auto-corrupt)
       * [Error Delay](#error-delay)
@@ -100,7 +102,11 @@ Stockpiles can be replayed using the Stockpile Player.
 
 ##### Memory Domain
 
-Item that represents a chip or memory pool on an emulated system. Memory Domains are native to Bizhawk but the Memory Domains listed in RTC are proxies to the real Memory Domains. While this fact makes very little difference in terms of how they work, it allows for Virtual Memory Domains to coexist with real ones. Virtual Memory Domains are essentially interfaces to Real Memory Domains with blacklisted adresses.
+Item that represents a chip or memory pool on an emulated system. Memory Domains are native to BizHawk but the Memory Domains listed in RTC are proxies to the real Memory Domains. While this fact makes very little difference in terms of how they work, it allows for Virtual Memory Domains to coexist with real ones. Virtual Memory Domains are essentially interfaces to Real Memory Domains with blacklisted adresses.
+
+##### Emulation Step
+
+RTC is hooked to BizHawk's click using the generic Step method. This means that RTC's clock is tied to the currently running Emulator Core. The Emulation Step runs in continuous loop and is throttled automatically by BizHawk in order to make the game run at a normal speed. Pausing the emulator in BizHawk causes this loop to also get pause, therefore halting any automatic generation of corruption.
 
 ### General Parameters
 
