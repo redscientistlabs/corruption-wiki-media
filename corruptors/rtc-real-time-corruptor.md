@@ -66,7 +66,13 @@ What is usually known as an iteration in static corruptors, is called a Blast in
 
 ##### Blast
 
-A corruption in RTC is usually called a Blast. A Blast is the action of generating and/or applying a BlastLayer item. When being generated, a Blast will contain a certain amount of corruption instructions. The amount of generated corruption instructions is defined by the Intensity setting.
+A Blast is the action of generating and/or applying a BlastLayer item \(The action of corrupting\). When being generated, a Blast will contain a certain amount of corruption instructions. The amount of generated corruption instructions is defined by the Intensity setting.
+
+RTC is built in a way that corruption is always generated before being applied. This allows replayability, manipulation and real-time interaction with these entities. When applied, byte-changing instructions usually backups values before modifying them. This allows corruption to be theorically disabled/reapplied on the fly, although this doesn't always work. Unit types that work by re-executing themselves such as Cheats and Pipes do not take backups. Instead, they simply get removed from their execution pools. This means that while their effect may be stopped in real-time, it also may not be completely reverted.
+
+##### BlastUnit
+
+This represents one Unit of corruption instructions. The inner BlastUnit type depends of the engine that generated it and may contain one or many Adresses, Values and extra parameters. 
 
 ##### BlastLayer
 
