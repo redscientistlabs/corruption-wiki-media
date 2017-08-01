@@ -1,4 +1,4 @@
-# Real-Time Corruptor for Bizhawk
+# Real-Time Corruptor for BizHawk
 
 ###### Author: [Phil Girard](http://redscientist.com/)
 
@@ -15,12 +15,12 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
     * [Quick Start](#quick-start)
     * [Fundamentals of RTC](#fundamentals-of-rtc)
     * [**Basic**](#basic-guide)
-        * [**RTC Concepts**](#rtc-concepts)
+        * [**RTC Vocabulary**](#rtc-vocabulary)
+            * [Blast](#blast)
             * [Stockpile](#stockpile)
             * [StashKey](#stashkey)
             * [BlastLayer](#blastlayer)
         * [**General Parameters**](#general-parameters)
-            * [Blast](#blast)
             * [Auto-Corrupt](#auto-corrupt)
             * [Error Delay](#error-delay)
             * [Intensity](#intensity)
@@ -36,7 +36,7 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
     * [**Advanced**](#advanced-guide)
         * [Glitch Harvester](#glitch-harvester)
         * [RTC Multiplayer](#rtc-multiplayer)
-        * [Bizhawk Modifications](#bizhawk-modifications)
+        * [BizHawk Modifications](#bizhawk-modifications)
     * [**Expert**](#expert-guide)
         * [Virtual Memory Domains](#virtual-memory-domains)
         * [Generating Active Tables](#generating-active-tables)
@@ -61,35 +61,37 @@ What is usually known as an iteration in static corruptors, is called a Blast in
 
 # Basic Guide
 
-### RTC Concepts
-
-##### Stockpile
-
-Object that contains Corruptions (Stashkeys). It can be saved as a binary file that can include Game Binaries, Game States, StashKeys and information related to BizHawk emulator cores, plugins and config.
-
-Stockpiles can be managed using the Glitch Harvester's Stockpile Manager. Stockpiles can be replayed using the Stockpile Player or the Glitch Harvester.
-
-##### StashKey
-
-Object that contains information about a game, its game state and an attached BlastLayer.
-
-Corrupting using the Glitch Harvester can generate StashKeys in the Stash History. They can later be manipulated and/or added to a Stockpile.
-
-##### BlastLayer
-
-Object that contains corruption instructions generated from a corruption engine.
-
-BlastLayers that are ran from inside the Stockpile Player or the Glitch Harvester can be deactivated and reactivated on the fly. The program will attempt to uncorrupt a game while it runs. Results not guarantees.
-
-##### Memory Domain
-
-Object that represents a chip or memory pool on an emulated system.
-
-### General Parameters
+### RTC Vocabulary
 
 ##### Blast
 
-A corruption in RTC is usually called a Blast. A Blast is the action of generating and/or applying a BlastLayer. When being generated, a Blast will contain a certain amount of corruption instructions where this amount is defined by the currently selected Intensity.
+A corruption in RTC is usually called a Blast. A Blast is the action of generating and/or applying a BlastLayer item. When being generated, a Blast will contain a certain amount of corruption instructions. The amount of generated corruption instructions is defined by the Intensity setting.
+
+##### BlastLayer
+
+Type of item that contains corruption instructions generated from a corruption engine.
+
+BlastLayers that are ran from the Stockpile Player or the Glitch Harvester can be deactivated and reactivated on the fly (if applicable). 
+
+##### StashKey
+
+Type of item that contains information about a game, its game state and an attached BlastLayer.
+
+Corrupting using the Glitch Harvester generates StashKeys in the Stash History. They can later be manipulated and/or added to a Stockpile.
+
+##### Stockpile
+
+Type of item that contains StashKeys. It can be saved as a file that includes Stockpile items, Game Binaries, Savestates, corruption instructions, and information related to BizHawk emulator cores, plugins and config.
+
+Stockpiles can be managed using the Glitch Harvester. 
+
+Stockpiles can be replayed using the Stockpile Player.
+
+##### Memory Domain
+
+Item that represents a chip or memory pool on an emulated system.
+
+### General Parameters
 
 ##### Auto-Corrupt
 
@@ -147,7 +149,7 @@ TILT: Will Increment or Decrement a random Byte.
 
 #### Hellgenie Engine
 
-Uses the built-in Bizhawk Cheat Engine to generate random Cheats.
+Uses the built-in BizHawk Cheat Engine to generate random Cheats.
 
 Effect: It changes Bytes and forces them keep the value.
 
@@ -340,9 +342,9 @@ Rerolls the corruption values of the selected item in the Stash History or Stock
 
 ### Render Output
 
-This allows you quickly/automatically start audio/video rendering when corrupting using the Glitch Harvester. Rendered files will be saved in the “RENDEROUTPUT” folder which is in *Bizhawk/RTC/RENDEROUTPUT*
+This allows you quickly/automatically start audio/video rendering when corrupting using the Glitch Harvester. Rendered files will be saved in the “RENDEROUTPUT” folder which is in *BizHawk/RTC/RENDEROUTPUT*
 
-**Render type** allows you to select a file format for rendering. If you're getting an error with AVI rendering, it might mean that no codec is selected in Bizhawk. In order to do so, you must start an AVI rendering from Bizhawk at least once.
+**Render type** allows you to select a file format for rendering. If you're getting an error with AVI rendering, it might mean that no codec is selected in BizHawk. In order to do so, you must start an AVI rendering from BizHawk at least once.
 
 **Render at load** will start the render when an item from the Stash History or Stockpile Manager is loaded. 
 
@@ -355,15 +357,15 @@ This is where new corruptions are stashed. The items that appear there can be se
 
 This part of the Glitch Harvester is dedicated to edit and do operations onto Stockpiles.
 
-The **Load** button allows you to either load a Stockpile or load a Bizhawk Config file from an *SKS* file. 
+The **Load** button allows you to either load a Stockpile or load a BizHawk Config file from an *SKS* file. 
 
-Using **Save as** and **Save** buttons will generate/overwrite an *SKS* file that contains corruption data, roms and Bizhawk Savestate. The *SKS* file also contains the Bizhawk config from the last person who saved it.
+Using **Save as** and **Save** buttons will generate/overwrite an *SKS* file that contains corruption data, roms and BizHawk Savestate. The *SKS* file also contains the BizHawk config from the last person who saved it.
 
 **Using someone's config file**
 
 When replaying a stockpile, corruptions can appear different if there are differences in emulator core configurations. While RTC is able to detect core mismatches during loading, specific configuration differences are not. 
 
-Loading someone's config file pretty much guarantees that your Bizhawk Emulator is in the same state as the person who saved the Stockpile. While your controller config might be lost during the time this config is loaded, it can be reverted afterwards by selecting the **Restore Bizhawk config Backup** option from the Load menu.
+Loading someone's config file pretty much guarantees that your BizHawk Emulator is in the same state as the person who saved the Stockpile. While your controller config might be lost during the time this config is loaded, it can be reverted afterwards by selecting the **Restore BizHawk config Backup** option from the Load menu.
 
 **Importing Stockpile items**
 This button allows you to merge stockpiles together by importing them into the one currently edited.
