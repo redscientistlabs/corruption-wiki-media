@@ -106,7 +106,7 @@ Item that represents a chip or memory pool on an emulated system. Memory Domains
 
 ##### Emulation Step
 
-RTC is hooked to BizHawk's click using the generic Step method. This means that RTC's clock is tied to the currently running Emulator Core. The Emulation Step runs in continuous loop and is throttled automatically by BizHawk in order to make the game run at a normal speed. Pausing the emulator in BizHawk causes this loop to also get pause, therefore halting any automatic generation of corruption.
+RTC is hooked to BizHawk's clock using its generic CPU Step loop. This means that RTC's clock is tied to the currently running Emulator Core. The Emulation Step runs in continuous loop and is throttled automatically by BizHawk in order to make the game run at a normal speed. Pausing the emulator in BizHawk causes this loop to also get pause, therefore halting any automatic generation of corruption.
 
 ### General Parameters
 
