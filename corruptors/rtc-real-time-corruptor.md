@@ -95,9 +95,9 @@ Item that represents a chip or memory pool on an emulated system.
 
 ##### Auto-Corrupt
 
-When this is enabled, RTC attempts to Generate and Execute a Blast Later on every Emulation Step. The amount of corruption can be set by changing the Intensity and Error Delay settings.
+When this is enabled, RTC attempts to Generate and Execute a BlastLayer on every Emulation Step. The amount of corruption can be set by changing the Intensity and Error Delay settings.
 
-*A Blast is done on every Corrupt Step*
+*A Blast happens on every Corrupt Step*
 
 ##### Error Delay
 
