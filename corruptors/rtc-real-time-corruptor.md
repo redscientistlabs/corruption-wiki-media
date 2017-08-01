@@ -4,46 +4,45 @@
 
 ###### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/)
 
-###### Download: [http://redscientist.com/#/rtc](http://redscientist.com/#/rtc)
-
+###### Download: [http://redscientist.com/\#/rtc](http://redscientist.com/#/rtc)
 
 The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. It's a mod to the Open Source BizHawk Emulator that works by modifying live data from virtual memory chips of emulated systems.
 
 ### Index
 
 * [**Index**](#index "Literally this")
-    * [**Quick Start**](#quick-start)
-    * [**Fundamentals of RTC**](#fundamentals-of-rtc)
-    * [**Basic**](#basic-guide)
-        * [**RTC Vocabulary**](#rtc-vocabulary)
-            * [Blast](#blast)
-            * [Stockpile](#stockpile)
-            * [StashKey](#stashkey)
-            * [BlastLayer](#blastlayer)
-        * [**General Parameters**](#general-parameters)
-            * [Auto-Corrupt](#auto-corrupt)
-            * [Error Delay](#error-delay)
-            * [Intensity](#intensity)
-            * [Blast Radius](#blast-radius)
-        * [**Corruption Engines**](#corruption-engines)
-            * [Nightmare Engine](#nightmare-engine)
-            * [Hellgenie Engine](#hellgenie-engine)
-            * [Distortion Engine](#distortion-engine)
-            * [Freeze Engine](#freeze-engine)
-            * [Pipe Engine](#pipe-engine)
-            * [Vector Engine](#vector-engine)
-            * [External ROM Plugin](#external-rom-plugin)
-        * [**Main RTC Window**](#main-rtc-window)
-        * [**Stockpile Player**](#stockpile-player)
-    * [**Advanced**](#advanced-guide)
-        * [Glitch Harvester](#glitch-harvester)
-        * [RTC Multiplayer](#rtc-multiplayer)
-        * [BizHawk Modifications](#bizhawk-modifications)
-    * [**Expert**](#expert-guide)
-        * [Virtual Memory Domains](#virtual-memory-domains)
-        * [Generating Active Tables](#generating-active-tables)
-        * [Editing BlastLayers](#editing-blastlayers)
-    * [**Video Tutorials**](#video-tutorials)
+  * [**Quick Start**](#quick-start)
+  * [**Fundamentals of RTC**](#fundamentals-of-rtc)
+  * [**Basic**](#basic-guide)
+    * [**RTC Vocabulary**](#rtc-vocabulary)
+      * [Blast](#blast)
+      * [Stockpile](#stockpile)
+      * [StashKey](#stashkey)
+      * [BlastLayer](#blastlayer)
+    * [**General Parameters**](#general-parameters)
+      * [Auto-Corrupt](#auto-corrupt)
+      * [Error Delay](#error-delay)
+      * [Intensity](#intensity)
+      * [Blast Radius](#blast-radius)
+    * [**Corruption Engines**](#corruption-engines)
+      * [Nightmare Engine](#nightmare-engine)
+      * [Hellgenie Engine](#hellgenie-engine)
+      * [Distortion Engine](#distortion-engine)
+      * [Freeze Engine](#freeze-engine)
+      * [Pipe Engine](#pipe-engine)
+      * [Vector Engine](#vector-engine)
+      * [External ROM Plugin](#external-rom-plugin)
+    * [**Main RTC Window**](#main-rtc-window)
+    * [**Stockpile Player**](#stockpile-player)
+  * [**Advanced**](#advanced-guide)
+    * [Glitch Harvester](#glitch-harvester)
+    * [RTC Multiplayer](#rtc-multiplayer)
+    * [BizHawk Modifications](#bizhawk-modifications)
+  * [**Expert**](#expert-guide)
+    * [Virtual Memory Domains](#virtual-memory-domains)
+    * [Generating Active Tables](#generating-active-tables)
+    * [Editing BlastLayers](#editing-blastlayers)
+  * [**Video Tutorials**](#video-tutorials)
 
 ##### Quick Start
 
@@ -73,11 +72,13 @@ A corruption in RTC is usually called a Blast. A Blast is the action of generati
 
 Type of item that contains corruption instructions generated from a corruption engine.
 
-BlastLayers that are ran from the Stockpile Player or the Glitch Harvester can be deactivated and reactivated on the fly (if applicable). 
+A BlastLayer is usually encapsulated within a StashKey and can be manipulated using the BlastEditor or by merging multiple BlastLayers in the Glitch Harvester's Stockpile Manager. It can also be appended to another Savestate by using the Inject function of the Glitch Harvester.
+
+BlastLayers that are ran from the Stockpile Player or from the Glitch Harvester can be deactivated and reactivated on the fly \(if applicable\).
 
 ##### StashKey
 
-Type of item that contains information about a game, its game state and an attached BlastLayer.
+Type of item that contains information about a game, its game state and an attached BlastLayer \(Corruption instructions\).
 
 Corrupting using the Glitch Harvester generates StashKeys in the Stash History. They can later be manipulated and/or added to a Stockpile.
 
@@ -85,7 +86,7 @@ Corrupting using the Glitch Harvester generates StashKeys in the Stash History. 
 
 Type of item that contains StashKeys. It can be saved as a file that includes Stockpile items, Game Binaries, Savestates, corruption instructions, and information related to BizHawk emulator cores, plugins and config.
 
-Stockpiles can be managed using the Glitch Harvester. 
+Stockpiles can be managed using the Glitch Harvester.
 
 Stockpiles can be replayed using the Stockpile Player.
 
@@ -99,7 +100,7 @@ Item that represents a chip or memory pool on an emulated system.
 
 When this is enabled, RTC attempts to Generate and Execute a BlastLayer on every Emulation Step. The amount of corruption can be set by changing the Intensity and Error Delay settings.
 
-*A Blast happens on every Corrupt Step*
+_A Blast happens on every Corrupt Step_
 
 ##### Error Delay
 
@@ -113,9 +114,9 @@ Every Emulator Step that causes Auto-Corrupt to Blast is called a Corrupt Step.
 
 The Intensity is a multiplier to the amount of generated corruption in a Blast.
 
-It can represents: Bytes (Nightmare, Distortion Engines), Cheats (Hellgenie, Freeze Engines), Pipes (Pipe Engine), 32-bit floats (Vector Engine).
+It can represents: Bytes \(Nightmare, Distortion Engines\), Cheats \(Hellgenie, Freeze Engines\), Pipes \(Pipe Engine\), 32-bit floats \(Vector Engine\).
 
-*Generally, the higher the Intensity is, the more corruption will happen*
+_Generally, the higher the Intensity is, the more corruption will happen_
 
 Some engines have a configurable maximum number of concurrent elements as they can be very resource heavy. These elements get automatically discarded as newer ones get added.
 
@@ -137,7 +138,7 @@ BURST: 10 Chunks of 1/10 of the total Intensity.
 
 This engine corrupts on the raw Byte level.
 
-*Effect: It changes Bytes in Memory once.*
+_Effect: It changes Bytes in Memory once._
 
 **Blast Type**
 
@@ -175,7 +176,7 @@ Clears all active cheats
 
 This engine backups Bytes and restores those backups once, later in time.
 
-*Effect: This corrupts data by restoring some of it back in time.*
+_Effect: This corrupts data by restoring some of it back in time._
 
 **Distortion Delay**
 
@@ -189,7 +190,7 @@ This erases all corruption units pending to be restored.
 
 Uses the built-in BizHawk Cheat Engine to generate freeze addresses.
 
-*Effect: It forces Bytes to keep their value.*
+_Effect: It forces Bytes to keep their value._
 
 **Max Freezes**
 
@@ -201,8 +202,7 @@ Rewinding in BizHawk will force all freezes to be removed.
 
 #### Pipe Engine
 
-This engines binds addresses together and can make data bleed from a memory domain to another. It uses Pipes, which route memory change on every Emulator Step (or Corrupt Step).
-
+This engines binds addresses together and can make data bleed from a memory domain to another. It uses Pipes, which route memory change on every Emulator Step \(or Corrupt Step\).
 
 **Max Pipes**
 
@@ -224,7 +224,7 @@ Rewinding in BizHawk will force all pipes to be removed.
 
 This engine works exclusively on 32bit+ systems that use IEEE 754 float values.
 
-*Effect: Corrupts 32bit vectors*
+_Effect: Corrupts 32bit vectors_
 
 **Limiter List**
 
@@ -250,7 +250,7 @@ Tiny: tiny decimals between -1.00 and +1.00
 
 One: The number 1.00
 
-One*: The numbers 1.00 and -1.00
+One\*: The numbers 1.00 and -1.00
 
 Two: The number 2.00
 
@@ -266,40 +266,41 @@ When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated 
 
 ## Stockpile Player
 
-
 # Advanced Guide
 
 ## Glitch Harvester
- 
 
 ### Introduction
 
-The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master. 
+The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master.
 
-Basic usage is fairly simple, you create a savestate, select the zones you would like to corrupt, chose an intensity and click the “Blast/Send” button, the emulator then corrupts the selected memory zones and instantly loads the savestate. (The “Blast/Send” function can be bound to any key/button)
+Basic usage is fairly simple, you create a savestate, select the zones you would like to corrupt, chose an intensity and click the “Blast/Send” button, the emulator then corrupts the selected memory zones and instantly loads the savestate. \(The “Blast/Send” function can be bound to any key/button\)
 
 ### The interface
 
-*This will explain the complex layout of interactive elements which makes the interface.*
+_This will explain the complex layout of interactive elements which makes the interface._
 
 ### Action Panel
 
 #### Blast/Send
-Blast/Send is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items. If *Stash Results* is checked, it will create a new item in the Stash History box.
+
+Blast/Send is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items. If _Stash Results_ is checked, it will create a new item in the Stash History box.
 
 #### Send Raw to Stash
-This will create a item in the Stash History box. The generated BlastLayer is applied (Corruption occurs) then a new Savestate is created for this item. Alterating corruption (Cheats and Pipes) will be stored in the attached BlastLayer but destructive corruption (Byte changes) will be compiled in the Savestate.
+
+This will create a item in the Stash History box. The generated BlastLayer is applied \(Corruption occurs\) then a new Savestate is created for this item. Alterating corruption \(Cheats and Pipes\) will be stored in the attached BlastLayer but destructive corruption \(Byte changes\) will be compiled in the Savestate.
 
 ### Savestate Manager
 
-**Change -> SAVE/LOAD**
+**Change -&gt; SAVE/LOAD**
 
 The change button flips the one on its right between SAVE and LOAD. This button toggling system is made this way to prevent accidental overwriting of Glitch Harvester Savestates.
 
 The SAVE and LOAD are for saving and loading Glitch Harvester Savestates.
 
 ##### Numeric Buttons
-Numeric buttons (1-40) are used to select a Glitch Harvester save-state slot.
+
+Numeric buttons \(1-40\) are used to select a Glitch Harvester save-state slot.
 
 An associated Textbox can be used for very short descriptions.
 
@@ -308,18 +309,19 @@ An associated Textbox can be used for very short descriptions.
 This switches between pages of 10 Glitch Harvester Savestates.
 
 ##### Load on click
-If checked, the Glitch Harvester will load a save state upon clicking on it. 
+
+If checked, the Glitch Harvester will load a save state upon clicking on it.
 
 ### Load/Save Savestate List
 
 These buttons allow you to Save and Load the 40 Glitch Harvester Savestate slot to/from a file in a similar format to a Stockpile.
 
 ### Intensity
+
 This control is linked to the intensity controls in the Main Window. It multiplies the amount of generated Units on every Blast.
 
-
-
 #### Action modifiers
+
 The Corrupt, Inject and Original radio buttons will change the function of the Blast/Send button.
 
 **Corrupt** is the default setting. Blast/Send will have its default behavior and loaded StashKeys will include corruption when replayed.
@@ -330,7 +332,7 @@ The Corrupt, Inject and Original radio buttons will change the function of the B
 
 #### Action triggers
 
-**Auto-Load State** makes it so a Savestate is loaded during Corruption or Replaying and item. When the *Corrupt* modifier is selected, loading an item from the Stash History or Stockpile Manager will use the embedded Savestate in the StashKey. Otherwise, it comes from the selected item in the Savestate Manager.
+**Auto-Load State** makes it so a Savestate is loaded during Corruption or Replaying and item. When the _Corrupt_ modifier is selected, loading an item from the Stash History or Stockpile Manager will use the embedded Savestate in the StashKey. Otherwise, it comes from the selected item in the Savestate Manager.
 
 **Load on select** causes the StashKey to be loaded when an item is selected from the Stash History or Stockpile Manager. When this option is unchecked, loading a selected item requires to press the Blast/Send button.
 
@@ -342,39 +344,38 @@ Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
 #### Reroll Selected
 
-Rerolls the corruption values of the selected item in the Stash History or Stockpile. This allows to attempt to get better results from a corruption. *This operation is permanent on the StashKey and cannot be undone.*
+Rerolls the corruption values of the selected item in the Stash History or Stockpile. This allows to attempt to get better results from a corruption. _This operation is permanent on the StashKey and cannot be undone._
 
 ### Render Output
 
-This allows you quickly/automatically start audio/video rendering when corrupting using the Glitch Harvester. Rendered files will be saved in the “RENDEROUTPUT” folder which is in *BizHawk/RTC/RENDEROUTPUT*
+This allows you quickly/automatically start audio/video rendering when corrupting using the Glitch Harvester. Rendered files will be saved in the “RENDEROUTPUT” folder which is in _BizHawk/RTC/RENDEROUTPUT_
 
 **Render type** allows you to select a file format for rendering. If you're getting an error with AVI rendering, it might mean that no codec is selected in BizHawk. In order to do so, you must start an AVI rendering from BizHawk at least once.
 
-**Render at load** will start the render when an item from the Stash History or Stockpile Manager is loaded. 
+**Render at load** will start the render when an item from the Stash History or Stockpile Manager is loaded.
 
+### Stash History
 
-### Stash History 
-
-This is where new corruptions are stashed. The items that appear there can be sent to a Stockpile using the button between the Stash History and Stockpile Manager. 
+This is where new corruptions are stashed. The items that appear there can be sent to a Stockpile using the button between the Stash History and Stockpile Manager.
 
 ### Stockpile Manager
 
 This part of the Glitch Harvester is dedicated to edit and do operations onto Stockpiles.
 
-The **Load** button allows you to either load a Stockpile or load a BizHawk Config file from an *SKS* file. 
+The **Load** button allows you to either load a Stockpile or load a BizHawk Config file from an _SKS_ file.
 
-Using **Save as** and **Save** buttons will generate/overwrite an *SKS* file that contains corruption data, roms and BizHawk Savestate. The *SKS* file also contains the BizHawk config from the last person who saved it.
+Using **Save as** and **Save** buttons will generate/overwrite an _SKS_ file that contains corruption data, roms and BizHawk Savestate. The _SKS_ file also contains the BizHawk config from the last person who saved it.
 
 **Using someone's config file**
 
-When replaying a stockpile, corruptions can appear different if there are differences in emulator core configurations. While RTC is able to detect core mismatches during loading, specific configuration differences are not. 
+When replaying a stockpile, corruptions can appear different if there are differences in emulator core configurations. While RTC is able to detect core mismatches during loading, specific configuration differences are not.
 
 Loading someone's config file pretty much guarantees that your BizHawk Emulator is in the same state as the person who saved the Stockpile. While your controller config might be lost during the time this config is loaded, it can be reverted afterwards by selecting the **Restore BizHawk config Backup** option from the Load menu.
 
-**Importing Stockpile items**
+**Importing Stockpile items**  
 This button allows you to merge stockpiles together by importing them into the one currently edited.
 
-**Merging StashKeys together**
+**Merging StashKeys together**  
 By holding CTRL and clicking on multiple Stockpile items, you can load and merge items together. The resulting item will be added to the Stash History.
 
 Merging items together requires them to be for the same console and same game. The Savestate that is used in the merged result is from the first item that got selected.
