@@ -261,3 +261,63 @@ When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated 
 ### Advanced Guide
 
  #### Glitch Harvester
+
+*Savestate-oriented corruption operator interface*
+
+##EARLY WORK IN PROGRESS DOCUMENTATION
+
+##### Introduction
+
+The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master. 
+
+Basic usage is fairly simple, you create a savestate, select the zones you would like to corrupt, chose an intensity and click the “Blast/Send” button, the emulator then corrupts the selected memory zones and instantly loads the savestate. (The “Blast/Send” function can be bound to any key/button)
+
+##### The interface
+
+This will explain the complex layout of interactive elements which makes the interface.
+Blast/Send is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items.
+
+The SAVE and LOAD are for saving and loading Glitch Harvester savestates. The Save/Load makes the aforementioned button shift between LOAD and SAVE. It is made this way to prevent accidental deletion.
+
+Numeric buttons (1-20) are used to select a Glitch Harvester save-state slot.
+Load on click, if checked, the Glitch Harvester will load a save state upon clicking on it. 
+Intensity multiplies the Intensity setting from the main menu.
+The Corrupt, Inject and Original radio buttons will change the function of the Blast/Send button.
+
+Corrupt is the default setting, loaded states will include corruption.
+
+Inject will load the corruption layer from the selected Stash and Stockpile item.
+Original will load the state from Stash and stockpile without the corruption layer.
+
+Auto-Load State will automatically load the state before applying the corruption when the “Blast/Send” button is pressed.
+
+Load on select toggles (on/off) if a Stash and Stockpile item will be loaded on selection.
+
+Stash Corrupted, while enabled, will stash corrupted states into the Stash History.
+
+Stash Injected, while enabled, will stash injected states into the Stash History.
+
+Backup History will be included in the Restore data (Warning: Can cause slow-downs).
+
+Turbo Switch toggles (on/off) the corruption layer on the fly. Results not guaranteed.
+
+Render at load will start the render when a stash/stockpile item is loaded. 
+
+Render at corrupt will start rendering when Corrupted or Injected.
+
+Render options allows you to select the format type of the file that will be saved in the “RENDEROUTPUT” folder.
+
+Stash History contains all the backed states that were corrupted/injected.
+
+Current Stockpile contains hand-selected states that were corrupted/injected.
+
+Select Multiple allows you to select multiple stockpile items and merge them with the Merge “Blast/Send” button.
+
+Move Up and Move Down allows you to rearrange the order of the stockpile.
+
+Add Stash to Stockpile takes the selected item in the Stash History and sends it in the Current Stockpile (Will display naming prompt).
+
+Import Stockpile imports the contents of a selected stockpile into the Current stockpile.
+
+Save/Load Stockpile save and loads the Current Stockpile into a file on your hard drive.
+
