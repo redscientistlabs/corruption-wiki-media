@@ -16,9 +16,11 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
   * [**Basic**](#basic-guide)
     * [**RTC Vocabulary**](#rtc-vocabulary)
       * [Blast](#blast)
-      * [Stockpile](#stockpile)
-      * [StashKey](#stashkey)
+      * [BlastUnit](#blastunit)
       * [BlastLayer](#blastlayer)
+      * [StashKey](#stashkey)
+      * [Stockpile](#stockpile)
+      * [Memory Domain](#memorydomain)
     * [**General Parameters**](#general-parameters)
       * [Auto-Corrupt](#auto-corrupt)
       * [Error Delay](#error-delay)
@@ -98,7 +100,7 @@ Stockpiles can be replayed using the Stockpile Player.
 
 ##### Memory Domain
 
-Item that represents a chip or memory pool on an emulated system.
+Item that represents a chip or memory pool on an emulated system. Memory Domains are native to Bizhawk but the Memory Domains listed in RTC are proxies to the real Memory Domains. While this fact makes very little difference in terms of how they work, it allows for Virtual Memory Domains to coexist with real ones. Virtual Memory Domains are essentially interfaces to Real Memory Domains with blacklisted adresses.
 
 ### General Parameters
 
