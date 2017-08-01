@@ -318,41 +318,58 @@ The Corrupt, Inject and Original radio buttons will change the function of the B
 
 **Corrupt** is the default setting. Blast/Send will have its default behavior and loaded Stash Keys will include corruption when replayed.
 
-**Inject** will make the Blast/Send button load the corruption layer from the selected item in the Stash History or Stockpile Manager into the currently selected Glitch Harvester Savestate. The same action will happen when clicking on an item in the Stash History or Stockpile Manager if the Load on select checkbox is selected.
+**Inject** will make the Blast/Send button load the corruption layer from the selected item in the Stash History or Stockpile Manager into the currently selected Glitch Harvester Savestate. The same action will happen when clicking on an item in the Stash History or Stockpile Manager.
 
-Original will load the state from Stash and stockpile without the corruption layer.
+**Original** will load the selected item from the Stash History or Stockpile Manager without the corruption layer.
 
 #### Action triggers
 
-Auto-Load State will automatically load the state before applying the corruption when the “Blast/Send” button is pressed.
+**Auto-Load State** makes it so a Savestate is loaded during Corruption or Replaying and item. When the *Corrupt* modifier is selected, loading an item from the Stash History or Stockpile Manager will use the embedded Savestate in the StashKey. Otherwise, it comes from the selected item in the Savestate Manager.
 
-Load on select toggles (on/off) if a Stash and Stockpile item will be loaded on selection.
+**Load on select** causes the StashKey to be loaded when an item is selected from the Stash History or Stockpile Manager. When this option is unchecked, loading a selected item requires to press the Blast/Send button.
 
-Stash Corrupted, while enabled, will stash corrupted states into the Stash History.
+**Stash Results** makes it so generated corruption will be added to the Stash History upon generation of a BlastLayer. If a generated BlastLayer has 0 units, the StashKey will not be added to the Stash History.
 
-Stash Injected, while enabled, will stash injected states into the Stash History.
+#### BlastLayer On/Off
 
-Backup History will be included in the Restore data (Warning: Can cause slow-downs).
+Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
-Turbo Switch toggles (on/off) the corruption layer on the fly. Results not guaranteed.
+#### Reroll Selected
 
-Render at load will start the render when a stash/stockpile item is loaded. 
+Rerolls the corruption values of the selected item in the Stash History or Stockpile. This allows to attempt to get better results from a corruption. *This operation is permanent on the StashKey and cannot be undone.*
 
-Render at corrupt will start rendering when Corrupted or Injected.
+### Render Output
 
-Render options allows you to select the format type of the file that will be saved in the “RENDEROUTPUT” folder.
+This allows you quickly/automatically start audio/video rendering when corrupting using the Glitch Harvester. Rendered files will be saved in the “RENDEROUTPUT” folder which is in *Bizhawk/RTC/RENDEROUTPUT*
 
-Stash History contains all the backed states that were corrupted/injected.
+**Render type** allows you to select a file format for rendering. If you're getting an error with AVI rendering, it might mean that no codec is selected in Bizhawk. In order to do so, you must start an AVI rendering from Bizhawk at least once.
 
-Current Stockpile contains hand-selected states that were corrupted/injected.
+**Render at load** will start the render when an item from the Stash History or Stockpile Manager is loaded. 
 
-Select Multiple allows you to select multiple stockpile items and merge them with the Merge “Blast/Send” button.
 
-Move Up and Move Down allows you to rearrange the order of the stockpile.
+### Stash History 
 
-Add Stash to Stockpile takes the selected item in the Stash History and sends it in the Current Stockpile (Will display naming prompt).
+This is where new corruptions are stashed. The items that appear there can be sent to a Stockpile using the button between the Stash History and Stockpile Manager. 
 
-Import Stockpile imports the contents of a selected stockpile into the Current stockpile.
+### Stockpile Manager
 
-Save/Load Stockpile save and loads the Current Stockpile into a file on your hard drive.
+This part of the Glitch Harvester is dedicated to edit and do operations onto Stockpiles.
+
+The **Load** button allows you to either load a Stockpile or load a Bizhawk Config file from an *SKS* file. 
+
+Using **Save as** and **Save** buttons will generate/overwrite an *SKS* file that contains corruption data, roms and Bizhawk Savestate. The *SKS* file also contains the Bizhawk config from the last person who saved it.
+
+**Using someone's config file**
+
+When replaying a stockpile, corruptions can appear different if there are differences in emulator core configurations. While RTC is able to detect core mismatches during loading, specific configuration differences are not. 
+
+Loading someone's config file pretty much guarantees that your Bizhawk Emulator is in the same state as the person who saved the Stockpile. While your controller config might be lost during the time this config is loaded, it can be reverted afterwards by selecting the **Restore Bizhawk config Backup** option from the Load menu.
+
+**Importing Stockpile items**
+This button allows you to merge stockpiles together by importing them into the one currently edited.
+
+**Merging StashKeys together**
+By holding CTRL and clicking on multiple Stockpile items, you can load and merge items together. The resulting item will be added to the Stash History.
+
+Merging items together requires them to be for the same console and same game. The Savestate that is used in the merged result is from the first item that got selected.
 
