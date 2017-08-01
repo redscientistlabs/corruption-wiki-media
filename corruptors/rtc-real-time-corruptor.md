@@ -262,11 +262,8 @@ When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated 
 
 # Advanced Guide
 
- ## Glitch Harvester
+## Glitch Harvester
  
-*Savestate-oriented corruption operator interface*
-
-##EARLY WORK IN PROGRESS DOCUMENTATION
 
 ### Introduction
 
