@@ -17,8 +17,8 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
     * [**Basic**](#basic-guide)
         * [**RTC Concepts**](#rtc-concepts)
             * [Stockpile](#stockpile)
-            * [Stash Key](#stash-key)
-            * [Blast Layer](#blastlayer)
+            * [StashKey](#stashkey)
+            * [BlastLayer](#blastlayer)
         * [**General Parameters**](#general-parameters)
             * [Blast](#blast)
             * [Auto-Corrupt](#auto-corrupt)
@@ -40,7 +40,7 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
     * [**Expert**](#expert-guide)
         * [Virtual Memory Domains](#virtual-memory-domains)
         * [Generating Active Tables](#generating-active-tables)
-        * [Editing Blast Layers](#editing-blast-layers)
+        * [Editing BlastLayers](#editing-blastlayers)
     * [**Video Tutorials**](#video-tutorials)
 
 ##### Quick Start
@@ -65,17 +65,17 @@ What is usually known as an iteration in static corruptors, is called a Blast in
 
 ##### Stockpile
 
-Object that contains Corruptions (Stashkeys). It can be saved as a binary file that can include Game Binaries, Game States, Stash Keys and information related to BizHawk emulator cores, plugins and config.
+Object that contains Corruptions (Stashkeys). It can be saved as a binary file that can include Game Binaries, Game States, StashKeys and information related to BizHawk emulator cores, plugins and config.
 
 Stockpiles can be managed using the Glitch Harvester's Stockpile Manager. Stockpiles can be replayed using the Stockpile Player or the Glitch Harvester.
 
-##### Stash Key
+##### StashKey
 
-Object that contains information about a game, its game state and an attached Blast Layer.
+Object that contains information about a game, its game state and an attached BlastLayer.
 
-Corrupting using the Glitch Harvester can generate Stash Keys in the Stash History. They can later be manipulated and/or added to a Stockpile.
+Corrupting using the Glitch Harvester can generate StashKeys in the Stash History. They can later be manipulated and/or added to a Stockpile.
 
-##### Blast Layer
+##### BlastLayer
 
 Object that contains corruption instructions generated from a corruption engine.
 
@@ -224,7 +224,7 @@ This engine works exclusively on 32bit+ systems that use IEEE 754 float values.
 
 **Limiter List**
 
-On the generation of every Unit with this engine, the value at the randomly address is going to be compared to a list of legal values called a Limiter List. If the value at the random address isn't legal according to the list, the Unit then will not be part of the Blast Layer.
+On the generation of every Unit with this engine, the value at the randomly address is going to be compared to a list of legal values called a Limiter List. If the value at the random address isn't legal according to the list, the Unit then will not be part of the BlastLayer.
 
 **Value List**
 
@@ -256,7 +256,7 @@ AnyFloat: Randomly generated Float
 
 RTC Supports daisy chaining from ROM Corruptors. Some popular ones have been modded to work seamlessly as plugins.
 
-When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated between the original and the corrupted one, then a Blast Layer is generated from that differential. Just like with other engines, the BlastLayer can be toggled ON and OFF when ran with RTC.
+When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated between the original and the corrupted one, then a BlastLayer is generated from that differential. Just like with other engines, the BlastLayer can be toggled ON and OFF when ran with RTC.
 
 # Advanced Guide
 
@@ -282,7 +282,7 @@ Basic usage is fairly simple, you create a savestate, select the zones you would
 Blast/Send is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items. If *Stash Results* is checked, it will create a new item in the Stash History box.
 
 #### Send Raw to Stash
-This will create a item in the Stash History box. The generated Blast Layer is applied (Corruption occurs) then a new Savestate is created for this item. Alterating corruption (Cheats and Pipes) will be stored in the attached Blast Layer but destructive corruption (Byte changes) will be compiled in the Savestate.
+This will create a item in the Stash History box. The generated BlastLayer is applied (Corruption occurs) then a new Savestate is created for this item. Alterating corruption (Cheats and Pipes) will be stored in the attached BlastLayer but destructive corruption (Byte changes) will be compiled in the Savestate.
 
 ### Savestate Manager
 
@@ -316,7 +316,7 @@ This control is linked to the intensity controls in the Main Window. It multipli
 #### Action modifiers
 The Corrupt, Inject and Original radio buttons will change the function of the Blast/Send button.
 
-**Corrupt** is the default setting. Blast/Send will have its default behavior and loaded Stash Keys will include corruption when replayed.
+**Corrupt** is the default setting. Blast/Send will have its default behavior and loaded StashKeys will include corruption when replayed.
 
 **Inject** will make the Blast/Send button load the corruption layer from the selected item in the Stash History or Stockpile Manager into the currently selected Glitch Harvester Savestate. The same action will happen when clicking on an item in the Stash History or Stockpile Manager.
 
