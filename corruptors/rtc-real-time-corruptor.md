@@ -40,6 +40,14 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
     * [**Stockpile Player**](#stockpile-player)
   * [**Advanced**](#advanced-guide)
     * [Glitch Harvester](#glitch-harvester)
+      * [Action Panel](#action-panel)
+      * [Savestate Manager](#savestate-manager)
+      * [Intensity](#intensity)
+      * [Action modifiers](#action-modifiers)
+      * [Action triggers](#action-riggers)
+      * [Render Output](#render-output)
+      * [Stash History](#stash-history)
+      * [Stockpile Manager](#stockpile-manager)
     * [RTC Multiplayer](#rtc-multiplayer)
     * [BizHawk Modifications](#bizhawk-modifications)
   * [**Expert**](#expert-guide)
@@ -284,8 +292,6 @@ When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated 
 
 ## Glitch Harvester
 
-### Introduction
-
 The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master.
 
 Basic usage is fairly simple, you create a savestate, select the zones you would like to corrupt, chose an intensity and click the “Blast/Send” button, the emulator then corrupts the selected memory zones and instantly loads the savestate. \(The “Blast/Send” function can be bound to any key/button\)
@@ -293,6 +299,8 @@ Basic usage is fairly simple, you create a savestate, select the zones you would
 ### The interface
 
 _This will explain the complex layout of interactive elements which makes the interface._
+
+[INSERT GLITCH HARVESTER SCREENSHOT WITH CLICKABLE AREAS]
 
 ### Action Panel
 
@@ -326,7 +334,7 @@ This switches between pages of 10 Glitch Harvester Savestates.
 
 If checked, the Glitch Harvester will load a save state upon clicking on it.
 
-### Load/Save Savestate List
+##### Load/Save Savestate List
 
 These buttons allow you to Save and Load the 40 Glitch Harvester Savestate slot to/from a file in a similar format to a Stockpile.
 
@@ -334,7 +342,7 @@ These buttons allow you to Save and Load the 40 Glitch Harvester Savestate slot 
 
 This control is linked to the intensity controls in the Main Window. It multiplies the amount of generated Units on every Blast.
 
-#### Action modifiers
+### Action modifiers
 
 The Corrupt, Inject and Original radio buttons will change the function of the Blast/Send button.
 
@@ -344,7 +352,7 @@ The Corrupt, Inject and Original radio buttons will change the function of the B
 
 **Original** will load the selected item from the Stash History or Stockpile Manager without the corruption layer.
 
-#### Action triggers
+### Action triggers
 
 **Auto-Load State** makes it so a Savestate is loaded during Corruption or Replaying and item. When the _Corrupt_ modifier is selected, loading an item from the Stash History or Stockpile Manager will use the embedded Savestate in the StashKey. Otherwise, it comes from the selected item in the Savestate Manager.
 
