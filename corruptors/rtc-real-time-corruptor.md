@@ -22,7 +22,6 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
       * [Stockpile](#stockpile)
       * [Memory Domain](#memory-domain)
       * [Emulation Step](#emulation-step)
-
     * [**General Parameters**](#general-parameters)
       * [Auto-Corrupt](#auto-corrupt)
       * [Error Delay](#error-delay)
@@ -39,7 +38,7 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
     * [**Main RTC Window**](#main-rtc-window)
     * [**Stockpile Player**](#stockpile-player)
   * [**Advanced**](#advanced-guide)
-    * [Glitch Harvester](#glitch-harvester)
+    * [**Glitch Harvester**](#glitch-harvester)
       * [Action Panel](#action-panel)
       * [Savestate Manager](#savestate-manager)
       * [Intensity](#intensity)
@@ -48,12 +47,12 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
       * [Render Output](#render-output)
       * [Stash History](#stash-history)
       * [Stockpile Manager](#stockpile-manager)
-    * [RTC Multiplayer](#rtc-multiplayer)
-    * [BizHawk Modifications](#bizhawk-modifications)
+    * [**RTC Multiplayer**](#rtc-multiplayer)
+    * [**BizHawk Modifications**](#bizhawk-modifications)
   * [**Expert**](#expert-guide)
-    * [Virtual Memory Domains](#virtual-memory-domains)
-    * [Generating Active Tables](#generating-active-tables)
-    * [Editing BlastLayers](#editing-blastlayers)
+    * [**Virtual Memory Domains**](#virtual-memory-domains)
+    * [**Generating Active Tables**](#generating-active-tables)
+    * [**Editing BlastLayers**](#editing-blastlayers)
   * [**Video Tutorials**](#video-tutorials)
 
 ##### Quick Start
@@ -416,4 +415,4 @@ Simply start the multiplayer in the right category on order to start the server 
 
 You can also run TWO RTCs in Multiplayer on the same machine by connecting to "127.0.0.1" or simply leaving the case blank.
 
-RTC's Multiplayer is fully bidirectional, meaning that both Client/Server can do exactly the same thing.0
+RTC's Multiplayer is fully bidirectional, meaning that both Client/Server can do exactly the same thing.
