@@ -402,3 +402,18 @@ By holding CTRL and clicking on multiple Stockpile items, you can load and merge
 
 Merging items together requires them to be for the same console and same game. The Savestate that is used in the merged result is from the first item that got selected.
 
+## RTC Multiplayer
+
+### Connecting RTCs together
+
+Before connecting RTCs together, let this small fact known : RTC's Detached mode uses the same components as the Multiplayer mode in RTC. This is why you must run RTC in Attached mode in order to connect RTCs together. However, Multiplayer in Detached mode is planned for a future update.
+
+** Connection Information **
+
+RTC uses TCP port 42069 by default. You will need to open this port in your router if you plan on being the server. The client doesn't need it.
+
+Simply start the multiplayer in the right category on order to start the server or connect to it.
+
+You can also run TWO RTCs in Multiplayer on the same machine by connecting to "127.0.0.1" or simply leaving the case blank.
+
+RTC's Multiplayer is fully bidirectional, meaning that both Client/Server can do exactly the same thing.0
