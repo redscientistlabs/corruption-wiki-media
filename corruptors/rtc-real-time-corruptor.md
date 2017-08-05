@@ -37,23 +37,27 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
       * [Vector Engine](#vector-engine)
       * [External ROM Plugin](#external-rom-plugin)
     * [**Main RTC Window**](#main-rtc-window)
-    * [**Stockpile Player**](#stockpile-player)
   * [**Advanced**](#advanced-guide)
     * [**Glitch Harvester**](#glitch-harvester)
       * [Action Panel](#action-panel)
       * [Savestate Manager](#savestate-manager)
       * [Intensity](#intensity)
-      * [Action modifiers](#action-modifiers)
-      * [Action triggers](#action-riggers)
+      * [Action Modifiers](#action-modifiers)
+      * [Action Triggers](#action-triggers)
+      * [BlastLayer Toggle](#blastlayer-toggle)
+      * [Reroll Selected](#reroll-selected)
       * [Render Output](#render-output)
       * [Stash History](#stash-history)
       * [Stockpile Manager](#stockpile-manager)
+    * [**Hotkeys**](#hotkeys)
+    * [**Stockpile Player**](#stockpile-player)
     * [**RTC Multiplayer**](#rtc-multiplayer)
-    * [**BizHawk Modifications**](#bizhawk-modifications)
+      * [Connecting RTCs together](#connecting-rtcs-together)
+      * [Metagames and Multiplayer Features](#metagames-and-multiplayer-features)
   * [**Expert**](#expert-guide)
+    * [**Editing BlastLayers**](#editing-blastlayers)
     * [**Virtual Memory Domains**](#virtual-memory-domains)
     * [**Generating Active Tables**](#generating-active-tables)
-    * [**Editing BlastLayers**](#editing-blastlayers)
     * [**NetCore**](#netcore)
   * [**Video Tutorials**](#video-tutorials)
 
@@ -246,8 +250,6 @@ Rewinding in BizHawk will force all cheats to be removed.
 
 **Shuffle cheat values**
 
-TODO: Randomize all current cheat values
-
 Clear all cheats
 
 Clears all active cheats
@@ -429,7 +431,7 @@ The Corrupt, Inject and Original radio buttons will change the function of the B
 
 **Stash Results** makes it so generated corruption will be added to the Stash History upon generation of a BlastLayer. If a generated BlastLayer has 0 units, the StashKey will not be added to the Stash History.
 
-#### BlastLayer On/Off
+#### BlastLayer Toggle
 
 Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
@@ -455,6 +457,9 @@ This part of the Glitch Harvester is dedicated to edit and do operations onto St
 
 The **Load** button allows you to either load a Stockpile or load a BizHawk Config file from an _SKS_ file.
 
+_Loading a config file from a stockpile will keep your hotkeys and controller keybinds_
+
+
 Using **Save as** and **Save** buttons will generate/overwrite an _SKS_ file that contains corruption data, roms and BizHawk Savestate. The _SKS_ file also contains the BizHawk config from the last person who saved it.
 
 **Using someone's config file**
@@ -471,13 +476,87 @@ By holding CTRL and clicking on multiple Stockpile items, you can load and merge
 
 Merging items together requires them to be for the same console and same game. The Savestate that is used in the merged result is from the first item that got selected.
 
+## Hotkeys
+
+**Manual Blast**
+
+Does a normal Blast that doesn't get sent to the Glitch Harvester
+
+**Auto-Corrupt**
+
+Toggles ON/OFF on the Auto-Corrupt feature.
+
+**Error Delay--**
+
+Decreases the currently set Error Delay by 1
+
+**Error Delay++**
+
+Increases the currently set Error Delay by 1
+
+**Intensity--**
+
+Decreases the currently set Intensity by 1
+
+**Intensity++**
+
+Increases the currently set Intensity by 1
+
+**GH Load and Corrupt**
+
+Loads the selected GH Savestate, creates a StashKey in the Stash History and then runs it.
+
+**GH Just Corrupt**
+
+Creates a StashKey in the Stash History and then runs it without loading a save.
+
+**GH Load**
+
+Loads the currently selected Glitch Harvester Savestate Box.
+
+**GH Save**
+
+Saves the game state in the currently Glitch Harvester Savestate Box.
+
+**Stash->Stockpile**
+
+Sends the currently selected item in the Stash History and sends it to the Stockpile.
+
+**Induce KS Crash**
+
+Kills the KillSwitch heartbeat, causing (if enabled) RTC to detect a crash.
+
+**Blast+RawStash**
+
+Does a Manual Blast to the game then creates a Raw Stashkey in the Stash History.
+
+**Send Raw to Stash**
+
+Creates a Raw StashKey in the StashHistory
+
+**BlastLayer Toggle**
+
+Toggles ON/OFF the BlastLayer of the last executed StashKey
+
+**BlastLayer Re-Blast**
+
+Re-executes BlastLayer of the last executed StashKey.
+
+
+
+## Stockpile Player
+
+The Stockpile player is a very watered down version of the Glitch Harvester. For how the Stockpile Player works, read the [Stockpile Manager](#stockpile-manager) and [BlastLayer Toggle](#blastlayer-toggle) of the Glitch Harvester's guide.
+
+Additional controls for RTC have been added to the right-click menu of the Stockpile Manager for Enabling/Disabling certain parameters.
+
 ## RTC Multiplayer
 
 ### Connecting RTCs together
 
 Before connecting RTCs together, let this small fact known : RTC's Detached mode uses the same components as the Multiplayer mode in RTC. This is why you must run RTC in Attached mode in order to connect RTCs together. However, Multiplayer in Detached mode is planned for a future update.
 
-** Connection Information **
+** Session Settings **
 
 RTC uses TCP port 42069 by default. You will need to open this port in your router if you plan on being the server. The client doesn't need it.
 
@@ -486,3 +565,30 @@ Simply start the multiplayer in the right category on order to start the server 
 You can also run TWO RTCs in Multiplayer on the same machine by connecting to "127.0.0.1" or simply leaving the case blank.
 
 RTC's Multiplayer is fully bidirectional, meaning that both Client/Server can do exactly the same thing.
+
+** Manual Commands **
+
+** Video Streaming **
+
+The Multiplayer screen and Stream options are for streaming a video feed between RTCs.
+
+The screen can be popped out of the RTC Multiplayer options.
+
+### Metagames and Multiplayer Features
+
+** Game of Swap **
+
+Both video streams will start. A red bar will start shrinking until it totally disappears. Once the red bar is gone, the two currently running games will be exchanged between RTCs. 
+
+** BlastBoard **
+
+This is like a Soundboard, except that instead of sounds, it's Blasting the other RTC using the BlastLayers of the currently loaded Stockpile. You may wanna sanitize your corruptions using the Blast Editor before using this mode.
+
+** Splitscreen **
+
+This pops out the Multiplayer screen and attaches both Bizhawk feeds together in a new window.
+
+This hides the default Bizhawk window so you'll want to stop Splitscreen before closing BizHawk.
+
+
+
