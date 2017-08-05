@@ -25,9 +25,11 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
       * [Emulation Step](#emulation-step)
     * [**General Parameters**](#general-parameters)
       * [Auto-Corrupt](#auto-corrupt)
+      * [Manual Blast](#manual-blast)
       * [Error Delay](#error-delay)
       * [Intensity](#intensity)
       * [Blast Radius](#blast-radius)
+    * [**Memory Domains**](#memory-domains)
     * [**Corruption Engines**](#corruption-engines)
       * [Nightmare Engine](#nightmare-engine)
       * [Hellgenie Engine](#hellgenie-engine)
@@ -36,7 +38,6 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
       * [Pipe Engine](#pipe-engine)
       * [Vector Engine](#vector-engine)
       * [External ROM Plugin](#external-rom-plugin)
-    * [**Main RTC Window**](#main-rtc-window)
   * [**Advanced**](#advanced-guide)
     * [**Glitch Harvester**](#glitch-harvester)
       * [Action Panel](#action-panel)
@@ -186,6 +187,12 @@ When this is enabled, RTC attempts to Generate and Execute a BlastLayer on every
 
 _A Blast happens on every Corrupt Step_
 
+##### Manual Blast
+
+Alternatively to Auto-Corrupt, Blasting a game with corruption can be totally manual.
+
+Blasts with a bigger Intensity can be as effective as a controlled stream of corruption. It does give the user more control on when the game is altered.
+
 ##### Error Delay
 
 →Only Applicable to AutoCorrupt
@@ -215,6 +222,14 @@ SPREAD: Randomly spread across the Memory Domains.
 CHUNK: Sent to one single zone that is randomly selected among the selected Memory Domains.
 
 BURST: 10 Chunks of 1/10 of the total Intensity.
+
+### Memory Domains
+
+In Bizhawk, Memory Domains are the memory pools of the virtual chips in an emulated system. In RTC, they are wrapped within a proxy system that allows for keeping a hold of them when a system changes or to prevent certain unwanted scenarios from happening (due to corruption).
+
+_Virtual Memory Domains can also coexist with Standard Memory Domains for that reason._
+
+By default, RTC will select Memory Domains that are **Rewind-safe**, meaning that the data edited in these domains can be rewinded out of. Reverting back the corruption that occurs in domains that aren't rewind-safe requires to select "Reboot Core" in the emulation menu of BizHawk or reloading a Glitch Harvester Savestate or StashKey.
 
 ### Corruption Engines
 
