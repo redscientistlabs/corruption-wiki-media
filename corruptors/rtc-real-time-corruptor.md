@@ -53,6 +53,7 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
     * [**Virtual Memory Domains**](#virtual-memory-domains)
     * [**Generating Active Tables**](#generating-active-tables)
     * [**Editing BlastLayers**](#editing-blastlayers)
+    * [**NetCore**](#netcore)
   * [**Video Tutorials**](#video-tutorials)
 
 ##### Quick Start
@@ -233,6 +234,13 @@ Pipes are resource expensive as they move memory memory on every cycle and must 
 
 Prevents any change to be done to the current Pipes.
 
+**Generate Chained pipes**
+
+By default, all pipes are generating in chain. this means two things: Pipe endpoints will collide and the first generated pipe in a BlastLayer will always be invalid. This can be observed when edited in the Blast Editor. Otherwise, this is the default behavior of the pipe engine.
+
+When this setting is Off, the endpoint of a pipe will be randomly chosen among the Memory Domains in the same fashion as Blast Type SPREAD.
+
+
 **Process on Emulator Step**
 
 Disabling this causes the pipes to sync with the Corrupt Step instead of Emulator Step
@@ -240,6 +248,10 @@ Disabling this causes the pipes to sync with the Corrupt Step instead of Emulato
 **Clear pipes on Rewind**
 
 Rewinding in BizHawk will force all pipes to be removed.
+
+**Tilt Value**
+
+This is a value modifier that takes place at the End of the pipe. The value (negative or positive) will be added to the piped value but will not affect the origin address.
 
 #### Vector Engine
 
