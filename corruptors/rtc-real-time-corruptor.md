@@ -50,17 +50,15 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
       * [Render Output](#render-output)
       * [Stash History](#stash-history)
       * [Stockpile Manager](#stockpile-manager)
-    * [**Hotkeys**](#hotkeys)
     * [**Stockpile Player**](#stockpile-player)
     * [**RTC Multiplayer**](#rtc-multiplayer)
       * [Connecting RTCs together](#connecting-rtcs-together)
       * [Metagames and Multiplayer Features](#metagames-and-multiplayer-features)
   * [**Expert**](#expert-guide)
-    * [**Editing BlastLayers**](#editing-blastlayers)
+    * [**Hotkeys**](#hotkeys)
+    * [**Blast Editor (Editing BlastLayers)**](#blast-editor)
     * [**Virtual Memory Domains**](#virtual-memory-domains)
     * [**Generating Active Tables**](#generating-active-tables)
-    * [**NetCore**](#netcore)
-  * [**Video Tutorials**](#video-tutorials)
 
 #### Quick Start
 
@@ -491,6 +489,56 @@ By holding CTRL and clicking on multiple Stockpile items, you can load and merge
 
 Merging items together requires them to be for the same console and same game. The Savestate that is used in the merged result is from the first item that got selected.
 
+
+
+## Stockpile Player
+
+The Stockpile player is a very watered down version of the Glitch Harvester. For how the Stockpile Player works, read the [Stockpile Manager](#stockpile-manager) and [BlastLayer Toggle](#blastlayer-toggle) of the Glitch Harvester's guide.
+
+Additional controls for RTC have been added to the right-click menu of the Stockpile Manager for Enabling/Disabling certain parameters.
+
+## RTC Multiplayer
+
+### Connecting RTCs together
+
+Before connecting RTCs together, let this small fact known : RTC's Detached mode uses the same components as the Multiplayer mode in RTC. This is why you must run RTC in Attached mode in order to connect RTCs together. However, Multiplayer in Detached mode is planned for a future update.
+
+** Session Settings **
+
+RTC uses TCP port 42069 by default. You will need to open this port in your router if you plan on being the server. The client doesn't need it.
+
+Simply start the multiplayer in the right category on order to start the server or connect to it.
+
+You can also run TWO RTCs in Multiplayer on the same machine by connecting to "127.0.0.1" or simply leaving the case blank.
+
+RTC's Multiplayer is fully bidirectional, meaning that both Client/Server can do exactly the same thing.
+
+** Manual Commands **
+
+** Video Streaming **
+
+The Multiplayer screen and Stream options are for streaming a video feed between RTCs.
+
+The screen can be popped out of the RTC Multiplayer options.
+
+### Metagames and Multiplayer Features
+
+** Game of Swap **
+
+Both video streams will start. A red bar will start shrinking until it totally disappears. Once the red bar is gone, the two currently running games will be exchanged between RTCs. 
+
+** BlastBoard **
+
+This is like a Soundboard, except that instead of sounds, it's Blasting the other RTC using the BlastLayers of the currently loaded Stockpile. You may wanna sanitize your corruptions using the Blast Editor before using this mode.
+
+** Splitscreen **
+
+This pops out the Multiplayer screen and attaches both Bizhawk feeds together in a new window.
+
+This hides the default Bizhawk window so you'll want to stop Splitscreen before closing BizHawk.
+
+# Expert Guide
+
 ## Hotkeys
 
 **Manual Blast**
@@ -557,53 +605,31 @@ Toggles ON/OFF the BlastLayer of the last executed StashKey
 
 Re-executes BlastLayer of the last executed StashKey.
 
+### Blast Editor
 
+Any StashKey in the Glitch Harvester can be opened in the Blast Editor by right-clicking on it and select _"Open Selected Item in Blast Editor"_.
 
-## Stockpile Player
+A copy of the StashKey is done and every Unit from that BlastLayer is displayed in a list. Every line describes what will happen when that Unit is executed. There are panels on the right that allow you to edit certain values of the Unit and update them.
 
-The Stockpile player is a very watered down version of the Glitch Harvester. For how the Stockpile Player works, read the [Stockpile Manager](#stockpile-manager) and [BlastLayer Toggle](#blastlayer-toggle) of the Glitch Harvester's guide.
+Double Clicking on an Unit will disable it as shown by the [x] that becomes [ ]. You can also use the buttons on the right to quickly disable and enable Units.
 
-Additional controls for RTC have been added to the right-click menu of the Stockpile Manager for Enabling/Disabling certain parameters.
+**Sanitizing corruptions**
 
-## RTC Multiplayer
+Corruptions can be sanitized in the Blast Editor to remove useless instructions that might break the game when ran. You can very easily isolate a corruption (effect) by doing the following:
 
-### Connecting RTCs together
+[Random Disable 50%] then [Load + Corrupt].
+Is the corruption (effect) still present?
+If Yes -> [Remove Disabled]
+If No -> [Invert Disabled] then [Remove Disabled]
 
-Before connecting RTCs together, let this small fact known : RTC's Detached mode uses the same components as the Multiplayer mode in RTC. This is why you must run RTC in Attached mode in order to connect RTCs together. However, Multiplayer in Detached mode is planned for a future update.
+By repeating the steps above a certain amount of time, the useless instructions will progressively disappear. At some point you may need to manually enable and disable instructions in order to isolate what is part of the corruption and what is not.
 
-** Session Settings **
+### Virtual Memory Domains
 
-RTC uses TCP port 42069 by default. You will need to open this port in your router if you plan on being the server. The client doesn't need it.
+Feature not implemented yet
 
-Simply start the multiplayer in the right category on order to start the server or connect to it.
+### Generating Active Tables
 
-You can also run TWO RTCs in Multiplayer on the same machine by connecting to "127.0.0.1" or simply leaving the case blank.
-
-RTC's Multiplayer is fully bidirectional, meaning that both Client/Server can do exactly the same thing.
-
-** Manual Commands **
-
-** Video Streaming **
-
-The Multiplayer screen and Stream options are for streaming a video feed between RTCs.
-
-The screen can be popped out of the RTC Multiplayer options.
-
-### Metagames and Multiplayer Features
-
-** Game of Swap **
-
-Both video streams will start. A red bar will start shrinking until it totally disappears. Once the red bar is gone, the two currently running games will be exchanged between RTCs. 
-
-** BlastBoard **
-
-This is like a Soundboard, except that instead of sounds, it's Blasting the other RTC using the BlastLayers of the currently loaded Stockpile. You may wanna sanitize your corruptions using the Blast Editor before using this mode.
-
-** Splitscreen **
-
-This pops out the Multiplayer screen and attaches both Bizhawk feeds together in a new window.
-
-This hides the default Bizhawk window so you'll want to stop Splitscreen before closing BizHawk.
-
+Feature not reimplemented yet
 
 
