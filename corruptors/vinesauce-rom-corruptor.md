@@ -162,7 +162,7 @@ You can load a saved corruption from a .txt file a TinyURL link, or:
 
 Some emulators aren't compatible with the option to run the corrupted ROM right after corrupting it, you may have to run the emulator choose the ROM manually.
 
-{% video width="740", height="350" %}https://raw.githubusercontent.com/x8BitRain/corruption-wiki-media/master/assets/mp4/Kazam_screencast_00000.mp4{% endvideo %}
+{% video width="740", height="350" %}https://raw.githubusercontent.com/x8BitRain/corruption-wiki-media/master/assets/mp4/VSRCQuickGuide.mp4{% endvideo %}
 
 
 ### Example Corruption Saves
