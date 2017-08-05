@@ -95,7 +95,40 @@ RTC uses networking for a bunch of stuff. Here's more details about those:
 
 -> TCP: Used for RTC Multiplayer
 
-__The features mentioned above WILL NOT WORK if RTC isn't allowed in the firewall.__
+The features mentioned above WILL NOT WORK if RTC isn't allowed in the firewall.
+
+** Why are certain RTC Cores running slow or RTC running slow in general **
+
+BizHawk is one hell of an emulator. It features a ton of emulator cors and tools to create Tool-Assisted Speedruns. In order for these speedruns to be accurate to the real-life systems they emulate, some of those do extra operations and disable optimizations that might cause faster but inaccurate emulation.
+
+Some emulator cores are faster than others. QuickNes is generally faster than NesHawk for example. 
+
+Unfortunately, if the whole thing is still too slow, your only solution might be to upgrade your computer. For comparison, RTC works just fine on a mobile 2nd-Gen Core i3.
+
+**This Emulator core doesn't work with RTC**
+
+This problem usually happens with snes9x. It's not working. The problem is on BizHawk side. One day they'll finish porting it I guess.
+
+**Can RTC work with another emulator than BizHawk?**
+
+The mod could probably be ported, but that would require a ton of modifications, and that's only possible if the other emulator is open source. At this point in time, there's more chances that the Windows Glitch Harvester gets ported for other emulators than RTC, due to a more generic approach in WGH's design.
+
+**Is there a Discord server for RTC Dev?**
+
+Yes there is one.
+
+**Can you give me the link to it?**
+
+Not yet.
+
+**Will you make it public at some point?**
+
+Maybe.
+
+**What if I can greatly contribute to the project?**
+
+You know how to find me.
+
 
 # Basic Guide
 
