@@ -44,7 +44,7 @@ SNES9x is the oldest and most popular SNES emulator for the PC because of it's e
 
 ###### [Download](https://www.fosshub.com/ZSNES.html)
 
-ZNES has been in development since 2001 and has an interesting non-standard UI and runs ROMs via the VSRC just fine.
+ZNES has been in development since 2001 and has an interesting non-standard UI and runs ROMs via the VSRC just fine. **NOTE: ZSNES has a serious vulnerability allowing for executing arbitrary code \(potentially malware\) if allowed to load a tampered ROM. Using ZSNES with SNES ROMs gotten from unknown sources is thus not recommended.**
 
 ## 
 
@@ -62,9 +62,7 @@ PJ64 is an easy to use N64 emulator and is fairly tolerant to corrupted ROMs, ca
 
 ###### [Download](https://code.google.com/archive/p/emu-1964/downloads)
 
-1964 isn't as popular as other N64 emulators but it is reminiscent of PJ64 as it has a similar GUI and is able to launch ROMs via corruptors seamlessly. 
-
-
+1964 isn't as popular as other N64 emulators but it is reminiscent of PJ64 as it has a similar GUI and is able to launch ROMs via corruptors seamlessly.
 
 ## PS1
 
@@ -82,8 +80,6 @@ XEBRA is relatively unknown in the corruption community but it's easy to use, co
 
 psxfin is outdated and old but just works. You can run most games and launch them through the VSRC just fine, the GUI is easy to follow and controller setup is simple.
 
-
-
 ## NDS
 
 #### ![](/assets/console-icons/DS.png)
@@ -92,9 +88,7 @@ psxfin is outdated and old but just works. You can run most games and launch the
 
 ###### [Download](https://desmume.org/download/)
 
-DeSmuME is the go-to DS emulation software for the PC, it's accurate, highly maintained and has upscaling on 3D models for higher quality videos, it launches ROMs through any corruptor just fine. 
-
-
+DeSmuME is the go-to DS emulation software for the PC, it's accurate, somewhat maintained and has upscaling on 3D models for higher quality videos, it launches ROMs through any corruptor just fine.
 
 ## PC
 
@@ -106,11 +100,15 @@ DeSmuME is the go-to DS emulation software for the PC, it's accurate, highly mai
 
 While the VSRC cannot "corrupt an OS" you can corrupt a game in a virtual environment using Cheat Engine or any other memory hacking tools. You can use Qemu to launch any OS and run your emulators, games and corruptors within it to achieve corruptions in a virtual environment. Qemu will also virtualize other OS architectures like MIPS or i686 based OSes. The only downside is that it is not so easy to set up.
 
+#### VMWare
+
+###### [Download](https://www.virtualbox.org/wiki/Downloads)
+
+Similar to Virtualbox, VMWare is another virtualization solution with an easy to use GUI. It runs all common OSes. VMWare has the best DirectX support of the the options provided here. 
+
 #### VirtualBox
 
 ###### [Download](https://www.virtualbox.org/wiki/Downloads)
 
-VirtualBox is basically the same as Qemu except it has an easy to follow GUI that runs all common OSes in an x86 environment. The only downside of VirtualBox is that it doesn't virtualize anything other than x86\_64.
-
-
+VirtualBox is basically the same as Qemu except it has an easy to follow GUI that runs all common OSes in an x86 environment. The only downside of VirtualBox is that it doesn't virtualize anything other than x86 and x86\_x64.
 
