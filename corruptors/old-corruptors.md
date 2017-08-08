@@ -4,7 +4,7 @@ Some of the oldest ROM corruption software date back to the year 2000, before th
 
 * [**Index**](/corruptors/old-corruptors.md)
   * [ROM Corruptor](#rom-corruptor)
-  * [Corruptser](#corruptser)
+  * [Corrupster](#corruptser)
   * [Erosion](#erosion)
   * [NoChaos](#nochaos)
   * [Sapros](#sapros)
@@ -24,7 +24,7 @@ Some of the oldest ROM corruption software date back to the year 2000, before th
 
 Originally made to hack NES ROMs by modifying individual bytes or byte ranges, it's secondary use of breaking games is a popular alternative. ROM Corruptor was [originally used by Vinesauce](https://youtu.be/b3SubgihMfE?t=6s) in their early days of streaming corruptions. The version you can download above has a fix for usage on Windows 7 and later, if you want the original file download it from [here](/assets/old-corruptors/corrupt.zip).
 
-### Corruptser
+### Corrupster
 
 ###### Author: "[Disch](http://slickproductions.org/corrupster.php)"
 
@@ -85,8 +85,6 @@ Sapros is a simple NES ROM corruptor that utilises the CDL files produced by FCE
 ###### ![](/assets/old-corruptors/img/PermaGenie.jpg)
 
 Not a corruptor in the traditional sense but this program takes Game Genie code and permanently inserts them into NES ROMs, normally with Game Genie codes they are executed within an emulator instead of being written directly to the ROM. Using this tool you can overlap some interesting codes and create unique corruptions.
-
-
 
 ## Contribution
 
