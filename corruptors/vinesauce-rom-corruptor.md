@@ -16,7 +16,7 @@ The Vinesauce ROM Corruptor is a corruptor that allows you to change the bytes o
   * [**Functions**](#functions)
     * [File Selection - ROM Directory](#file-selection---rom-directory)
     * [Save Corrupted ROM To](#save-corrupted-rom-to)
-    * [Run Emulator after Corrupting](#run-emulator-after-corrupting-)
+    * [Run Emulator after Corrupting](#run-emulator-after-corrupting)
     * [Save](#save)
     * [Load](#load)
   * [**Byte Corruption**](#byte-corruption)
@@ -25,7 +25,7 @@ The Vinesauce ROM Corruptor is a corruptor that allows you to change the bytes o
     * [Increment](#increment---decimal)
     * [Auto End](#auto-end)
     * [Corrupt every nth Byte](#corrupt-every-nth-byte---decimal)
-    * [Add x to every byte](#add-x-to-every-byte---decimal-)
+    * [Add x to every byte](#add-x-to-every-byte---decimal)
     * [Shift right](#shift-right-by-x-bytes---decimal)
     * [Replace x with y ](#replace-x-with-y---hex)
     * [Enable NES CPU Jam Protection](#enable-nes-cpu-jam-protection)
@@ -92,7 +92,7 @@ This value sets how often to corrupt bytes, setting this to 1 will corrupt every
 
 ##### 
 
-##### Add \_x \_to every byte - Decimal
+##### Add x to every byte - Decimal
 
 When using this option it will add the specified decimal value to each byte corrupted, any bytes corrupted with this option will be increased by the specified value. You can set negative values with this option too.
 
