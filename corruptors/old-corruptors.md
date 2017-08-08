@@ -4,7 +4,7 @@ Some of the oldest ROM corruption software date back to the year 2000, before th
 
 * [**Index**](/corruptors/old-corruptors.md)
   * [ROM Corruptor](#rom-corruptor)
-  * [Corrupster](#corruptser)
+  * [Corrupster](#corrupster)
   * [Erosion](#erosion)
   * [NoChaos](#nochaos)
   * [Sapros](#sapros)
