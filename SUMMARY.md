@@ -8,7 +8,6 @@
 ## Corruptors
 
 * [Vinesauce ROM Corruptor](corruptors/vinesauce-rom-corruptor.md)
-  * [N64 Corruption](corruptors/vinesauce-rom-corruptor/n64-corruption.md)
 * [Real-Time Corruptor for Bizhawk](corruptors/rtc-real-time-corruptor.md)
 * [Windows Glitch Harvester](corruptors/windows-glitch-harvester.md)
 * [VineCorrupt](corruptors/vinecorrupt.md)
