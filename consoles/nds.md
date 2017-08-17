@@ -1,3 +1,3 @@
-## Nintendo DS Corruptions
+## NDS Corruptions
 
 TODO
