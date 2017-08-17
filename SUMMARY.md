@@ -20,7 +20,7 @@
 * [SNES](consoles/snes.md)
 * [N64](consoles/n64.md)
 * [PS1](consoles/ps1.md)
-* NDS
+* [NDS](consoles/nds.md)
 * [PC](consoles/pc.md)
 
 ## Etc.
