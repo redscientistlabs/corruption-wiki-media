@@ -34,7 +34,7 @@ Originally made to hack NES ROMs by modifying individual bytes or byte ranges, i
 
 ###### ![](/assets/old-corruptors/img/corrupster.png)
 
-Corrupster was originally made as a utility for hacking Final Fantasy 1 NES Roms but is used exclusively for corrupting NES ROMs as you can't choose any files that aren't a \*.nes.
+Corrupster was originally made as a utility for hacking Final Fantasy 1 NES Roms but can be used for corrupting any NES ROM, as well as any file as long as you switch the file type off of .nes. Because it does not ask for an emulator, it saw some limited use early on as a corruptor for files instead of ROMs.
 
 ### Erosion
 
