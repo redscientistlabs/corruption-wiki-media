@@ -56,7 +56,7 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
       * [Metagames and Multiplayer Features](#metagames-and-multiplayer-features)
   * [**Expert**](#expert-guide)
     * [**Hotkeys**](#hotkeys)
-    * [**Blast Editor (Editing BlastLayers)**](#blast-editor)
+    * [**Blast Editor \(Editing BlastLayers\)**](#blast-editor)
     * [**Virtual Memory Domains**](#virtual-memory-domains)
     * [**Generating Active Tables**](#generating-active-tables)
 
@@ -80,23 +80,23 @@ What is usually known as an iteration in static corruptors, is called a Blast in
 
 **RTC doesn't start on my computer**
 
--> Have you tried stock Bizhawk? If not, you can grab it over there: http://tasvideos.org/BizHawk.html
+-&gt; Have you tried stock Bizhawk? Do note, that as of Bizhawk 2.0, Bizhawk is 64bit only and supports operating systems Windows 7 and upwards. As of release 3.0, the RTC is based on Bizhawk version 1.11.9 which can be obtained here: [https://github.com/TASVideos/BizHawk/releases/download/1.11.9/BizHawk-1.11.9.1.zip](https://github.com/TASVideos/BizHawk/releases/download/1.11.9/BizHawk-1.11.9.1.zip)
 
 Alternatively, the "Start BizHawk without RTC" option will load BizHawk without the Mod.
 
--> Have you installed the prereqs? This is essential for BizHawk to run properly. you can grab those from there too: http://tasvideos.org/BizHawk.html
+-&gt; Have you installed the prereqs? This is essential for BizHawk to run properly. you can grab those from there too: [http://tasvideos.org/BizHawk.html](http://tasvideos.org/BizHawk.html)
 
--> Make sure your computer is decent. If it's too old then maybe the rendering options of BizHawk may not work. We've seen that problem happen with old Core2Duo chipsets for computers using Internal Graphics.
+-&gt; Make sure your computer is decent. If it's too old then maybe the rendering options of BizHawk may not work. We've seen that problem happen with old Core2Duo chipsets for computers using Internal Graphics.
 
 ** Why does RTC wants to be allowed in the Windows Firewall?**
 
 RTC uses networking for a bunch of stuff. Here's more details about those:
 
--> Loopback UDP: Used for the Auto-KillSwitch and External ROM Plugins
+-&gt; Loopback UDP: Used for the Auto-KillSwitch and External ROM Plugins
 
--> Loopback TCP: Used for Detached Mode (StandaloneRTC communicating with Modded Bizhawk)
+-&gt; Loopback TCP: Used for Detached Mode \(StandaloneRTC communicating with Modded Bizhawk\)
 
--> TCP: Used for RTC Multiplayer
+-&gt; TCP: Used for RTC Multiplayer
 
 The features mentioned above WILL NOT WORK if RTC isn't allowed in the firewall.
 
@@ -104,7 +104,7 @@ The features mentioned above WILL NOT WORK if RTC isn't allowed in the firewall.
 
 BizHawk is one hell of an emulator. It features a ton of emulator cors and tools to create Tool-Assisted Speedruns. In order for these speedruns to be accurate to the real-life systems they emulate, some of those do extra operations and disable optimizations that might cause faster but inaccurate emulation.
 
-Some emulator cores are faster than others. QuickNes is generally faster than NesHawk for example. 
+Some emulator cores are faster than others. QuickNes is generally faster than NesHawk for example.
 
 Unfortunately, if the whole thing is still too slow, your only solution might be to upgrade your computer. For comparison, RTC works just fine on a mobile 2nd-Gen Core i3.
 
@@ -131,7 +131,6 @@ Maybe.
 **What if I can greatly contribute to the project?**
 
 You know how to find me.
-
 
 # Basic Guide
 
@@ -223,7 +222,7 @@ BURST: 10 Chunks of 1/10 of the total Intensity.
 
 ### Memory Domains
 
-In Bizhawk, Memory Domains are the memory pools of the virtual chips in an emulated system. In RTC, they are wrapped within a proxy system that allows for keeping a hold of them when a system changes or to prevent certain unwanted scenarios from happening (due to corruption).
+In Bizhawk, Memory Domains are the memory pools of the virtual chips in an emulated system. In RTC, they are wrapped within a proxy system that allows for keeping a hold of them when a system changes or to prevent certain unwanted scenarios from happening \(due to corruption\).
 
 _Virtual Memory Domains can also coexist with Standard Memory Domains for that reason._
 
@@ -313,7 +312,6 @@ By default, all pipes are generating in chain. this means two things: Pipe endpo
 
 When this setting is Off, the endpoint of a pipe will be randomly chosen among the Memory Domains in the same fashion as Blast Type SPREAD.
 
-
 **Process on Emulator Step**
 
 Disabling this causes the pipes to sync with the Corrupt Step instead of Emulator Step
@@ -324,7 +322,7 @@ Rewinding in BizHawk will force all pipes to be removed.
 
 **Tilt Value**
 
-This is a value modifier that takes place at the End of the pipe. The value (negative or positive) will be added to the piped value but will not affect the origin address.
+This is a value modifier that takes place at the End of the pipe. The value \(negative or positive\) will be added to the piped value but will not affect the origin address.
 
 #### Vector Engine
 
@@ -384,7 +382,7 @@ Basic usage is fairly simple, you create a savestate, select the zones you would
 
 _This will explain the complex layout of interactive elements which makes the interface._
 
-[INSERT GLITCH HARVESTER SCREENSHOT WITH CLICKABLE AREAS]
+\[INSERT GLITCH HARVESTER SCREENSHOT WITH CLICKABLE AREAS\]
 
 ### Action Panel
 
@@ -472,7 +470,6 @@ The **Load** button allows you to either load a Stockpile or load a BizHawk Conf
 
 _Loading a config file from a stockpile will keep your hotkeys and controller keybinds_
 
-
 Using **Save as** and **Save** buttons will generate/overwrite an _SKS_ file that contains corruption data, roms and BizHawk Savestate. The _SKS_ file also contains the BizHawk config from the last person who saved it.
 
 **Using someone's config file**
@@ -488,8 +485,6 @@ This button allows you to merge stockpiles together by importing them into the o
 By holding CTRL and clicking on multiple Stockpile items, you can load and merge items together. The resulting item will be added to the Stash History.
 
 Merging items together requires them to be for the same console and same game. The Savestate that is used in the merged result is from the first item that got selected.
-
-
 
 ## Stockpile Player
 
@@ -525,7 +520,7 @@ The screen can be popped out of the RTC Multiplayer options.
 
 ** Game of Swap **
 
-Both video streams will start. A red bar will start shrinking until it totally disappears. Once the red bar is gone, the two currently running games will be exchanged between RTCs. 
+Both video streams will start. A red bar will start shrinking until it totally disappears. Once the red bar is gone, the two currently running games will be exchanged between RTCs.
 
 ** BlastBoard **
 
@@ -581,13 +576,13 @@ Loads the currently selected Glitch Harvester Savestate Box.
 
 Saves the game state in the currently Glitch Harvester Savestate Box.
 
-**Stash->Stockpile**
+**Stash-&gt;Stockpile**
 
 Sends the currently selected item in the Stash History and sends it to the Stockpile.
 
 **Induce KS Crash**
 
-Kills the KillSwitch heartbeat, causing (if enabled) RTC to detect a crash.
+Kills the KillSwitch heartbeat, causing \(if enabled\) RTC to detect a crash.
 
 **Blast+RawStash**
 
@@ -605,31 +600,121 @@ Toggles ON/OFF the BlastLayer of the last executed StashKey
 
 Re-executes BlastLayer of the last executed StashKey.
 
-### Blast Editor
+## Blast Editor
 
 Any StashKey in the Glitch Harvester can be opened in the Blast Editor by right-clicking on it and select _"Open Selected Item in Blast Editor"_.
 
 A copy of the StashKey is done and every Unit from that BlastLayer is displayed in a list. Every line describes what will happen when that Unit is executed. There are panels on the right that allow you to edit certain values of the Unit and update them.
 
-Double Clicking on an Unit will disable it as shown by the [x] that becomes [ ]. You can also use the buttons on the right to quickly disable and enable Units.
+Double Clicking on an Unit will disable it as shown by the \[x\] that becomes \[ \]. You can also use the buttons on the right to quickly disable and enable Units.
 
 **Sanitizing corruptions**
 
-Corruptions can be sanitized in the Blast Editor to remove useless instructions that might break the game when ran. You can very easily isolate a corruption (effect) by doing the following:
+Corruptions can be sanitized in the Blast Editor to remove useless instructions that might break the game when ran. You can very easily isolate a corruption \(effect\) by doing the following:
 
-[Random Disable 50%] then [Load + Corrupt].
-Is the corruption (effect) still present?
-If Yes -> [Remove Disabled]
-If No -> [Invert Disabled] then [Remove Disabled]
+\[Random Disable 50%\] then \[Load + Corrupt\].  
+Is the corruption \(effect\) still present?  
+If Yes -&gt; \[Remove Disabled\]  
+If No -&gt; \[Invert Disabled\] then \[Remove Disabled\]
 
 By repeating the steps above a certain amount of time, the useless instructions will progressively disappear. At some point you may need to manually enable and disable instructions in order to isolate what is part of the corruption and what is not.
 
-### Virtual Memory Domains
+**Note: All addresses and values are stored as decimal**
 
-Feature not implemented yet
+## Virtual Memory Domains
+
+\#TODO: Explain what VMDs actually are. You may want to take this one ircluzar
+
+### Virtual Memory Domain Pool
+
+The Virtual Memory Domain Pool is your main interaction window for loading and working with already loaded VMDs.
+
+**Load VMD From File**
+
+Allows you to load VMDs that were previously saved to a file.
+
+**Save Selected VMD to File**
+
+Allows you to save a generated VMD to a file which can be loaded later.
+
+**Rename Selected VMD**
+
+Allows you to rename a VMD
+
+**Unload Selected VMD**
+
+Unloads the selected VMD from the RTC so it no longer appears in the Domain list and the VMD Pool.
+
+**VMD Size**
+
+Displays the size of the currently selected VMD in bytes.
+
+**Real Domain**
+
+Displays the memory domain that the VMD is built to target.
+
+### Virtual Memory Domain Generator
+
+**Load Domains**
+
+Loads the memory domains of the currently active emulation core into the VMD generator
+
+**Memory Domain**
+
+The domain you would like to target with your VMD
+
+**Domain Size**
+
+The size of the selected memory domain in bytes
+
+**Word Size**
+
+The size of a [word](https://en.wikipedia.org/wiki/Word_%28computer_architecture%29) for the currently selected memory domain
+
+**Endian Type**
+
+The [endian type](https://en.wikipedia.org/wiki/Endianness) for the currently selected memory domain
+
+**Set pointer every X addresses**
+
+Generates a VMD pointer every X addresses of the range input into the generator.
+
+**VMD Name**
+
+The name of the VMD being generated
+
+**Generate VMD**
+
+Generates the VMD
+
+**Remove/Add Addresses**
+
+The addresses that will be used in generation of your VMD. This box can take input in various forms. A single line is treated as a single command. You can use multiple commands in generation of the same VMD. 
+
+You are able to:
+
+* Add an address range
+  * Example: 50-100
+* Add a single address
+  * Example: 55
+* Remove an address range
+  * Example: -60-110
+* Remove a single address
+  * Example: -66
+
+If the user doesn't add a value or range, the default range will be the entire selected memory domain. You are able to remove a value from this default range using one of the various remove methods. For example, if you only input "-55" into the box, you'd get a VMD which has every address in the real memory domain excluding -55. 
+
+**Additional notes:**
+
+* By default, all addresses are treated as decimal
+* If you add "0x" before an address, it will be treated as hexadecimal rather than decimal.
+* Single added addresses will bypass the removal range.
+* Single added addresses aren't affected by the pointer spacer parameter.
+* Ranges are exclusive, which means that the last address will be excluded from the range.
+
+
 
 ### Generating Active Tables
 
 Feature not reimplemented yet
-
 
