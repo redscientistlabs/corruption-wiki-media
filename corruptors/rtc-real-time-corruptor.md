@@ -625,7 +625,7 @@ By repeating the steps above a certain amount of time, the useless instructions 
 
 ## Virtual Memory Domains
 
-\#TODO: Explain what VMDs actually are. You may want to take this one ircluzar
+Virtual Memory Domains, also called VMDs, are virtual representations of areas from one or multiple real Memory Domains. The VMD Generator uses address instructions to make VMD Prototypes which can be used to generate/regenerate VMDs. These prototypes are very lightweight, save/load from a file and can also be created from a Corruption in the Glitch Harvester.
 
 ### Virtual Memory Domain Pool
 
@@ -641,7 +641,7 @@ Allows you to save a generated VMD to a file which can be loaded later.
 
 **Rename Selected VMD**
 
-Allows you to rename a VMD
+Allows you to rename a VMD.
 
 **Unload Selected VMD**
 
@@ -659,15 +659,15 @@ Displays the memory domain that the VMD is built to target.
 
 **Load Domains**
 
-Loads the memory domains of the currently active emulation core into the VMD generator
+Loads the Memory Domains of the currently active emulation core into the VMD Generator.
 
 **Memory Domain**
 
-The domain you would like to target with your VMD
+This Selector Box allows you to chose a target Domain.
 
 **Domain Size**
 
-The size of the selected memory domain in bytes
+The size of the selected Memory Domain in bytes
 
 **Word Size**
 
@@ -683,11 +683,11 @@ Generates a VMD pointer every X addresses of the range input into the generator.
 
 **VMD Name**
 
-The name of the VMD being generated
+The name of the VMD being generated.
 
 **Generate VMD**
 
-Generates the VMD
+Generates the VMD.
 
 **Remove/Add Addresses**
 
@@ -714,7 +714,44 @@ If the user doesn't add a value or range, the default range will be the entire s
 * Single added addresses aren't affected by the pointer spacer parameter.
 * Ranges are exclusive, which means that the last address will be excluded from the range.
 
-### Generating Active Tables
+## Generating Active Tables
 
 Feature not reimplemented yet
 
+
+
+## RTC Dev Discord
+
+If you need advanced help, want to report bugs, ask features or even help with development, we have a development Discord server.
+
+_This is a serious discord for sharing information, dev builds, report bugs and request features. It is not a playground._
+
+####The rules are the following
+
+→ Do not spam, post memes or cause trouble.
+
+→ Keep the chat to bare minimum, prioritize big blocks of text over multiple posts (it makes them easier to delete if needed)
+
+→ **#corruption_general** is for discussing of corruption-related things
+
+→ **#corruption_showcase** is for sharing corruptions you made
+
+→ **#corruption_help** is for requesting help or any kind of support for corruption-related programs, technique and all sorts of issues. Use this channel to discuss about issues before reporting an actual bug.
+
+→ **#bug_reporting** is for submitting confirmed bugs, provide screenshots and detailed instructions on how to reproduce the bug.
+
+→ **#feature_request** is for requesting features. Make sure to provide as much details as possible about what you want.
+
+→ The **#bug_reporting** and **#feature_request** channels are exclusive to VERIFIED power users. If you want to submit bugs or features, ask in **#corruption_help** and we'll see if that gets approved or not.
+
+→ Your posts may get deleted. This server has to be sanitized sometimes, especially in the #bug_reporting and #feature_request channels.
+
+→ Your requests may get erased and reposted in a stylized box.
+
+→ **Keep your discussion related to RTC and other corruption software.**
+
+→ **Some of our members have some online notoriety. I will gently ask you stay calm and polite when they are around and refrain from bugging them. Childish fanboyism is not tolerated.**
+
+If you agree to the rules shown above, you can join at the link below
+
+[I agree. Let me in](https://discord.gg/uzxHvUV) 
