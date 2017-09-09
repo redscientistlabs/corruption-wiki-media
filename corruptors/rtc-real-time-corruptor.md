@@ -58,6 +58,8 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. I
     * [**Hotkeys**](#hotkeys)
     * [**Blast Editor \(Editing BlastLayers\)**](#blast-editor)
     * [**Virtual Memory Domains**](#virtual-memory-domains)
+      * [Virtual Memory Domain Pool](#virtual-memory-domain-pool)
+      * [Virtual Memory Domain Generator](#virtual-memory-domain-generator)
     * [**Generating Active Tables**](#generating-active-tables)
 
 #### Quick Start
@@ -689,7 +691,7 @@ Generates the VMD
 
 **Remove/Add Addresses**
 
-The addresses that will be used in generation of your VMD. This box can take input in various forms. A single line is treated as a single command. You can use multiple commands in generation of the same VMD. 
+The addresses that will be used in generation of your VMD. This box can take input in various forms. A single line is treated as a single command. You can use multiple commands in generation of the same VMD.
 
 You are able to:
 
@@ -702,7 +704,7 @@ You are able to:
 * Remove a single address
   * Example: -66
 
-If the user doesn't add a value or range, the default range will be the entire selected memory domain. You are able to remove a value from this default range using one of the various remove methods. For example, if you only input "-55" into the box, you'd get a VMD which has every address in the real memory domain excluding -55. 
+If the user doesn't add a value or range, the default range will be the entire selected memory domain. You are able to remove a value from this default range using one of the various remove methods. For example, if you only input "-55" into the box, you'd get a VMD which has every address in the real memory domain excluding -55.
 
 **Additional notes:**
 
@@ -711,8 +713,6 @@ If the user doesn't add a value or range, the default range will be the entire s
 * Single added addresses will bypass the removal range.
 * Single added addresses aren't affected by the pointer spacer parameter.
 * Ranges are exclusive, which means that the last address will be excluded from the range.
-
-
 
 ### Generating Active Tables
 
