@@ -19,7 +19,6 @@ Nintendo DS was the first handheld by Nintendo to achieve true 3D, and similarly
 ### NDS Corruption With The Vinesauce ROM Corruptor
 
 ###### Guide Author: [Chris Byrne \(Weinerless Steve\)](https://www.youtube.com/user/Sevelix/)
-
 Unlike traditional N64 games, DS can be corrupted both with and without save states effectively. Without save states, it corrupts like a normal game where corruptions are loaded from the start. When save states are used, it works more like N64 corruption where the only data that is being corrupted is data that is being loaded in real time. It is quite difficult to get results either way, as many games give poor results or have checksums you have to avoid. However, with patience you can have great results corrupting Nintendo DS games.
 
 ### Setup
