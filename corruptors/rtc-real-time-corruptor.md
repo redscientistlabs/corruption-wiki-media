@@ -360,7 +360,7 @@ One\*: The numbers 1.00 and -1.00
 
 Two: The number 2.00
 
-AnyFloat: Randomly generated Float
+AnyFloat: Randomly generated Float, any address is legal
 
 #### External ROM Plugin
 
@@ -368,9 +368,7 @@ RTC Supports daisy chaining from ROM Corruptors. Some popular ones have been mod
 
 When a ROM Corruptor sends a corrupted ROM to RTC, a differential is calculated between the original and the corrupted one, then a BlastLayer is generated from that differential. Just like with other engines, the BlastLayer can be toggled ON and OFF when ran with RTC.
 
-## Main RTC Window
 
-## Stockpile Player
 
 # Advanced Guide
 
@@ -490,9 +488,22 @@ Merging items together requires them to be for the same console and same game. T
 
 ## Stockpile Player
 
-The Stockpile player is a very watered down version of the Glitch Harvester. For how the Stockpile Player works, read the [Stockpile Manager](#stockpile-manager) and [BlastLayer Toggle](#blastlayer-toggle) of the Glitch Harvester's guide.
 
-Additional controls for RTC have been added to the right-click menu of the Stockpile Manager for Enabling/Disabling certain parameters.
+This is a minimalist version of the Glitch Harvester's Stockpile Manager. It allows you to load Stockpiles and replay corruptions.
+
+The Previous and Next buttons are for jumping from a corruption to another. They do the same thing as clicking on the corruptions directly.
+
+The Red refresh button replays the current corruption.
+
+BlastLayer Button: Toggles ON/OFF the BlastLayer of the last executed StashKey, essentially attempting to uncorrupt/recorrupt in real-time.
+
+If the button in the Note column has a ⚠ Symbol, it means that a note is attached to the corruption. Click on it to open the note.
+
+Various options from RTC's Engine Config menu are present in a contextual menu if you right-click on corruptions.
+
+
+
+
 
 ## RTC Multiplayer
 
@@ -511,6 +522,18 @@ You can also run TWO RTCs in Multiplayer on the same machine by connecting to "1
 RTC's Multiplayer is fully bidirectional, meaning that both Client/Server can do exactly the same thing.
 
 ** Manual Commands **
+
+There are 3 types of commands:
+PUSH : Sends an item to the other RTC
+PULL : Downloads an item from the other RTC
+SWAP : Swaps items between the two RTCs
+
+Command items
+Game: Game ROM
+State: Game's State
+Screen: Picture of RTC's game's screen
+BlastLayer: Last executed Corruption's Blast
+StashKey: Last executed Corruption Item
 
 ** Video Streaming **
 
