@@ -22,7 +22,7 @@ Nintendo DS was the first handheld by Nintendo to achieve true 3D, and similarly
 
 Unlike traditional N64 games, DS can be corrupted both with and without save states effectively. Without save states, it corrupts like a normal game where corruptions are loaded from the start. When save states are used, it works more like N64 corruption where the only data that is being corrupted is data that is being loaded in real time. It is quite difficult to get results either way, as many games give poor results or have checksums you have to avoid. However, with patience you can have great results corrupting Nintendo DS games.
 
-#### Setup
+### Setup
 
 Although there are multiple up and coming DS emulators, this guide is based on [version 0.9.11 of DeSMuMe](http://desmume.org/download/) and [version 1.2.2 of the Vinesauce ROM Corruptor](http://corruptedbytes.com/the-vinesauce-rom-corruptor). Earlier versions of the emulator should work the same. The best way to try corrupting a DS game is without save states, but you could set some during gameplay to go back to later. You’ll figure out the best places to put save states while experimenting during corruption, and we’ll go over this experimentation in later sections. It's also worth noting that the "+" and "-" keys are for fast foward and rewind, and to use your mic for a game like Nintendogs, you go into “Config”, then “Microphone Settings”. Depending on how your game saves, there are also additional steps to take.
 
