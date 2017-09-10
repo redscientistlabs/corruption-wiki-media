@@ -118,21 +118,6 @@ This problem usually happens with snes9x. It's not working. The problem is on Bi
 
 The mod could probably be ported, but that would require a ton of modifications, and that's only possible if the other emulator is open source. At this point in time, there's more chances that the Windows Glitch Harvester gets ported for other emulators than RTC, due to a more generic approach in WGH's design.
 
-**Is there a Discord server for RTC Dev?**
-
-Yes there is one.
-
-**Can you give me the link to it?**
-
-Not yet.
-
-**Will you make it public at some point?**
-
-Maybe.
-
-**What if I can greatly contribute to the project?**
-
-You know how to find me.
 
 # Basic Guide
 
@@ -285,6 +270,8 @@ This erases all corruption units pending to be restored.
 #### Freeze Engine
 
 Uses the built-in BizHawk Cheat Engine to generate freeze addresses.
+
+There is an odd quirk that will eventually be fixed: Currently only uses the RAM domain (predetermined by Bizhawk)
 
 _Effect: It forces Bytes to keep their value._
 
@@ -448,7 +435,7 @@ Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
 #### Reroll Selected
 
-Rerolls the corruption values of the selected item in the Stash History or Stockpile. This allows to attempt to get better results from a corruption. _This operation is permanent on the StashKey and cannot be undone._
+Rerolls the corruption values of the selected item in the Stash History or Stockpile. This allows to attempt to get better results from a corruption. The result will be sent in the Stash History.
 
 ### Render Output
 
