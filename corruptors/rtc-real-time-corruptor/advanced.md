@@ -1,7 +1,7 @@
-### RTC: Advanced Guide
+### Real-Time Corruptor: Advanced Guide
 
 
-  * [**Advanced**](#advanced-guide)
+  * [**Index**](#advanced-guide)
     * [**Glitch Harvester**](#glitch-harvester)
       * [Action Panel](#action-panel)
       * [Savestate Manager](#savestate-manager)
