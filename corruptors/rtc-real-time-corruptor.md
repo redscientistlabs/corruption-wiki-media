@@ -80,6 +80,14 @@ What is usually known as an iteration in static corruptors, is called a Blast in
 
 #### Frequently asked questions
 
+**What is the difference between Attached Mode and Detached Mode?**
+
+Detached mode is the default mode in RTC 3. It detaches RTC and Bizhawk in two processes and lets them communicate through a homemade system called NetCore. This allows RTC to stay alive if BizHawk crashes and allows for game states to be kept saved outside of BizHawk when using "Game Protection".
+
+RTC Multiplayer is exclusive to Attached Mode since it uses the NetCore to connect two RTCs together. In Attached Mode, you can use the Classic AutoKillswitch by opening it from the Launcher or via the Settings Menu.
+
+Detached Mode has its own embedded AutoKillswitch.
+
 **RTC doesn't start on my computer**
 
 -&gt; Have you tried stock Bizhawk? Do note, that as of Bizhawk 2.0, Bizhawk is 64bit only and supports operating systems Windows 7 and upwards. As of release 3.0, the RTC is based on Bizhawk version 1.11.9 which can be obtained here: [https://github.com/TASVideos/BizHawk/releases/download/1.11.9/BizHawk-1.11.9.1.zip](https://github.com/TASVideos/BizHawk/releases/download/1.11.9/BizHawk-1.11.9.1.zip)
@@ -496,7 +504,7 @@ Various options from RTC's Engine Config menu are present in a contextual menu i
 
 ### Connecting RTCs together
 
-Before connecting RTCs together, let this small fact known : RTC's Detached mode uses the same components as the Multiplayer mode in RTC. This is why you must run RTC in Attached mode in order to connect RTCs together. However, Multiplayer in Detached mode is planned for a future update.
+Before connecting RTCs together, let this small fact known : RTC's Detached mode uses the same components as the Multiplayer mode in RTC. This is why you must run RTC in Attached mode in order to connect RTCs together.
 
 ** Session Settings **
 
