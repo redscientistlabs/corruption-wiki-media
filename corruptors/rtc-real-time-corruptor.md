@@ -744,7 +744,7 @@ _This is a serious discord for sharing information, dev builds, report bugs and 
 
 → **#corruption_general** is for discussing of corruption-related things
 
-→ **#corruption_showcase** is for sharing corruptions you made
+→ **#corruption_showcase** is for sharing corruptions you made. Please focus on new discoveries and experiments with new features. Don't post SMB1 tileset vomit.
 
 → **#corruption_help** is for requesting help or any kind of support for corruption-related programs, technique and all sorts of issues. Use this channel to discuss about issues before reporting an actual bug.
 
