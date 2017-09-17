@@ -73,12 +73,16 @@ Some emulator cores are faster than others. QuickNes is generally faster than Ne
 
 Unfortunately, if the whole thing is still too slow, your only solution might be to upgrade your computer. For comparison, RTC works just fine on a mobile 2nd-Gen Core i3.
 
-**This Emulator core doesn't work with RTC**
+**A certain Emulator core doesn't work with RTC**
 
 This problem usually happens with snes9x. It's not working. The problem is on BizHawk side. One day they'll finish porting it I guess.
 
 **Can RTC work with another emulator than BizHawk?**
 
 The mod could probably be ported, but that would require a ton of modifications, and that's only possible if the other emulator is open source. At this point in time, there's more chances that the Windows Glitch Harvester gets ported for other emulators than RTC, due to a more generic approach in WGH's design.
+
+**Visit the [Tips, tricks and quirks](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/4.html) part of the guide for more details**
+
+
 
 
