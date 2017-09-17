@@ -13,7 +13,7 @@
   * [Basic Guide](corruptors/rtc-real-time-corruptor/1.md)
   * [Advanced Guide](corruptors/rtc-real-time-corruptor/advanced.md)
   * [Expert Guide](corruptors/rtc-real-time-corruptor/expert.md)
-  * [Tips and Tricks](corruptors/rtc-real-time-corruptor/4.md)
+  * [Tips, tricks and quirks](corruptors/rtc-real-time-corruptor/4.md)
 * [Windows Glitch Harvester](corruptors/windows-glitch-harvester.md)
 * [VineCorrupt](corruptors/vinecorrupt.md)
 * [Cheat Engine](corruptors/cheat-engine.md)
