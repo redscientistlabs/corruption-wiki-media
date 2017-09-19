@@ -8,7 +8,7 @@
 
 The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. It's a mod to the Open Source BizHawk Emulator that works by modifying live data from the virtualized memory chips of emulated systems.
 
-{% video width="740", height="350" %}https://www.youtube.com/watch?v=CqSsD91Nzw4{% endvideo %}
+{% youtube src="https://www.youtube.com/watch?v=CqSsD91Nzw4" %}{% endyoutube %}
 
 * [**Introduction**](#index "Literally this")
   * [**Quick Start**](#quick-start)
