@@ -212,11 +212,11 @@ BitRain's guide was inspired and adapted from CosmoCourtney's tutorial [video he
 
 ### Videos
 
-{% youtube %}iLdrMNrwgRo{% endyoutube %}
+{% youtube %}https://www.youtube.com/watch?v=iLdrMNrwgRo{% endyoutube %}
 
 CosmoCourtney has a guide on how to use Cheat Engine to corrupt games, in this example Goat Simulator is corrupted.
 
-{% youtube %}v3belhaTwNc{% endyoutube %}
+{% youtube %}https://www.youtube.com/watch?v=v3belhaTwNc{% endyoutube %}
 
 A good example of what Cheat Engine is possible of when used on modern titles.
 
