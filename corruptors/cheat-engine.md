@@ -18,14 +18,14 @@ Due to Cheat Engine having many features for game hacking and memory editing, th
   * [**Functions**](#functions)
   * [**Process Hooking**](#process-hooking)
   * [**Memory Scanning**](#memory-scanning)
-     * [**Scan Option**](#scan-option)
-     * [**Scan Range**](#scan-range)
+     * [Scan Option](#scan-option)
+     * [Scan Range](#scan-range)
   * [**Found Values**](#found-values)
   * [**Active Table**](#active-table)
   * [**Common Hex Values**](#common-hex-values)
   * [**Quick Corruption Setup**](#quick-corruption-setup)
   * [**Corrupting Emulated Games**](#corrupting-emulated games)
-     * [**Little Endian Values**](#little-endian-values)
+     * [Little Endian Values](#little-endian-values)
   * [**Tips**](#tips)
   * [**Warnings**](#warnings)
   * [**References**](#references)
@@ -206,18 +206,18 @@ Sometimes when you're changing values one of those values will control the volum
 
 ### References
 
-This wiki article is adapted from a guide written by BitRain you can find here.
+This wiki article is adapted from a guide written by BitRain [you can find here](/assets/cheat-engine/Corruption Guide.pdf).
 
-BitRain's guide was inspired and adapted from CosmoCourtney's tutorial video here:
+BitRain's guide was inspired and adapted from CosmoCourtney's tutorial [video here.](https://www.youtube.com/watch?v=iLdrMNrwgRo)
 
 ### Videos
 
-{% youtube src="https://www.youtube.com/watch?v=iLdrMNrwgRo" %}{% endyoutube %}
+{% youtube src="iLdrMNrwgRo" %}{% endyoutube %}
 
 
 CosmoCourtney has a guide on how to use Cheat Engine to corrupt games, in this example Goat Simulator is corrupted.
 
-{% youtube src="https://www.youtube.com/watch?v=v3belhaTwNc" %}{% endyoutube %}
+{% youtube src="v3belhaTwNc" %}{% endyoutube %}
 
 A good example of what Cheat Engine is possible of when used on modern titles.
 
