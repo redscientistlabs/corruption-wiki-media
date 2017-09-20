@@ -8,7 +8,7 @@
 
 Cheat Engine is an Memory Hacking Software for the [Windows](https://github.com/cheat-engine/cheat-engine/releases), [OSX](http://www.cheatengine.org) and [Android](http://forum.cheatengine.org/viewtopic.php?t=579943), it scans what a program has loaded on a computer's memory \(RAM\) when it's running and allows you to edit all the values a program has on memory. Normally Cheat Engine is used to cheat in video games like give you infinite health, thus the name.
 
-![](/corruptors/cheat-engine/cheat-engine.png)
+![](/assets/cheat-engine/cheat-engine.png)
 
 Due to Cheat Engine having many features for game hacking and memory editing, this wiki article will focus on the corruption aspect of Cheat Engine and the basics of the software to corrupt with it. Please visit the Cheat Engine Wiki for more information on the memory hacking and scripting side of Cheat Engine here: [http://wiki.cheatengine.org/](http://wiki.cheatengine.org/)
 
@@ -206,18 +206,17 @@ Sometimes when you're changing values one of those values will control the volum
 
 ### References
 
-This wiki article is adapted from a guide written by BitRain [you can find here](/assets/cheat-engine/Corruption Guide.pdf).
+This wiki article is adapted from a guide written by BitRain [you can find here.](/assets/cheat-engine/corruption-guide.pdf)
 
 BitRain's guide was inspired and adapted from CosmoCourtney's tutorial [video here.](https://www.youtube.com/watch?v=iLdrMNrwgRo)
 
 ### Videos
 
-{% youtube src="iLdrMNrwgRo" %}{% endyoutube %}
-
+{% youtube %}iLdrMNrwgRo{% endyoutube %}
 
 CosmoCourtney has a guide on how to use Cheat Engine to corrupt games, in this example Goat Simulator is corrupted.
 
-{% youtube src="v3belhaTwNc" %}{% endyoutube %}
+{% youtube %}v3belhaTwNc{% endyoutube %}
 
 A good example of what Cheat Engine is possible of when used on modern titles.
 
