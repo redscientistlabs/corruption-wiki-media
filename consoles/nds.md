@@ -15,6 +15,8 @@ Nintendo DS was the first handheld by Nintendo to achieve true 3D, and similarly
     * [Start/End Byte](#startend-byte)
     * [Standard Corruption](#standard-corruption)
     * [Corrupting With Save States](/Corrupting With Save States)
+  * [References](#references)
+  * [Video examples](#video-examples)
 
 ### NDS Corruption With The Vinesauce ROM Corruptor
 
@@ -63,4 +65,15 @@ If you’re experiencing crashes at or near startup, creating a save state right
 ![](/assets/corrupt2.png)
 
 This is what you should try when the first method fails. In this method, you’re creating a save state during gameplay so that the only corruptions that are happening are happening in real time. This method limits the types of corruptions you see, but tends to be easier and less crash prone than standard corruption. It's best to create the save state as soon as the gameplay starts so corruption can still show. Because almost everything has already loaded, the only things that will corrupt are your character and other objects, once they move, music, and while you move on further in a level you’ll see some graphics, and the ability to collide with the floor corrupt. These can be unstable, and will crash when you advance to another level. A good range is 1-500 for your corrupt every xth byte. If you’re getting frequent crashes, you may have to go higher than my recommended range, but corrupting higher than in that range tends to produce results that aren’t quite as good. Like corruption with save states on other systems, I would recommend only using the “Add” and “Shift” tools, not the “Replace” tool.
+
+### References
+This wiki article was adapted from the [DS Corruption Guide V 1.1](https://web.archive.org/web/20160519231420/http://vinesauce.com:80/vinetalk/viewtopic.php?f=34&t=99). The videos below were made with corruptions by [Weinerless Steve](https://www.youtube.com/channel/UCrtDW6TfvTKUjXMnXVXhJww) and [Ego](https://www.youtube.com/user/Egoangell) respectively. The videos were commentated and edited by [Vinesauce](https://www.youtube.com/user/vinesauce).
+
+### Video Examples
+
+{% youtube %} https://www.youtube.com/watch?v=UUARl1_B34I {% endyoutube %}
+An example of a game with manual saving corrupted in a variety of ways.
+
+{% youtube %} https://www.youtube.com/watch?v=JIaM-8dHkyY {% endyoutube %}
+An example of a game where you have to use save states to bypass save checks.
 

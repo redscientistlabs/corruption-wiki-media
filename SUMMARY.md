@@ -24,6 +24,8 @@
 * [NES](consoles/nes.md)
 * [SNES](consoles/snes.md)
 * [N64](consoles/n64.md)
+  * [Traditional ROM Corruption](consoles/n64/traditional-rom-corruption.md)
+  * [RTC Corruption](consoles/n64/rtc-corruption.md)
 * [PS1](consoles/ps1.md)
 * [NDS](consoles/nds.md)
 * [PC](consoles/pc.md)
