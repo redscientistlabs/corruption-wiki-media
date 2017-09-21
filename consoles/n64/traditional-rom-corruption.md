@@ -20,7 +20,7 @@
     * [Advanced Methods](#advanced-methods)
       * TODO
   * [References](#references)
-  * [Example VSRC Corruptions](#example-vsrc-corruptions)
+  * [Example Corruptions](#example-corruptions)
   * [Video examples](#video-examples)
   
 
@@ -106,7 +106,7 @@ The advanced methods for decompressed corruption are currently being experimente
 ### References
 This wiki article is adapted from the [N64 Corruption Guide 1.1.5](https://web.archive.org/web/20160519231533/http://vinesauce.com:80/vinetalk/viewtopic.php?f=34&t=98). Credit goes to Nephkin for finding the range for the SM64 corruptions of Mario’s face and [SmellyFeetYouHave](https://www.youtube.com/user/smellyfeetyouhave) for the idea of the decompressed ROM corruptions. The videos below were made with [Weinerless Steve](https://www.youtube.com/user/Sevelix)'s corruptions, and [Vinesauce](https://www.youtube.com/user/vinesauce)'s commentating and editing.
 
-### Example VSRC Corruptions
+### Example Corruptions
 
 \(These corruptions were found by Weinerless Steve and many of these corruptions are the same ones found in Vinesauce’s videos as Steve submitted these corruptions to him. If you plan on using these corruptions without modification in your own videos, please credit Weinerless Steve. If you choose to find your own using these as a starting point, no credit is necessary\)
 
