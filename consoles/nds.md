@@ -5,7 +5,7 @@ Nintendo DS was the first handheld by Nintendo to achieve true 3D, and similarly
 ### Index
 
 * [Index](#index)
-  * [NDS Corruption With The Vinesauce ROM Corruptor](#nds-corruption-with-the-vinesauce-rom-corruptor)
+  * [NDS Corruption with the Vinesauce ROM Corruptor](#nds-corruption-with-the-vinesauce-rom-corruptor)
   * [Setup](#setup)
     * [Picking Your ROM](#picking-your-rom)
     * [Games That Autosave](#games-that-autosave)
@@ -16,9 +16,9 @@ Nintendo DS was the first handheld by Nintendo to achieve true 3D, and similarly
     * [Standard Corruption](#standard-corruption)
     * [Corrupting With Save States](/Corrupting With Save States)
   * [References](#references)
-  * [Video examples](#video-examples)
+  * [Video Examples](#video-examples)
 
-### NDS Corruption With The Vinesauce ROM Corruptor
+### NDS Corruption with the Vinesauce ROM Corruptor
 
 ###### Guide Author: [Chris Byrne \(Weinerless Steve\)](https://www.youtube.com/user/Sevelix/)
 Unlike traditional N64 games, DS can be corrupted both with and without save states effectively. Without save states, it corrupts like a normal game where corruptions are loaded from the start. When save states are used, it works more like N64 corruption where the only data that is being corrupted is data that is being loaded in real time. It is quite difficult to get results either way, as many games give poor results or have checksums you have to avoid. However, with patience you can have great results corrupting Nintendo DS games.
@@ -61,7 +61,7 @@ For this type of corruption, depending on the game, you should be somewhere betw
 
 If you’re experiencing crashes at or near startup, creating a save state right before a load screen. This helps avoid corruption checks at boot, which will crash the game or get you in a loop of deleting a corrupted save. Generally, you're looking for a load screen that's short, and if possible, loads only a few models and not an entire level. This isn't possible for most roms, so don't let that immediately deter you from trying one. ROMs that work well with the first method will often work even better with this one if there's a loading screen that meets that criteria.  Nintendogs is a good example of this. SM64 DS is not a good example of this, despite the fact that it works with the first method because load screens load entire levels. For this method, a good range is 500-3000 for your corrupt every xth byte. For games with many small models, like a sports game, you can go even lower than that. The best way to find a good range is to experiment.
 
-#### Corruption With Save States
+#### Corruption with Save States
 ![](/assets/corrupt2.png)
 
 This is what you should try when the first method fails. In this method, you’re creating a save state during gameplay so that the only corruptions that are happening are happening in real time. This method limits the types of corruptions you see, but tends to be easier and less crash prone than standard corruption. It's best to create the save state as soon as the gameplay starts so corruption can still show. Because almost everything has already loaded, the only things that will corrupt are your character and other objects, once they move, music, and while you move on further in a level you’ll see some graphics, and the ability to collide with the floor corrupt. These can be unstable, and will crash when you advance to another level. A good range is 1-500 for your corrupt every xth byte. If you’re getting frequent crashes, you may have to go higher than my recommended range, but corrupting higher than in that range tends to produce results that aren’t quite as good. Like corruption with save states on other systems, I would recommend only using the “Add” and “Shift” tools, not the “Replace” tool.

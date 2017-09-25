@@ -5,7 +5,7 @@
 * [Index](#index)
   * [N64 Corruption with the Vinesauce ROM Corruptor](#n64-corruption-with-the-vinesauce-rom-corruptor)
     * [Basis](#basis)
-    * [Setting The Values](#setting-the-values)
+    * [Setting the Values](#setting-the-values)
       * [Start Byte/End Byte](#start-byteend-byte)
       * [Corrupt Every](#corrupt-every)
       * [Add/Shift](#addshift)
@@ -21,7 +21,7 @@
       * TODO
   * [References](#references)
   * [Example Corruptions](#example-corruptions)
-  * [Video examples](#video-examples)
+  * [Video Examples](#video-examples)
   
 
 ### N64 Corruption with the Vinesauce ROM Corruptor
@@ -34,7 +34,7 @@ This guide is currently based on [version 1.2.2](http://corruptedbytes.com/the-v
 
 In standard N64 corruption with the Vinesauce ROM Corruptor, our aim is to corrupt only the areas that are being loaded in real time. This allows us to specifically target things like polygon and model movement and music. Additionally, it prevents crashes by avoiding having the ROM access corrupted data in loading screens, and allows us to bypass the amount of finesse required to target specific areas of an N64 ROM by blasting a high volume of corruption over the areas.
 
-#### Setting The Values
+#### Setting the Values
 
 An effective way to learn corruption is to look at an example and interpret why the values are what they are, so that will be our starting point. For a point of reference, a standard corruption of Elmo’s Letter Adventure is given below:
 
@@ -127,7 +127,7 @@ This wiki article is adapted from the [N64 Corruption Guide 1.1.5](https://web.a
 ### Video Examples
 
 {% youtube %}https://www.youtube.com/watch?v=ZIMQ9NIB-sA {% endyoutube %}
-One of the more popular corruption videos and a good example of Object Corruption.
+One of the more popular corruption videos and a good example of object corruption.
 
 
 {% youtube %}https://www.youtube.com/watch?v=OvNDcVRlyYk {% endyoutube %}
