@@ -10,11 +10,11 @@ Nintendo DS was the first handheld by Nintendo to achieve true 3D, and similarly
     * [Picking Your ROM](#picking-your-rom)
     * [Games That Autosave](#games-that-autosave)
     * [Games That Save Manually](#games-that-save-manually)
-    * [Games With Checksums](#games-with-checksums)
+    * [Games with Checksums](#games-with-checksums)
   * [Corrupting](#corrupting)
     * [Start/End Byte](#startend-byte)
     * [Standard Corruption](#standard-corruption)
-    * [Corrupting With Save States](/Corrupting With Save States)
+    * [Corrupting with Save States](/Corrupting With Save States)
   * [References](#references)
   * [Video Examples](#video-examples)
 
@@ -41,7 +41,7 @@ When corrupting a game that autosaves, you need to wipe the save file path for t
 
 For games with manual saving, you'll be fine as long as you don't manually save the game while it is corrupted. Unlike autosaving games, it is recommended that you keep the SaveRam path at it’s default if you want to be able to save manually. For a game like Tomodachi Collection where you are punished for turning the game off without saving too many times you'll want to save the game, shut off the emulator, turn it back on, and make a save state on the start screen. Load this every time you start the game, corrupted or not \(unless of course you want to load a state that takes you to a different part of the game\). If you save the game again, make sure you replace the start screen state with an updated one. Make sure you don't load old states as well, as this will revert the game to the amount of progress made when you made that state. You can undo this by loading the newest state you made.
 
-#### Games With Checksums
+#### Games with Checksums
 
 Some games will also display a stop screen if they detect that the checksum is off in any way, which will happen if the game is at all corrupted. With some games, you can circumvent this by putting a save state past the checksum point. In other games, it does this constantly and there’s nothing you can do, just try another game.
 
