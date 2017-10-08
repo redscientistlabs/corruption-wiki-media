@@ -23,6 +23,7 @@
       * [3D Objects](#3d-objects)
       * [Macro 3D Objects](#macro-3d-objects)
     * Ocarina of Time/Majora's Mask
+    * Other Games
   * [References](#references)
   * [Example Corruptions](#example-corruptions)
   * [Video Examples](#video-examples)
