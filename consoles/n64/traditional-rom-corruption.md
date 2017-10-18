@@ -128,7 +128,7 @@ A lot of subtle things will change around the level with this kind of corruption
 TODO
 
 #### Other Games
-TODO
+Decompressed ROMs don't currently exist for N64 ROMs other than Super Mario 64, Ocarina of Time, and Majora's Mask. However, basic ROM maps exist for many games. To find them, try searching "(game title) ROM map" and seeing what you can find. For example, this is a [Banjo Kazooie ROM map](http://www.therwp.com/forums/showthread.php?t=15763). These games will still be more difficult to corrupt because you're going to probably find aggregates for where types of data exist, and the ROM is compressed. However, results are still possible and these ROM maps will allow for more precision when corrupting. When using ROM maps, you'll generally want to corrupt the range over which textures, models, and objects are housed. Try to pick the objects that are in the level you want to corrupt if you can. Many [RDRAM maps](https://github.com/Isotarge/ScriptHawk/tree/master/Watch) also exist for N64, but you'll need to [use RTC to corrupt those](/consoles/n64/rtc-corruption.md).
 
 ### References
 This wiki article is adapted from the [N64 Corruption Guide 1.1.5](https://web.archive.org/web/20160519231533/http://vinesauce.com:80/vinetalk/viewtopic.php?f=34&t=98). Credit goes to Nephkin for finding the range for the SM64 corruptions of Mario’s face and [SmellyFeetYouHave](https://www.youtube.com/user/smellyfeetyouhave) for the idea of the decompressed ROM corruptions. The videos below were made with [Weinerless Steve](https://www.youtube.com/user/Sevelix)'s corruptions, and [Vinesauce](https://www.youtube.com/user/vinesauce)'s commentating and editing.
