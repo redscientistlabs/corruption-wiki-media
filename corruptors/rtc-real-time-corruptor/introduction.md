@@ -44,7 +44,7 @@ Detached Mode has its own embedded AutoKillswitch.
 
 **RTC doesn't start on my computer**
 
--&gt; Have you tried stock Bizhawk? Do note, that as of Bizhawk 2.0, Bizhawk is 64bit only and supports operating systems Windows 7 and upwards. As of release 3.0, the RTC is based on Bizhawk version 1.11.9 which can be obtained here: [https://github.com/TASVideos/BizHawk/releases/download/1.11.9/BizHawk-1.11.9.1.zip](https://github.com/TASVideos/BizHawk/releases/download/1.11.9/BizHawk-1.11.9.1.zip)
+-&gt; Have you tried stock Bizhawk? Do note, that as of Bizhawk 2.x, Bizhawk is 64bit only and supports operating systems Windows 7 and upwards. RTC 3.10 is based on Bizhawk version 2.2.1 which can be obtained here: [http://github.com/TASVideos/BizHawk/releases/download/2.2.1/BizHawk-2.2.1.zip](http://github.com/TASVideos/BizHawk/releases/download/2.2.1/BizHawk-2.2.1.zip)
 
 Alternatively, the "Start BizHawk without RTC" option will load BizHawk without the Mod.
 
