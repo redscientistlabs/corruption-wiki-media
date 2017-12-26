@@ -4,12 +4,26 @@
 
 [Index](#index)
 
+
+
+* [Dolphin Narry's Mod](#dolphin-narrys-mod)
 * [The Concept of Savestates](#the-concept-of-savestates)
 * [A Brief Overview of the Consoles](#a-brief-overview-of-the-consoles)
-* [Dolphin Narry's Mod](#dolphin-narrys-mod)
 * [Corrupting the Savestates](#corrupting-the-savestates)
   * [The Savestate Info Tool](#the-savestate-info-tool)
   * [Additional Info](#additional-info)
+
+---
+
+### Dolphin Narry's Mod
+
+###### Author: [Narry/Smellyfeetyouhave](https://www.gitbook.com/book/x8bitrain/corrupt-wiki/edit#)
+
+###### Source: [https://github.com/NarryG/dolphin/](https://www.gitbook.com/book/x8bitrain/corrupt-wiki/edit#)
+
+###### Download: [https://github.com/NarryG/dolphin/releases](https://www.gitbook.com/book/x8bitrain/corrupt-wiki/edit#)
+
+Dolphin Narry's Mod is a modification of Dolphin which contains various changes dedicated to making the savestate corruption method work. You'll need to use this version of Dolphin if you want to corrupt the savestates.
 
 ### The concept of Savestates
 
@@ -32,18 +46,6 @@ Not all games utilize the ARAM for storing data. Those that do tend to store geo
 * **64MB **of external ram \(**EXRAM**\)
 
 The SRAM is the main system memory. The EXRAM is additional memory which can be used. The EXRAM is slightly slower than the SRAM. Generally, the most important data will be in the SRAM \(code, game vital content, etc\).
-
-### Dolphin Narry's Mod
-
-###### Author: [Narry/Smellyfeetyouhave](https://narry.land)
-
-###### Source:[ ](https://github.com/Rikerz/VRC)[https://github.com/NarryG/dolphin/](https://github.com/NarryG/dolphin/)
-
-###### Download:[ https://github.com/NarryG/dolphin/releases](https://github.com/NarryG/dolphin/releases)
-
-###### 
-
-Dolphin Narry's Mod is a modification of Dolphin which contains various changes dedicated to making the savestate corruption method work. You'll need to use this version of Dolphin.
 
 ###### 
 
