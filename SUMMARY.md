@@ -26,13 +26,13 @@
 * [N64](consoles/n64.md)
   * [Traditional ROM Corruption](consoles/n64/traditional-rom-corruption.md)
   * [RTC Corruption](consoles/n64/rtc-corruption.md)
-* [PS1](consoles/ps1.md)
-* [NDS](consoles/nds.md)
-* [PC](consoles/pc.md)
 * [Gamecube/Wii](consoles/pc/gamecubewii.md)
   * [Gamecube ISO Corruption](consoles/pc/gamecubewii/gamecube-iso-corruption.md)
   * [Gamecube & Wii Filesystem Corruption](consoles/pc/gamecubewii/gamecube-and-wii-filesystem-corruption.md)
   * [Gamecube & Wii Savestate Corruption](consoles/pc/gamecubewii/gamecube-and-wii-savestate-corruption.md)
+* [PS1](consoles/ps1.md)
+* [NDS](consoles/nds.md)
+* [PC](consoles/pc.md)
 
 ## Etc.
 
