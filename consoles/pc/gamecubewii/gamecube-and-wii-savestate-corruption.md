@@ -4,8 +4,6 @@
 
 [Index](#index)
 
-
-
 * [Dolphin Narry's Mod](#dolphin-narrys-mod)
 * [The Concept of Savestates](#the-concept-of-savestates)
 * [A Brief Overview of the Consoles](#a-brief-overview-of-the-consoles)
@@ -17,11 +15,11 @@
 
 ### Dolphin Narry's Mod
 
-###### Author: [Narry/Smellyfeetyouhave](https://www.gitbook.com/book/x8bitrain/corrupt-wiki/edit#)
+###### Author: [Narry/Smellyfeetyouhave](https://narry.land)
 
-###### Source: [https://github.com/NarryG/dolphin/](https://www.gitbook.com/book/x8bitrain/corrupt-wiki/edit#)
+###### Source: [https://github.com/NarryG/dolphin/](https://github.com/NarryG/dolphin/)
 
-###### Download: [https://github.com/NarryG/dolphin/releases](https://www.gitbook.com/book/x8bitrain/corrupt-wiki/edit#)
+###### Download: [https://github.com/NarryG/dolphin/releases](https://github.com/NarryG/dolphin/releases)
 
 Dolphin Narry's Mod is a modification of Dolphin which contains various changes dedicated to making the savestate corruption method work. You'll need to use this version of Dolphin if you want to corrupt the savestates.
 
