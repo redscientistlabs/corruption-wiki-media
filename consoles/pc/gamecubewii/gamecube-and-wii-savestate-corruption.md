@@ -2,12 +2,14 @@
 
 ### Index
 
+[Index](#index)
+
 * [The Concept of Savestates](#the-concept-of-savestates)
 * [A Brief Overview of the Consoles](#a-brief-overview-of-the-consoles)
 * [Dolphin Narry's Mod](#dolphin-narrys-mod)
 * [Corrupting the Savestates](#corrupting-the-savestates)
-
-
+  * [The Savestate Info Tool](#the-savestate-info-tool)
+  * [Additional Info](#additional-info)
 
 ### The concept of Savestates
 
@@ -47,7 +49,11 @@ Dolphin Narry's Mod is a modification of Dolphin which contains various changes 
 
 ### Corrupting the Savestates
 
-First you'll need to load the Savestate in the Windows Glitch Harvester, once it's loaded, you're going to want to enable caching on the file.![](/assets/cachine.png)
+First you'll need to load the Savestate in the Windows Glitch Harvester, once it's loaded, you're going to want to enable caching on the file to speed things up.
+
+![](/assets/cachine.png)
+
+#### The Savestate Info Tool
 
 Recent versions of the [Windows Glitch Harvester ](/corruptors/windows-glitch-harvester.md)have a tool called the "Savestate Info" tool. This tool gives you information on the addresses of the SRAM, ARAM, and EXRAM within a Dolphin Savestate. Just load up the savestate, press the button, and you'll be able to see the starting addresses.
 
@@ -56,6 +62,8 @@ Recent versions of the [Windows Glitch Harvester ](/corruptors/windows-glitch-ha
 * The "Domain" column shows the name of the memory domain
 * The "Offset" column shows you the starting address. You can calculate the end address by adding the size of the domain to the starting address \(domain sizes listed above\)
 * The "Alignment" column tells you how the memory domain is aligned in the savestate. The Vector Engine hunts for 32-bit aligned floats. If they aren't 4-byte aligned, this will tell you how many bytes off it is. You'll need to set the "Offset" box in the Vector Engine Config box to match the alignment for it to work properly.
+
+#### Additional Info
 
 The Gamecube and Wii are both based on the PowerPC architecture, so they're **Big Endian**. Be sure to check the Big Endian box in the vector engine.
 
