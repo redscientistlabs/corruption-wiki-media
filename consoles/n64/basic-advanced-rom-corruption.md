@@ -1,4 +1,4 @@
-### N64: Basic ROM Corruption
+### N64: Basic/Advanced ROM Corruption
 
 ### Index
 
@@ -119,7 +119,4 @@ One of the more popular corruption videos and a good example of object corruptio
 
 {% youtube %}https://www.youtube.com/watch?v=OvNDcVRlyYk {% endyoutube %}
 The first iteration of decompressed ROM corruptions and one of the most well known corruption videos to date.
-
-
-
 
