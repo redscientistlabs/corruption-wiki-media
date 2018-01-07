@@ -52,11 +52,11 @@ This section needs to be researched, and should be expanded upon in the future, 
 Decompressed ROMs don't currently exist for N64 ROMs other than Super Mario 64, Ocarina of Time, and Majora's Mask. However, basic ROM maps exist for many games. To find them, try searching "(game title) ROM map" and seeing what you can find. For example, this is a basic [Banjo Kazooie ROM map](http://www.therwp.com/forums/showthread.php?t=15763) by Coolboyman. These games will still be more difficult to corrupt because you're going to probably find aggregates for where types of data exist, and the ROM is compressed. However, results are still possible and these ROM maps will allow for more precision when corrupting. When using ROM maps, you'll generally want to corrupt the range over which textures, models, and objects are housed. Try to pick the objects that are in the level you want to corrupt if you can. Many [RDRAM maps](https://github.com/Isotarge/ScriptHawk/tree/master/Watch) like these from Isotarge also exist for N64, but you'll need to [use RTC to corrupt those](/consoles/n64/rtc-corruption.md).
 
 ### References
-The excerpts of the video below was made with [Weinerless Steve](https://www.youtube.com/user/Sevelix) and [SmellyFeetYouHave](https://www.youtube.com/user/smellyfeetyouhave)'s corruptions, and [Vinesauce](https://www.youtube.com/user/vinesauce)'s commentating.
+The excerpts of the video below was made with [Weinerless Steve](https://www.youtube.com/user/Sevelix) and [SmellyFeetYouHave](https://www.youtube.com/user/smellyfeetyouhave)'s corruptions, and [Vinesauce](https://www.youtube.com/user/vinesauce)'s commentating, and [CaptainSouthbird](https://www.youtube.com/user/sonicepochguy)
 
 ###Video Examples
 {% youtube %} https://youtu.be/cdRs8YNk1pI?t=488 {% endyoutube %}
-(8:08 to 8:29, 8:35 to 10:34)
+(8:08 to 8:29 for OoT, 8:35 to 10:34 for SM64)
 
 
 
