@@ -55,7 +55,7 @@ Decompressed ROMs don't currently exist for N64 ROMs other than Super Mario 64, 
 The excerpts of the video below was made with [Weinerless Steve](https://www.youtube.com/user/Sevelix) and [SmellyFeetYouHave](https://www.youtube.com/user/smellyfeetyouhave)'s corruptions, and [Vinesauce](https://www.youtube.com/user/vinesauce)'s commentating.
 
 ###Video Examples
-https://youtu.be/cdRs8YNk1pI?t=488
+{% youtube %} https://youtu.be/cdRs8YNk1pI?t=488 {% endyoutube %}
 (8:08 to 8:29, 8:35 to 10:34)
 
 
