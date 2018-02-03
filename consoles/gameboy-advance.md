@@ -31,8 +31,7 @@
   * `0x07000000 - 0x070003FF`- 1 KB OAM RAM
   * `0x08000000 - 0x????????`- Game Pak ROM \(0 to 32 MB\)
   * `0x0E000000 - 0x????????`- Game Pak RAM
-
-
+    * [Source](https://www.reinterpretcast.com/writing-a-game-boy-advance-game)
 
 
 
