@@ -31,6 +31,7 @@
   * [Gamecube ISO Corruption](consoles/pc/gamecubewii/gamecube-iso-corruption.md)
   * [Gamecube & Wii Filesystem Corruption](consoles/pc/gamecubewii/gamecube-and-wii-filesystem-corruption.md)
   * [Gamecube & Wii Savestate Corruption](consoles/pc/gamecubewii/gamecube-and-wii-savestate-corruption.md)
+* [Gameboy Advance](consoles/gameboy-advance.md)
 * [PS1](consoles/ps1.md)
 * [NDS](consoles/nds.md)
 * [PC](consoles/pc.md)
