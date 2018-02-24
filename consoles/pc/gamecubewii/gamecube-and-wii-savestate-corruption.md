@@ -57,17 +57,24 @@ First you'll need to load the Savestate in the Windows Glitch Harvester, once it
 
 Recent versions of the [Windows Glitch Harvester ](/corruptors/windows-glitch-harvester.md)have a tool called the "Savestate Info" tool. This tool gives you information on the addresses of the SRAM, ARAM, and EXRAM within a Dolphin Savestate. Just load up the savestate, press the button, and you'll be able to see the starting addresses.
 
-![](/assets/savestateinfo.png)
+![](/assets/savestateinfo093.png)
 
 * The "Domain" column shows the name of the memory domain
 * The "Offset" column shows you the starting address. You can calculate the end address by adding the size of the domain to the starting address \(domain sizes listed above\)
-* The "Alignment" column tells you how the memory domain is aligned in the savestate. The Vector Engine hunts for 32-bit aligned floats. If they aren't 4-byte aligned, this will tell you how many bytes off it is. You'll need to set the "Offset" box in the Vector Engine Config box to match the alignment for it to work properly.
+* The "Alignment" column tells you how the memory domain is aligned in the savestate. The Vector Engine hunts for 32-bit aligned floats. If they aren't 4-byte aligned, this will tell you how many bytes off it is. You'll need to set the "Alignment" box in the Vector Engine Config box to match the alignment for it to work properly. If you're using "Target Dolphin", this'll automatically be set for you.
+* The "Start Netcore Button" starts the Netcore2 server. If the Netcore2 server is already started, the button will restart the server.
+
+#### Target Dolphin
+
+WGH 0.9.3 bring a new feature with Netcore Implementation called "Target Dolphin". If you swap your target mode to Target Dolphin, you can connect directly with Dolphin Narry's Mod via Netcore and it'll automatically load your corrupted savestate when you blast/inject.
 
 #### Additional Info
 
-The Gamecube and Wii are both based on the PowerPC architecture, so they're **Big Endian**. Be sure to check the Big Endian box in the vector engine.
+The Gamecube and Wii are both based on the PowerPC architecture, so they're **Big Endian**. Be sure to check the Big Endian box in the vector engine. If you're using "Target Dolphin", this should be handled for you.
 
 A good starting value for the Intensity is around 50,000-100,000 and you can go from there. Here's an example screenshot of what your config may look like:
 
-![](/assets/wghvectorconfig.png)
+![](/assets/wgh_interface.png)
+
+
 
