@@ -1,3 +1,9 @@
+>#Note:
+>####While you can still use the Vinesauce Rom Corruptor, we suggest using the [Real Time Corruptor](http://redscientist.com/#/rtc) whenever you can. The RTC is under active development and has far more features than other corruptors. 
+
+>#####[You can view the wiki pages for the Real Time Corruptor here](https://corrupt.wiki/corruptors/rtc-real-time-corruptor)
+---
+
 ## Vinesauce ROM Corruptor
 
 ###### Author: [Ryan "Rikerz" Sammon](http://corruptedbytes.com/)
