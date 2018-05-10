@@ -1,8 +1,22 @@
-# Real-Time Corruptor for BizHawk
+# Real Time Corruptor for BizHawk \(RTC\)
 
-####[Introduction](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/introduction.html) 
-####[Basic Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/1.html) 
-####[Advanced Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/advanced.html) 
-####[Expert Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/expert.html) 
-####[Tips and Tricks](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/4.html) 
+###### Authors: [Phil Girard](http://redscientist.com/) & [Dan Barreiro \(Narry\)](https://narry.land/) {#authors-phil-girard--dan-barreiro-narry}
+
+###### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/) {#source-httpsgithubcomircluzarrtc3}
+
+###### Download: [http://redscientist.com/\#/rtc](http://redscientist.com/#/rtc) {#download-httpredscientistcomrtc}
+
+###### This is the index page for the help documentation for the Real Time Corruptor \(RTC\). You can view the various guides and help documents from the links below. {#download-httpredscientistcomrtc}
+
+#### [Introduction](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/introduction.html)
+
+#### [Basic Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/1.html)
+
+#### [Advanced Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/advanced.html)
+
+#### [Expert Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/expert.html)
+
+#### [Tips and Tricks](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/4.html)
+
+
 
