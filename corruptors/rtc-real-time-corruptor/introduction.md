@@ -1,6 +1,6 @@
 # Real-Time Corruptor for BizHawk
 
-###### Author: [Phil Girard](http://redscientist.com/)
+###### Authors: [Phil Girard](http://redscientist.com/) & [Dan Barreiro (Narry)](https://narry.land)
 
 ###### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/)
 

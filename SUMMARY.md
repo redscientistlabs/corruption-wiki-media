@@ -7,13 +7,13 @@
 
 ## Corruptors
 
-* [Vinesauce ROM Corruptor](corruptors/vinesauce-rom-corruptor.md)
 * [Real-Time Corruptor for Bizhawk](corruptors/rtc-real-time-corruptor.md)
   * [Introduction](corruptors/rtc-real-time-corruptor/introduction.md)
   * [Basic Guide](corruptors/rtc-real-time-corruptor/1.md)
   * [Advanced Guide](corruptors/rtc-real-time-corruptor/advanced.md)
   * [Expert Guide](corruptors/rtc-real-time-corruptor/expert.md)
   * [Tips, tricks and quirks](corruptors/rtc-real-time-corruptor/4.md)
+* [Vinesauce ROM Corruptor](corruptors/vinesauce-rom-corruptor.md)
 * [Windows Glitch Harvester](corruptors/windows-glitch-harvester.md)
 * [Cheat Engine](corruptors/cheat-engine.md)
 * [VineCorrupt](corruptors/vinecorrupt.md)
