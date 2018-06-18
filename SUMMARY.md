@@ -13,6 +13,8 @@
   * [Advanced Guide](corruptors/rtc-real-time-corruptor/advanced.md)
   * [Expert Guide](corruptors/rtc-real-time-corruptor/expert.md)
   * [Tips, tricks and quirks](corruptors/rtc-real-time-corruptor/4.md)
+  * [Blast Editor](corruptors/rtc-real-time-corruptor/blast-editor.md)
+  * [Blast Generator](corruptors/rtc-real-time-corruptor/blast-generator.md)
 * [Vinesauce ROM Corruptor](corruptors/vinesauce-rom-corruptor.md)
 * [Windows Glitch Harvester](corruptors/windows-glitch-harvester.md)
 * [Cheat Engine](corruptors/cheat-engine.md)
