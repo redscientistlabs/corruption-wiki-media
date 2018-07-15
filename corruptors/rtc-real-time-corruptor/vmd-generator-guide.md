@@ -12,7 +12,7 @@ by Moogie
 
 RTC comes with a pre-defined set of these called simply Domains. That’s this stuff:
 
-![image alt text](vmdgg_image_0.png)
+![image alt text](/assets/vmd-generator-guide/image_0.png)
 
 Every system supported by Bizhawk will have its own custom list, so you won’t always see the same names here. CHR and CHR VROM, for example, are specific to the NES system. You won’t find them working on a Playstation game.
 
@@ -46,7 +46,7 @@ If you’ve understood this concept, you’re now ready to learn how to make and
 
 You do this from the main RTC window. In "Advanced Memory Tools," select “Virtual Memory Domain Generator.”
 
-![image alt text](vmdgg_image_1.png)
+![image alt text](/assets/vmd-generator-guide/image_1.png)
 
 Now click "Load Domains" and the current system’s memory busses will be loaded in.
 
@@ -82,7 +82,7 @@ That’s all well and good, but really, what VMDs are best for are *ranges* of a
 
 ## Specifying Ranges
 
-![image alt text](vmdgg_image_2.png)
+![image alt text](/assets/vmd-generator-guide/image_2.png)
 
 I’ve selected System Bus and given the Generator two ranges. These ranges span different Domains on the bus. The first is within PRG ROM, and the other is in OAM.
 
@@ -90,11 +90,11 @@ I’ve selected System Bus and given the Generator two ranges. These ranges span
 
 When you input a name and click "Generate VMD," it appears both in the list of selectable Domains (prefixed with [V] to denote a custom Domain) and in the VMD Pool menu like so:
 
-![image alt text](vmdgg_image_3.png)
+![image alt text](/assets/vmd-generator-guide/image_3.png)
 
 Now I can select my custom Domain and use it to blast just those areas of memory which I specified in the list. You can see the results of these blasts in the Blast Editor window. (The Blast Editor is accessed via the Glitch Harvester screen, by right-clicking the blastlayer in the stash history or stockpile lists and selecting it from the context menu).
 
-![image alt text](vmdgg_image_4.png)
+![image alt text](/assets/vmd-generator-guide/image_4.png)
 
 But, hang on. Does something about the numbers in the "Source address" column seem wrong to you? I specified a range starting from xA950, so why is it blasting addresses of x2 and x19?
 
@@ -102,7 +102,7 @@ It’s because our VMD is behaving just like any other Domain. Offset x0 of our 
 
 There’s a handy way to make this simpler for ourselves. From the Tools menu in this window, select "Rasterize VMDs."
 
-![image alt text](vmdgg_image_5.png)
+![image alt text](/assets/vmd-generator-guide/image_5.png)
 
 See? That’s better. "Source Domain" has been rasterized to the System Bus, and the addresses are exactly what I had specified. This is just a visual thing, it doesn’t change what’s happening.
 
@@ -116,7 +116,7 @@ You’ve basically learned all there is to creating and using VMDs, but I just w
 
 Let’s say you have a range and the data therein follows a strict pattern. Maybe it’s a list with a fixed-length header and then one byte specifying the value.
 
-![image alt text](vmdgg_image_6.png)
+![image alt text](/assets/vmd-generator-guide/image_6.png)
 
 In this example, the header is 12 00, and then we have the value, starting with 01 and incrementing. Maybe this is an organised list of NPCs and instead of their usual order, you want to shuffle them around, so that instead of loading up NPC 01 the game instead loads up NPC 09.
 
@@ -126,13 +126,13 @@ Again, there are two ways. One of those ways will be much more suitable for this
 
 **Method 1: Set Pointers.** In the VMD Generation menu, tick the "Set pointer every X addresses" box. What a pointer does, essentially, is filter to these addresses (on a value of 2):
 
-![image alt text](vmdgg_image_7.png)
+![image alt text](/assets/vmd-generator-guide/image_7.png)
 
 So when you blast, address x0 is really x1, and address x1 is really x3, and address xC is really x17.
 
 On a value of 3, it would filter to these addresses instead:
 
-![image alt text](vmdgg_image_8.png)
+![image alt text](/assets/vmd-generator-guide/image_8.png)
 
 So when you blast, address 0x is really x2, and address x1 is really x5, and address xC is really x23.
 
@@ -140,7 +140,7 @@ In this example, that’s exactly what we want: all the value bytes, none of the
 
 **Method 2: Exclude specific addresses or ranges.** When generating your VMD, you could instead construct your list like this:
 
-![image alt text](vmdgg_image_9.png)
+![image alt text](/assets/vmd-generator-guide/image_9.png)
 
 Remember the note about ranges excluding the final byte? So here, what I’m telling it is:
 
