@@ -4,7 +4,7 @@
 
 ###### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/) {#source-httpsgithubcomircluzarrtc3}
 
-###### Download: [http://redscientist.com/\#/rtc](http://redscientist.com/#/rtc) {#download-httpredscientistcomrtc}
+###### Download: [https://redscientist.com/rtc](https://redscientist.com/rtc) {#download-httpredscientistcomrtc}
 
 ###### This is the index page for the help documentation for the Real Time Corruptor \(RTC\). You can view the various guides and help documents from the links below. {#download-httpredscientistcomrtc}
 
