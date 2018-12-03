@@ -18,5 +18,9 @@
 
 #### [Tips and Tricks](/corruptors/rtc-real-time-corruptor/4.md)
 
+#### 
+
+#### [RTC Dev Discord](https://discord.corrupt.wiki)
+
 
 
