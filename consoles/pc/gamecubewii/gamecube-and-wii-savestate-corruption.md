@@ -2,6 +2,8 @@
 
 ### Index
 
+### [RTC Development Discord](https://discord.corrupt.wiki)
+
 [Index](#index)
 
 * [Dolphin Narry's Mod](#dolphin-narrys-mod)
@@ -75,6 +77,4 @@ The Gamecube and Wii are both based on the PowerPC architecture, so they're **Bi
 A good starting value for the Intensity is around 50,000-100,000 and you can go from there. Here's an example screenshot of what your config may look like:
 
 ![](/assets/wgh_interface.png)
-
-
 
