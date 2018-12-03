@@ -1,15 +1,13 @@
 ### Real-Time Corruptor: Expert Guide
 
-  * [**Index**](#)
-    * [**Hotkeys**](#hotkeys)
-    * [**Blast Editor \(Editing BlastLayers\)**](#blast-editor)
-    * [**Virtual Memory Domains**](#virtual-memory-domains)
-      * [Virtual Memory Domain Pool](#virtual-memory-domain-pool)
-      * [Virtual Memory Domain Generator](#virtual-memory-domain-generator)
-    * [**Generating Active Tables**](#generating-active-tables)
-    * [**Development**](#rtc-dev-discord)
-
-
+* [**Index**](#)
+  * [**Hotkeys**](#hotkeys)
+  * [**Blast Editor \(Editing BlastLayers\)**](#blast-editor)
+  * [**Virtual Memory Domains**](#virtual-memory-domains)
+    * [Virtual Memory Domain Pool](#virtual-memory-domain-pool)
+    * [Virtual Memory Domain Generator](#virtual-memory-domain-generator)
+  * [**Generating Active Tables**](#generating-active-tables)
+  * [**Development**](#rtc-dev-discord)
 
 # Expert Guide
 
@@ -195,33 +193,31 @@ If the user doesn't add a value or range, the default range will be the entire s
 
 Feature not reimplemented yet
 
-
-
 ## RTC Dev Discord
 
 If you need advanced help, want to report bugs, ask features or even help with development, we have a development Discord server.
 
 _This is a serious discord for sharing information, dev builds, report bugs and request features. It is not a playground._
 
-####The rules are the following
+#### The rules are the following
 
 → Do not spam, post memes or cause trouble.
 
-→ Keep the chat to bare minimum, prioritize big blocks of text over multiple posts (it makes them easier to delete if needed)
+→ Keep the chat to bare minimum, prioritize big blocks of text over multiple posts \(it makes them easier to delete if needed\)
 
-→ **#corruption_general** is for discussing of corruption-related things
+→ **\#corruption\_general** is for discussing of corruption-related things
 
-→ **#corruption_showcase** is for sharing corruptions you made. Please focus on new discoveries and experiments with new features. Don't post SMB1 tileset vomit.
+→ **\#corruption\_showcase** is for sharing corruptions you made. Please focus on new discoveries and experiments with new features. Don't post SMB1 tileset vomit.
 
-→ **#corruption_help** is for requesting help or any kind of support for corruption-related programs, technique and all sorts of issues. Use this channel to discuss about issues before reporting an actual bug.
+→ **\#corruption\_help** is for requesting help or any kind of support for corruption-related programs, technique and all sorts of issues. Use this channel to discuss about issues before reporting an actual bug.
 
-→ **#bug_reporting** is for submitting confirmed bugs, provide screenshots and detailed instructions on how to reproduce the bug.
+→ **\#bug\_reporting** is for submitting confirmed bugs, provide screenshots and detailed instructions on how to reproduce the bug.
 
-→ **#feature_request** is for requesting features. Make sure to provide as much details as possible about what you want.
+→ **\#feature\_request** is for requesting features. Make sure to provide as much details as possible about what you want.
 
-→ The **#bug_reporting** and **#feature_request** channels are exclusive to VERIFIED power users. If you want to submit bugs or features, ask in **#corruption_help** and we'll see if that gets approved or not.
+→ The **\#bug\_reporting** and **\#feature\_request** channels are exclusive to VERIFIED power users. If you want to submit bugs or features, ask in **\#corruption\_help** and we'll see if that gets approved or not.
 
-→ Your posts may get deleted. This server has to be sanitized sometimes, especially in the #bug_reporting and #feature_request channels.
+→ Your posts may get deleted. This server has to be sanitized sometimes, especially in the \#bug\_reporting and \#feature\_request channels.
 
 → Your requests may get erased and reposted in a stylized box.
 
@@ -231,4 +227,7 @@ _This is a serious discord for sharing information, dev builds, report bugs and 
 
 If you agree to the rules shown above, you can join at the link below
 
-[I agree. Let me in](https://discord.gg/uzxHvUV) 
+## [I agree. Let me in](https://discord.gg/uzxHvUV)
+
+
+
