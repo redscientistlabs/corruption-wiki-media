@@ -10,7 +10,7 @@
 
 ## VineCorrupt
 
-###### Author: ["Maiddog"](http://corruptedbytes.com/)
+###### Author: ["Maiddog"](http://www.maiddog.com/projects/corrupter/index.php)
 
 ###### Source: [https://github.com/Roughsketch/mdcorrupt](https://github.com/Roughsketch/mdcorrupt)
 
@@ -171,3 +171,6 @@ Pass
 ##### Logical Complement
 
 Pass 
+
+Testing colored text using raw HTML:
+<span style="color:blue">some *This is Blue italic.* text</span>
