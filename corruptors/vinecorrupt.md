@@ -130,34 +130,15 @@ The drop down box lists all the current corruption types.  The currently selecte
 
 ![](/assets/vinecorrupt/VineCorruptByte.png)
 
-This section goes over the byte operations of VineCorrupt.
+This section goes over the byte operations of VineCorrupt. For examples of these operations see Maiddog's [Help Section](http://www.maiddog.com/projects/corrupter/help.php)
 
 ##### Shift
 
 Shift grabs a byte a given distance away and puts it in the current position.
 
-Example with Step value of 5 and Corruption value of 2.
-Original: ABCDEFGHIJK
-
-Pass 1: **A**B**C**DEFGHIJK
-
-Pass 2: CBCDEF**G**H**I**JK
-
-Final:  CBCDEFIHIJK
-
 ##### Swap
 
 Swap grabs the current byte and a byte a given distance away and swaps their values.
-
-Example with Step value of 5 and Corruption value of 2.
-
-Original: ABCDEFGHIJK
-
-Pass 1: **A**B**C**DEFGHIJK
-
-Pass 2: CBADEF**G**H**I**JK
-
-Final:  CBADEFIHGJK
 
 ##### Add
 
