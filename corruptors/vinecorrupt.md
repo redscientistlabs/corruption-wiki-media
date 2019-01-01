@@ -38,9 +38,8 @@ VineCorrupt is a multi-system corrupter designed to work with game systems rangi
     * [Start Byte](#start-byte---hex)
     * [End Byte](#end-byte---hex)
     * [Total Bytes](#total-byte---hex)
-    * [Total Bytes Corrupted](#total-byes-corrupted)
+    * [Bytes Corrupted](#bytes-corrupted)
     * [Corruption Selection](#operation-select)
-    * [Corruption Value](#corruption-value)
   * [**Byte Operations**](#byte-operations)
  	* [Shift](#shift)
  	* [Swap](#swap)
@@ -56,6 +55,8 @@ VineCorrupt is a multi-system corrupter designed to work with game systems rangi
 ### Functions
 
 ![](/assets/vinecorrupt/VineCorruptFunctions.png)
+
+This section goes over the functions of VineCorrupt.
 
 ##### ROM File
 
@@ -93,5 +94,80 @@ If an emulator is selected, it will attempt t o run the emulator with the given 
 
 ![](/assets/vinecorrupt/VineCorruptMisc.png)
 
-Vinecorrupt supports non-specific file corruption for unsupported systems.  It is not recommended to use this function if the supplied file is already supported by a VineCorrupt system due to the built-in file protection.  Miscellaneous file corruption is performed in the same manner as supported system file corruption.
+VineCorrupt supports non-specific file corruption for unsupported systems.  It is not recommended to use this function if the supplied file is already supported by a VineCorrupt system due to the built-in file protection.  Miscellaneous file corruption is performed in the same manner as supported system file corruption.
 
+### Byte Corruption
+
+![](/assets/vinecorrupt/VineCorruptOptions.png)
+
+This section goes over the "Corruption Options" section of VineCorrupt.
+
+##### Step Size
+
+The amount of space to skip between each corruption.
+
+##### Start Byte
+
+The offset into the ROM where the program will start corruption.
+
+##### End Byte
+
+The offset into the ROM where the program will stop corruption.  Setting this value to 0 will corrupt from the Start Byte to the end of the file (similar to "Auto-end").
+
+##### Total Bytes
+
+This displays the total bytes of the ROM in hexadecimal once the file has been selected.
+
+##### Bytes Corrupted
+
+This displays the total bytes corrupted with the current settings after the ROM has been corrupted.
+
+##### Corruption Selection
+
+The drop down box lists all the current corruption types.  The currently selected one will be applied after hitting Corrupt.
+
+### Byte Operations
+
+![](/assets/vinecorrupt/VineCorruptByte.png)
+
+This section goes over the byte operations of VineCorrupt.
+
+##### Shift
+
+Pass
+
+##### Swap
+
+Pass
+
+##### Add
+
+Pass
+
+##### Set To
+
+Pass
+
+##### Random
+
+Pass
+
+##### Rotate (L/R)
+
+Pass
+
+##### Logical AND
+
+Pass
+
+##### Logical OR
+
+Pass
+
+##### Logical XOR
+
+Pass
+
+##### Logical Complement
+
+Pass 
