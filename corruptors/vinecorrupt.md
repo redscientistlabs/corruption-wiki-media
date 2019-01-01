@@ -40,6 +40,7 @@ VineCorrupt is a multi-system corrupter designed to work with game systems rangi
     * [Total Bytes](#total-byte---hex)
     * [Bytes Corrupted](#bytes-corrupted)
     * [Corruption Selection](#operation-select)
+    * [Corruption Value](#corruption-value)
   * [**Byte Operations**](#byte-operations)
  	* [Shift](#shift)
  	* [Swap](#swap)
@@ -94,7 +95,7 @@ If an emulator is selected, it will attempt t o run the emulator with the given 
 
 ![](/assets/vinecorrupt/VineCorruptMisc.png)
 
-VineCorrupt supports non-specific file corruption for unsupported systems.  It is not recommended to use this function if the supplied file is already supported by a VineCorrupt system due to the built-in file protection.  Miscellaneous file corruption is performed in the same manner as supported system file corruption.
+VineCorrupt supports non-specific file corruption for unsupported systems.  It is not recommended to use this function if the supplied file is already supported by a VineCorrupt system due to the built-in file protection.  Miscellaneous file corruption is performed in the same manner as supported system file corruption. 
 
 ### Byte Corruption
 
@@ -126,6 +127,12 @@ This displays the total bytes corrupted with the current settings after the ROM 
 
 The drop down box lists all the current corruption types.  The currently selected one will be applied after hitting Corrupt.
 
+##### Corruption Value
+
+![](/assets/vinecorrupt/VineCorruptCorruptionValue.png)
+
+The Corruption Value is currently unlabeled and is located under the corruption selection drop down box.  This value modifies byte operations.
+
 ### Byte Operations
 
 ![](/assets/vinecorrupt/VineCorruptByte.png)
@@ -134,40 +141,40 @@ This section goes over the byte operations of VineCorrupt. For examples of these
 
 ##### Shift
 
-Shift grabs a byte a given distance away and puts it in the current position.
+Shift grabs a byte a [Corruption Value] distance away and puts it in the current position.
 
 ##### Swap
 
-Swap grabs the current byte and a byte a given distance away and swaps their values.
+Swap grabs the current byte and a byte of [Corruption Value] distance away and swaps their values.
 
 ##### Add
 
-Pass
+Adds the [Corruption Value] to the current byte.
 
 ##### Set To
 
-Pass
+Sets the value of the current byte to the value of [Corruption Value].
 
 ##### Random
 
-Pass
+Random generates a random value and places it at the current byte.  Random does not use the corruption value.
 
 ##### Rotate (L/R)
 
-Pass
+Rotate performs a bitwise rotation of the current value by a distance of [Corruption Value].
 
 ##### Logical AND
 
-Pass
+Performs a logical AND operation at the current byte with the [Corruption Value].
 
 ##### Logical OR
 
-Pass
+Performs a logical OR operation at the current byte with the [Corruption Value].
 
 ##### Logical XOR
 
-Pass
+Performs a logical XOR operation at the current byte with the [Corruption Value].
 
 ##### Logical Complement
 
-Pass 
+Changes the current byte to its logical complement.  Complement does not use the corruption value.
