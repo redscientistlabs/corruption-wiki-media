@@ -19,3 +19,28 @@
 VineCorrupt is a multi-system corrupter designed to work with game systems ranging from NES to Wii with further inclusive development for other systems.  VineCorrupt features opcode and file protection for its supported systems to minimize crashes.  Each system has a different protection protocol according to their instruction set or file type to prevent crash inducing modifications.  VinecCorrupt also features the ability to corrupt specific files within a disc through a directory structure.
 
 ![](/assets/vinecorrupt/VineCorruptNDS.png)
+
+### Index
+
+* [**Index**](#index "Self appointed!")
+  * [**Functions**](#functions)
+    * [File Selection - ROM File](#rom-File)
+    * [File Selection - Extract To](#extract-to)
+    * [File Selection - Emulator](#emulator)
+    * [Save](#save)
+    * [Save Last](#save-last)
+    * [Load](#load)
+    * [Corrupt](#corrupt)
+    * [Miscellaneous Files](#misc-files)
+    * [Run Emulator](#run-emulator)
+  * [**Byte Corruption**](#byte-corruption)
+  	* [Step Size](#step-size---hex)
+    * [Start Byte](#start-byte---hex)
+    * [End Byte](#end-byte---hex)
+    * [Total Bytes](#total-byte---hex)
+    * [Total Bytes Corrupted](#total-byes-corrupted)
+    * [Corruption Selection](#operation-select)
+    * [Corruption Value](#corruption-value)
+ 		* [**Operations**](#byte-operations)
+ 	  		* [Shift](#shift)
+ 	  		* [Swap](#swap)
