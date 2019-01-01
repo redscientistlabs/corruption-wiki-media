@@ -138,8 +138,11 @@ Shift grabs a byte a given distance away and puts it in the current position.
 
 Example with Step value of 5 and Corruption value of 2.
 Original: ABCDEFGHIJK
+
 Pass 1: **A**B**C**DEFGHIJK
+
 Pass 2: CBCDEF**G**H**I**JK
+
 Final:  CBCDEFIHIJK
 
 ##### Swap
@@ -147,9 +150,13 @@ Final:  CBCDEFIHIJK
 Swap grabs the current byte and a byte a given distance away and swaps their values.
 
 Example with Step value of 5 and Corruption value of 2.
+
 Original: ABCDEFGHIJK
+
 Pass 1: **A**B**C**DEFGHIJK
+
 Pass 2: CBADEF**G**H**I**JK
+
 Final:  CBADEFIHGJK
 
 ##### Add
