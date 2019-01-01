@@ -24,9 +24,9 @@ VineCorrupt is a multi-system corrupter designed to work with game systems rangi
 
 * [**Index**](#index "Self appointed!")
   * [**Functions**](#functions)
-    * [File Selection - ROM File](#rom-File)
-    * [File Selection - Extract To](#extract-to)
-    * [File Selection - Emulator](#emulator)
+    * [ROM File](#rom-File)
+    * [Extract To](#extract-to)
+    * [Emulator](#emulator)
     * [Save](#save)
     * [Save Last](#save-last)
     * [Load](#load)
@@ -57,15 +57,15 @@ VineCorrupt is a multi-system corrupter designed to work with game systems rangi
 
 ![](/assets/vinecorrupt/VineCorruptFunctions.png)
 
-##### File Selection - ROM File
+##### ROM File
 
 Choose a ROM file by selecting "Browse."  The ROM's directory path will be displayed once the ROM has been selected.
 
-##### File Selection - Extract To
+##### Extract To
 
 Choose a directory by selecting "Browse," to extract the contents of the selected ROM.  This directory's files will be the target for corruption.
 
-##### File Selection - Emulator
+##### Emulator
 
 Choose an emulator by selecting "Browse," to point to the emulator that runs the ROM files from the current tab.  The selected emulator will remain selected for the specified system until the user chooses another one or VineCorrupt is updated.
 
