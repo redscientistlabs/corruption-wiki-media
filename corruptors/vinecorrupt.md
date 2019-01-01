@@ -65,11 +65,11 @@ Choose a ROM file by selecting "Browse."  The ROM's directory path will be displ
 
 ##### Extract To
 
-Choose a directory by selecting "Browse," to extract the contents of the selected ROM.  This directory's files will be the target for corruption.
+Choose a directory by selecting "Browse" to extract the contents of the selected ROM.  This directory's files will be the target for corruption.
 
 ##### Emulator
 
-Choose an emulator by selecting "Browse," to point to the emulator that runs the ROM files from the current tab.  The selected emulator will remain selected for the specified system until the user chooses another one or VineCorrupt is updated.
+Choose an emulator by selecting "Browse" to point to the emulator that runs the ROM files from the current tab.  The selected emulator will remain selected for the specified system until the user chooses another one or VineCorrupt is updated.
 
 ##### Save
 
