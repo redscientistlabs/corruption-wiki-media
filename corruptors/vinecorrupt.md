@@ -178,3 +178,7 @@ Performs a logical XOR operation at the current byte with the [Corruption Value]
 ##### Logical Complement
 
 Changes the current byte to its logical complement.  Complement does not use the corruption value.
+
+* * *
+
+Write up by TechSupportSparky ![](/assets/vinecorrupt/RaccAttack.png)
