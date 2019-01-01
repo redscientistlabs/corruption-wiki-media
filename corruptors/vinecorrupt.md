@@ -44,3 +44,15 @@ VineCorrupt is a multi-system corrupter designed to work with game systems rangi
   * [**Byte Operations**](#byte-operations)
  	* [Shift](#shift)
  	* [Swap](#swap)
+ 	* [Add](#add)
+ 	* [Set To](#set-to)
+ 	* [Random](#random)
+ 	* [Rotate (L/R)](#rotate-lr)
+ 	* [Logical AND](#logical-AND)
+ 	* [Logical OR](#logical-OR)
+ 	* [Logical XOR](#logical-XOR)
+ 	* [Logical Complement](#logical-complement)
+
+### Functions
+
+![](/assets/vinecorrupt/VineCorruptFunctions.png)
