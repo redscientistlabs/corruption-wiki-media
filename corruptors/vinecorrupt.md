@@ -130,7 +130,7 @@ The drop down box lists all the current corruption types.  The currently selecte
 
 ![](/assets/vinecorrupt/VineCorruptByte.png)
 
-This section goes over the byte operations of VineCorrupt. For examples of these operations see Maiddog's [Help Section](http://www.maiddog.com/projects/corrupter/help.php)
+This section goes over the byte operations of VineCorrupt. For examples of these operations see Maiddog's [Help Section](http://www.maiddog.com/projects/corrupter/help.php#tab-help-2)
 
 ##### Shift
 
