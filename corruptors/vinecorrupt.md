@@ -57,7 +57,7 @@ VineCorrupt is a multi-system corrupter designed to work with game systems rangi
 
 ![](/assets/vinecorrupt/VineCorruptFunctions.png)
 
-###### File Selection - ROM File
+##### File Selection - ROM File
 
 Choose a ROM file by selecting "Browse."  The ROM's directory path will be displayed once the ROM has been selected.
 
