@@ -171,6 +171,3 @@ Pass
 ##### Logical Complement
 
 Pass 
-
-Testing colored text using raw HTML:
-<span style="color:blue">some *This is Blue italic.* text</span>
