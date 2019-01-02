@@ -62,7 +62,7 @@ If No -&gt; \[Invert Disabled\] then \[Remove Disabled\]
 
 #### Editing
 
-After a corruption has been reduced to a few Units, their settings can be changed on the fly through the Blast Editor.  Changing options such as the BlastUnit Mode (SET, ADD, SUBTRACT, ETC.), tilting the Source Address, and changing Parameter Values can result in different variations on the corruption.  To change a value, double-click on it and reload the corruption to see the new effect.
+After a corruption has been reduced to a few Units, their settings can be changed on the fly through the Blast Editor.  Changing options such as the BlastUnit Mode (SET, ADD, SUBTRACT, ETC.), tilting the Source Address, and changing Parameter Values can result in different variations on the corruption.  To change a value, double-click on it to change the value and reload the corruption to see the new effect.
 
 ## Functions
 
