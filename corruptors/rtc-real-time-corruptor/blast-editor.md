@@ -51,10 +51,10 @@ With larger BlastLayer sizes, unchecking individual Units will take too long.  I
 
 Use this method: 
 
-[Random Disable 50%] then [Load + Corrupt].
-Is the corruption (effect) still present?
-If Yes -> [Remove Disabled]
-If No -> [Invert Disabled] then [Remove Disabled]
+\[Random Disable 50%\] then \[Load + Corrupt\].  
+Is the corruption \(effect\) still present?  
+If Yes -&gt; \[Remove Disabled\]  
+If No -&gt; \[Invert Disabled\] then \[Remove Disabled\]
 
 ##### Video example
 
