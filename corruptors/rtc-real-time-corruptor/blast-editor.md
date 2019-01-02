@@ -70,7 +70,7 @@ After a corruption has been reduced to a few Units, their settings can be change
 
 #### BlastLayer Info
 
-The BlastLayer Info provides information about the current BlastLayer.  The size of the BlastLayer (total Units) is displayed here.
+The BlastLayer Info provides details about the currently loaded BlastLayer.  The size of the BlastLayer (total Units) is displayed here.
 
 #### Shift Selected Rows
 
