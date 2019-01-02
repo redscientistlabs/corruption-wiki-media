@@ -43,7 +43,7 @@ Sanitizing corruptions is an important habit that should be regularly practiced.
 
 The BlastLayer size can vary from just a few Units to several thousand depending on the intensity of the corruption.  
 
-![Small BlastLayer Size](/assets/blast-editor/guide/blast-layer-individual.png)
+![Small BlastLayer Size](/assets/blast-editor-guide/blast-layer-individual.png)
 
 With a small number of units, the user may individually disable unnecessary memory writes by unchecking them.  
 
@@ -51,4 +51,4 @@ With larger BlastLayer sizes, unchecking individual Units will take too long.  I
 
 ###### Video example
 
-{% youtube %} https://youtu.be/LwykHjqAIT4 {% endyoutube %}
+{% youtube %} https://www.youtube.com/watch?v=LwykHjqAIT4 {% endyoutube %}
