@@ -1,6 +1,6 @@
 # The Blast Editor
 
-The Blast Editor is a tool for manipulating a Stashkey in the Glitch Harvester.  This allows the user to edit, add, or remove effects from the Blastlayer.  
+The Blast Editor is a tool for manipulating a StashKey in the Glitch Harvester.  This allows the user to edit, add, or remove effects from the BlastLayer.  
 
 ![RTC 3.8 Blast Editor](/assets/blast-editor-guide/blast-full-image.png)
 
@@ -12,6 +12,7 @@ The Blast Editor is a tool for manipulating a Stashkey in the Glitch Harvester. 
     * [Sanitize](#Sanitize)
     * [Method](#method)
     * [Result](#result)
+    * [Editing](#editing)
   * [**Functions**](#functions)
   	* [BlastLayer Info](#blastlayer-info)
   	* [Shift Selected Rows](#shift-selected-rows)
@@ -29,3 +30,11 @@ The Blast Editor is a tool for manipulating a Stashkey in the Glitch Harvester. 
   	* [Parameter Domain](#parameter-domain)
   	* [Parameter Value](#parameter-value)
   	* [Notes](#notes)
+
+## Purpose
+
+The purpose of the Blast Editor is to provide the user with the ability to edit the corruptions they create.  At a lower level, users may sanitize their corruptions to remove unnecessary memory writes.  Experienced users may utilize their knowledge of memory to inject specific BlastUnits to obtain their ideal corruption.
+
+#### Sanitize
+
+The purpose of sanitizing...
