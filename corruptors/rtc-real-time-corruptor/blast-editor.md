@@ -74,7 +74,7 @@ The BlastLayer Info provides details about the currently loaded BlastLayer.  The
 
 #### Shift Selected Rows
 
-This menu adjusts the selected option (Source Address, Parameter Domain, Parameter Value) through the drop down menu.  The value will be decremented/incremented by the supplied step size.
+The Shift Selected Rows menu adjusts the selected option (Source Address, Parameter Domain, Parameter Value) through the drop down menu.  The value will be decremented/incremented by the supplied step size.
 
 #### Disabling
 
@@ -102,11 +102,11 @@ Deletes the highlighted Units.
 
 ![](/assets/blast-editor-guide/blast-search.png)
 
-Search For Row opens a pop-up box where the user may search for a Source Address, Parameter Value, Source Address Domain, Parameter Domain, Blast Unit Type, or Blast Unit Mode.  The located value will be highlighted and all other items will be deselected.
+The Search For Row button opens a pop-up box where the user may search for a Source Address, Parameter Value, Source Address Domain, Parameter Domain, Blast Unit Type, or Blast Unit Mode.  The located value will be highlighted and all other Units will be deselected.
 
 #### Load
 
-The Load + Corrupt button runs the emulation with the enabled Units selected.
+The Load + Corrupt button runs the emulation with enabled Units applied.
 
 #### Apply Corruption
 
@@ -124,7 +124,7 @@ A Unit contains several bits of information.  These are the functions and descri
 
 #### Lock
 
-Locking a Unit will lock the Unit's enabled/disabled state.
+Locking a Unit will prevent its parameters from being modified by any automatic system such as "Randomly disable 50%" or "Reroll."
 
 #### Selection
 
@@ -132,7 +132,7 @@ The check mark sets the Unit's enabled/disabled state.  This will determine whet
 
 #### Precision
 
-Whether the BlastUnit is of type 8-bit, 16-bit, or 32-bit precision.
+Precision sets whether the BlastUnit is of type 8-bit, 16-bit, or 32-bit precision.
 
 #### BlastUnit Type
 
