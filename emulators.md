@@ -100,15 +100,15 @@ DeSmuME is the go-to DS emulation software for the PC, it's accurate, somewhat m
 
 While the VSRC cannot "corrupt an OS" you can corrupt a game in a virtual environment using Cheat Engine or any other memory hacking tools. You can use Qemu to launch any OS and run your emulators, games and corruptors within it to achieve corruptions in a virtual environment. Qemu will also virtualize other OS architectures like MIPS or i686 based OSes. The only downside is that it is not so easy to set up.
 
-#### VMWare
-
-###### [Download](https://www.virtualbox.org/wiki/Downloads)
-
-Similar to Virtualbox, VMWare is another virtualization solution with an easy to use GUI. It runs all common OSes. VMWare has the best DirectX support of the the options provided here. 
-
 #### VirtualBox
 
 ###### [Download](https://www.virtualbox.org/wiki/Downloads)
 
 VirtualBox is basically the same as Qemu except it has an easy to follow GUI that runs all common OSes in an x86 environment. The only downside of VirtualBox is that it doesn't virtualize anything other than x86 and x86\_x64.
+
+#### VMWare
+
+###### [Download](https://www.virtualbox.org/wiki/Downloads)
+
+Similar to Virtualbox, VMWare is another virtualization solution with an easy to use GUI. It runs all common OSes. VMWare has the best DirectX support of the the options provided here. 
 
