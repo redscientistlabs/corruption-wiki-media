@@ -4,13 +4,13 @@
 
 **Please note that this wiki is still heavily in development and due to change in the future.** 
 
-Corruptions or the act of corrupting is taking a video game and breaking it using whatever means necessary, usually with a program called a corruptor. This software can either modify the bytes in a ROM or a game's files to produce unexpected or unusual graphics, gameplay or audio, often resulting in hilarity and or [invoking Satan](https://youtu.be/1YCfk1FZ7I8?t=2m11s).
+Corruptions or the act of corrupting is taking a video game and breaking it using whatever means necessary, usually with a program called a corruptor. This software can either modify the bytes in a ROM or a game's files to produce unexpected or unusual graphics, gameplay or audio, often resulting in hilarity and or [invoking Satan](https://youtu.be/1YCfk1FZ7I8?t=2m11s). 
 
 ### Types of corruption
 
 #### Visual
 
-2D and 3D visuals can be effected by corrupting a game. For example, if you were to corrupt a sprite on the SNES it would result in different colors, offset pixels, flipped textures, or a change in hue. If you were to corrupt a model in a 3D game it would result in stretched, distorted, flat or just plain broken polygons and mesh.
+2D and 3D visuals can be affected by corrupting a game. For example, if you were to corrupt a sprite on the SNES it would result in different colors, offset pixels, flipped textures, or a change in hue. If you were to corrupt a model in a 3D game it would result in stretched, distorted, flat or just plain broken polygons and mesh.
 
 {% video width="740", height="350" %}https://raw.githubusercontent.com/x8BitRain/corruption-wiki-media/master/assets/mp4/VisualCorruptionsExample.mp4{% endvideo %}
 ###### Mario's head mesh totally mashed up from Super Mario 64 on the N64. [Source](https://www.youtube.com/watch?v=OvNDcVRlyYk)
