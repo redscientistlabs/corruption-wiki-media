@@ -188,5 +188,3 @@ TODO
 ###### YouTube user FZERO has a simple guide showing the basics of the corruptor.
 
 {% youtube %}yTGgPwivxak{% endyoutube %}
-
-###### cadcTV has a two part tutorial on using the corruptor, the first part explains the basic usage of the corruptor.
