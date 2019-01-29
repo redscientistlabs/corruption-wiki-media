@@ -4,7 +4,7 @@
 
 **Please note that this wiki is still heavily in development and due to change in the future.** 
 
-Corruptions or the act of corrupting is taking a video game and breaking it using whatever means necessary, usually with a program called a corruptor. This software can either modify the bytes in a ROM or a game's files to produce unexpected or unusual graphics, gameplay or audio, often resulting in hilarity and or [invoking Satan](https://youtu.be/1YCfk1FZ7I8?t=2m11s). 
+Corruptions or the act of corrupting is taking a video game and breaking it using whatever means necessary, usually with a program called a corruptor. This software can either modify the bytes in a ROM or a game's files to produce unexpected or unusual graphics, gameplay or audio, often resulting in hilarity and or [invoking Satan](https://youtu.be/W545DP8CmWQ?t=198). 
 
 ### Types of corruption
 
