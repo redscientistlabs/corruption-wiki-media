@@ -1,6 +1,6 @@
 ## Recommended Emulators for Corruptions
 
-This is a list of emulators that are recommended for use when corrupting games or recording corruptions, this list takes into consideration the ease of use and the compatibility with the "Launch emulator" option in some corruption tools rather than the accuracy or the game-compatibility of the emulator.
+This is a list of emulators that are recommended for use when corrupting games or recording corruptions. This list takes into consideration the ease of use and the compatibility with the "Launch emulator" option in some corruption tools rather than the accuracy or the game-compatibility of the emulator.
 
 ##### Note that this list is for manual ROM corruptions or to be used the Vinesauce ROM Corruptor \(VSRC\) or Cheat Engine. The Real Time Corruptor is built along-side Bizhawk which is a suite of various emulator cores, so it is not necessary to use any external emulators with it.
 
@@ -56,7 +56,7 @@ ZNES has been in development since 2001 and has an interesting non-standard UI a
 
 ###### [Download](http://www.pj64-emu.com/)
 
-PJ64 is an easy to use N64 emulator and is fairly tolerant to corrupted ROMs, careful when you download from the site as it has ads in the installer.
+PJ64 is an easy to use N64 emulator and is fairly tolerant to corrupted ROMs.
 
 #### 1964
 
