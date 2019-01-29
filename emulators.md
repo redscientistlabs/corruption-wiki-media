@@ -62,7 +62,7 @@ PJ64 is an easy to use N64 emulator and is fairly tolerant to corrupted ROMs.
 
 ###### [Download](https://code.google.com/archive/p/emu-1964/downloads)
 
-1964 isn't as popular as other N64 emulators but it is reminiscent of PJ64 as it has a similar GUI and is able to launch ROMs via corruptors seamlessly.
+1964 isn't as popular as other N64 emulators, but it is reminiscent of PJ64 as it has a similar GUI and is able to launch ROMs via corruptors seamlessly.
 
 ## PS1
 
@@ -72,7 +72,7 @@ PJ64 is an easy to use N64 emulator and is fairly tolerant to corrupted ROMs.
 
 [Download](http://drhell.web.fc2.com/ps1/)
 
-XEBRA is relatively unknown in the corruption community but it's easy to use, corruptions work fine, and it has video upscaling so you make record high quality videos with it. To download go to the bottom of the page and click on the first image.
+XEBRA is relatively unknown in the corruption community but it's easy to use, corruptions work fine, and it has video upscaling so you make record high quality videos with it. To download, go to the bottom of the page and click on the first image.
 
 #### psxfin
 
@@ -88,7 +88,7 @@ psxfin is outdated and old but just works. You can run most games and launch the
 
 ###### [Download](https://desmume.org/download/)
 
-DeSmuME is the go-to DS emulation software for the PC, it's accurate, somewhat maintained and has upscaling on 3D models for higher quality videos, it launches ROMs through any corruptor just fine.
+DeSmuME is the go-to DS emulation software for the PC, it's accurate, somewhat maintained, and has upscaling on 3D models for higher quality videos. It launches ROMs through any corruptor just fine.
 
 ## PC
 
