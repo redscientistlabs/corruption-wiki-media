@@ -12,7 +12,7 @@
 
 ###### Download: [https://github.com/Rikerz/VRC/tree/master/bin](https://github.com/Rikerz/VRC/tree/master/bin)
 
-The Vinesauce ROM Corruptor is a corruptor that allows you to change the bytes of any file by tweaking some simple settings. Its development thus far has been biased toward corrupting NES ROM files for the best corruption effects, but since it works on any file it can be used to corrupt any kind of ROM or game data file.
+The Vinesauce ROM Corruptor is a corruptor that allows you to change the bytes of any file by tweaking some simple settings. Its development thus far has been biased toward corrupting NES ROM files for the best corruption effects, but since it works on any file, it can be used to corrupt any kind of ROM or game data file.
 
 ![](/assets/VSRC/VSRC.png)
 
@@ -179,12 +179,3 @@ TODO
 
 
 {% youtube %}8frr4yf2Klg{% endyoutube %}
-
-###### Corruption connoisseur, Zer0DucksGiven has an in-depth guide for the corruptor. 
-
-
-{% youtube %}ZLPrPfW4CLs{% endyoutube %}
-
-###### YouTube user FZERO has a simple guide showing the basics of the corruptor.
-
-{% youtube %}yTGgPwivxak{% endyoutube %}
