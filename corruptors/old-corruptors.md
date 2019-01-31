@@ -1,6 +1,6 @@
 # Note
 
-> ### While you can still use these corruptors, we suggest using the [Real Time Corruptor](http://redscientist.com/#/rtc "Real Time Corruptor RTC") whenever you can. The RTC is under active development and has far more features than other corruptors.
+> ### While you can still use these corruptors, we suggest using the [Real Time Corruptor](http://redscientist.com/rtc) whenever you can. The RTC is under active development and has far more features than other corruptors.
 >
 > #### [You can view the wiki pages for the Real Time Corruptor here](/corruptors/rtc-real-time-corruptor.md)
 
