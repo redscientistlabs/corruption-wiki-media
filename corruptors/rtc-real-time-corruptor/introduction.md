@@ -5,13 +5,12 @@
 
 ###### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/)
 
-###### Download: [http://redscientist.com/\#/rtc](http://redscientist.com/#/rtc)
+###### Download: [http://redscientist.com/rtc](http://redscientist.com/rtc)
 
-[RTC Dev Wiki](https://discord.corrupt.wiki)
+[RTC Dev Discord](https://discord.corrupt.wiki)
 
-The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. It's a mod to the Open Source BizHawk Emulator that works by modifying live data from the virtualized memory chips of emulated systems.
+The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. More than a rom corruptor, the RTC works modifying live data from the virtualized memory chips of emulated systems allowing both rom corruption and ram corruption in real-time.
 
-{% youtube %}https://www.youtube.com/watch?v=CqSsD91Nzw4{% endyoutube %}
 
 * [**Introduction**](#index "Literally this")
   * [**Quick Start**](#quick-start)
