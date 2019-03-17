@@ -9,7 +9,7 @@
 
 [RTC Dev Discord](https://discord.corrupt.wiki)
 
-The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. More than a rom corruptor, the RTC works modifying live data from the virtualized memory chips of emulated systems allowing both rom corruption and ram corruption in real-time.
+The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. More than a rom corruptor, the RTC works by modifying live data from the virtualized memory chips of emulated systems allowing both rom corruption and ram corruption in real-time.
 
 
 * [**Introduction**](#index "Literally this")
@@ -26,13 +26,13 @@ The Real Time Corruptor was designed with ease of use in mind, if you want to ge
 
 First, let’s go over the basic fundamentals of how this corruptor functions.
 
-Video game corruption happens when an emulated video game whose program files were altered either in the emulated game’s memory \(RAM\) or in the ROM itself. A real-time corruption is when the corruption itself occurs while the game is running or when the effects can be altered on a time basis.
+Video game corruption happens when an emulated video game's program files are altered, either in the emulated game’s memory \(RAM\) or in the ROM itself. A real-time corruption is when the corruption itself occurs while the game is running or when the effects can be altered on a time basis.
 
 **RTC **is a mod for BizHawk, which means that any emulated system that BizHawk supports _should_ be compatible. Every system is detailed as a series of memory chips known as Memory Domains. The corruption will be generated for the selected domains in the main window. Certain engines/plugins may ignore the selected domains as part of their design.
 
 What is usually known as an iteration in static corruptors, is called a Blast in the RTC. A blast consists of a series of operations that are to be applied in the data located on the emulated game’s memory banks. \(RAM, VRAM, ROM, etc.\)
 
-**The Auto-Corrupt function **attaches the blast generation to the emulated game’s clock. Smaller blasts on a fast clock will create a constant flow of randomly generated corruption. This flow can be controlled by three parameters: The **Error Delay,** which is a divider linked to the game clock, The **Intensity **which is a multiplier for the number of corruption units to be generated \(which depends on the selected engine\). The **Blast Radius** determines how is the corruption is spread on the selected domains.
+**The Auto-Corrupt function **attaches the blast generation to the emulated game’s clock. Smaller blasts on a fast clock will create a constant flow of randomly generated corruption. This flow can be controlled by three parameters: The **Error Delay,** which is a divider linked to the game clock, The **Intensity **which is a multiplier for the number of corruption units to be generated \(which depends on the selected engine\). The **Blast Radius** determines how the corruption is spread on the selected domains.
 
 #### Frequently asked questions
 
@@ -50,7 +50,7 @@ Detached Mode has its own embedded AutoKillswitch.
 
 Alternatively, the "Start BizHawk without RTC" option will load BizHawk without the Mod.
 
--&gt; Have you installed the prereqs? This is essential for BizHawk to run properly. you can grab those from there too: [http://tasvideos.org/BizHawk.html](http://tasvideos.org/BizHawk.html)
+-&gt; Have you installed the prereqs? This is essential for BizHawk to run properly. You can grab those from there too: [http://tasvideos.org/BizHawk.html](http://tasvideos.org/BizHawk.html)
 
 -&gt; Make sure your computer is decent. If it's too old then maybe the rendering options of BizHawk may not work. We've seen that problem happen with old Core2Duo chipsets for computers using Internal Graphics.
 
@@ -68,7 +68,7 @@ The features mentioned above WILL NOT WORK if RTC isn't allowed in the firewall.
 
 ** Why are certain RTC Cores running slow or RTC running slow in general **
 
-BizHawk is one hell of an emulator. It features a ton of emulator cors and tools to create Tool-Assisted Speedruns. In order for these speedruns to be accurate to the real-life systems they emulate, some of those do extra operations and disable optimizations that might cause faster but inaccurate emulation.
+BizHawk is one hell of an emulator. It features a ton of emulator cores and tools to create Tool-Assisted Speedruns. In order for these speedruns to be accurate to the real-life systems that they emulate, some of those do extra operations and disable optimizations that might cause faster but inaccurate emulation.
 
 Some emulator cores are faster than others. QuickNes is generally faster than NesHawk for example.
 
