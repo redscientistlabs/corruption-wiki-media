@@ -1,40 +1,39 @@
-# Real-Time Corruptor for BizHawk
+# Introduction
+
 ## [RTC Dev Discord](https://discord.corrupt.wiki)
 
-###### Authors: [Phil Girard](http://redscientist.com/) & [Dan Barreiro (Narry)](https://narry.land)
+#### Authors: [Phil Girard](http://redscientist.com/) & [Dan Barreiro \(Narry\)](https://narry.land)
 
-###### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/)
+#### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/)
 
-###### Download: [http://redscientist.com/rtc](http://redscientist.com/rtc)
+#### Download: [http://redscientist.com/rtc](http://redscientist.com/rtc)
 
 [RTC Dev Discord](https://discord.corrupt.wiki)
 
 The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. More than a rom corruptor, the RTC works by modifying live data from the virtualized memory chips of emulated systems allowing both rom corruption and ram corruption in real-time.
 
+* [**Introduction**](introduction.md#index)
+  * [**Quick Start**](introduction.md#quick-start)
+  * [**Fundamentals of RTC**](introduction.md#fundamentals-of-rtc)
+  * [**Frequently asked questions**](introduction.md#frequently-asked-questions)
 
-* [**Introduction**](#index "Literally this")
-  * [**Quick Start**](#quick-start)
-  * [**Fundamentals of RTC**](#fundamentals-of-rtc)
-  * [**Frequently asked questions**](#frequently-asked-questions)
-  
-
-#### Quick Start
+### Quick Start
 
 The Real Time Corruptor was designed with ease of use in mind, if you want to get right into the action simply load a ROM and click “Easy Start” then "Start with Recommended Settings" and you are away! \(_Instant results not always guaranteed\)_
 
-#### Fundamentals of RTC
+### Fundamentals of RTC
 
 First, let’s go over the basic fundamentals of how this corruptor functions.
 
 Video game corruption happens when an emulated video game's program files are altered, either in the emulated game’s memory \(RAM\) or in the ROM itself. A real-time corruption is when the corruption itself occurs while the game is running or when the effects can be altered on a time basis.
 
-**RTC **is a mod for BizHawk, which means that any emulated system that BizHawk supports _should_ be compatible. Every system is detailed as a series of memory chips known as Memory Domains. The corruption will be generated for the selected domains in the main window. Certain engines/plugins may ignore the selected domains as part of their design.
+**RTC** is a mod for BizHawk, which means that any emulated system that BizHawk supports _should_ be compatible. Every system is detailed as a series of memory chips known as Memory Domains. The corruption will be generated for the selected domains in the main window. Certain engines/plugins may ignore the selected domains as part of their design.
 
 What is usually known as an iteration in static corruptors, is called a Blast in the RTC. A blast consists of a series of operations that are to be applied in the data located on the emulated game’s memory banks. \(RAM, VRAM, ROM, etc.\)
 
-**The Auto-Corrupt function **attaches the blast generation to the emulated game’s clock. Smaller blasts on a fast clock will create a constant flow of randomly generated corruption. This flow can be controlled by three parameters: The **Error Delay,** which is a divider linked to the game clock, The **Intensity **which is a multiplier for the number of corruption units to be generated \(which depends on the selected engine\). The **Blast Radius** determines how the corruption is spread on the selected domains.
+**The Auto-Corrupt function** attaches the blast generation to the emulated game’s clock. Smaller blasts on a fast clock will create a constant flow of randomly generated corruption. This flow can be controlled by three parameters: The **Error Delay,** which is a divider linked to the game clock, The **Intensity** which is a multiplier for the number of corruption units to be generated \(which depends on the selected engine\). The **Blast Radius** determines how the corruption is spread on the selected domains.
 
-#### Frequently asked questions
+### Frequently asked questions
 
 **What is the difference between Attached Mode and Detached Mode?**
 
@@ -54,7 +53,7 @@ Alternatively, the "Start BizHawk without RTC" option will load BizHawk without 
 
 -&gt; Make sure your computer is decent. If it's too old then maybe the rendering options of BizHawk may not work. We've seen that problem happen with old Core2Duo chipsets for computers using Internal Graphics.
 
-** Why does RTC wants to be allowed in the Windows Firewall?**
+ **Why does RTC wants to be allowed in the Windows Firewall?**
 
 RTC uses networking for a bunch of stuff. Here's more details about those:
 
@@ -66,7 +65,7 @@ RTC uses networking for a bunch of stuff. Here's more details about those:
 
 The features mentioned above WILL NOT WORK if RTC isn't allowed in the firewall.
 
-** Why are certain RTC Cores running slow or RTC running slow in general **
+ **Why are certain RTC Cores running slow or RTC running slow in general** 
 
 BizHawk is one hell of an emulator. It features a ton of emulator cores and tools to create Tool-Assisted Speedruns. In order for these speedruns to be accurate to the real-life systems that they emulate, some of those do extra operations and disable optimizations that might cause faster but inaccurate emulation.
 
@@ -82,8 +81,5 @@ This problem usually happens with snes9x. It's not working. The problem is on Bi
 
 The mod could probably be ported, but that would require a ton of modifications, and that's only possible if the other emulator is open source. At this point in time, there's more chances that the Windows Glitch Harvester gets ported for other emulators than RTC, due to a more generic approach in WGH's design.
 
-**Visit the [Tips, tricks and quirks](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/4.html) part of the guide for more details**
-
-
-
+**Visit the** [**Tips, tricks and quirks**](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/4.html) **part of the guide for more details**
 

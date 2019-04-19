@@ -1,6 +1,4 @@
-## Playstation 1 Corruptions
+# PS1
 
 TODO
-
-
 

@@ -1,13 +1,15 @@
-# Summary
+# Table of contents
+
+* [Introduction](README.md)
 
 ## Introduction
 
-* [Introduction](README.md)
-* [Emulators](emulators.md)
+* [Introduction](introduction/readme.md)
+* [Emulators](introduction/emulators.md)
 
 ## Corruptors
 
-* [Real-Time Corruptor for Bizhawk](corruptors/rtc-real-time-corruptor.md)
+* [Real-Time Corruptor for Bizhawk](corruptors/rtc-real-time-corruptor/README.md)
   * [Introduction](corruptors/rtc-real-time-corruptor/introduction.md)
   * [Basic Guide](corruptors/rtc-real-time-corruptor/1.md)
   * [Advanced Guide](corruptors/rtc-real-time-corruptor/advanced.md)
@@ -26,14 +28,14 @@
 
 * [NES](consoles/nes.md)
 * [SNES](consoles/snes.md)
-* [N64](consoles/n64.md)
+* [N64](consoles/n64/README.md)
   * [Basic/Advanced ROM Corruption](consoles/n64/basic-advanced-rom-corruption.md)
   * [Expert ROM Corruption](consoles/n64/expert-rom-corruption.md)
   * [RTC Corruption](consoles/n64/rtc-corruption.md)
-* [Gamecube/Wii](consoles/pc/gamecubewii.md)
-  * [Gamecube ISO Corruption](consoles/pc/gamecubewii/gamecube-iso-corruption.md)
-  * [Gamecube & Wii Filesystem Corruption](consoles/pc/gamecubewii/gamecube-and-wii-filesystem-corruption.md)
-  * [Gamecube & Wii Savestate Corruption](consoles/pc/gamecubewii/gamecube-and-wii-savestate-corruption.md)
+* [Gamecube/Wii](consoles/gamecubewii/README.md)
+  * [Gamecube ISO Corruption](consoles/gamecubewii/gamecube-iso-corruption.md)
+  * [Gamecube & Wii Filesystem Corruption](consoles/gamecubewii/gamecube-and-wii-filesystem-corruption.md)
+  * [Gamecube & Wii Savestate Corruption](consoles/gamecubewii/gamecube-and-wii-savestate-corruption.md)
 * [Gameboy Advance](consoles/gameboy-advance.md)
 * [PS1](consoles/ps1.md)
 * [NDS](consoles/nds.md)
@@ -41,5 +43,5 @@
 
 ## Etc.
 
-* [Contributing](Introduction.md)
+* [Contributing](etc./introduction.md)
 

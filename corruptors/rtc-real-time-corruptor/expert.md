@@ -1,17 +1,19 @@
-### Real-Time Corruptor: Expert Guide
-
-* [**Index**](#)
-  * [**Hotkeys**](#hotkeys)
-  * [**Blast Editor \(Editing BlastLayers\)**](#blast-editor)
-  * [**Virtual Memory Domains**](#virtual-memory-domains)
-    * [Virtual Memory Domain Pool](#virtual-memory-domain-pool)
-    * [Virtual Memory Domain Generator](#virtual-memory-domain-generator)
-  * [**Generating Active Tables**](#generating-active-tables)
-  * [**Development**](#rtc-dev-discord)
-
 # Expert Guide
 
-## Hotkeys
+#### Real-Time Corruptor: Expert Guide
+
+* [**Index**](expert.md)
+  * [**Hotkeys**](expert.md#hotkeys)
+  * [**Blast Editor \(Editing BlastLayers\)**](expert.md#blast-editor)
+  * [**Virtual Memory Domains**](expert.md#virtual-memory-domains)
+    * [Virtual Memory Domain Pool](expert.md#virtual-memory-domain-pool)
+    * [Virtual Memory Domain Generator](expert.md#virtual-memory-domain-generator)
+  * [**Generating Active Tables**](expert.md#generating-active-tables)
+  * [**Development**](expert.md#rtc-dev-discord)
+
+## Expert Guide
+
+### Hotkeys
 
 **Manual Blast**
 
@@ -77,7 +79,7 @@ Toggles ON/OFF the BlastLayer of the last executed StashKey
 
 Re-executes BlastLayer of the last executed StashKey.
 
-## Blast Editor
+### Blast Editor
 
 Any StashKey in the Glitch Harvester can be opened in the Blast Editor by right-clicking on it and select _"Open Selected Item in Blast Editor"_.
 
@@ -98,11 +100,11 @@ By repeating the steps above a certain amount of time, the useless instructions 
 
 **Note: All addresses and values are stored as decimal**
 
-## Virtual Memory Domains
+### Virtual Memory Domains
 
 Virtual Memory Domains, also called VMDs, are virtual representations of areas from one or multiple real Memory Domains. The VMD Generator uses address instructions to make VMD Prototypes which can be used to generate/regenerate VMDs. These prototypes are very lightweight, save/load from a file and can also be created from a Corruption in the Glitch Harvester.
 
-### Virtual Memory Domain Pool
+#### Virtual Memory Domain Pool
 
 The Virtual Memory Domain Pool is your main interaction window for loading and working with already loaded VMDs.
 
@@ -130,7 +132,7 @@ Displays the size of the currently selected VMD in bytes.
 
 Displays the memory domain that the VMD is built to target.
 
-### Virtual Memory Domain Generator
+#### Virtual Memory Domain Generator
 
 **Load Domains**
 
@@ -189,17 +191,17 @@ If the user doesn't add a value or range, the default range will be the entire s
 * Single added addresses aren't affected by the pointer spacer parameter.
 * Ranges are exclusive, which means that the last address will be excluded from the range.
 
-## Generating Active Tables
+### Generating Active Tables
 
 Feature not reimplemented yet
 
-## RTC Dev Discord
+### RTC Dev Discord
 
 If you need advanced help, want to report bugs, ask features or even help with development, we have a development Discord server.
 
 _This is a serious discord for sharing information, dev builds, report bugs and request features. It is not a playground._
 
-#### The rules are the following
+**The rules are the following**
 
 → Do not spam, post memes or cause trouble.
 
@@ -227,7 +229,5 @@ _This is a serious discord for sharing information, dev builds, report bugs and 
 
 If you agree to the rules shown above, you can join at the link below
 
-## [I agree. Let me in](https://discord.gg/uzxHvUV)
-
-
+### [I agree. Let me in](https://discord.gg/uzxHvUV)
 

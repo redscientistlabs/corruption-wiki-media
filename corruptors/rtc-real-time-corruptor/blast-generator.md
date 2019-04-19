@@ -1,38 +1,34 @@
-# The Blast Generator
+# Blast Generator Guide
 
 The Blast Generator is a tool which acts similar to classic style ROM corruptors. You can use the Blast Generator to create blastunits.
 
-##### Type
+#### Type
 
 The blastunit type to generate
 
-##### Mode
+#### Mode
 
 The mode for generation
 
-##### Step Size
+#### Step Size
 
 How many addresses to "step" in between generated blastunits.
 
-##### Start Address
+#### Start Address
 
 The address to start corruption generation at
 
-##### End Address
+#### End Address
 
 The address to end corruption generation at.
 
-##### Param1
+#### Param1
 
 A parameter for the corruption generation. See below for details on how it's used.
 
-##### Param2
+#### Param2
 
 A parameter for the corruption generation. See below for details on how it's used.
-
-
-
-
 
 Endianess is always handled as little endian, or right -&gt; left. This is completely agnostic of core endianess
 
@@ -41,8 +37,6 @@ That means that:
 10 on 16-bit precision will be treated as 00 10
 
 1000 on 16-bit precision will be treated as 10 00
-
-
 
 Ranges are exclusive, meaning that the last address is excluded from the range.
 
@@ -54,112 +48,112 @@ Start Address of 10, End address of 16, step size of 1 would generate blasts for
 
 ### BlastByte
 
-##### SET
+#### SET
 
 Sets an address to a specific value.
 
 Param1: The value to set to  
 Param2: Unused
 
-##### ADD
+#### ADD
 
 Adds a value to the value at the address selected.
 
 Param1: The value to add  
 Param2: Unused
 
-##### SUBTRACT
+#### SUBTRACT
 
 Subtracts a value from the value at the address selected.
 
 Param1: The value to subtract  
 Param2: Unused
 
-##### SHIFT\_RIGHT
+#### SHIFT\_RIGHT
 
 Copies a value from the selected address a set number of bytes to the right
 
 Param1: How many bytes over you want to shift  
 Param2: Unused
 
-##### SHIFT\_LEFT
+#### SHIFT\_LEFT
 
 Copies a value from the selected address a set number of bytes to the right
 
 Param1: How many bytes over you want to shift  
 Param2: Unused
 
-##### RANDOM
+#### RANDOM
 
 Sets the value at the address to a random value.
 
 Param1: Unused  
 Param2: Unused
 
-##### RANDOM\_RANGE
+#### RANDOM\_RANGE
 
 Sets the value at the address to a random value within the range provided.
 
 Param1: The lowest possible value  
 Param2: The maximum possible value
 
-##### REPLACE\_X\_WITH\_Y
+#### REPLACE\_X\_WITH\_Y
 
 Replaces a value with another if the value matches the parameter.
 
 Param1: The value to search for  
 Param2: The value to replace with.
 
-##### BITWISE\_AND
+#### BITWISE\_AND
 
 Performs a Bitwise AND on the value and a parameter
 
 Param1: The value to perform the bitwise operation with.  
 Param2: Unused
 
-##### BITWISE\_OR
+#### BITWISE\_OR
 
 Performs a Bitwise OR on the value and a parameter
 
 Param1: The value to perform the bitwise operation with.  
 Param2: Unused
 
-##### BITWISE\_XOR
+#### BITWISE\_XOR
 
 Performs a Bitwise XOR on the value and a parameter
 
 Param1: The value to perform the bitwise operation with.  
 Param2: Unused
 
-##### BITWISE\_COMPLEMENT
+#### BITWISE\_COMPLEMENT
 
 Performs a Bitwise complement on the value and a parameter
 
 Param1: The value to perform the bitwise operation with.  
 Param2: Unused
 
-##### BITWISE\_SHIFT\_LEFT
+#### BITWISE\_SHIFT\_LEFT
 
 Performs a Bitwise Left Shift on the value
 
 Param1: How far to shift left  
 Param2: Unused
 
-##### BITWISE\_SHIFT\_RIGHT
+#### BITWISE\_SHIFT\_RIGHT
 
 Performs a Bitwise Right Shift on the value
 
 Param1: How far to shift right  
 Param2: Unused
 
-##### BITWISE\_ROTATE\_LEFT
+#### BITWISE\_ROTATE\_LEFT
 
 Performs a Bitwise Left Rotation \(cyclical shift\) on the value
 
 Param1: How far to rotate left  
 Param2: Unused
 
-##### BITWISE\_ROTATE\_RIGHT
+#### BITWISE\_ROTATE\_RIGHT
 
 Performs a Bitwise Right Rotation \(cyclical shift\) on the value
 
@@ -172,7 +166,7 @@ See BlastByte
 
 Additional modes:
 
-##### FREEZE
+#### FREEZE
 
 Freezes a value at the stepped address to its current value.
 
@@ -181,28 +175,28 @@ Param2: Unused
 
 ### BlastPipe
 
-##### Chained
+#### Chained
 
 Generates chained pipes.
 
 Param1: Unused  
 Param2: Unused
 
-##### SOURCE\_RANDOM
+#### SOURCE\_RANDOM
 
 Sets the source address as something random with the destination address being the stepped address
 
 Param1: Unused  
 Param2: Unused
 
-##### SOURCE\_SET
+#### SOURCE\_SET
 
 Sets the source address as something set with the destination address being the stepped address
 
 Param1: Address to set the source to  
 Param2: Unused
 
-##### DEST\_RANDOM
+#### DEST\_RANDOM
 
 Sets the source address as the stepped address with the destination being something random
 
