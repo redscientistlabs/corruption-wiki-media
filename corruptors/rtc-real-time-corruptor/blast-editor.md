@@ -1,5 +1,7 @@
 # Blast Editor Guide
 
+## **Note: This guide is somewhat out of date \(written for the 3.2X branch\). Some topics still apply.**
+
 The Blast Editor is a tool for manipulating a StashKey in the Glitch Harvester. This allows the user to edit, add, or remove effects from the BlastLayer.
 
 ![RTC 3.28 Blast Editor](../../.gitbook/assets/blast-full-image.png)

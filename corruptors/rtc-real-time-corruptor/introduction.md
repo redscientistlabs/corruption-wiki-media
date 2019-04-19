@@ -1,21 +1,14 @@
 # Introduction
 
-## [RTC Dev Discord](https://discord.corrupt.wiki)
-
 #### Authors: [Phil Girard](http://redscientist.com/) & [Dan Barreiro \(Narry\)](https://narry.land)
 
-#### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/)
+#### Source: [https://github.com/ircluzar/RTCV](https://github.com/ircluzar/RTCV)
 
 #### Download: [http://redscientist.com/rtc](http://redscientist.com/rtc)
 
 [RTC Dev Discord](https://discord.corrupt.wiki)
 
 The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for emulated games. More than a rom corruptor, the RTC works by modifying live data from the virtualized memory chips of emulated systems allowing both rom corruption and ram corruption in real-time.
-
-* [**Introduction**](introduction.md#index)
-  * [**Quick Start**](introduction.md#quick-start)
-  * [**Fundamentals of RTC**](introduction.md#fundamentals-of-rtc)
-  * [**Frequently asked questions**](introduction.md#frequently-asked-questions)
 
 ### Quick Start
 
@@ -37,15 +30,11 @@ What is usually known as an iteration in static corruptors, is called a Blast in
 
 **What is the difference between Attached Mode and Detached Mode?**
 
-Detached mode is the default mode in RTC 3. It detaches RTC and Bizhawk in two processes and lets them communicate through a homemade system called NetCore. This allows RTC to stay alive if BizHawk crashes and allows for game states to be kept saved outside of BizHawk when using "Game Protection".
-
-RTC Multiplayer is exclusive to Attached Mode since it uses the NetCore to connect two RTCs together. In Attached Mode, you can use the Classic AutoKillswitch by opening it from the Launcher or via the Settings Menu.
-
-Detached Mode has its own embedded AutoKillswitch.
+As of 3.50, Attached mode has been deprecated and standard operation should take place in detached mode.
 
 **RTC doesn't start on my computer**
 
--&gt; Have you tried stock Bizhawk? Do note, that as of Bizhawk 2.x, Bizhawk is 64bit only and supports operating systems Windows 7 and upwards. RTC 3.10 is based on Bizhawk version 2.2.1 which can be obtained here: [http://github.com/TASVideos/BizHawk/releases/download/2.2.1/BizHawk-2.2.1.zip](http://github.com/TASVideos/BizHawk/releases/download/2.2.1/BizHawk-2.2.1.zip)
+-&gt; Have you tried stock Bizhawk? Do note, that as of Bizhawk 2.x, Bizhawk is 64bit only and supports operating systems Windows 7 and upwards.
 
 Alternatively, the "Start BizHawk without RTC" option will load BizHawk without the Mod.
 
@@ -55,15 +44,7 @@ Alternatively, the "Start BizHawk without RTC" option will load BizHawk without 
 
  **Why does RTC wants to be allowed in the Windows Firewall?**
 
-RTC uses networking for a bunch of stuff. Here's more details about those:
-
--&gt; Loopback UDP: Used for the Auto-KillSwitch and External ROM Plugins
-
--&gt; Loopback TCP: Used for Detached Mode \(StandaloneRTC communicating with Modded Bizhawk\)
-
--&gt; TCP: Used for RTC Multiplayer
-
-The features mentioned above WILL NOT WORK if RTC isn't allowed in the firewall.
+RTC uses networking for a bunch of stuff. As it's split between two processes, they need a way to communicate. To do this, they use TCP and UDP. This can prompt Windows Firewall.
 
  **Why are certain RTC Cores running slow or RTC running slow in general** 
 
@@ -75,11 +56,11 @@ Unfortunately, if the whole thing is still too slow, your only solution might be
 
 **A certain Emulator core doesn't work with RTC**
 
-This problem usually happens with snes9x. It's not working. The problem is on BizHawk side. One day they'll finish porting it I guess.
+All normal cores within BizHawk should work fine although a libretro core loaded into Bizhawk won't work. If you run into issues, join the RTC Discord and we can provide support.
 
 **Can RTC work with another emulator than BizHawk?**
 
-The mod could probably be ported, but that would require a ton of modifications, and that's only possible if the other emulator is open source. At this point in time, there's more chances that the Windows Glitch Harvester gets ported for other emulators than RTC, due to a more generic approach in WGH's design.
+Soon™
 
 **Visit the** [**Tips, tricks and quirks**](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/4.html) **part of the guide for more details**
 

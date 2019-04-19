@@ -1,8 +1,12 @@
-# Real-Time Corruptor for Bizhawk
+---
+description: The Real-Time Corruptor is a toolkit for corrupting games and files.
+---
+
+# Real-Time Corruptor
 
 ### Authors: [Phil Girard](http://redscientist.com/) & [Dan Barreiro \(Narry\)](https://narry.land/) <a id="authors-phil-girard--dan-barreiro-narry"></a>
 
-### Source: [https://github.com/ircluzar/RTC3/](https://github.com/ircluzar/RTC3/) <a id="source-httpsgithubcomircluzarrtc3"></a>
+### Source: [https://github.com/ircluzar/RTCV](https://github.com/ircluzar/RTCV) <a id="source-httpsgithubcomircluzarrtc3"></a>
 
 ### Download: [https://redscientist.com/RTC](https://redscientist.com/rtc) <a id="download-httpredscientistcomrtc"></a>
 

@@ -9,7 +9,7 @@
 
 ## Corruptors
 
-* [Real-Time Corruptor for Bizhawk](corruptors/rtc-real-time-corruptor/README.md)
+* [Real-Time Corruptor](corruptors/rtc-real-time-corruptor/README.md)
   * [Introduction](corruptors/rtc-real-time-corruptor/introduction.md)
   * [Basic Guide](corruptors/rtc-real-time-corruptor/1.md)
   * [Advanced Guide](corruptors/rtc-real-time-corruptor/advanced.md)
@@ -17,6 +17,7 @@
   * [Tips, tricks and quirks](corruptors/rtc-real-time-corruptor/4.md)
   * [Blast Editor Guide](corruptors/rtc-real-time-corruptor/blast-editor.md)
   * [Blast Generator Guide](corruptors/rtc-real-time-corruptor/blast-generator.md)
+  * [Custom Engine Guide](corruptors/rtc-real-time-corruptor/custom-engine-guide.md)
   * [VMD Generator Guide](corruptors/rtc-real-time-corruptor/vmd-generator-guide.md)
 * [Vinesauce ROM Corruptor](corruptors/vinesauce-rom-corruptor.md)
 * [Windows Glitch Harvester](corruptors/windows-glitch-harvester.md)

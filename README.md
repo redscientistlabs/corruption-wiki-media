@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/corruption-definition%20%281%29.png)
 
-**Please note that this wiki is still heavily in development and due to change in the future.**
+**Please note that this wiki is still heavily in development.**
 
 Corruptions or the act of corrupting is taking a video game and breaking it using whatever means necessary, usually with a program called a corruptor. This software can either modify the bytes in a ROM or a game's files to produce unexpected or unusual graphics, gameplay or audio, often resulting in hilarity and or [invoking Satan](https://youtu.be/1YCfk1FZ7I8?t=2m11s).
 
@@ -30,7 +30,7 @@ Gameplay corruptions happen when a gameplay mechanic is altered by a corruption 
 
 Corruptions are great fun but there can be a danger to them both for you and your computer.
 
-Sometimes when corrupting games a wild stretching polygon or a broken color palette can fill your screen and flash rapidly which could cause epilepsy in some people. If you're epileptic, corruptions might not be for you.
+Sometimes when corrupting games a wild stretching polygon or a broken color palette can fill your screen and flash rapidly which could cause epilepsy in some people. **If you're epileptic, corruptions might not be for you.**
 
 When corrupting certain games on certain platforms you may encounter a blue screen of death \(BSOD\), while these are very rare and don't have any major adverse effects on your computer nothing gets in the way of a BSOD and it will restart your computer. So make sure you aren't doing anything important while corrupting.
 

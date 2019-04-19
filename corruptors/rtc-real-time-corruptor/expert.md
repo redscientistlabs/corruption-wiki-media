@@ -191,21 +191,17 @@ If the user doesn't add a value or range, the default range will be the entire s
 * Single added addresses aren't affected by the pointer spacer parameter.
 * Ranges are exclusive, which means that the last address will be excluded from the range.
 
-### Generating Active Tables
 
-Feature not reimplemented yet
 
-### RTC Dev Discord
+### RTC Discord
 
 If you need advanced help, want to report bugs, ask features or even help with development, we have a development Discord server.
-
-_This is a serious discord for sharing information, dev builds, report bugs and request features. It is not a playground._
 
 **The rules are the following**
 
 → Do not spam, post memes or cause trouble.
 
-→ Keep the chat to bare minimum, prioritize big blocks of text over multiple posts \(it makes them easier to delete if needed\)
+→ Prioritize big blocks of text over multiple posts \(it makes them easier to delete if needed\)
 
 → **\#corruption\_general** is for discussing of corruption-related things
 
@@ -213,17 +209,9 @@ _This is a serious discord for sharing information, dev builds, report bugs and 
 
 → **\#corruption\_help** is for requesting help or any kind of support for corruption-related programs, technique and all sorts of issues. Use this channel to discuss about issues before reporting an actual bug.
 
-→ **\#bug\_reporting** is for submitting confirmed bugs, provide screenshots and detailed instructions on how to reproduce the bug.
-
-→ **\#feature\_request** is for requesting features. Make sure to provide as much details as possible about what you want.
-
-→ The **\#bug\_reporting** and **\#feature\_request** channels are exclusive to VERIFIED power users. If you want to submit bugs or features, ask in **\#corruption\_help** and we'll see if that gets approved or not.
-
-→ Your posts may get deleted. This server has to be sanitized sometimes, especially in the \#bug\_reporting and \#feature\_request channels.
-
 → Your requests may get erased and reposted in a stylized box.
 
-→ **Keep your discussion related to RTC and other corruption software.**
+→ **Keep your discussion related to RTC and other relevant topics.**
 
 → **Some of our members have some online notoriety. I will gently ask you stay calm and polite when they are around and refrain from bugging them. Childish fanboyism is not tolerated.**
 

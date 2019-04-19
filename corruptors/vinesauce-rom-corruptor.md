@@ -2,9 +2,9 @@
 
 > ## Note:
 >
-> **While you can still use this corruptor, we suggest using the Real Time Corruptor whenever you can. The RTC is under active development and has far more features than other corruptors.**
+> **While you can still use this corruptor, we suggest using the** [**Real Time Corruptor**](http://redscientist.com/rtc) **whenever you can. The RTC is under active development and has far more features than other corruptors.**
 >
-> **You can view the wiki pages for the Real Time Corruptor here**
+> \*\*\*\*[**You can view the wiki pages for the Real Time Corruptor here**](rtc-real-time-corruptor/)\*\*\*\*
 
 ### Vinesauce ROM Corruptor
 
