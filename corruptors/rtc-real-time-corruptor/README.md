@@ -1,8 +1,8 @@
 ---
-description: The Real-Time Corruptor is a toolkit for corrupting games and files.
+description: The Real Time Corruptor is a toolkit for corrupting games and files.
 ---
 
-# Real-Time Corruptor
+# Real Time Corruptor
 
 ### Authors: [Phil Girard](http://redscientist.com/) & [Dan Barreiro \(Narry\)](https://narry.land/) <a id="authors-phil-girard--dan-barreiro-narry"></a>
 

@@ -2,14 +2,9 @@
 
 * [Introduction](README.md)
 
-## Introduction
-
-* [Introduction](introduction/readme.md)
-* [Emulators](introduction/emulators.md)
-
 ## Corruptors
 
-* [Real-Time Corruptor](corruptors/rtc-real-time-corruptor/README.md)
+* [Real Time Corruptor](corruptors/rtc-real-time-corruptor/README.md)
   * [Introduction](corruptors/rtc-real-time-corruptor/introduction.md)
   * [Basic Guide](corruptors/rtc-real-time-corruptor/1.md)
   * [Advanced Guide](corruptors/rtc-real-time-corruptor/advanced.md)
@@ -24,6 +19,10 @@
 * [Cheat Engine](corruptors/cheat-engine.md)
 * [VineCorrupt](corruptors/vinecorrupt.md)
 * [Old Corruptors](corruptors/old-corruptors.md)
+
+## Emulators
+
+* [Emulators](emulators/emulators.md)
 
 ## Consoles
 
