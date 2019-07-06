@@ -193,7 +193,7 @@ If the user doesn't add a value or range, the default range will be the entire s
 
 
 
-### RTC Discord
+### RTC Dev Discord
 
 If you need advanced help, want to report bugs, ask features or even help with development, we have a development Discord server.
 

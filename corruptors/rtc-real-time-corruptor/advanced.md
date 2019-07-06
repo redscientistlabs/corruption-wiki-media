@@ -1,6 +1,6 @@
 # Advanced Guide
 
-#### Real-Time Corruptor: Advanced Guide
+### Real-Time Corruptor: Advanced Guide
 
 * [**Index**](advanced.md#advanced-guide)
   * [**Glitch Harvester**](advanced.md#glitch-harvester)
@@ -15,9 +15,6 @@
     * [Stash History](advanced.md#stash-history)
     * [Stockpile Manager](advanced.md#stockpile-manager)
   * [**Stockpile Player**](advanced.md#stockpile-player)
-  * [**RTC Multiplayer**](advanced.md#rtc-multiplayer)
-    * [Connecting RTCs together](advanced.md#connecting-rtcs-together)
-    * [Metagames and Multiplayer Features](advanced.md#metagames-and-multiplayer-features)
 
 ## Advanced Guide
 
@@ -25,65 +22,51 @@
 
 The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master.
 
-Basic usage is fairly simple, you create a savestate, select the zones you would like to corrupt, chose an intensity and click the “Blast/Send” button, the emulator then corrupts the selected memory zones and instantly loads the savestate. \(The “Blast/Send” function can be bound to any key/button\)
+_RTC extends emulator savestates into its own format, the StashKey. This allows for corruptions to be attached onto savestates without overwriting the original data._
 
-#### The interface
+Basic usage is fairly simple, you create a savestate, select the domains you would like to corrupt, chose an Intensity and click the “Corrupt" button, the emulator then corrupts the selected memory domains and instantly loads the savestate. \(The Glitch Harvester “Corrupt” function can be bound to any key/button\)
 
-_This will explain the complex layout of interactive elements which makes the interface._
+### Blast Tools
 
-\[INSERT GLITCH HARVESTER SCREENSHOT WITH CLICKABLE AREAS\]
+**Corrupt**
 
-#### Action Panel
+"Corrupt" is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items. If _Stash Results_ is selected in the Blast Tools options, it will create a new item in the Stash History box.
 
-**Blast/Send**
+![The Glitch Harvester Interface](../../.gitbook/assets/image%20%284%29.png)
 
-Blast/Send is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items. If _Stash Results_ is checked, it will create a new item in the Stash History box.
+**Raw to Stash**
 
-**Send Raw to Stash**
+![](../../.gitbook/assets/image%20%282%29.png)
 
-This will create a item in the Stash History box. The generated BlastLayer is applied \(Corruption occurs\) then a new Savestate is created for this item. Alterating corruption \(Cheats and Pipes\) will be stored in the attached BlastLayer but destructive corruption \(Byte changes\) will be compiled in the Savestate.
+This will create a item in the Stash History box. The generated BlastLayer is applied \(Corruption occurs\) then a new Savestate is created for this item. Active units will be stored in the attached BlastLayer but destructive corruption \(Byte changes\) will be compiled in the Savestate.
 
-#### Savestate Manager
+### Savestate Manager
 
 **Change -&gt; SAVE/LOAD**
 
 The change button flips the one on its right between SAVE and LOAD. This button toggling system is made this way to prevent accidental overwriting of Glitch Harvester Savestates.
 
-The SAVE and LOAD are for saving and loading Glitch Harvester Savestates.
+**Reroll Selected**
 
-**Numeric Buttons**
+Rerolls the corruption values of the selected item in the Stash History or Stockpile. This allows to attempt to get better results from a corruption. The result will be sent in the Stash History.
 
-Numeric buttons \(1-40\) are used to select a Glitch Harvester save-state slot.
+**BlastLayer ON/OFF**
 
-An associated Textbox can be used for very short descriptions.
+Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
-**Back and Forward**
+### Blast Tools options
 
-This switches between pages of 10 Glitch Harvester Savestates.
+![](../../.gitbook/assets/image.png)
 
-**Load on click**
+The Corrupt, Inject and Original options will change the function of the "Corrupt" button.
 
-If checked, the Glitch Harvester will load a save state upon clicking on it.
+**Corrupt** is the default setting. Corrupt will have its default behavior and loaded StashKeys will include corruption when replayed.
 
-**Load/Save Savestate List**
-
-These buttons allow you to Save and Load the 40 Glitch Harvester Savestate slot to/from a file in a similar format to a Stockpile.
-
-#### Intensity
-
-This control is linked to the intensity controls in the Main Window. It multiplies the amount of generated Units on every Blast.
-
-#### Action modifiers
-
-The Corrupt, Inject and Original radio buttons will change the function of the Blast/Send button.
-
-**Corrupt** is the default setting. Blast/Send will have its default behavior and loaded StashKeys will include corruption when replayed.
-
-**Inject** will make the Blast/Send button load the corruption layer from the selected item in the Stash History or Stockpile Manager into the currently selected Glitch Harvester Savestate. The same action will happen when clicking on an item in the Stash History or Stockpile Manager.
+**Inject** will make the Corrupt button load the corruption layer from the selected item in the Stash History or Stockpile Manager into the currently selected Glitch Harvester Savestate. The same action will happen when clicking on an item in the Stash History or Stockpile Manager.
 
 **Original** will load the selected item from the Stash History or Stockpile Manager without the corruption layer.
 
-#### Action triggers
+### Behaviors
 
 **Auto-Load State** makes it so a Savestate is loaded during Corruption or Replaying and item. When the _Corrupt_ modifier is selected, loading an item from the Stash History or Stockpile Manager will use the embedded Savestate in the StashKey. Otherwise, it comes from the selected item in the Savestate Manager.
 
@@ -91,43 +74,65 @@ The Corrupt, Inject and Original radio buttons will change the function of the B
 
 **Stash Results** makes it so generated corruption will be added to the Stash History upon generation of a BlastLayer. If a generated BlastLayer has 0 units, the StashKey will not be added to the Stash History.
 
-**BlastLayer Toggle**
+### Render Output
 
-Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
+_**This option is currently only available when RTC is connected to BizHawk**_
 
-**Reroll Selected**
+![](../../.gitbook/assets/image%20%281%29.png)
 
-Rerolls the corruption values of the selected item in the Stash History or Stockpile. This allows to attempt to get better results from a corruption. The result will be sent in the Stash History.
-
-#### Render Output
-
-This allows you quickly/automatically start audio/video rendering when corrupting using the Glitch Harvester. Rendered files will be saved in the “RENDEROUTPUT” folder which is in _BizHawk/RTC/RENDEROUTPUT_
+This allows you quickly/automatically start audio/video rendering when corrupting using the Glitch Harvester. Rendered files will be saved in the “RENDEROUTPUT” folder which is in _RTCV/RENDEROUTPUT_
 
 **Render type** allows you to select a file format for rendering. If you're getting an error with AVI rendering, it might mean that no codec is selected in BizHawk. In order to do so, you must start an AVI rendering from BizHawk at least once.
 
 **Render at load** will start the render when an item from the Stash History or Stockpile Manager is loaded.
 
-#### Stash History
+The SAVE and LOAD are for saving and loading Glitch Harvester Savestates.
 
-This is where new corruptions are stashed. The items that appear there can be sent to a Stockpile using the button between the Stash History and Stockpile Manager.
+![](../../.gitbook/assets/190704183858%20%286%29.gif)
 
-#### Stockpile Manager
+**Numeric Buttons**
+
+Numeric buttons are used to select a Glitch Harvester save-state slot.
+
+An associated Textbox can be used for very short descriptions.
+
+**Back and Forward**
+
+This switches between pages of 7 Glitch Harvester Savestates.
+
+**Load state on click**
+
+If checked, the Glitch Harvester will load a save state upon clicking on it.
+
+**Load/Save Savestate List**
+
+These buttons allow you to Save and Load the filled Glitch Harvester Savestates slots to/from a file in a similar format to a Stockpile.
+
+### Intensity
+
+This control is linked to the intensity controls in the Main Window. It multiplies the amount of generated Units on every Blast.
+
+![](../../.gitbook/assets/image%20%283%29.png)
+
+### Stash History
+
+This is where new corruptions are stashed. The items that appear there can be sent to a Stockpile using the "To Stockpile" button. Selecting an item in the list will replay the generated corruption.
+
+### Stockpile Manager
 
 This part of the Glitch Harvester is dedicated to edit and do operations onto Stockpiles.
 
-The **Load** button allows you to either load a Stockpile or load a BizHawk Config file from an _SKS_ file.
+The **Load** button allows you to either load a Stockpile or load a Settings file from an _SKS_ file.
 
-_Loading a config file from a stockpile will keep your hotkeys and controller keybinds_
-
-Using **Save as** and **Save** buttons will generate/overwrite an _SKS_ file that contains corruption data, roms and BizHawk Savestate. The _SKS_ file also contains the BizHawk config from the last person who saved it.
+Using **Save as** and **Save** buttons will generate/overwrite an _SKS_ file that contains corruption data, binaries and savestates. The _SKS_ file can also contains the config file from the last person who saved it. By default, the Glitch Harvester does not include roms and binaries. This behavior can be changed in the Glitch Harvester settings.
 
 **Using someone's config file**
 
-When replaying a stockpile, corruptions can appear different if there are differences in emulator core configurations. While RTC is able to detect core mismatches during loading, specific configuration differences are not.
+When replaying a stockpile, corruptions can appear different if there are differences in emulator configurations. While RTC is able to detect core mismatches during loading, specific configuration differences are not.
 
-Loading someone's config file pretty much guarantees that your BizHawk Emulator is in the same state as the person who saved the Stockpile. While your controller config might be lost during the time this config is loaded, it can be reverted afterwards by selecting the **Restore BizHawk config Backup** option from the Load menu.
+Loading someone's config file pretty much guarantees that your Emulator is in the same state as the person who saved the Stockpile. While your controller config could be lost during the time this config is loaded, it can be reverted afterwards by selecting the **Restore Emulator config Backup** option from the Load menu.
 
-**Importing Stockpile items**  
+**Import**  
 This button allows you to merge stockpiles together by importing them into the one currently edited.
 
 **Merging StashKeys together**  
@@ -149,47 +154,11 @@ If the button in the Note column has a ⚠ Symbol, it means that a note is attac
 
 Various options from RTC's Engine Config menu are present in a contextual menu if you right-click on corruptions.
 
-### RTC Multiplayer
 
-#### Connecting RTCs together
 
-Before connecting RTCs together, let this small fact known : RTC's Detached mode uses the same components as the Multiplayer mode in RTC. This is why you must run RTC in Attached mode in order to connect RTCs together.
+![](../../.gitbook/assets/190704190157.gif)
 
- **Session Settings** 
+![](../../.gitbook/assets/image%20%285%29.png)
 
-RTC uses TCP port 42069 by default. You will need to open this port in your router if you plan on being the server. The client doesn't need it.
-
-Simply start the multiplayer in the right category on order to start the server or connect to it.
-
-You can also run TWO RTCs in Multiplayer on the same machine by connecting to "127.0.0.1" or simply leaving the case blank.
-
-RTC's Multiplayer is fully bidirectional, meaning that both Client/Server can do exactly the same thing.
-
- **Manual Commands** 
-
-There are 3 types of commands: PUSH : Sends an item to the other RTC PULL : Downloads an item from the other RTC SWAP : Swaps items between the two RTCs
-
-Command items Game: Game ROM State: Game's State Screen: Picture of RTC's game's screen BlastLayer: Last executed Corruption's Blast StashKey: Last executed Corruption Item
-
- **Video Streaming** 
-
-The Multiplayer screen and Stream options are for streaming a video feed between RTCs.
-
-The screen can be popped out of the RTC Multiplayer options.
-
-#### Metagames and Multiplayer Features
-
- **Game of Swap** 
-
-Both video streams will start. A red bar will start shrinking until it totally disappears. Once the red bar is gone, the two currently running games will be exchanged between RTCs.
-
- **BlastBoard** 
-
-This is like a Soundboard, except that instead of sounds, it's Blasting the other RTC using the BlastLayers of the currently loaded Stockpile. You may wanna sanitize your corruptions using the Blast Editor before using this mode.
-
- **Splitscreen** 
-
-This pops out the Multiplayer screen and attaches both Bizhawk feeds together in a new window.
-
-This hides the default Bizhawk window so you'll want to stop Splitscreen before closing BizHawk.
+![](../../.gitbook/assets/image%20%288%29.png)
 

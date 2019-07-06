@@ -1,16 +1,29 @@
 ---
-description: The Real Time Corruptor is a toolkit for corrupting games and files.
+description: >-
+  The Real-Time Corruptor is a suite of programs and modded emulators for
+  corrupting games and files.
 ---
 
-# Real Time Corruptor
+# Real-Time Corruptor
 
-### Authors: [Phil Girard](http://redscientist.com/) & [Dan Barreiro \(Narry\)](https://narry.land/) <a id="authors-phil-girard--dan-barreiro-narry"></a>
+## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
 
-### Source: [https://github.com/ircluzar/RTCV](https://github.com/ircluzar/RTCV) <a id="source-httpsgithubcomircluzarrtc3"></a>
+### **Authors:** [**Phil Girard**](http://redscientist.com/) **&** [**Dan Barreiro \(Narry\)**](https://narry.land/)\*\*\*\*
 
-### Download: [https://redscientist.com/RTC](https://redscientist.com/rtc) <a id="download-httpredscientistcomrtc"></a>
+**Source:** [**https://github.com/ircluzar/RTCV**](https://github.com/ircluzar/RTCV)  
+[https://github.com/ircluzar/Bizhawk-Vanguard](https://github.com/ircluzar/Bizhawk-Vanguard)  
+[https://github.com/NarryG/dolphin-vanguard](https://github.com/NarryG/dolphin-vanguard)  
+[https://github.com/NarryG/pcsx2-Vanguard](https://github.com/NarryG/pcsx2-Vanguard)  
+[https://github.com/NarryG/melonDS-Vanguard](https://github.com/NarryG/melonDS-Vanguard)  
+[https://github.com/ircluzar/CemuStub-Vanguard](https://github.com/ircluzar/CemuStub-Vanguard)  
+[https://github.com/ircluzar/FileStub-Vanguard](https://github.com/ircluzar/FileStub-Vanguard)  
+[https://github.com/ircluzar/UnityStub-Vanguard](https://github.com/ircluzar/UnityStub-Vanguard)  
+[https://github.com/ircluzar/WGH](https://github.com/ircluzar/WGH)  
+[https://github.com/NarryG/WinVolumeLimiter](https://github.com/NarryG/WinVolumeLimiter)
 
-### This is the index page for the help documentation for the Real Time Corruptor \(RTC\). You can view the various guides and help documents from the links below. <a id="download-httpredscientistcomrtc"></a>
+###  <a id="download-httpredscientistcomrtc"></a>
+
+### This is the index page for the help documentation for the Real**-**Time Corruptor \(RTC\). You can view the various guides and help documents from the links below. <a id="download-httpredscientistcomrtc"></a>
 
 ## [Introduction](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/introduction.html)
 
