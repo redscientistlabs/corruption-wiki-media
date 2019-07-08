@@ -2,17 +2,27 @@
 
 The Blast Generator is a tool which acts similar to classic style ROM corruptors. You can use the Blast Generator to create blastunits.
 
+![](../../../.gitbook/assets/image%20%2832%29.png)
+
+#### Domain
+
+Domain targeted by the line of action
+
+#### Precision
+
+Word size on which generated BlastUnits will operate
+
 #### Type
 
-The blastunit type to generate
+Type of operation that will be appended to the units
 
 #### Mode
 
 The mode for generation
 
-#### Step Size
+#### Interval
 
-How many addresses to "step" in between generated blastunits.
+How many addresses to skip in between generated blastunits.
 
 #### Start Address
 
@@ -44,9 +54,21 @@ This means that:
 
 Start Address of 10, End address of 16, step size of 1 would generate blasts for addresses 10,11,12,13,14,15
 
-## Modes
+#### Lifetime
 
-### BlastByte
+For how many frames will the BlastUnit execute
+
+#### Execute Frame
+
+At which frame will the BlastUnit start executing
+
+#### Seed
+
+The seed will ensure that the generator gives consistent random results if reproduced later.
+
+## Type : Value
+
+### Modes
 
 #### SET
 
@@ -69,20 +91,6 @@ Subtracts a value from the value at the address selected.
 Param1: The value to subtract  
 Param2: Unused
 
-#### SHIFT\_RIGHT
-
-Copies a value from the selected address a set number of bytes to the right
-
-Param1: How many bytes over you want to shift  
-Param2: Unused
-
-#### SHIFT\_LEFT
-
-Copies a value from the selected address a set number of bytes to the right
-
-Param1: How many bytes over you want to shift  
-Param2: Unused
-
 #### RANDOM
 
 Sets the value at the address to a random value.
@@ -96,6 +104,20 @@ Sets the value at the address to a random value within the range provided.
 
 Param1: The lowest possible value  
 Param2: The maximum possible value
+
+#### SHIFT\_LEFT
+
+Copies a value from the selected address a set number of bytes to the right
+
+Param1: How many bytes over you want to shift  
+Param2: Unused
+
+#### SHIFT\_RIGHT
+
+Copies a value from the selected address a set number of bytes to the right
+
+Param1: How many bytes over you want to shift  
+Param2: Unused
 
 #### REPLACE\_X\_WITH\_Y
 
@@ -160,31 +182,18 @@ Performs a Bitwise Right Rotation \(cyclical shift\) on the value
 Param1: How far to rotate left  
 Param2: Unused
 
-### BlastCheat
 
-See BlastByte
 
-Additional modes:
+_Additional details on Bitwise Operations can be found here:_  
+[_https://en.wikipedia.org/wiki/Bitwise\_operation_](https://legacy.gitbook.com/book/x8bitrain/corrupt-wiki/edit#)\_\_
 
-#### FREEZE
+## Type : Store
 
-Freezes a value at the stepped address to its current value.
+### Modes
 
-Param1: Unused  
-Param2: Unused
+#### CHAINED
 
-### BlastPipe
-
-#### Chained
-
-Generates chained pipes.
-
-Param1: Unused  
-Param2: Unused
-
-#### SOURCE\_RANDOM
-
-Sets the source address as something random with the destination address being the stepped address
+Generates units that act as pipes
 
 Param1: Unused  
 Param2: Unused
@@ -196,6 +205,13 @@ Sets the source address as something set with the destination address being the 
 Param1: Address to set the source to  
 Param2: Unused
 
+#### SOURCE\_RANDOM
+
+Sets the source address as something random with the destination address being the stepped address
+
+Param1: Unused  
+Param2: Unused
+
 #### DEST\_RANDOM
 
 Sets the source address as the stepped address with the destination being something random
@@ -203,7 +219,10 @@ Sets the source address as the stepped address with the destination being someth
 Param1: Unused  
 Param2: Unused
 
-Additional details on Bitwise Operations can be found here:
+#### FREEZE
 
-[https://en.wikipedia.org/wiki/Bitwise\_operation](https://legacy.gitbook.com/book/x8bitrain/corrupt-wiki/edit#)
+Freezes a value at the stepped address to its current value.
+
+Param1: Unused  
+Param2: Unused
 

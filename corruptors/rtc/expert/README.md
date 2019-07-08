@@ -1,19 +1,19 @@
 # Expert Guide
 
-#### Real-Time Corruptor: Expert Guide
+### Real-Time Corruptor: Expert Guide
 
-* [**Index**](expert.md)
-  * [**Hotkeys**](expert.md#hotkeys)
-  * [**Blast Editor \(Editing BlastLayers\)**](expert.md#blast-editor)
-  * [**Virtual Memory Domains**](expert.md#virtual-memory-domains)
-    * [Virtual Memory Domain Pool](expert.md#virtual-memory-domain-pool)
-    * [Virtual Memory Domain Generator](expert.md#virtual-memory-domain-generator)
-  * [**Generating Active Tables**](expert.md#generating-active-tables)
-  * [**Development**](expert.md#rtc-dev-discord)
+* **Index**
+  * [**Hotkeys**](./#hotkeys)
+  * [**Blast Editor \(Editing BlastLayers\)**](./#blast-editor)
+  * [**Virtual Memory Domains**](./#virtual-memory-domains)
+    * [Virtual Memory Domain Pool](./#virtual-memory-domain-pool)
+    * [Virtual Memory Domain Generator](./#virtual-memory-domain-generator)
+  * [**Generating Active Tables**](./#generating-active-tables)
+  * [**Development**](./#rtc-dev-discord)
 
-## Expert Guide
+## Hotkeys
 
-### Hotkeys
+![As of version 5, RTC has its own hotkeys in the Settings and tools menu](../../../.gitbook/assets/image%20%287%29.png)
 
 **Manual Blast**
 
@@ -39,37 +39,9 @@ Decreases the currently set Intensity by 1
 
 Increases the currently set Intensity by 1
 
-**GH Load and Corrupt**
-
-Loads the selected GH Savestate, creates a StashKey in the Stash History and then runs it.
-
-**GH Just Corrupt**
-
-Creates a StashKey in the Stash History and then runs it without loading a save.
-
-**GH Load**
-
-Loads the currently selected Glitch Harvester Savestate Box.
-
-**GH Save**
-
-Saves the game state in the currently Glitch Harvester Savestate Box.
-
-**Stash-&gt;Stockpile**
-
-Sends the currently selected item in the Stash History and sends it to the Stockpile.
-
 **Induce KS Crash**
 
 Kills the KillSwitch heartbeat, causing \(if enabled\) RTC to detect a crash.
-
-**Blast+RawStash**
-
-Does a Manual Blast to the game then creates a Raw Stashkey in the Stash History.
-
-**Send Raw to Stash**
-
-Creates a Raw StashKey in the StashHistory
 
 **BlastLayer Toggle**
 
@@ -79,32 +51,67 @@ Toggles ON/OFF the BlastLayer of the last executed StashKey
 
 Re-executes BlastLayer of the last executed StashKey.
 
-### Blast Editor
+**Game Protect Back**
+
+Triggers the Back button on Game Protection \(If available\)
+
+**Game Protect Now**
+
+Triggers the Now button on Game Protection \(If available\)
+
+![](../../../.gitbook/assets/image%20%2824%29.png)
+
+**Load and Corrupt**
+
+Loads the selected GH SaveState, creates a StashKey in the Stash History and then runs it.
+
+**Just Corrupt**
+
+Creates a StashKey in the Stash History and then runs it without loading a save.
+
+**Reroll**
+
+Triggers the Glitch Harvester's Reroll Selected button
+
+**Load**
+
+Loads the currently selected Glitch Harvester Savestate Box.
+
+**Save**
+
+Saves the game state in the currently Glitch Harvester Savestate Box.
+
+**Stash-&gt;Stockpile**
+
+Sends the currently selected item in the Stash History and sends it to the Stockpile.
+
+**Blast+RawStash**
+
+Does a Manual Blast to the game then creates a Raw Stashkey in the Stash History.
+
+**Send Raw to Stash**
+
+Creates a Raw StashKey in the StashHistory
+
+![The Blast Editor hotkeys correspond directly to their buttons](../../../.gitbook/assets/image%20%2816%29.png)
+
+## Blast Editor
+
+![](../../../.gitbook/assets/image%20%2823%29.png)
 
 Any StashKey in the Glitch Harvester can be opened in the Blast Editor by right-clicking on it and select _"Open Selected Item in Blast Editor"_.
 
-A copy of the StashKey is done and every Unit from that BlastLayer is displayed in a list. Every line describes what will happen when that Unit is executed. There are panels on the right that allow you to edit certain values of the Unit and update them.
+Read the [Blast Editor Guide](blast-editor.md) for a detailed explanation of how the Blast Editor works.
 
-Double Clicking on an Unit will disable it as shown by the \[x\] that becomes \[ \]. You can also use the buttons on the right to quickly disable and enable Units.
+## Virtual Memory Domains
 
-**Sanitizing corruptions**
-
-Corruptions can be sanitized in the Blast Editor to remove useless instructions that might break the game when ran. You can very easily isolate a corruption \(effect\) by doing the following:
-
-\[Random Disable 50%\] then \[Load + Corrupt\].  
-Is the corruption \(effect\) still present?  
-If Yes -&gt; \[Remove Disabled\]  
-If No -&gt; \[Invert Disabled\] then \[Remove Disabled\]
-
-By repeating the steps above a certain amount of time, the useless instructions will progressively disappear. At some point you may need to manually enable and disable instructions in order to isolate what is part of the corruption and what is not.
-
-**Note: All addresses and values are stored as decimal**
-
-### Virtual Memory Domains
+![](../../../.gitbook/assets/image%20%289%29.png)
 
 Virtual Memory Domains, also called VMDs, are virtual representations of areas from one or multiple real Memory Domains. The VMD Generator uses address instructions to make VMD Prototypes which can be used to generate/regenerate VMDs. These prototypes are very lightweight, save/load from a file and can also be created from a Corruption in the Glitch Harvester.
 
-#### Virtual Memory Domain Pool
+## VMD Pool
+
+![](../../../.gitbook/assets/image%20%2821%29.png)
 
 The Virtual Memory Domain Pool is your main interaction window for loading and working with already loaded VMDs.
 
@@ -132,7 +139,11 @@ Displays the size of the currently selected VMD in bytes.
 
 Displays the memory domain that the VMD is built to target.
 
-#### Virtual Memory Domain Generator
+## VMD Generator
+
+![](../../../.gitbook/assets/image%20%2812%29.png)
+
+An in-depth [VMD Generator Guide](vmd-generator.md) is also available
 
 **Load Domains**
 
@@ -193,7 +204,7 @@ If the user doesn't add a value or range, the default range will be the entire s
 
 
 
-### RTC Dev Discord
+## RTC Dev Discord
 
 If you need advanced help, want to report bugs, ask features or even help with development, we have a development Discord server.
 

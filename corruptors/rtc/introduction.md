@@ -4,7 +4,7 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for various uses. Far
 
 ### Quick Start
 
-The Real Time Corruptor was designed with ease of use in mind, if you want to get right into the action simply start an emulator from the launcher, load a ROM and click “Easy Start” then "Start with Recommended Settings" and you are away! \(_Instant results not always guaranteed. Some emulators require bios or firmware files which you must acquire legally\)_
+The Real-Time Corruptor was designed with ease of use in mind, if you want to get right into the action simply start an emulator from the launcher, load a ROM and click “Easy Start” then "Start with Recommended Settings" and you are away! \(_Instant results not always guaranteed. Some emulators require bios or firmware files which you must acquire legally\)_
 
 ### Fundamentals of RTC
 
@@ -25,9 +25,9 @@ The Real Time Corruptor was designed with ease of use in mind, if you want to ge
 
 First, let’s go over the basic fundamentals of how this corruptor functions.
 
-![Modded emulators, stubs and extra stuff can be downloaded from the RTC Launcher](../../.gitbook/assets/image%20%286%29.png)
+![Modded emulators, stubs and extra stuff can be downloaded from the RTC Launcher](../../.gitbook/assets/image%20%2825%29.png)
 
-Video game corruption happens when an emulated video game's program files are altered, either in the emulated game’s memory \(RAM\) or in the ROM itself. A real-time corruption is when the corruption itself occurs while the game is running or when the effects can be altered on a time basis.
+Video game corruption happens when an emulated video game's program files are altered, either in the emulated game’s memory \(RAM\) or in the ROM itself. A real-time corruption is when the corruption itself occurs while the game is running or when the effects can be altered on the spot.
 
 **RTC** is a collection of modified emulators and stub tools that integrate our corruption software via a solution we called Vanguard. This means that any emulator or program that is modded with Vanguard _should_ be compatible. Every system's memory areas are detailed as a series of zones known as Memory Domains. The corruption will be generated for the selected domains in the main window. 
 
@@ -57,7 +57,7 @@ The Real-Time Corruptor generates corrupted data independently from the memory i
 
 RTC uses networking for a bunch of stuff. As it's split between two processes, they need a way to communicate. To do this, they use TCP and UDP. This will prompt the Windows Firewall and if it is not allowed, RTC will not function properly. If you blocked it by accident, you can reverse the rule in the advanced windows firewall panel.
 
- **BizHawk : Why are certain Emulator Cores running slow or RTC running slow in general ?**
+ **BizHawk : Why are certain emulator cores running slow or RTC running slow in general ?**
 
 BizHawk is one hell of an emulator. It features a ton of emulator cores and tools to create Tool-Assisted Speedruns. In order for these speedruns to be accurate to the real-life systems that they emulate, some of those do extra operations and disable optimizations that might cause faster but inaccurate emulation.
 

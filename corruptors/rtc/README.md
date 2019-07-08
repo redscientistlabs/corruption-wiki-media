@@ -27,13 +27,13 @@ description: >-
 
 ## [Introduction](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/introduction.html)
 
-## [Basic Guide](1.md)
+## [Basic Guide](basic.md)
 
 ## [Advanced Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/advanced.html)
 
 ## [Expert Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/expert.html)
 
-## [Tips and Tricks](4.md)
+## [Tips and Tricks](tips.md)
 
 ## [RTC Dev Discord](https://discord.corrupt.wiki)
 
