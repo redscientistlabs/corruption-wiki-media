@@ -55,7 +55,7 @@ First you'll need to load the Savestate in the Windows Glitch Harvester, once it
 
 ### The Savestate Info Tool
 
-Recent versions of the [Windows Glitch Harvester ](../../corruptors/windows-glitch-harvester.md)have a tool called the "Savestate Info" tool. This tool gives you information on the addresses of the SRAM, ARAM, and EXRAM within a Dolphin Savestate. Just load up the savestate, press the button, and you'll be able to see the starting addresses.
+Recent versions of the [Windows Glitch Harvester ](../../corruptors/rtc/windows-glitch-harvester.md)have a tool called the "Savestate Info" tool. This tool gives you information on the addresses of the SRAM, ARAM, and EXRAM within a Dolphin Savestate. Just load up the savestate, press the button, and you'll be able to see the starting addresses.
 
 ![](../../.gitbook/assets/savestateinfo093.png)
 
