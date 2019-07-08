@@ -197,7 +197,7 @@ Infinite Units are resource expensive as they re-write memory on every frame and
 
 **Clear units on rewind**
 
-Rewinding will clear all infinite units that have an infinite life time \(when applicable\).
+Rewinding will clear all [infinite units](basic.md#active-units-and-infinite-units) that have an infinite life time \(when applicable\).
 
 ### Freeze Engine
 
@@ -213,7 +213,7 @@ Infinite Units are resource expensive as they re-write memory on every frame and
 
 **Clear units on rewind**
 
-Rewinding will clear all infinite units that have an infinite life time \(when applicable\).
+Rewinding will clear all [infinite units](basic.md#active-units-and-infinite-units) that have an infinite life time \(when applicable\).
 
 ### Distortion Engine
 
@@ -229,7 +229,7 @@ This is the amounts of steps that each corruption unit has to wait before restor
 
 **Resync Distortion**
 
-This erases all current active units pending to be restored.
+This erases all current [active units](basic.md#active-units-and-infinite-units) pending to be restored.
 
 ### Pipe Engine
 
@@ -243,7 +243,7 @@ Prevents any change to be done to the current Active Units
 
 **Clear units on rewind**
 
-Rewinding will clear all infinite units that have an infinite life time \(when applicable\).
+Rewinding will clear all [infinite units](basic.md#active-units-and-infinite-units) that have an infinite life time \(when applicable\).
 
 ### Vector Engine
 
@@ -251,7 +251,7 @@ Rewinding will clear all infinite units that have an infinite life time \(when a
 
 This engine works exclusively on 32bit systems that use IEEE 754 float values.
 
-If you need to use lists of a precision different than 32-bit, you must use the Custom Engine.
+If you need to use lists of a [precision ](basic.md#engine-precision-and-alignment)different than 32-bit, you must use the Custom Engine.
 
 _Effect: Corrupts 32bit vectors_
 
@@ -285,7 +285,7 @@ Whole: -65536.00 to +65536.00 in low res, integral numbers
 
 Whole+: 0 to +65536.00 in low res, integral numbers
 
-You can add your own lists using the List Generator Tool.
+_You can add your own lists using the List Generator Tool._
 
 ### Custom Engine
 
@@ -301,7 +301,7 @@ See the [Custom Engine Guide](expert/custom-engine.md) for more information abou
 
 Allows you to choose what size BlastUnit will be generated. 8-bit \(one byte\), 16-bit \(2 bytes\), 32-bit \(4 bytes\) or 64-bit \(8 bytes\).
 
-The alignment settings should always be left at 0 unless corruption is done on an experimental target, file or if the game being corrupted mispositions its data.
+The alignment settings should always be left at 0 unless corruption is done on an experimental target, file or if the game that's being corrupted mispositions its data.
 
 ## Auto-KillSwitch
 

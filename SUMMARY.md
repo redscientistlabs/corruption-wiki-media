@@ -12,6 +12,7 @@
     * [Blast Editor Guide](corruptors/rtc/expert/blast-editor.md)
     * [Blast Generator Guide](corruptors/rtc/expert/blast-generator.md)
     * [VMD Generator Guide](corruptors/rtc/expert/vmd-generator.md)
+    * [Active Table Guide](corruptors/rtc/expert/active-table-guide.md)
     * [Custom Engine Guide](corruptors/rtc/expert/custom-engine.md)
   * [Tips, tricks and quirks](corruptors/rtc/tips.md)
 * [Vinesauce ROM Corruptor](corruptors/vinesauce-rom-corruptor.md)

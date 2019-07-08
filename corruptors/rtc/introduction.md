@@ -6,8 +6,6 @@ The Real-Time Corruptor for BizHawk is a Dynamic Corruptor for various uses. Far
 
 The Real-Time Corruptor was designed with ease of use in mind, if you want to get right into the action simply start an emulator from the launcher, load a ROM and click “Easy Start” then "Start with Recommended Settings" and you are away! \(_Instant results not always guaranteed. Some emulators require bios or firmware files which you must acquire legally\)_
 
-### Fundamentals of RTC
-
 ## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
 
 ### **Authors:** [**Phil Girard**](http://redscientist.com/) **&** [**Dan Barreiro \(Narry\)**](https://narry.land/)\*\*\*\*
