@@ -212,25 +212,29 @@ If the user doesn't add a value or range, the default range will be the entire s
 
 If you need advanced help, want to report bugs, ask features or even help with development, we have a development Discord server.
 
-**The rules are the following**
+**The main rules are the following**
 
 → Do not spam, post memes or cause trouble.
 
-→ Prioritize big blocks of text over multiple posts \(it makes them easier to delete if needed\)
+→ Prioritize big blocks of text over multiple posts, limit your amount of posts and make sure you don't inject misinformation in diagnostics. 
 
-→ **\#corruption\_general** is for discussing of corruption-related things
+→ **\#corruption\_general** is for discussing of corruption-related things.
 
-→ **\#corruption\_showcase** is for sharing corruptions you made. Please focus on new discoveries and experiments with new features. Don't post SMB1 tileset vomit.
+→ **\#corruption\_showcase** is for sharing corruptions you made. Please focus on new discoveries and experiments with new features. Don't post SMB1 tileset vomit or 3d spikes and needles.
 
 → **\#corruption\_help** is for requesting help or any kind of support for corruption-related programs, technique and all sorts of issues. Use this channel to discuss about issues before reporting an actual bug.
 
-→ Your requests may get erased and reposted in a stylized box.
+→ **\#dev\_builds** is where we announce non-public builds for testing.
 
-→ **Keep your discussion related to RTC and other relevant topics.**
+→ **\#corruption\_ressources** is for sharing information about game internals, sharing virtual memory domains \(.vmd\), savestate lists \(.ssk\), value lists \(.txt\) and links to various documents.
+
+→ **Keep your discussion focused to RTC, corruptions and other relevant topics. No random chit-chat.**
 
 → **Some of our members have some online notoriety. I will gently ask you stay calm and polite when they are around and refrain from bugging them. Childish fanboyism is not tolerated.**
 
+_**The rules above are the main rules, more detailed information resides in \#rules. Please read them.**_
+
 If you agree to the rules shown above, you can join at the link below
 
-### [I agree. Let me in](https://discord.gg/uzxHvUV)
+#### [I agree. Let me in](https://discord.gg/uzxHvUV)
 
