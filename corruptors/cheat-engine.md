@@ -184,7 +184,7 @@ The Wii and the Wii U use little endian values so when corrupting with Cemu or D
 
 ![](../.gitbook/assets/exec-write.png)
 
-* If your game crashes and you don't want to lose the values you found you can just relaunch the game, choose it from the processes list again and click "Yes" when it asks if you want to keep the current address list/code list.
+* If your game crashes and you don't want to lose the values you found you can just relaunch the game, choose it from the processes list again and click "Yes" when it asks if you want to keep the current address list/code list. This will only work for static (green) addresses.
 
 ![](../.gitbook/assets/keep-values.png)
 
