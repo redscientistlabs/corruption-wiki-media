@@ -189,7 +189,7 @@ TILT: Will Increment or Decrement random Byte\(s\).
 
 This engine generate Active Units, which execute on every frame. The Hellgenie Engine replicates the effect of Cheats \(see Game Genie, Active Replay, GameShark\) and replaces a value with a randomly selected one then applies it on every frame.
 
-Effect: It randomly selects a value and forces a selected address them keep that value.
+Effect: It randomly selects a value and forces a selected address to then keep that value.
 
 **Max infinite units**
 
