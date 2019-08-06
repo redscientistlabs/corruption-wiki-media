@@ -184,7 +184,7 @@ The Wii and the Wii U use little endian values so when corrupting with Cemu or D
 
 ![](../.gitbook/assets/exec-write.png)
 
-* If your game crashes and you don't want to lose the values you found you can just relaunch the game, choose it from the processes list again and click "Yes" when it asks if you want to keep the current address list/code list. This will only work for static (green) addresses.
+* If your game crashes and you don't want to lose the values you found, you can relaunch the game, choose it from the processes list again and click "Yes" when it asks if you want to keep the current address list/code list. However, this will only work if the addresses are static (colored green as opposed to black).
 
 ![](../.gitbook/assets/keep-values.png)
 
@@ -217,4 +217,3 @@ CosmoCourtney has a guide on how to use Cheat Engine to corrupt games, in this e
 {% embed url="https://www.youtube.com/watch?v=v3belhaTwNc" caption="" %}
 
 A good example of what Cheat Engine is possible of when used on modern titles.
-
