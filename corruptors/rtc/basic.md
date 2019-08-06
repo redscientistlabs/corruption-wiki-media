@@ -133,7 +133,7 @@ The Intensity is a multiplier to the amount of generated [Units ](basic.md#blast
 
 _Generally, the higher the Intensity is, the more corruption will happen_
 
-Some [engines ](basic.md#corruption-engines)generate [Active Units](basic.md#active-units-and-infinite-units), which execute code on every frame while they're active. This means that. There's a maximum amount of 50 active units by default. This setting can be changed in the engine settings \(when applicable\) or in Settings and tools -&gt; Corruption Settings
+Some [engines ](basic.md#corruption-engines)generate [Active Units](basic.md#active-units-and-infinite-units), which execute code on every frame while they're active. There's a maximum amount of 50 active units by default. This setting can be changed in the engine settings \(when applicable\) or in Settings and tools -&gt; Corruption Settings
 
 _This means that a Blast with 100 Intensity while Max Active Units is set to 50 will have the same result as a blast with 50 intensity, given that the currently selected engine generates Active Units._
 
