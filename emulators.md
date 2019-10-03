@@ -1,6 +1,6 @@
 ## Recommended Emulators for Corruptions
 
-This is a list of emulators that are recommended for use when corrupting games or recording corruptions, this list takes into consideration the ease of use and the compatibility with the "Launch emulator" option in some corruption tools rather than the accuracy or the game-compatibility of the emulator.
+This is a list of emulators that are recommended for use when corrupting games or recording corruptions. This list takes into consideration the ease of use and the compatibility with the "Launch emulator" option in some corruption tools rather than the accuracy or the game-compatibility of the emulator.
 
 ##### Note that this list is for manual ROM corruptions or to be used the Vinesauce ROM Corruptor \(VSRC\) or Cheat Engine. The Real Time Corruptor is built along-side Bizhawk which is a suite of various emulator cores, so it is not necessary to use any external emulators with it.
 
@@ -56,13 +56,13 @@ ZNES has been in development since 2001 and has an interesting non-standard UI a
 
 ###### [Download](http://www.pj64-emu.com/)
 
-PJ64 is an easy to use N64 emulator and is fairly tolerant to corrupted ROMs, careful when you download from the site as it has ads in the installer.
+PJ64 is an easy to use N64 emulator and is fairly tolerant to corrupted ROMs.
 
 #### 1964
 
 ###### [Download](https://code.google.com/archive/p/emu-1964/downloads)
 
-1964 isn't as popular as other N64 emulators but it is reminiscent of PJ64 as it has a similar GUI and is able to launch ROMs via corruptors seamlessly.
+1964 isn't as popular as other N64 emulators, but it is reminiscent of PJ64 as it has a similar GUI and is able to launch ROMs via corruptors seamlessly.
 
 ## PS1
 
@@ -72,7 +72,7 @@ PJ64 is an easy to use N64 emulator and is fairly tolerant to corrupted ROMs, ca
 
 [Download](http://drhell.web.fc2.com/ps1/)
 
-XEBRA is relatively unknown in the corruption community but it's easy to use, corruptions work fine, and it has video upscaling so you make record high quality videos with it. To download go to the bottom of the page and click on the first image.
+XEBRA is relatively unknown in the corruption community but it's easy to use, corruptions work fine, and it has video upscaling so you make record high quality videos with it. To download, go to the bottom of the page and click on the first image.
 
 #### psxfin
 
@@ -88,7 +88,7 @@ psxfin is outdated and old but just works. You can run most games and launch the
 
 ###### [Download](https://desmume.org/download/)
 
-DeSmuME is the go-to DS emulation software for the PC, it's accurate, somewhat maintained and has upscaling on 3D models for higher quality videos, it launches ROMs through any corruptor just fine.
+DeSmuME is the go-to DS emulation software for the PC, it's accurate, somewhat maintained, and has upscaling on 3D models for higher quality videos. It launches ROMs through any corruptor just fine.
 
 ## PC
 
