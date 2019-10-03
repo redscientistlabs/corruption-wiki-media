@@ -1,6 +1,4 @@
-## PC Game Corruptions
+# PC
 
 TODO
-
-
 

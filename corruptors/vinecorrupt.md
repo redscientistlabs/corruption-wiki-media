@@ -1,185 +1,184 @@
-> # Note
+# VineCorrupt
+
+> ## Note
 >
-> ### While you can still use this corruptor, we suggest using the [Real Time Corruptor](http://redscientist.com/#/rtc "Real Time Corruptor RTC") whenever you can. The RTC is under active development and has far more features than other corruptors.
+> #### While you can still use this corruptor, we suggest using the [Real Time Corruptor ](http://redscientist.com/rtc)whenever you can. The RTC is under active development and has far more features than other corruptors.
 >
-> #### [You can view the wiki pages for the Real Time Corruptor here](/corruptors/rtc-real-time-corruptor.md)
+> \*\*\*\*[**You can view the wiki pages for the Real Time Corruptor here**](rtc/)\*\*\*\*
 
----
+### VineCorrupt
 
-## 
+**Author: "Maiddog"**
 
-## VineCorrupt
+**Source: https://github.com/Roughsketch/mdcorrupt**
 
-###### Author: ["Maiddog"](http://www.maiddog.com/projects/corrupter/index.php)
+**Download: http://www.maiddog.com/projects/corrupter/download.php**
 
-###### Source: [https://github.com/Roughsketch/mdcorrupt](https://github.com/Roughsketch/mdcorrupt)
+VineCorrupt is a multi-system corrupter designed to work with game systems ranging from NES to Wii with further inclusive development for other systems. VineCorrupt features opcode and file protection for its supported systems to minimize crashes. Each system has a different protection protocol according to their instruction set or file type to prevent crash inducing modifications. VinecCorrupt also features the ability to corrupt specific files within a disc through a directory structure.
 
-###### Download: [http://www.maiddog.com/projects/corrupter/download.php](http://www.maiddog.com/projects/corrupter/download.php)
+![](../.gitbook/assets/vinecorruptnds.png)
 
-VineCorrupt is a multi-system corrupter designed to work with game systems ranging from NES to Wii with further inclusive development for other systems.  VineCorrupt features opcode and file protection for its supported systems to minimize crashes.  Each system has a different protection protocol according to their instruction set or file type to prevent crash inducing modifications.  VinecCorrupt also features the ability to corrupt specific files within a disc through a directory structure.
+#### Index
 
-![](/assets/vinecorrupt/VineCorruptNDS.png)
+* [**Index**](vinecorrupt.md#index)
+  * [**Functions**](vinecorrupt.md#functions)
+    * [ROM File](vinecorrupt.md#rom-File)
+    * [Extract To](vinecorrupt.md#extract-to)
+    * [Emulator](vinecorrupt.md#emulator)
+    * [Save](vinecorrupt.md#save)
+    * [Save Last](vinecorrupt.md#save-last)
+    * [Load](vinecorrupt.md#load)
+    * [Corrupt](vinecorrupt.md#corrupt)
+    * [Run Emulator](vinecorrupt.md#run-emulator)
+    * [Miscellaneous Files](vinecorrupt.md#misc-files)
+  * [**Byte Corruption**](vinecorrupt.md#byte-corruption)
+    * [Step Size](vinecorrupt.md#step-size---hex)
+      * [Start Byte](vinecorrupt.md#start-byte---hex)
+      * [End Byte](vinecorrupt.md#end-byte---hex)
+      * [Total Bytes](vinecorrupt.md#total-byte---hex)
+      * [Bytes Corrupted](vinecorrupt.md#bytes-corrupted)
+      * [Corruption Selection](vinecorrupt.md#operation-select)
+      * [Corruption Value](vinecorrupt.md#corruption-value)
+  * [**Byte Operations**](vinecorrupt.md#byte-operations)
+    * [Shift](vinecorrupt.md#shift)
+    * [Swap](vinecorrupt.md#swap)
+    * [Add](vinecorrupt.md#add)
+    * [Set To](vinecorrupt.md#set-to)
+    * [Random](vinecorrupt.md#random)
+    * [Rotate \(L/R\)](vinecorrupt.md#rotate-lr)
+    * [Logical AND](vinecorrupt.md#logical-AND)
+    * [Logical OR](vinecorrupt.md#logical-OR)
+    * [Logical XOR](vinecorrupt.md#logical-XOR)
+    * [Logical Complement](vinecorrupt.md#logical-complement)
 
-### Index
+#### Functions
 
-* [**Index**](#index "Self appointed!")
-  * [**Functions**](#functions)
-    * [ROM File](#rom-File)
-    * [Extract To](#extract-to)
-    * [Emulator](#emulator)
-    * [Save](#save)
-    * [Save Last](#save-last)
-    * [Load](#load)
-    * [Corrupt](#corrupt)
-    * [Run Emulator](#run-emulator)
-    * [Miscellaneous Files](#misc-files)
-  * [**Byte Corruption**](#byte-corruption)
-  	* [Step Size](#step-size---hex)
-    * [Start Byte](#start-byte---hex)
-    * [End Byte](#end-byte---hex)
-    * [Total Bytes](#total-byte---hex)
-    * [Bytes Corrupted](#bytes-corrupted)
-    * [Corruption Selection](#operation-select)
-    * [Corruption Value](#corruption-value)
-  * [**Byte Operations**](#byte-operations)
- 	* [Shift](#shift)
- 	* [Swap](#swap)
- 	* [Add](#add)
- 	* [Set To](#set-to)
- 	* [Random](#random)
- 	* [Rotate (L/R)](#rotate-lr)
- 	* [Logical AND](#logical-AND)
- 	* [Logical OR](#logical-OR)
- 	* [Logical XOR](#logical-XOR)
- 	* [Logical Complement](#logical-complement)
-
-### Functions
-
-![](/assets/vinecorrupt/VineCorruptFunctions.png)
+![](../.gitbook/assets/vinecorruptfunctions.png)
 
 This section goes over the functions of VineCorrupt.
 
-##### ROM File
+**ROM File**
 
-Choose a ROM file by selecting "Browse."  The ROM's directory path will be displayed once the ROM has been selected.
+Choose a ROM file by selecting "Browse." The ROM's directory path will be displayed once the ROM has been selected.
 
-##### Extract To
+**Extract To**
 
-Choose a directory by selecting "Browse" to extract the contents of the selected ROM.  This directory's files will be the target for corruption.
+Choose a directory by selecting "Browse" to extract the contents of the selected ROM. This directory's files will be the target for corruption.
 
-##### Emulator
+**Emulator**
 
-Choose an emulator by selecting "Browse" to point to the emulator that runs the ROM files from the current tab.  The selected emulator will remain selected for the specified system until the user chooses another one or VineCorrupt is updated.
+Choose an emulator by selecting "Browse" to point to the emulator that runs the ROM files from the current tab. The selected emulator will remain selected for the specified system until the user chooses another one or VineCorrupt is updated.
 
-##### Save
+**Save**
 
-Shows a display box with a code that can be loaded to restore the current settings.  These values correspond to the current corruption options.
+Shows a display box with a code that can be loaded to restore the current settings. These values correspond to the current corruption options.
 
-##### Save Last
+**Save Last**
 
-Once a ROM is corrupted, you can save it to a custom directory with this option.  It will be deleted from the corrupter directory afterwards.
+Once a ROM is corrupted, you can save it to a custom directory with this option. It will be deleted from the corrupter directory afterwards.
 
-##### Load
+**Load**
 
-Shows a display box that allows the user to enter a code generated by a "save" operation.  Submitting a code will restore previous corruption settings.  This code corresponds to the current corruption options.
+Shows a display box that allows the user to enter a code generated by a "save" operation. Submitting a code will restore previous corruption settings. This code corresponds to the current corruption options.
 
-##### Corrupt 
+**Corrupt**
 
-Starts the corruption process with the current settings.  If an "Extract To" directory is listed, the files within this directory will be corrupted.
+Starts the corruption process with the current settings. If an "Extract To" directory is listed, the files within this directory will be corrupted.
 
-##### Run Emulator
+**Run Emulator**
 
-If an emulator is selected, it will attempt t o run the emulator with the given ROM as an argument.  If an emulator has already been run this way, it will be closed.  The option does not work with all emulators and the run/auto-close feature may not operate properly.
+If an emulator is selected, it will attempt t o run the emulator with the given ROM as an argument. If an emulator has already been run this way, it will be closed. The option does not work with all emulators and the run/auto-close feature may not operate properly.
 
-##### Miscellaneous Files
+**Miscellaneous Files**
 
-![](/assets/vinecorrupt/VineCorruptMisc.png)
+![](../.gitbook/assets/vinecorruptmisc.png)
 
-VineCorrupt supports non-specific file corruption for unsupported systems.  It is not recommended to use this function if the supplied file is already supported by a VineCorrupt system due to the built-in file protection.  Miscellaneous file corruption is performed in the same manner as supported system file corruption. 
+VineCorrupt supports non-specific file corruption for unsupported systems. It is not recommended to use this function if the supplied file is already supported by a VineCorrupt system due to the built-in file protection. Miscellaneous file corruption is performed in the same manner as supported system file corruption.
 
-### Byte Corruption
+#### Byte Corruption
 
-![](/assets/vinecorrupt/VineCorruptOptions.png)
+![](../.gitbook/assets/vinecorruptoptions.png)
 
 This section goes over the "Corruption Options" section of VineCorrupt.
 
-##### Step Size
+**Step Size**
 
 The amount of space to skip between each corruption.
 
-##### Start Byte
+**Start Byte**
 
 The offset into the ROM where the program will start corruption.
 
-##### End Byte
+**End Byte**
 
-The offset into the ROM where the program will stop corruption.  Setting this value to 0 will corrupt from the Start Byte to the end of the file (similar to "Auto-end").
+The offset into the ROM where the program will stop corruption. Setting this value to 0 will corrupt from the Start Byte to the end of the file \(similar to "Auto-end"\).
 
-##### Total Bytes
+**Total Bytes**
 
 This displays the total bytes of the ROM in hexadecimal once the file has been selected.
 
-##### Bytes Corrupted
+**Bytes Corrupted**
 
 This displays the total bytes corrupted with the current settings after the ROM has been corrupted.
 
-##### Corruption Selection
+**Corruption Selection**
 
-The drop down box lists all the current corruption types.  The currently selected one will be applied after hitting Corrupt.
+The drop down box lists all the current corruption types. The currently selected one will be applied after hitting Corrupt.
 
-##### Corruption Value
+**Corruption Value**
 
-![](/assets/vinecorrupt/VineCorruptCorruptionValue.png)
+![](../.gitbook/assets/vinecorruptcorruptionvalue.png)
 
-The Corruption Value is currently unlabeled and is located under the corruption selection drop down box.  This value modifies byte operations.
+The Corruption Value is currently unlabeled and is located under the corruption selection drop down box. This value modifies byte operations.
 
-### Byte Operations
+#### Byte Operations
 
-![](/assets/vinecorrupt/VineCorruptByte.png)
+![](../.gitbook/assets/vinecorruptbyte.png)
 
 This section goes over the byte operations of VineCorrupt. For examples of these operations see Maiddog's [Help Section](http://www.maiddog.com/projects/corrupter/help.php#tab-help-2)
 
-##### Shift
+**Shift**
 
-Shift grabs a byte a [Corruption Value] distance away and puts it in the current position.
+Shift grabs a byte a \[Corruption Value\] distance away and puts it in the current position.
 
-##### Swap
+**Swap**
 
-Swap grabs the current byte and a byte of [Corruption Value] distance away and swaps their values.
+Swap grabs the current byte and a byte of \[Corruption Value\] distance away and swaps their values.
 
-##### Add
+**Add**
 
-Adds the [Corruption Value] to the current byte.
+Adds the \[Corruption Value\] to the current byte.
 
-##### Set To
+**Set To**
 
-Sets the value of the current byte to the value of [Corruption Value].
+Sets the value of the current byte to the value of \[Corruption Value\].
 
-##### Random
+**Random**
 
-Random generates a random value and places it at the current byte.  Random does not use the corruption value.
+Random generates a random value and places it at the current byte. Random does not use the corruption value.
 
-##### Rotate (L/R)
+**Rotate \(L/R\)**
 
-Rotate performs a bitwise rotation of the current value by a distance of [Corruption Value].
+Rotate performs a bitwise rotation of the current value by a distance of \[Corruption Value\].
 
-##### Logical AND
+**Logical AND**
 
-Performs a logical AND operation at the current byte with the [Corruption Value].
+Performs a logical AND operation at the current byte with the \[Corruption Value\].
 
-##### Logical OR
+**Logical OR**
 
-Performs a logical OR operation at the current byte with the [Corruption Value].
+Performs a logical OR operation at the current byte with the \[Corruption Value\].
 
-##### Logical XOR
+**Logical XOR**
 
-Performs a logical XOR operation at the current byte with the [Corruption Value].
+Performs a logical XOR operation at the current byte with the \[Corruption Value\].
 
-##### Logical Complement
+**Logical Complement**
 
-Changes the current byte to its logical complement.  Complement does not use the corruption value.
+Changes the current byte to its logical complement. Complement does not use the corruption value.
 
-* * *
+* * \*
 
-Write up by TechSupportSparky 
-![](/assets/vinecorrupt/RaccAttack.png)
+Write up by TechSupportSparky  
+![](../.gitbook/assets/raccattack.png)
+

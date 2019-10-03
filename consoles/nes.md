@@ -1,6 +1,4 @@
-## NES Corruptions
+# NES
 
 TODO
-
-
 

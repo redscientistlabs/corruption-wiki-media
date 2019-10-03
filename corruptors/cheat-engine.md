@@ -1,53 +1,51 @@
-## Cheat Engine
+# Cheat Engine
 
-###### Author:[ ](http://corruptedbytes.com/)[Eric "Dark Byte" Heijnen](http://forum.cheatengine.org/profile.php?mode=viewprofile&u=2&sid=2bf2a348a015e9970939ce6713bec761) {#author-ryan-rikerz-sammon}
+**Author: Eric "Dark Byte" Heijnen**
 
-###### Source:[ ](https://github.com/Rikerz/VRC)[https://github.com/cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine) {#source-httpsgithubcomrikerzvrc}
+**Source: https://github.com/cheat-engine/cheat-engine**
 
-###### Download: [https://github.com/cheat-engine/cheat-engine/releases](https://github.com/cheat-engine/cheat-engine/releases) {#download-httpsgithubcomrikerzvrctreemasterbin}
+**Download: https://github.com/cheat-engine/cheat-engine/releases**
 
 Cheat Engine is an Memory Hacking Software for the [Windows](https://github.com/cheat-engine/cheat-engine/releases), [OSX](http://www.cheatengine.org) and [Android](http://forum.cheatengine.org/viewtopic.php?t=579943), it scans what a program has loaded on a computer's memory \(RAM\) when it's running and allows you to edit all the values a program has on memory. Normally Cheat Engine is used to cheat in video games like give you infinite health, thus the name.
 
-![](/assets/cheat-engine/cheat-engine.png)
+![](../.gitbook/assets/cheat-engine.png)
 
 Due to Cheat Engine having many features for game hacking and memory editing, this wiki article will focus on the corruption aspect of Cheat Engine and the basics of the software to corrupt with it. Please visit the Cheat Engine Wiki for more information on the memory hacking and scripting side of Cheat Engine here: [http://wiki.cheatengine.org/](http://wiki.cheatengine.org/)
 
-### Index
+## Index
 
-* [**Index**](#index "Literally this")
-  * [**Functions**](#functions)
-  * [**Process Hooking**](#process-hooking)
-  * [**Memory Scanning**](#memory-scanning)
-     * [Scan Option](#scan-option)
-     * [Scan Range](#scan-range)
-  * [**Found Values**](#found-values)
-  * [**Active Table**](#active-table)
-  * [**Common Hex Values**](#common-hex-values)
-  * [**Quick Corruption Setup**](#quick-corruption-setup)
-  * [**Corrupting Emulated Games**](#corrupting-emulated games)
-     * [Little Endian Values](#little-endian-values)
-  * [**Tips**](#tips)
-  * [**Warnings**](#warnings)
-  * [**References**](#references)
-  * [**Videos**](#videos)
+* [**Index**](cheat-engine.md#index)
+  * [**Functions**](cheat-engine.md#functions)
+  * [**Process Hooking**](cheat-engine.md#process-hooking)
+  * [**Memory Scanning**](cheat-engine.md#memory-scanning)
+    * [Scan Option](cheat-engine.md#scan-option)
+    * [Scan Range](cheat-engine.md#scan-range)
+  * [**Found Values**](cheat-engine.md#found-values)
+  * [**Active Table**](cheat-engine.md#active-table)
+  * [**Common Hex Values**](cheat-engine.md#common-hex-values)
+  * [**Quick Corruption Setup**](cheat-engine.md#quick-corruption-setup)
+  * [**Corrupting Emulated Games**](cheat-engine.md#corrupting-emulated%20games)
+    * [Little Endian Values](cheat-engine.md#little-endian-values)
+  * [**Tips**](cheat-engine.md#tips)
+  * [**Warnings**](cheat-engine.md#warnings)
+  * [**References**](cheat-engine.md#references)
+  * [**Videos**](cheat-engine.md#videos)
 
-   
+## Functions <a id="functions"></a>
 
-### Functions {#functions}
+### ![](../.gitbook/assets/proc-hook.png)
 
-#### ![](/assets/cheat-engine/proc-hook.png)
-
-### Process Hooking
+## Process Hooking
 
 Hooking processes in Cheat Engine allows you to choose your target application or game for corruption. You can also hook emulators and even system processes.
 
-#### ![](/assets/cheat-engine/mem-scan.png)
+### ![](../.gitbook/assets/mem-scan.png)
 
-### Memory Scanning
+## Memory Scanning
 
 Memory scanning scans the memory of the chosen application from the process list, there are many types of values you can scan however in the context of corruptions 4 byte values are mostly used. You can experiment with other types of values including strings if you want to replace text on screen.
 
-##### Scan Option
+#### Scan Option
 
 If you are trying to pinpoint specific elements of a game to corrupt but can't find what they are, Cheat Engine gives you lots of flexibility with various scanning options and the ability to scan specific ranges \(similar to how you can corrupt specific ranges in the VSRC\).
 
@@ -75,21 +73,21 @@ After the first scan you can set the options for the 'Next Scan' which are:
 
 All these options speak for themselves. Cheat Engine remembers the values found in the previous scan, allowing it to compare new values with the old ones and revert to a previous scan. It also remembers the values of the First Scan.
 
-##### Scan Range
+#### Scan Range
 
 Cheat Engine only scans between the given range markers. Default are these From: 00400000 To: 7FFFFFFF If you know for certain that a certain address must be between two addresses, then you can change these markers and Cheat Engine will only search between those values.
 
-![](/assets/cheat-engine/found-values.png)
+![](../.gitbook/assets/found-values.png)
 
-### Found Values
+## Found Values
 
 After searching for a value it will show the results in the left panel. You can select groups of values by clicking on one value, holding shift and clicking another value, or select multiple individual values by clicking on values while holding Ctrl.
 
 Move your selected values to the active table for editing by clicking the red arrow on the bottom right of the results table.
 
-#### ![](/assets/cheat-engine/active-table.png)
+### ![](../.gitbook/assets/active-table.png)
 
-### Active Table
+## Active Table
 
 The active table is where you can edit the properties of your selected/found addresses. You can edit the following properties:
 
@@ -100,7 +98,7 @@ The active table is where you can edit the properties of your selected/found add
 
 In the context of corruption the Value is the most modified property for the most prevalent results.
 
-### Common Hex Values
+## Common Hex Values
 
 These values are best for getting good corruption results, after scanning for these values, move the found values to the active table and increase or decrease them by 1000 to see if they have any effect on the game.
 
@@ -128,7 +126,7 @@ These values are best for getting good corruption results, after scanning for th
 
 `c2000000 - c7000000`
 
-### Quick Corruption Setup
+## Quick Corruption Setup
 
 1. Select a process \(game or emulator\) from the process button in the top left corner. 
 2. Tick the Hex checkbox next to the value input.
@@ -144,15 +142,15 @@ These values are best for getting good corruption results, after scanning for th
 
 You can experiment extensively with Cheat Engine because of it's high flexibility with memory editing so if you'd like to try the and corrupt a game with all of it's features please check the official Cheat Engine Wiki to learn more. [http://wiki.cheatengine.org/](http://wiki.cheatengine.org/)
 
-![](/assets/cheat-engine/example.png)
+![](../.gitbook/assets/example.png)
 
-### Corrupting Emulated Games
+## Corrupting Emulated Games
 
 If you want to try corrupting emulated games in something like Dolphin, first check the architecture of the emulated console to see if uses Little or Large Endian values.
 
 The Wii and the Wii U use little endian values so when corrupting with Cemu or Dolphin, use the values below.
 
-##### Little Endian Values
+#### Little Endian Values
 
 `0000803F - 00002040`
 
@@ -180,17 +178,17 @@ The Wii and the Wii U use little endian values so when corrupting with Cemu or D
 
 `000000C0 - 000000C1`
 
-#### Tips
+### Tips
 
 * Depending on the game, un-checking the "Writable" and "Exectuble" options before doing the first scan can give you better values to corrupt with.
 
-![](/assets/exec-write.png)
+![](../.gitbook/assets/exec-write.png)
 
-* If your game crashes and you don't want to lose the values you found you can just relaunch the game, choose it from the processes list again and click "Yes" when it asks if you want to keep the current address list/code list.
+* If your game crashes and you don't want to lose the values you found, you can relaunch the game, choose it from the processes list again and click "Yes" when it asks if you want to keep the current address list/code list. However, this will only work if the addresses are static (colored green as opposed to black).
 
-![](/assets/cheat-engine/keep-values.png)
+![](../.gitbook/assets/keep-values.png)
 
-### Warnings
+## Warnings
 
 _**NEVER CORRUPT AN ONLINE GAME!**_
 
@@ -204,19 +202,18 @@ _**LOWER YOUR VOLUME!**_
 
 Sometimes when you're changing values one of those values will control the volume so you might accidentally tab back into the game to find the volume at 1000%.
 
-### References
+## References
 
-This wiki article is adapted from a guide written by BitRain [you can find here.](/assets/cheat-engine/corruption-guide.pdf)
+This wiki article is adapted from a guide written by BitRain [you can find here.](https://github.com/x8bitrain/corrupt-wiki/tree/430148d289135ba52a58a9e30a4c9ac95d616b76/assets/cheat-engine/corruption-guide.pdf)
 
 BitRain's guide was inspired and adapted from CosmoCourtney's tutorial [video here.](https://www.youtube.com/watch?v=iLdrMNrwgRo)
 
-### Videos
+## Videos
 
-{% youtube %}https://www.youtube.com/watch?v=iLdrMNrwgRo{% endyoutube %}
+{% embed url="https://www.youtube.com/watch?v=iLdrMNrwgRo" caption="" %}
 
 CosmoCourtney has a guide on how to use Cheat Engine to corrupt games, in this example Goat Simulator is corrupted.
 
-{% youtube %}https://www.youtube.com/watch?v=v3belhaTwNc{% endyoutube %}
+{% embed url="https://www.youtube.com/watch?v=v3belhaTwNc" caption="" %}
 
 A good example of what Cheat Engine is possible of when used on modern titles.
-
