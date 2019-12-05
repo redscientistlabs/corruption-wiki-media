@@ -2,9 +2,9 @@
 
 **Author: Eric "Dark Byte" Heijnen**
 
-**Source: https://github.com/cheat-engine/cheat-engine**
+**Source:** [https://github.com/cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine)
 
-**Download: https://github.com/cheat-engine/cheat-engine/releases**
+**Download:** [https://github.com/cheat-engine/cheat-engine/releases](https://github.com/cheat-engine/cheat-engine/releases)
 
 Cheat Engine is an Memory Hacking Software for the [Windows](https://github.com/cheat-engine/cheat-engine/releases), [OSX](http://www.cheatengine.org) and [Android](http://forum.cheatengine.org/viewtopic.php?t=579943), it scans what a program has loaded on a computer's memory \(RAM\) when it's running and allows you to edit all the values a program has on memory. Normally Cheat Engine is used to cheat in video games like give you infinite health, thus the name.
 
@@ -184,7 +184,7 @@ The Wii and the Wii U use little endian values so when corrupting with Cemu or D
 
 ![](../.gitbook/assets/exec-write.png)
 
-* If your game crashes and you don't want to lose the values you found, you can relaunch the game, choose it from the processes list again and click "Yes" when it asks if you want to keep the current address list/code list. However, this will only work if the addresses are static (colored green as opposed to black).
+* If your game crashes and you don't want to lose the values you found, you can relaunch the game, choose it from the processes list again and click "Yes" when it asks if you want to keep the current address list/code list. However, this will only work if the addresses are static \(colored green as opposed to black\).
 
 ![](../.gitbook/assets/keep-values.png)
 
@@ -217,3 +217,4 @@ CosmoCourtney has a guide on how to use Cheat Engine to corrupt games, in this e
 {% embed url="https://www.youtube.com/watch?v=v3belhaTwNc" caption="" %}
 
 A good example of what Cheat Engine is possible of when used on modern titles.
+

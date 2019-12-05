@@ -29,7 +29,7 @@ The Real-Time Corruptor was designed with ease of use in mind, if you want to ge
 
 First, let’s go over the basic fundamentals of how this corruptor functions.
 
-![Modded emulators, stubs and extra stuff can be downloaded from the RTC Launcher](../../.gitbook/assets/image%20%2825%29.png)
+![Modded emulators, stubs and extra stuff can be downloaded from the RTC Launcher](../../.gitbook/assets/image%20%2832%29.png)
 
 Video game corruption happens when an emulated video game's program files are altered, either in the emulated game’s memory \(RAM\) or in the ROM itself. A real-time corruption is when the corruption itself occurs while the game is running or when the effects can be altered on the spot.
 

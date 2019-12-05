@@ -6,6 +6,7 @@
 
 * [Real-Time Corruptor](corruptors/rtc/README.md)
   * [Introduction](corruptors/rtc/introduction.md)
+  * [Simple Mode](corruptors/rtc/simple-mode.md)
   * [Basic Guide](corruptors/rtc/basic.md)
   * [Advanced Guide](corruptors/rtc/advanced.md)
   * [Expert Guide](corruptors/rtc/expert/README.md)

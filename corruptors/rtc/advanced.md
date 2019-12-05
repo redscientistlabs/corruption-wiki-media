@@ -19,7 +19,7 @@
 
 ## Glitch Harvester
 
-![The Glitch Harvester Interface](../../.gitbook/assets/image%20%2815%29.png)
+![The Glitch Harvester Interface](../../.gitbook/assets/image%20%2819%29.png)
 
 The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master.
 
@@ -29,7 +29,7 @@ Basic usage is fairly simple, you create a savestate, select the domains you wou
 
 ### Blast Tools
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
 #### Corrupt button
 
@@ -49,7 +49,7 @@ Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
 ### Blast Tools options
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%281%29.png)
 
 The Corrupt, Inject and Original options will change the function of the "Corrupt" button.
 
@@ -71,7 +71,7 @@ The Corrupt, Inject and Original options will change the function of the "Corrup
 
 _**This option is currently only available when RTC is connected to BizHawk**_
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 This allows you quickly/automatically start audio/video rendering when corrupting using the Glitch Harvester. Rendered files will be saved in the “RENDEROUTPUT” folder which is in _RTCV/RENDEROUTPUT_
 
@@ -107,7 +107,7 @@ These buttons allow you to Save and Load the filled Glitch Harvester Savestates 
 
 ### Intensity
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 This control is linked to the [intensity ](basic.md#intensity)controls in the Main Window. It multiplies the amount of generated Units on every Blast.
 
@@ -119,7 +119,7 @@ This is where new corruptions are stashed. The items that appear there can be se
 
 ### Stockpile Manager
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 This part of the Glitch Harvester is dedicated to edit and do operations onto Stockpiles.
 
@@ -143,7 +143,7 @@ Merging items together requires them to be for the same console and same game. T
 
 ## Stockpile Player
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 This is a minimalist version of the Glitch Harvester's [Stockpile Manager](advanced.md#stockpile-manager). It allows you to load [Stockpiles](basic.md#stockpile) and replay corruptions.
 

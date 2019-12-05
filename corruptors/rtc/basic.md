@@ -44,7 +44,7 @@ Throughout this entire guide, Emulators and other programs that interface with R
 
 #### BlastUnit
 
-_This represents one Unit of corruption instructions._ 
+_This represents one Unit of corruption instructions._
 
 The BlastUnit's behavior is defined by the engine that generated it and may contain one or many Addresses, Values and extra parameters. Said behavior can be customized through the [Custom Engine](basic.md#custom-engine).
 
@@ -58,7 +58,7 @@ BlastLayers that are ran from the [Stockpile Player](advanced.md#stockpile-playe
 
 #### Blast
 
-_A Blast is the action of generating and/or applying a_ [_BlastLayer_](basic.md#blastlayer) _item \(The action of corrupting\)._ 
+_A Blast is the action of generating and/or applying a_ [_BlastLayer_](basic.md#blastlayer) _item \(The action of corrupting\)._
 
 When being generated, a Blast will contain a certain amount of [BlastUnits](basic.md#blastunit). The amount of generated corruption Units is defined by the Intensity setting. The behavior of generated [units ](basic.md#blastunit)can be tweaked by changing the [selected Engine](basic.md#corruption-engines) or building a custom behavior in the [Custom Engine](basic.md#custom-engine).
 
@@ -82,7 +82,7 @@ Stockpiles can be replayed using the [Stockpile Player](advanced.md#stockpile-pl
 
 #### Memory Domain
 
-_Item that represents a chip or memory pool on an emulated system._ 
+_Item that represents a chip or memory pool on an emulated system._
 
 Memory Domains wrap the native memory areas into our own format. Every [Vanguard Implementation](basic.md#vanguard) has to wrap memory areas in these interfaces, which allows in return for a complete control by RTC. The high-level Memory Domain interface also allows for them to coexist with Virtual Memory Domains, which are a higher level of abstraction on top of normal Memory Domains.
 
@@ -149,7 +149,7 @@ Burst: 10 Chunks of 1/10 of the total Intensity.
 
 Even: Apply the blasts evenly spread through all selected domains.
 
-Proportional: Apply the blasts proportionally through all selected domains based on the sizes 
+Proportional: Apply the blasts proportionally through all selected domains based on the sizes
 
 Normalized: Iterate through all selected domains and apply as intensity/\(size of largest domain / size of current domain\)
 
@@ -167,7 +167,7 @@ _These are the various Engine Templates that you can use for corrupting games. T
 
 ### Nightmare Engine
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 This engine corrupts on the raw byte level.
 
@@ -185,7 +185,7 @@ TILT: Will Increment or Decrement random Byte\(s\).
 
 ### Hellgenie Engine
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 This engine generate Active Units, which execute on every frame. The Hellgenie Engine replicates the effect of Cheats \(see Game Genie, Active Replay, GameShark\) and replaces a value with a randomly selected one then applies it on every frame.
 
@@ -201,7 +201,7 @@ Rewinding will clear all [infinite units](basic.md#active-units-and-infinite-uni
 
 ### Freeze Engine
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2846%29.png)
 
 This engine generate Active Units, which execute on every frame. The Freeze Engine replicates the effect of Cheats \(see Game Genis, Active Replay, GameShark\) and replaces a value on every frame. The difference between this engine and the Hellgenie Engine is that this doesn't generate a value but instead keeps the value at the target adress and reapplies it on every frame, therefore freezing it into places.
 
@@ -217,7 +217,7 @@ Rewinding will clear all [infinite units](basic.md#active-units-and-infinite-uni
 
 ### Distortion Engine
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 This engine backups Bytes and restores those backups once, later in time.
 
@@ -233,7 +233,7 @@ This erases all current [active units](basic.md#active-units-and-infinite-units)
 
 ### Pipe Engine
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 This engine generates units that bind addresses together and can make data bleed from a Memory Domain to another. It uses Infinite Units that route memory changes on every Emulator Step or frame.
 
@@ -247,7 +247,7 @@ Rewinding will clear all [infinite units](basic.md#active-units-and-infinite-uni
 
 ### Vector Engine
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
 This engine works exclusively on 32bit systems that use IEEE 754 float values.
 
@@ -289,7 +289,7 @@ _You can add your own lists using the List Generator Tool._
 
 ### Custom Engine
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 This engine allows you to mix and match parameters to create your own engine.
 
@@ -297,7 +297,7 @@ See the [Custom Engine Guide](expert/custom-engine.md) for more information abou
 
 ### Engine Precision and Alignment
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 Allows you to choose what size BlastUnit will be generated. 8-bit \(one byte\), 16-bit \(2 bytes\), 32-bit \(4 bytes\) or 64-bit \(8 bytes\).
 
@@ -305,7 +305,7 @@ The alignment settings should always be left at 0 unless corruption is done on a
 
 ## Auto-KillSwitch
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 In order to give the user, the smoothest experience, RTC will constantly monitor the state of the [Vanguard-modded](basic.md#vanguard) emulator and attempt to kill it if it falls into a non-responsive state.
 
@@ -317,7 +317,7 @@ _When the Auto-KillSwitch is triggered, the user will hear a sound of broken pla
 
 ## Game Protection
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 The Game Protection optional feature has 2 benefits for the user:
 
