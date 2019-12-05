@@ -18,7 +18,15 @@ Start by loading up the RTC, launching either BizHawk or Dolphin, and clicking t
 
 ![](../../.gitbook/assets/image%20%2828%29.png)
 
-Next, go ahead and load up your ROM into your emulator. You'll want to find a spot in your game you think could corrupt well. Perhaps there are certain sprites on screen, or models doing animations, the choice is yours, just find somewhere to save. When you've found this location, press the button, _"Create and select a Glitch Harvester savestate"_
+Next, go ahead and load up your ROM into your emulator. 
+
+{% hint style="info" %}
+If you are using RTC with the Bizhawk Emulator, make sure your Rewind and Fast Forward hotkeys are bound properly. Rewind is very useful for reversing back corruption.
+{% endhint %}
+
+
+
+You'll want to find a spot in your game you think could corrupt well. Perhaps there are certain sprites on screen, or models doing animations, the choice is yours, just find somewhere to save. When you've found this location, press the button, _"Create and select a Glitch Harvester savestate"_
 
 ![](../../.gitbook/assets/image%20%2834%29.png)
 
