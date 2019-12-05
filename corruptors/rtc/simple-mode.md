@@ -21,7 +21,7 @@ Start by loading up the RTC, launching either BizHawk or Dolphin, and clicking t
 Next, go ahead and load up your ROM into your emulator. 
 
 {% hint style="info" %}
-If you are using RTC with the Bizhawk Emulator, make sure your Rewind and Fast Forward hotkeys are bound properly. Rewind is very useful for reversing back corruption.
+If you are using RTC with the Bizhawk Emulator, make sure your Rewind and Fast Forward hotkeys are bound properly. Rewind is very useful for reversing back corruption, especially when doing real-time corruption such as manual blasts and auto-corrupt.
 {% endhint %}
 
 
