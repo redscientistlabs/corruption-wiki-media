@@ -2,6 +2,10 @@
 
 TODO \(incomplete\)
 
+{% hint style="info" %}
+The Nintendo 64's architechture supports IEEE754 Floats and is natively compatible with the Vector Engine.
+{% endhint %}
+
 ## Mupen64Plus
 
 * **RDRAM \(Rewindable\) :** This is the console's main RAM. It will be either 4mb or 8mb depending if the emulating N64 is using an Expansion Pack or not.
