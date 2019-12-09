@@ -119,7 +119,7 @@ This is where new corruptions are stashed. The items that appear there can be se
 
 ### Stockpile Manager
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 This part of the Glitch Harvester is dedicated to edit and do operations onto Stockpiles.
 
@@ -143,7 +143,7 @@ Merging items together requires them to be for the same console and same game. T
 
 ## Stockpile Player
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 This is a minimalist version of the Glitch Harvester's [Stockpile Manager](advanced.md#stockpile-manager). It allows you to load [Stockpiles](basic.md#stockpile) and replay corruptions.
 

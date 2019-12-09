@@ -63,7 +63,7 @@ Triggers the Back button on Game Protection \(If available\)
 
 Triggers the Now button on Game Protection \(If available\)
 
-![](../../../.gitbook/assets/image%20%2831%29.png)
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 **Load and Corrupt**
 
@@ -101,7 +101,7 @@ Creates a Raw StashKey in the StashHistory
 
 ## Blast Editor
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2832%29.png)
 
 Any [StashKey ](../basic.md#stashkey)in the [Glitch Harvester](../advanced.md#glitch-harvester) can be opened in the Blast Editor by right-clicking on it and select _"Open Selected Item in Blast Editor"_.
 
@@ -115,7 +115,7 @@ Read the [Blast Editor Guide](blast-editor.md) for a detailed explanation of how
 
 ## VMD Pool
 
-![](../../../.gitbook/assets/image%20%2826%29.png)
+![](../../../.gitbook/assets/image%20%2827%29.png)
 
 The Virtual Memory Domain Pool is your main interaction window for loading and working with already loaded VMDs.
 

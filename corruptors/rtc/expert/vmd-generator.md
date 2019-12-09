@@ -99,11 +99,11 @@ I’ve selected System Bus and given the Generator two ranges. These ranges span
 
 When you input a name and click "Generate VMD," it appears both in the list of selectable Domains \(prefixed with \[V\] to denote a custom Domain\) and in the VMD Pool menu like so:
 
-![](../../../.gitbook/assets/image%20%2847%29.png)
+![](../../../.gitbook/assets/image%20%2849%29.png)
 
 Now I can select my custom Domain and use it to blast just those areas of memory which I specified in the list. You can see the results of these blasts in the Blast Editor window. \(The Blast Editor is accessed via the Glitch Harvester screen, by right-clicking the BlastLayer in the stash history or stockpile lists and selecting it from the context menu\).
 
-![](../../../.gitbook/assets/image%20%2841%29.png)
+![](../../../.gitbook/assets/image%20%2843%29.png)
 
 But, hang on. Does something about the numbers in the "Source address" column seem wrong to you? I specified a range starting from xA950, so why is it blasting addresses of x27B and x2BA?
 
@@ -149,7 +149,7 @@ In this example, that’s exactly what we want: all the value bytes, none of the
 
 **Method 2: Exclude specific addresses or ranges.** When generating your VMD, you could instead construct your list like this:
 
-![](../../../.gitbook/assets/image%20%2837%29.png)
+![](../../../.gitbook/assets/image%20%2839%29.png)
 
 Remember the note about ranges excluding the final byte? So here, what I’m telling it is:
 

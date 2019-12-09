@@ -22,6 +22,7 @@
 * [Cheat Engine](corruptors/cheat-engine.md)
 * [VineCorrupt](corruptors/vinecorrupt.md)
 * [Old Corruptors](corruptors/old-corruptors.md)
+* [Web-Based Corruptors](corruptors/web-based-corruptors.md)
 
 ## Emulators
 
