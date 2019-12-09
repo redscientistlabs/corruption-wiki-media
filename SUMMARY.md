@@ -29,20 +29,23 @@
 
 ## Consoles
 
-* [NES](consoles/nes.md)
-* [SNES](consoles/snes.md)
+* [NES](consoles/nes/README.md)
+  * [Bizhawk Memory Domains](consoles/nes/bizhawk-memory-domains.md)
+* [SNES](consoles/snes/README.md)
+  * [Bizhawk Memory Domains](consoles/snes/bizhawk-memory-domains.md)
+  * [Snes Audio Tinkering](consoles/snes/snes-audio-tinkering.md)
 * [N64](consoles/n64/README.md)
+  * [Bizhawk Memory Domains](consoles/n64/bizhawk-memory-domains.md)
   * [Basic/Advanced ROM Corruption](consoles/n64/basic-advanced-rom-corruption.md)
   * [Expert ROM Corruption](consoles/n64/expert-rom-corruption.md)
-  * [RTC Corruption](consoles/n64/rtc-corruption.md)
+* [Gameboy Advance](consoles/gameboy-advance/README.md)
+  * [Bizhawk Memory Domains](consoles/gameboy-advance/bizhawk-memory-domains.md)
+* [Nintendo DS](consoles/nds.md)
+* [PS1](consoles/ps1.md)
 * [Gamecube/Wii](consoles/gamecubewii/README.md)
   * [Gamecube ISO Corruption](consoles/gamecubewii/gamecube-iso-corruption.md)
   * [Gamecube & Wii Filesystem Corruption](consoles/gamecubewii/gamecube-and-wii-filesystem-corruption.md)
   * [Gamecube & Wii Savestate Corruption](consoles/gamecubewii/gamecube-and-wii-savestate-corruption.md)
-* [Gameboy Advance](consoles/gameboy-advance.md)
-* [PS1](consoles/ps1.md)
-* [NDS](consoles/nds.md)
-* [PC](consoles/pc.md)
 
 ## Etc.
 

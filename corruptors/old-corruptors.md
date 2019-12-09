@@ -1,8 +1,14 @@
 # Old Corruptors
 
-> ### While you can still use these corruptors, we suggest using the [Real Time Corruptor](http://redscientist.com/rtc) whenever you can. The RTC is under active development and has far more features than other corruptors.
+
+
+{% hint style="info" %}
+> #### While you can still use these corruptors, we suggest using the [Real Time Corruptor ](http://redscientist.com/rtc)whenever you can. The RTC is under active development and has far more features than these older corruptors.
 >
-> #### [You can view the wiki pages for the Real Time Corruptor here](rtc/)
+> \*\*\*\*[**You can view the wiki pages for the Real Time Corruptor here**](rtc/)\*\*\*\*
+{% endhint %}
+
+## 
 
 ## Old Corruptors
 

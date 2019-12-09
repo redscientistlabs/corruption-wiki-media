@@ -1,8 +1,14 @@
-# NDS
+# Nintendo DS
 
 Nintendo DS was the first handheld by Nintendo to achieve true 3D, and similarly Nintendo DS was the starting point for corruption of 3D games. It was from experimentation with corruption of this console that N64 corruption and everything after came to be. DS corruption can be done with the Vinesauce ROM corruptor, but because of a lack of DS support from Bizhawk it currently can’t be corrupted with the Real-Time Corruptor.
 
-## Index
+{% hint style="info" %}
+> #### The [Real Time Corruptor ](http://redscientist.com/rtc)supports this system through MelonDS. Some Vector Engine Lists are provided with it to provide support for the NintendoDS's architechture.
+>
+> \*\*\*\*[**You can view the wiki pages for the Real Time Corruptor here**](../corruptors/rtc/)\*\*\*\*
+{% endhint %}
+
+## Nintendo DS Rom Corruption
 
 * [Index](nds.md#index)
   * [NDS Corruption with the Vinesauce ROM Corruptor](nds.md#nds-corruption-with-the-vinesauce-rom-corruptor)

@@ -1,5 +1,11 @@
 # Cheat Engine
 
+{% hint style="info" %}
+> #### While this method for corrupting Windows Games/Programs still work, we suggest using the [Real Time Corruptor ](http://redscientist.com/rtc)with ProcessStub for a more automated experience.
+>
+> \*\*\*\*[**You can view the wiki pages for the Real Time Corruptor here**](rtc/)\*\*\*\*
+{% endhint %}
+
 **Author: Eric "Dark Byte" Heijnen**
 
 **Source:** [https://github.com/cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine)
