@@ -18,7 +18,6 @@
     * [Custom Engine Guide](corruptors/rtc/expert/custom-engine.md)
   * [Tips, tricks and quirks](corruptors/rtc/tips.md)
   * [Vanguard Stubs](corruptors/rtc/cemustub.md)
-  * [Windows Glitch Harvester](corruptors/rtc/windows-glitch-harvester.md)
 * [Other Corruptors](corruptors/other-corruptors/README.md)
   * [Vinesauce ROM Corruptor](corruptors/other-corruptors/vinesauce-rom-corruptor.md)
   * [VineCorrupt](corruptors/other-corruptors/vinecorrupt.md)
