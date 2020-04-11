@@ -1,10 +1,12 @@
-# Gamecube & Wii Savestate Corruption
+# Dolphin Narry's mod \(Deprecated\)
+
+{% hint style="danger" %}
+This is documentation for the old "WGH + Dolphin Narry's Mod" method of corruption Gamecube/Wii games. This page is kept for information archival purposes. This documentation is for valid for RTC 3.xx versions only.
+{% endhint %}
 
 ## Gamecube & Wii Savestate Corruption
 
 ## Index
-
-## [RTC Development Discord](https://discord.corrupt.wiki)
 
 [Index](gamecube-and-wii-savestate-corruption.md#index)
 

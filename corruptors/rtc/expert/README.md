@@ -103,7 +103,7 @@ Creates a Raw StashKey in the StashHistory
 
 ![](../../../.gitbook/assets/image%20%2832%29.png)
 
-Any [StashKey ](../basic.md#stashkey)in the [Glitch Harvester](../advanced.md#glitch-harvester) can be opened in the Blast Editor by right-clicking on it and select _"Open Selected Item in Blast Editor"_.
+Any [StashKey ](../basic/#stashkey)in the [Glitch Harvester](../advanced.md#glitch-harvester) can be opened in the Blast Editor by right-clicking on it and select _"Open Selected Item in Blast Editor"_.
 
 Read the [Blast Editor Guide](blast-editor.md) for a detailed explanation of how the Blast Editor works.
 
@@ -111,7 +111,7 @@ Read the [Blast Editor Guide](blast-editor.md) for a detailed explanation of how
 
 ![](../../../.gitbook/assets/image%20%2811%29.png)
 
-[Virtual Memory Domains](../basic.md#virtual-memory-domain), also called VMDs, are virtual representations of areas from one or multiple real Memory Domains. The VMD Generator uses address instructions to make VMD Prototypes which can be used to generate/regenerate VMDs. These prototypes are very lightweight, save/load from a file and can also be created from a Corruption in the Glitch Harvester.
+[Virtual Memory Domains](../basic/#virtual-memory-domain), also called VMDs, are virtual representations of areas from one or multiple real Memory Domains. The VMD Generator uses address instructions to make VMD Prototypes which can be used to generate/regenerate VMDs. These prototypes are very lightweight, save/load from a file and can also be created from a Corruption in the Glitch Harvester.
 
 ## VMD Pool
 

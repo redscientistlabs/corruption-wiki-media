@@ -27,7 +27,7 @@ description: >-
 
 ## [Introduction](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/introduction.html)
 
-## [Basic Guide](basic.md)
+## [Basic Guide](basic/)
 
 ## [Advanced Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/advanced.html)
 

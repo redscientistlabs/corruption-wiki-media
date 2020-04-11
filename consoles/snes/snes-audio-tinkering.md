@@ -1,4 +1,4 @@
-# Snes Audio Tinkering
+# SNES Audio Tinkering
 
 The BSNES Core in Bizhawk can let you mess with the internals of the emulated spc700 chip. Technically, all engine templates except Vector Engine can give you interresting results when blasting to the **APURAM** domain alone.
 

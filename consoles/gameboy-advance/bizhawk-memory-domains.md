@@ -1,4 +1,6 @@
-# Bizhawk Memory Domains
+# GBA Memory Domains
+
+_Bizhawk-Vanguard exposes the following domains in RTC:_
 
 ## mGBA & VBA-Next 
 

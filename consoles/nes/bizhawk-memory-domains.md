@@ -1,4 +1,4 @@
-# Bizhawk Memory Domains
+# NES Memory Domains
 
 TODO \(incomplete\)
 
@@ -10,7 +10,7 @@ TODO \(incomplete\)
 * CIRAM \(nametables\) \(Rewindable\) : 
 * PRG ROM: 
 * CHR VROM: 
-* PALRAM: 
+* PALRAM: Pallette Ram. Changes colors
 * OAM \(Rewindable\) : 
 * System Bus:
 

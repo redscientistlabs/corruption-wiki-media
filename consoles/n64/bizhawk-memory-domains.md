@@ -1,12 +1,12 @@
-# Bizhawk Memory Domains
-
-TODO \(incomplete\)
+# N64 Memory Domains
 
 {% hint style="info" %}
 The Nintendo 64's architechture supports IEEE754 Floats and is natively compatible with the Vector Engine.
 {% endhint %}
 
-## Mupen64Plus
+_Bizhawk-Vanguard exposes the following domains in RTC:_
+
+## Mupen64Plus core
 
 * **RDRAM \(Rewindable\) :** This is the console's main RAM. It will be either 4mb or 8mb depending if the emulating N64 is using an Expansion Pack or not.
 * **ROM :** This is the game's rom as perceived by the emulator.

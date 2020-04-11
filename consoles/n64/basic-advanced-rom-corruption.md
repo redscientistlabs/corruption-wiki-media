@@ -1,6 +1,8 @@
-# Basic/Advanced ROM Corruption
+# N64 Basic/Advanced ROM Corruption
 
-## N64: Basic/Advanced ROM Corruption
+{% hint style="warning" %}
+This documentation was written with classic corruptors such as Vinesauce ROM Corruptor. That information is however still valid for corrupting the ROM domain in RTC.
+{% endhint %}
 
 ## Index
 

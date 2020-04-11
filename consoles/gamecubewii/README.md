@@ -1,22 +1,27 @@
 # Gamecube/Wii
 
-## Introduction
+### Introduction
 
 Gamecube and Wii corruption are very similar due to the fact the Wii is essentially an upgraded Gamecube at its core.
 
-At the moment, there are a few methods to corrupt these consoles.
+At the moment, the best way to corrupt Gamecube/Wii is with RTC, through Dolphin-Vanguard.
 
-## Gamecube:
+{% hint style="info" %}
+Recommended setup: Vector Engine   
+  
+Startup vector suggestions:  
+**Limiter**: One, **Value**: Two  
+**Limiter**: Extended, **Value**: Extended  
+**Limiter**: Giga, **Value**: NOP
+{% endhint %}
 
-## [Classic ISO Corruption](./#classic-iso-corruption)
+### Pages
 
-## [Filesystem Corruption](gamecube-and-wii-filesystem-corruption.md)
+{% page-ref page="dolphin-memory-domains.md" %}
 
-## [SaveState Corruption](gamecube-and-wii-savestate-corruption.md)
+{% page-ref page="gamecube-and-wii-filesystem-corruption.md" %}
 
-## Wii
+{% page-ref page="gamecube-and-wii-savestate-corruption.md" %}
 
-## [Filesystem Corruption](gamecube-and-wii-filesystem-corruption.md)
 
-## [SaveState Corruption](gamecube-and-wii-savestate-corruption.md)
 
