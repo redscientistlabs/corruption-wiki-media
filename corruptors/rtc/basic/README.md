@@ -3,7 +3,7 @@
 ### Real-Time Corruptor: Basic Guide
 
 * **Index**
-  * \*\*\*\*[**RTC Concepts and vocabulary**](./#rtc-concepts-and-vocabulary)\*\*\*\*
+  * [**RTC Concepts and vocabulary**](./#rtc-concepts-and-vocabulary)
     * [Vanguard](./#vanguard)
     * [BlastUnit](./#blastunit)
     * [BlastLayer](./#blastlayer)
@@ -14,14 +14,14 @@
     * [Virtual Memory Domain](./#virtual-memory-domain)
     * [Emulation Step](./#emulation-step)
     * [Active Units and Infinite Units](./#active-units-and-infinite-units)
-  * \*\*\*\*[**General Parameters**](./#general-parameters)\*\*\*\*
+  * [**General Parameters**](./#general-parameters)
     * [Auto-Corrupt](./#auto-corrupt)
     * [Manual Blast](./#manual-blast)
     * [Error Delay](./#error-delay)
     * [Intensity](./#intensity)
     * [Blast Radius](./#blast-radius)
-  * \*\*\*\*[**BizHawk: Rewindable Memory Domains**](./#bizhawk-rewindable-memory-domains)\*\*\*\*
-  * \*\*\*\*[**Corruption Engines**](./#corruption-engines)\*\*\*\*
+  * [**BizHawk: Rewindable Memory Domains**](./#bizhawk-rewindable-memory-domains)
+  * [**Corruption Engines**](./#corruption-engines)
     * [Nightmare Engine](./#nightmare-engine)
     * [Hellgenie Engine](./#hellgenie-engine)
     * [Freeze Engine](./#freeze-engine)

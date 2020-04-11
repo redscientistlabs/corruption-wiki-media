@@ -10,13 +10,11 @@ While this method for corrupting Windows Games/Programs still work, we suggest u
 
 ### Cheat Engine Guide for 3D PC Games
 
-**Author: Eric "Dark Byte" Heijnen**
-
-**Source:** [https://github.com/cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine)
-
+**Author:** Eric "Dark Byte" Heijnen  
+**Source:** [https://github.com/cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine)  
 **Download:** [https://github.com/cheat-engine/cheat-engine/releases](https://github.com/cheat-engine/cheat-engine/releases)
 
-Cheat Engine is an Memory Hacking Software for the [Windows](https://github.com/cheat-engine/cheat-engine/releases), [OSX](http://www.cheatengine.org) and [Android](http://forum.cheatengine.org/viewtopic.php?t=579943), it scans what a program has loaded on a computer's memory \(RAM\) when it's running and allows you to edit all the values a program has on memory. Normally Cheat Engine is used to cheat in video games like give you infinite health, thus the name.
+> _Cheat Engine is an Memory Hacking Software for the_ [_Windows_](https://github.com/cheat-engine/cheat-engine/releases)_,_ [_OSX_](http://www.cheatengine.org) _and_ [_Android_](http://forum.cheatengine.org/viewtopic.php?t=579943)_, it scans what a program has loaded on a computer's memory \(RAM\) when it's running and allows you to edit all the values a program has on memory. Normally Cheat Engine is used to cheat in video games like give you infinite health, thus the name._
 
 ![](../../.gitbook/assets/cheat-engine.png)
 

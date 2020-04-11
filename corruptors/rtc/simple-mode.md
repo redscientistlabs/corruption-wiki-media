@@ -6,7 +6,7 @@ description: Getting Started Corrupting with Simple Mode
 
 written by Melody
 
-## Introduction
+## Introduction with Simple Mode
 
 Ready to start corrupting? RTC provides an incredible, overwhelming amount of tools to work with. This can be nice, but as a beginner it can be easier to learn with some of the more advanced options out of the way. This is where Simple Mode comes in handy. If you are just beginning to learn, you should start by mastering the tools provided here in Simple Mode, and **ensuring you have a firm understanding of what is occuring behind-the-scenes in your corruption.** This is vital when learning to corrupt; take the time to understand your corruptions.
 
