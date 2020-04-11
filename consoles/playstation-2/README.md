@@ -2,9 +2,9 @@
 
 ### Introduction
 
-Corrupting PS2 games is very similar to doing Gamecube/Wii.
+The PlayStation 2 \(officially branded as PS2\) is a home video game console developed and marketed by Sony Computer Entertainment. The console builds on its home entertainment value by doubling as a DVD player and accommodating most of the original PlayStation's vast library of games. Corrupting PS2 games is very similar to doing Gamecube/Wii.
 
-At the moment, the best way to corrupt PS2 is with RTC, through PCSX2-Vanguard.
+At the moment, the best way to corrupt PS2 is with RTC, through PCSX2-Vanguard. 
 
 {% hint style="info" %}
 Recommended setup: Vector Engine   

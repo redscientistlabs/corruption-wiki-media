@@ -19,11 +19,13 @@
   * [Tips, tricks and quirks](corruptors/rtc/tips.md)
   * [Vanguard Stubs](corruptors/rtc/cemustub.md)
   * [Windows Glitch Harvester](corruptors/rtc/windows-glitch-harvester.md)
-* [Vinesauce ROM Corruptor](corruptors/vinesauce-rom-corruptor.md)
-* [Cheat Engine](corruptors/cheat-engine.md)
-* [VineCorrupt](corruptors/vinecorrupt.md)
-* [Old Corruptors](corruptors/old-corruptors.md)
-* [Web-Based Corruptors](corruptors/web-based-corruptors.md)
+* [Other Corruptors](corruptors/other-corruptors/README.md)
+  * [Vinesauce ROM Corruptor](corruptors/other-corruptors/vinesauce-rom-corruptor.md)
+  * [VineCorrupt](corruptors/other-corruptors/vinecorrupt.md)
+  * [Cheat Engine](corruptors/other-corruptors/cheat-engine.md)
+  * [Lesser known corruptors](corruptors/other-corruptors/lesser-known-corruptors.md)
+  * [Web-Based Corruptors](corruptors/other-corruptors/web-based-corruptors.md)
+  * [Old Corruptors](corruptors/other-corruptors/old-corruptors.md)
 
 ## Emulators
 

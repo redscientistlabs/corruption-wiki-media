@@ -10,13 +10,13 @@ written by Melody
 
 Ready to start corrupting? RTC provides an incredible, overwhelming amount of tools to work with. This can be nice, but as a beginner it can be easier to learn with some of the more advanced options out of the way. This is where Simple Mode comes in handy. If you are just beginning to learn, you should start by mastering the tools provided here in Simple Mode, and **ensuring you have a firm understanding of what is occuring behind-the-scenes in your corruption.** This is vital when learning to corrupt; take the time to understand your corruptions.
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 ## Let's Begin
 
 Start by loading up the RTC, launching either BizHawk or Dolphin, and clicking the wizard icon to the left that says, _"Easy Start."_ Next, click, _"Switch to Simple Mode."_ At the top you'll see a prompt asking if you're corrupting 2D or 3D games. For this, we'll assume we're corrupting a 2D game today, so we'll select, _"Classic Platforms."_ If you are corrupting a console such as the GCN or PS2, you'll want to try, _"Modern Platforms."_
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 Next, go ahead and load up your ROM into your emulator. 
 
@@ -28,7 +28,7 @@ If you are using RTC with the Bizhawk Emulator, make sure your Rewind and Fast F
 
 You'll want to find a spot in your game you think could corrupt well. Perhaps there are certain sprites on screen, or models doing animations, the choice is yours, just find somewhere to save. When you've found this location, press the button, _"Create and select a Glitch Harvester savestate"_
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2844%29.png)
 
 ## What is the Glitch Harvester and Why am I using it?
 
@@ -38,15 +38,15 @@ Corruptions can be implemented real-time and non real-time. The Glitch Harvester
 
 We should have either the Nightmare engine or the Vector engine loaded up, and you can confirm this by looking under the box in the center of the screen that says, _"Engine Parameters."_ The benefit of Simple Mode here is we don't have to provide most of the parameters ourselves, we can simply jump right into corrupting. 
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2856%29.png)
 
 Beneath the previously-mentioned box is another box, labelled, _"Real-Time Corruption."_ This is where you'll input your one and only parameter, which is _"Intensity."_ Move the slider up a bit; how much is entirely specific on which game you're corrupting and which engine you are using. 
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 Press the red button labelled, _"Load and Corrupt."_ This is essentially your start button, it loads the savestate and applys the corruption.
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 There are two easy ways to figure out what _Intensity_ you should be using. Either we begin with a very high _Intensity_ and work our way backwards, or we begin with a very small _Intensity_ and work our way forwards. I recommend the prior, as doing the latter usually results in a lot of wiggling back and forth at the end. The main goal here is to find an _Intensity_ that manages to hit a lot of _stable addresses_. Hopefully those _addresses_ we hit cause the types of effects we are looking for, and not the types of effects we don't want. Try to find a balance between silliness and unstability.
 
@@ -64,27 +64,27 @@ With either of these tools _\(Manual Blast and Auto-Corrupt\)_ you're likely goi
 
 _"Shuffle Algorithm"_ lets you try out different engines. Check the _Basic Guide_ for a more thorough run-down on what each of these engines do. Try shuffling the engine a few times. 
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 An unique feature to the Real-Time Corruptor next to its ability to corrupt in real-time is its ability to also uncorrupt in real-time, sorta. Whenever a corruption is created using the "_Glitch Harvester_", it is possible to attempt to disable it while the game is still running. You can play around with this feature using the button "_BlastLayer : ON/OFF_"
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 When you're ready to start learning the rest of the program, simply click, _"Switch to Normal Mode."_ Here you can start making changes to the rest of the parameters each engine uses. Each engine has it's own way of working, so check each section of the _Basic Guide_ respectively. You can freely switch back and forth between normal mode and simple mode if you so desire, so as to access the rest of the parameters.
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%281%29.png)
 
 ## The Next Parameter
 
 Now that you've mastered the use of the _Intensity_ parameter and you've seen _"Auto-Corrupt"_, it only makes sense the next parameter we use is _"Error Delay"_. This provides spacing in-between blasts when we're using the _"Auto-Corrupt"_ function. Try mixing and matching different configurations between the two parameters and seeing how they interact in the overall use of the program. Crashes are very likely so don't be surprised, but it's a learning experience after all. For more information on _"Error Delay"_, again check the _Basic Guide_.
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 ## The Engines
 
 Here's a quick run-down of some of the easier things you can do with each engine. I recommend you shuffle the engine, then switch to normal view to change the parameters of these engines, then switch back. At first you should only be messing with a few parameters at a time.
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 ### Nightmare Engine
 

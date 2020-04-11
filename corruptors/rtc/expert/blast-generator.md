@@ -2,7 +2,7 @@
 
 The Blast Generator is a tool which acts similar to classic style ROM corruptors. You can use the Blast Generator to create blastunits.
 
-![](../../../.gitbook/assets/image%20%2846%29.png)
+![](../../../.gitbook/assets/image%20%2857%29.png)
 
 #### Domain
 
