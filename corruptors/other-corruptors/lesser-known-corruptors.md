@@ -23,7 +23,9 @@
 ### Alice Corruptor
 
 **Author**: AliceTS  
-**Download**: [https://archive.org/details/alicecorruptor](https://archive.org/details/alicecorruptor)
+**Download**:
+
+{% file src="../../.gitbook/assets/alicecorruptor.zip" %}
 
 > Alice Corruptor is a real-time corruptor for PC games built on top of Cheat Engine. It predates the release of RTC's ProcessStub.
 
