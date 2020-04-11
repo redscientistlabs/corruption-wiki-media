@@ -27,10 +27,6 @@
   * [Web-Based Corruptors](corruptors/other-corruptors/web-based-corruptors.md)
   * [Old Corruptors](corruptors/other-corruptors/old-corruptors.md)
 
-## Emulators
-
-* [Emulators](emulators/emulators.md)
-
 ## Consoles
 
 * [NES](consoles/nes/README.md)
