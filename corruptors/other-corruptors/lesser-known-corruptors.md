@@ -1,35 +1,14 @@
 # Lesser known corruptors
 
 * \*\*\*\*[**Index**](lesser-known-corruptors.md)\*\*\*\*
-  * [Scares Scrambler](lesser-known-corruptors.md#scares-scrambler)
-  * [Alice Corruptor](lesser-known-corruptors.md#alice-corruptor)
+
   * [Chain Chomp](lesser-known-corruptors.md#chain-chomp)
+  * [Alice Corruptor](lesser-known-corruptors.md#alice-corruptor)
   * [Erosion-v4](lesser-known-corruptors.md#erosion-v4)
   * [ROM Poison](lesser-known-corruptors.md#rom-poison)
   * [The Haggleforth Rom Corruptor](lesser-known-corruptors.md#the-haggleforth-rom-corruptor)
   * [rcorrupt](lesser-known-corruptors.md#rcorrupt)
   * [oxidizer](lesser-known-corruptors.md#oxidizer)
-
-### Scares Scrambler
-
-**Author**: cocoatwiz \(scares\)  
-**Tutorial**: [https://www.youtube.com/watch?v=MOQykOsMeEU](https://www.youtube.com/watch?v=MOQykOsMeEU)  
-**Download**: [https://github.com/Cocoatwix/Scares-Scrambler-Build-13](https://github.com/Cocoatwix/Scares-Scrambler-Build-13)
-
-![](../../.gitbook/assets/image%20%2859%29.png)
-
-> _The Scares Scrambler corruptor is a file corruptor written in python with a GUI interface and multiple configurable algorithms._
-
-### Alice Corruptor
-
-**Author**: AliceTS  
-**Download**:
-
-{% file src="../../.gitbook/assets/alicecorruptor.zip" %}
-
-> Alice Corruptor is a real-time corruptor for PC games built on top of Cheat Engine. It predates the release of RTC's ProcessStub.
-
-![](../../.gitbook/assets/image%20%2839%29.png)
 
 ### Chain Chomp
 
@@ -40,6 +19,15 @@
 > _Chain Chomp is a plugin-based corruptor that is open source. This main concept of this corruptor is that operations on on a chain basis, where operations are driven from plugins, individually configurable._
 
 ![](../../.gitbook/assets/image%20%286%29.png)
+
+### Alice Corruptor
+
+**Author**: AliceTS  
+**Download**:
+
+{% file src="../../.gitbook/assets/alicecorruptor.zip" %}
+
+> Alice Corruptor is a real-time corruptor for PC games built on top of Cheat Engine. It predates the release of RTC's ProcessStub.
 
 ### Erosion-v4
 

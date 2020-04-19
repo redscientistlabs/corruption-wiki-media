@@ -167,7 +167,7 @@ _These are the various Engine Templates that you can use for corrupting games. T
 
 ### Nightmare Engine
 
-![](../../../.gitbook/assets/image%20%2846%29.png)
+![](../../../.gitbook/assets/image%20%2852%29.png)
 
 This engine corrupts on the raw byte level.
 
@@ -185,7 +185,7 @@ TILT: Will Increment or Decrement random Byte\(s\).
 
 ### Hellgenie Engine
 
-![](../../../.gitbook/assets/image%20%2835%29.png)
+![](../../../.gitbook/assets/image%20%2839%29.png)
 
 This engine generate Active Units, which execute on every frame. The Hellgenie Engine replicates the effect of Cheats \(see Game Genie, Active Replay, GameShark\) and replaces a value with a randomly selected one then applies it on every frame.
 
@@ -201,7 +201,7 @@ Rewinding will clear all [infinite units](./#active-units-and-infinite-units) th
 
 ### Freeze Engine
 
-![](../../../.gitbook/assets/image%20%2860%29.png)
+![](../../../.gitbook/assets/image%20%2867%29.png)
 
 This engine generate Active Units, which execute on every frame. The Freeze Engine replicates the effect of Cheats \(see Game Genis, Active Replay, GameShark\) and replaces a value on every frame. The difference between this engine and the Hellgenie Engine is that this doesn't generate a value but instead keeps the value at the target adress and reapplies it on every frame, therefore freezing it into places.
 
@@ -217,7 +217,7 @@ Rewinding will clear all [infinite units](./#active-units-and-infinite-units) th
 
 ### Distortion Engine
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 This engine backups Bytes and restores those backups once, later in time.
 
@@ -233,7 +233,7 @@ This erases all current [active units](./#active-units-and-infinite-units) pendi
 
 ### Pipe Engine
 
-![](../../../.gitbook/assets/image%20%2831%29.png)
+![](../../../.gitbook/assets/image%20%2834%29.png)
 
 This engine generates units that bind addresses together and can make data bleed from a Memory Domain to another. It uses Infinite Units that route memory changes on every Emulator Step or frame.
 
@@ -271,7 +271,7 @@ After generation of the Unit with this engine, a replacement value is assigned t
 
 ### Custom Engine
 
-![](../../../.gitbook/assets/image%20%2832%29.png)
+![](../../../.gitbook/assets/image%20%2835%29.png)
 
 This engine allows you to mix and match parameters to create your own engine.
 
@@ -279,7 +279,7 @@ See the [Custom Engine Guide](../expert/custom-engine.md) for more information a
 
 ### Engine Precision and Alignment
 
-![](../../../.gitbook/assets/image%20%2854%29.png)
+![](../../../.gitbook/assets/image%20%2861%29.png)
 
 Allows you to choose what size BlastUnit will be generated. 8-bit \(one byte\), 16-bit \(2 bytes\), 32-bit \(4 bytes\) or 64-bit \(8 bytes\).
 
@@ -299,7 +299,7 @@ _When the Auto-KillSwitch is triggered, the user will hear a sound of broken pla
 
 ## Game Protection
 
-![](../../../.gitbook/assets/image%20%2849%29.png)
+![](../../../.gitbook/assets/image%20%2855%29.png)
 
 The Game Protection optional feature has 2 benefits for the user:
 

@@ -1,0 +1,22 @@
+~~preset16~~
+scph1001.BIN
+Corruptedscph1001.BIN
+
+1163
+524288
+-1
+~~Incrementer Algorithm~~
+~~Entries~~
+1
+13000
+7
+~~Radiobuttons~~
+None
+1
+None
+~~Checkbuttons~~
+None
+None
+None
+False
+0

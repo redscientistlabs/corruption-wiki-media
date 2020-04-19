@@ -19,7 +19,7 @@
 
 ## Glitch Harvester
 
-![The Glitch Harvester Interface](../../.gitbook/assets/image%20%2824%29.png)
+![The Glitch Harvester Interface](../../.gitbook/assets/image%20%2826%29.png)
 
 The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master.
 
@@ -107,7 +107,7 @@ These buttons allow you to Save and Load the filled Glitch Harvester Savestates 
 
 ### Intensity
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 This control is linked to the [intensity ](basic/#intensity)controls in the Main Window. It multiplies the amount of generated Units on every Blast.
 
@@ -119,7 +119,7 @@ This is where new corruptions are stashed. The items that appear there can be se
 
 ### Stockpile Manager
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 This part of the Glitch Harvester is dedicated to edit and do operations onto Stockpiles.
 
@@ -143,7 +143,7 @@ Merging items together requires them to be for the same console and same game. T
 
 ## Stockpile Player
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2865%29.png)
 
 This is a minimalist version of the Glitch Harvester's [Stockpile Manager](advanced.md#stockpile-manager). It allows you to load [Stockpiles](basic/#stockpile) and replay corruptions.
 

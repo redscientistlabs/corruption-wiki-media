@@ -29,7 +29,7 @@
 
 > _Corrupster was originally made as a utility for hacking Final Fantasy 1 NES Roms but can be used for corrupting any NES ROM, as well as any file as long as you switch the file type off of .nes. Because it does not ask for an emulator, it saw some limited use early on as a corruptor for files instead of ROMs._
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 ### Erosion
 
@@ -39,7 +39,7 @@
 
 > _The Corruptor is based off of an unknown software called File Corrupt 4.0 according to it's_ [_Zophar page_](https://www.zophar.net/utilities/corruptutil/erosion.html)_. Erosion was a more advanced corruptor for it's time with features like using powers, values, random values, overwrite specific values and byte ranges among other options. It has option backup and option logging features so you can know what offsets were written and what value was placed within. The source code is included with the first version._
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 ### NoChaos
 
@@ -51,7 +51,7 @@
 >
 > \_\_
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2862%29.png)
 
 ### Sapros
 
@@ -73,7 +73,7 @@ __**Release date:** January 31, 2005
 
 > _Not a corruptor in the traditional sense but this program takes Game Genie code and permanently inserts them into NES ROMs, normally with Game Genie codes they are executed within an emulator instead of being written directly to the ROM. Using this tool you can overlap some interesting codes and create unique corruptions._
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
 ## Contribution
 

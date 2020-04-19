@@ -20,6 +20,7 @@
   * [Vanguard Stubs](corruptors/rtc/cemustub.md)
 * [Other Corruptors](corruptors/other-corruptors/README.md)
   * [Vinesauce ROM Corruptor](corruptors/other-corruptors/vinesauce-rom-corruptor.md)
+  * [Scares Scrambler](corruptors/other-corruptors/scares-scrambler.md)
   * [VineCorrupt](corruptors/other-corruptors/vinecorrupt.md)
   * [Cheat Engine](corruptors/other-corruptors/cheat-engine.md)
   * [Lesser known corruptors](corruptors/other-corruptors/lesser-known-corruptors.md)
