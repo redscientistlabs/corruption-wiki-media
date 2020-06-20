@@ -3,7 +3,6 @@
 * \*\*\*\*[**Index**](lesser-known-corruptors.md)\*\*\*\*
 
   * [Chain Chomp](lesser-known-corruptors.md#chain-chomp)
-  * [Alice Corruptor](lesser-known-corruptors.md#alice-corruptor)
   * [Erosion-v4](lesser-known-corruptors.md#erosion-v4)
   * [ROM Poison](lesser-known-corruptors.md#rom-poison)
   * [The Haggleforth Rom Corruptor](lesser-known-corruptors.md#the-haggleforth-rom-corruptor)
@@ -19,15 +18,6 @@
 > _Chain Chomp is a plugin-based corruptor that is open source. This main concept of this corruptor is that operations on on a chain basis, where operations are driven from plugins, individually configurable._
 
 ![](../../.gitbook/assets/image%20%286%29.png)
-
-### Alice Corruptor
-
-**Author**: AliceTS  
-**Download**:
-
-{% file src="../../.gitbook/assets/alicecorruptor.zip" %}
-
-> Alice Corruptor is a real-time corruptor for PC games built on top of Cheat Engine. It predates the release of RTC's ProcessStub.
 
 ### Erosion-v4
 

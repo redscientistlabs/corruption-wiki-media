@@ -6,7 +6,7 @@ description: by Moogie
 
 
 
-![](../../../.gitbook/assets/image%20%2822%29.png)
+![](../../../.gitbook/assets/image%20%2817%29%20%281%29.png)
 
 **This intermediate guide will assume some working knowledge of the Real-Time Corruptor, as well as a basic understanding of Hex notation \(0x\).**
 
@@ -22,7 +22,7 @@ _The examples shown below use BizHawk as an example Emulator but can be applicab
 
 RTC comes with a pre-defined set of these called simply Domains. That’s this stuff:
 
-![](../../../.gitbook/assets/image%20%2814%29.png)
+![](../../../.gitbook/assets/image%20%2810%29.png)
 
 Every system supported by Bizhawk will have its own custom list, so you won’t always see the same names here. CHR and CHR VROM, for example, are specific to the NES system. You won’t find them working on a Playstation game.
 
@@ -56,7 +56,7 @@ If you’ve understood this concept, you’re now ready to learn how to make and
 
 You do this from the main RTC window. In "Advanced Memory Tools," select “VMD Generator.”
 
-![](../../../.gitbook/assets/image%20%2812%29.png)
+![](../../../.gitbook/assets/image%20%288%29%20%281%29.png)
 
 Now click "Load Domains" and the current system’s memory busses will be loaded in.
 
@@ -91,7 +91,7 @@ That’s all well and good, but really, what VMDs are best for are _ranges_ of a
 
 ### Specifying Ranges
 
-![](../../../.gitbook/assets/image%20%2811%29.png)
+![](../../../.gitbook/assets/image%20%287%29.png)
 
 I’ve selected System Bus and given the Generator two ranges. These ranges span different Domains on the bus. The first is within PRG ROM, and the other is in OAM.
 
@@ -99,11 +99,11 @@ I’ve selected System Bus and given the Generator two ranges. These ranges span
 
 When you input a name and click "Generate VMD," it appears both in the list of selectable Domains \(prefixed with \[V\] to denote a custom Domain\) and in the VMD Pool menu like so:
 
-![](../../../.gitbook/assets/image%20%2868%29.png)
+![](../../../.gitbook/assets/image%20%2849%29.png)
 
 Now I can select my custom Domain and use it to blast just those areas of memory which I specified in the list. You can see the results of these blasts in the Blast Editor window. \(The Blast Editor is accessed via the Glitch Harvester screen, by right-clicking the BlastLayer in the stash history or stockpile lists and selecting it from the context menu\).
 
-![](../../../.gitbook/assets/image%20%2858%29.png)
+![](../../../.gitbook/assets/image%20%2843%29.png)
 
 But, hang on. Does something about the numbers in the "Source address" column seem wrong to you? I specified a range starting from xA950, so why is it blasting addresses of x27B and x2BA?
 
@@ -111,7 +111,7 @@ It’s because our VMD is behaving just like any other Domain. Offset x0 of our 
 
 There’s a handy way to make this simpler for ourselves. From the Tools menu in this window, select "Rasterize VMDs."
 
-![](../../../.gitbook/assets/image%20%285%29.png)
+![](../../../.gitbook/assets/image%20%283%29%20%281%29.png)
 
 See? That’s better. "Source Domain" has been rasterized to the System Bus, and the addresses are exactly what I had specified. This is just a visual thing, it doesn’t change what’s happening.
 
@@ -149,7 +149,7 @@ In this example, that’s exactly what we want: all the value bytes, none of the
 
 **Method 2: Exclude specific addresses or ranges.** When generating your VMD, you could instead construct your list like this:
 
-![](../../../.gitbook/assets/image%20%2854%29.png)
+![](../../../.gitbook/assets/image%20%2839%29%20%281%29.png)
 
 Remember the note about ranges excluding the final byte? So here, what I’m telling it is:
 
