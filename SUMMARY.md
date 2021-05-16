@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [RTC Discord](https://redscientist.com/discord)
 
 ## Corruptors
 
