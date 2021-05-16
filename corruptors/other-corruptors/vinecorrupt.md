@@ -8,7 +8,7 @@
 
 > _VineCorrupt is a multi-system corrupter designed to work with game systems ranging from NES to Wii with further inclusive development for other systems. VineCorrupt features opcode and file protection for its supported systems to minimize crashes. Each system has a different protection protocol according to their instruction set or file type to prevent crash inducing modifications. VineCorrupt also features the ability to corrupt specific files within a disc through a directory structure._
 
-![](../../.gitbook/assets/vinecorruptnds.png)
+![](../../.gitbook/assets/VineCorruptNDS.png)
 
 #### Index
 
@@ -45,7 +45,7 @@
 
 #### Functions
 
-![](../../.gitbook/assets/vinecorruptfunctions.png)
+![](../../.gitbook/assets/VineCorruptFunctions.png)
 
 This section goes over the functions of VineCorrupt.
 
@@ -119,13 +119,13 @@ The drop down box lists all the current corruption types. The currently selected
 
 **Corruption Value**
 
-![](../../.gitbook/assets/vinecorruptcorruptionvalue.png)
+![](../../.gitbook/assets/VineCorruptCorruptionValue.png)
 
 The Corruption Value is currently unlabeled and is located under the corruption selection drop down box. This value modifies byte operations.
 
 #### Byte Operations
 
-![](../../.gitbook/assets/vinecorruptbyte.png)
+![](../../.gitbook/assets/VineCorruptByte.png)
 
 This section goes over the byte operations of VineCorrupt. For examples of these operations see Maiddog's [Help Section](http://www.maiddog.com/projects/corrupter/help.php#tab-help-2)
 
@@ -172,5 +172,5 @@ Changes the current byte to its logical complement. Complement does not use the 
 * * \*
 
 Write up by TechSupportSparky  
-![](../../.gitbook/assets/raccattack.png)
+![](../../.gitbook/assets/RaccAttack.png)
 

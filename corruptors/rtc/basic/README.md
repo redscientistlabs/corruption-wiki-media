@@ -167,7 +167,7 @@ _These are the various Engine Templates that you can use for corrupting games. T
 
 ### Nightmare Engine
 
-![](../../../.gitbook/assets/image%20%2838%29.png)
+![](../../../.gitbook/assets/image%20%2838%29%20%281%29.png)
 
 This engine corrupts on the raw byte level.
 

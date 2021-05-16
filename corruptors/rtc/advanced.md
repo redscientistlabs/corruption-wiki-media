@@ -81,7 +81,7 @@ This allows you quickly/automatically start audio/video rendering when corruptin
 
 ### Savestate Manager
 
-![](../../.gitbook/assets/190704183858%20%286%29.gif)
+![](../../.gitbook/assets/190704183858%20%283%29%20%286%29.gif)
 
 **Change -&gt; SAVE/LOAD**
 

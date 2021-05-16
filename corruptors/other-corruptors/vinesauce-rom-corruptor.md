@@ -69,7 +69,7 @@ You can load saved corruptions in .txt format or load a TinyURL link to corrupt 
 
 #### Byte Corruption
 
-![](../../.gitbook/assets/vsrcbytecorruption.png)
+![](../../.gitbook/assets/VSRCByteCorruption.png)
 
 This section is where you configure the corruptions settings.
 

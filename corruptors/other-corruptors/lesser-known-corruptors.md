@@ -17,7 +17,7 @@
 
 > _Chain Chomp is a plugin-based corruptor that is open source. This main concept of this corruptor is that operations on on a chain basis, where operations are driven from plugins, individually configurable._
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%286%29%20%282%29.png)
 
 ### Erosion-v4
 

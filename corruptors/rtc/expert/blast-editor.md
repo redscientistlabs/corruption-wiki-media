@@ -163,5 +163,5 @@ The parameter used for the corruption generation. Depending on the corruption ty
 
 Allows the user to enter notes about a specific Unit.
 
-Write up by TechSupportSparky ![](../../../.gitbook/assets/raccattack.png)
+Write up by TechSupportSparky ![](../../../.gitbook/assets/RaccAttack.png)
 
