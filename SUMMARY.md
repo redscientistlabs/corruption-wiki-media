@@ -53,7 +53,3 @@
   * [PCSX2 Memory Domains](consoles/playstation-2/pcsx2-memory-domains.md)
   * [PCSX2-specific Lists](consoles/playstation-2/pcsx2-specific-lists.md)
 
-## Etc
-
-* [Contributing](etc/introduction.md)
-
