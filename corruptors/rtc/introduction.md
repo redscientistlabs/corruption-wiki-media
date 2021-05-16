@@ -14,18 +14,7 @@ The Real-Time Corruptor was designed with ease of use in mind, if you want to ge
 
 ## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
 
-### **Authors:** [**Phil Girard**](http://redscientist.com/) **&** [**Dan Barreiro \(Narry\)**](https://narry.land/)\*\*\*\*
-
-**Source:** [**https://github.com/ircluzar/RTCV**](https://github.com/ircluzar/RTCV)  
-[https://github.com/ircluzar/Bizhawk-Vanguard](https://github.com/ircluzar/Bizhawk-Vanguard)  
-[https://github.com/NarryG/dolphin-vanguard](https://github.com/NarryG/dolphin-vanguard)  
-[https://github.com/NarryG/pcsx2-Vanguard](https://github.com/NarryG/pcsx2-Vanguard)  
-[https://github.com/NarryG/melonDS-Vanguard](https://github.com/NarryG/melonDS-Vanguard)  
-[https://github.com/ircluzar/CemuStub-Vanguard](https://github.com/ircluzar/CemuStub-Vanguard)  
-[https://github.com/ircluzar/FileStub-Vanguard](https://github.com/ircluzar/FileStub-Vanguard)  
-[https://github.com/ircluzar/UnityStub-Vanguard](https://github.com/ircluzar/UnityStub-Vanguard)  
-[https://github.com/ircluzar/WGH](https://github.com/ircluzar/WGH)  
-[https://github.com/NarryG/WinVolumeLimiter](https://github.com/NarryG/WinVolumeLimiter)
+**All programs from the RTC suite of tools are Open Source and available at:** [**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)\*\*\*\*
 
 First, let’s go over the basic fundamentals of how this corruptor functions.
 
