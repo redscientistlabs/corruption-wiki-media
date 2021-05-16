@@ -12,7 +12,6 @@
     * [**Working off existing knowledge**](tips.md#working-off-existing-knowledge)
   * [**Quirks**](tips.md#quirks)
     * [**N64 is running slow**](tips.md#n64-is-running-slow)
-    * [**Detached mode timing out**](tips.md#detached-mode-timing-out)
     * [**N64 can be quirky and unstable**](tips.md#n64-can-be-quirky-and-unstable)
     * [**Game Capture Software doesn't work properly with my RTC**](tips.md#game-capture-software-doesnt-work-properly-with-my-rtc)
     * [**Game running slow on some engines**](tips.md#game-running-slow-on-some-engines)
