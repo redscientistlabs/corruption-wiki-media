@@ -26,9 +26,15 @@ ChrisNonyminus**
 
 ## [Basic Guide](basic/)
 
+This guide will cover the general UI, vocabulary used around with RTC and should give you an overall idea of what are the tools at your disposal.
+
 ## [Advanced Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/advanced.html)
 
+This guide mostly covers the Glitch Harvester and its intricacies. The Glitch Harvester is the most powerful tool of RTC as it is the center piece of replayability and searching for good corruptions.
+
 ## [Expert Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/expert.html)
+
+This guide covers auxiliary tools present around the program for the more advanced users.
 
 ## [Tips and Tricks](tips.md)
 
