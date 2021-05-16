@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Download RTC](https://redscientist.com/rtc)
 * [RTC Discord](https://redscientist.com/discord)
 
 ## Corruptors
 
 * [Real-Time Corruptor](corruptors/rtc/README.md)
+  * [Download RTC](https://redscientist.com/rtc)
   * [Introduction](corruptors/rtc/introduction.md)
   * [Simple Mode](corruptors/rtc/simple-mode.md)
   * [Basic Guide](corruptors/rtc/basic/README.md)
