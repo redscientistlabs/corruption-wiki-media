@@ -15,6 +15,12 @@ Startup vector suggestions:
 **Limiter**: Giga, **Value**: NOP
 {% endhint %}
 
+{% hint style="info" %}
+Notable Vector Engine Combo for breaking game engine physics:  
+**Limiter**: Dolphin\_PT\_FLT\_MATH, **Value**: Dolphin\_PT\_FLT\_DIV  
+\*requires "Dolphin Float Passthrough" package from the Package Downloader
+{% endhint %}
+
 ### Pages
 
 {% page-ref page="dolphin-memory-domains.md" %}
