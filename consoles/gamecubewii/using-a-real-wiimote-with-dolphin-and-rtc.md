@@ -1,4 +1,4 @@
-# Using a real Wiimote with Dolphin & RTC
+# Using a real Wiimote with Dolphin
 
 **Guide written by:** __NoSkillPureAndy  
 __**RTC Version used at the time of making this guide:** RTCV 5.0.6__

@@ -51,7 +51,7 @@
 * [Gamecube/Wii](consoles/gamecubewii/README.md)
   * [Dolphin Memory Domains](consoles/gamecubewii/dolphin-memory-domains.md)
   * [Dolphin-Specific Lists](consoles/gamecubewii/gamecube-and-wii-filesystem-corruption.md)
-  * [Using a real Wiimote with Dolphin & RTC](consoles/gamecubewii/using-a-real-wiimote-with-dolphin-and-rtc.md)
+  * [Using a real Wiimote with Dolphin](consoles/gamecubewii/using-a-real-wiimote-with-dolphin-and-rtc.md)
   * [Dolphin Narry's mod \(Deprecated\)](consoles/gamecubewii/gamecube-and-wii-savestate-corruption.md)
 * [Playstation 2](consoles/playstation-2/README.md)
   * [PCSX2 Memory Domains](consoles/playstation-2/pcsx2-memory-domains.md)
