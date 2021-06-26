@@ -19,6 +19,7 @@
     * [Active Table Guide](corruptors/rtc/expert/active-table-guide.md)
     * [Custom Engine Guide](corruptors/rtc/expert/custom-engine.md)
   * [Tips, tricks and quirks](corruptors/rtc/tips.md)
+  * [Running RTCV on Linux](corruptors/rtc/running-rtcv-on-linux.md)
   * [ProcessStub Guide](corruptors/rtc/process.md)
   * [FileStub Guide](corruptors/rtc/filestub-guide.md)
 * [Other Corruptors](corruptors/other-corruptors/README.md)
