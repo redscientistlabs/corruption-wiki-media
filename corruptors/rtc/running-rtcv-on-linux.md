@@ -10,6 +10,8 @@ __**Linux distro used in the making of this guide:** Linux Manjaro__
 
 **If you are a Windows user, you do not need to follow this as RTC is already made for Windows**
 
+### WARNING: **This is a community-made guide for running RTC on Linux. The RTC devs are not officially supporting Linux as a platform for RTC at this time. Some users have managed to get it to work and this guide aims at providing more people with the knowledge on how to get it to work. Wine is a workaround and RTC isn't a native Linux app nor is it officially supported for it. Thank you for understanding.**
+
 ## **What is Wine?**
 
 In Layman’s terms, it’s a Linux Program that allows Windows only programs to run on Linux. It’s gotten very good the past few years and can now run RTCV.
