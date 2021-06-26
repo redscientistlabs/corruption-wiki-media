@@ -104,9 +104,13 @@ _**Currently, Bizhawk Vanguard, Dolphin Vanguard, and FileStub are known to work
 
 **Bizhawk Vanguard** will not detect your controller if you plug it in after launching Bizhawk. This Might not be just a wine issue.
 
+**MelonDS** has to be launched seperately from the RTC Launcher, as for some reason it will not launch with the Launcher. First click on MelonDS in the Launcher, then wait for the RTCV Client to load, then open the MelonDS application via wine.
+
+MelonDS can also have strange graphical errors after loading savestates via glitch harvester a few times \(such as Objects turning dark in SM64DS. Currently known solution is to restart the emulator and make a new savestate. \(This does not seem to happen in all DS games\)
+
 **Dolphin Vanguard** does not always save configurations properly. In testing, Multiple controller configs had to be saved before it would remember a controller was plugged in. Volume slider in dolphin resets each time its launched. Same thing with graphics config.
 
-_**The above issue was found using Dolphin Vanguard, but might happen on any of RTC’s Applications.**_
+_**The above issue was found using Dolphin Vanguard, but could be a thing on on new/future Vanguard Implementations.**_
 
 Infinite warnings can appear if you close dolphin before RTC closes, and then you try to close RTC while the kill-switch script is running, RTC will close, dolphin will launch again, but infinite Error messages will occur, taking away control from other windows and can quickly use up RAM. If this happens the only known solution at the moment is to Kill all Wine Process. There is a python script you can find to create a hotkey for this.
 
