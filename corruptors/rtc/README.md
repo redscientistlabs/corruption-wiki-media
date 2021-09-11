@@ -11,7 +11,7 @@ description: >-
 ### **Currently developped by:** 
 
 \*\*\*\*[**Phil Girard**](http://redscientist.com/) **\(Ircluzar\)**  
-[**Dan Barreiro \(Narry\)**](https://narry.land/)  
+[**Dan B \(Narry\)**](https://narry.land/)  
 **NullShock78  
 AbsenteeSurgeron  
 ChrisNonyminus**
