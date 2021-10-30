@@ -5,7 +5,7 @@ description: Safely destroying operating systems using Virtual Machines
 # Corrupting VMware snapshots
 
 **Guide written by:**_ _Modnark\
-__**Software used in guide:** VMware Workstation 16__
+__**Software used in guide:** RTCV, FileStub,VMware Workstation 16__
 
 ### WARNING: **This is a community-made guide for corrupting Operating Systems (windows,mac,linux) by blasting a VMware snapshot using FileStub. This is not a magic technique for windows destruction, you have to play around with it and results may vary from a system to another. Thank you for understanding.**
 
