@@ -22,8 +22,7 @@
 * [Other RTC Guides](rtcv/other-rtc-guides/README.md)
   * [Running RTCV on Linux](corruptors/rtc/running-rtcv-on-linux.md)
   * [Corrupting VMware snapshots](rtcv/other-rtc-guides/corrupting-vmware-snapshots.md)
-  * [FileStub Guide](corruptors/rtc/filestub-guide.md)
-  * [ProcessStub Guide](corruptors/rtc/process.md)
+  * [Corrupting Android Unity games](rtcv/other-rtc-guides/corrupting-android-unity-games.md)
 
 ## Other Corrutors
 
