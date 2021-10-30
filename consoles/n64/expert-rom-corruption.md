@@ -20,7 +20,7 @@ For the average person, the best way to corrupt a ROM beyond what you can do wit
 
 ## Super Mario 64
 
-To find exact ranges for Super Mario 64, you can use a map editing program like [Quad64](https://www.smwcentral.net/?p=viewthread&t=90510) by Davideesk. Quad64 is an open source version of [Toad's Tool 64](http://qubedstudios.rustedlogic.net/ToadsTool64.htm) by Qubed Studios with cleaner UI.
+To find exact ranges for Super Mario 64, you can use a map editing program like [Quad64](https://www.smwcentral.net/?p=viewthread\&t=90510) by Davideesk. Quad64 is an open source version of [Toad's Tool 64](http://qubedstudios.rustedlogic.net/ToadsTool64.htm) by Qubed Studios with cleaner UI.
 
 ![](../../.gitbook/assets/quad64example2.png)
 
@@ -30,9 +30,9 @@ The idea here is that instead of making guesses at where different values lie an
 
 Upon opening the program, it will ask you to supply a ROM from which it will pull the values from. Obviously, this ROM should be the same one you intend to corrupt. I recommend using a decompressed ROM as corruption results will be more consistent when you don't have to deal with compression. I personally use a 24MB ROM, but any size decompression should be fine.
 
-Once a ROM has been selected. you'll see a window exactly like the one above with four tabs at the top and four object types to choose from. You'll want to use the Level tab to switch between levels. If a level has more than one area to it, you can switch between them with "Select Area". The four types of objects you'll see are 3D Objects, Macro 3D Objects, Special 3D Objects, and Warps. 3D Objects and Macro 3D objects are what we plan on corrupting, and will be covered in their own sections. Special Objects are usually trees \(and Bowser, for some reason\) and corrupting them will only change their X and Y values so we generally don't touch them. Warps just teleport Mario to different places when they are triggered, there is little point in corrupting them.
+Once a ROM has been selected. you'll see a window exactly like the one above with four tabs at the top and four object types to choose from. You'll want to use the Level tab to switch between levels. If a level has more than one area to it, you can switch between them with "Select Area". The four types of objects you'll see are 3D Objects, Macro 3D Objects, Special 3D Objects, and Warps. 3D Objects and Macro 3D objects are what we plan on corrupting, and will be covered in their own sections. Special Objects are usually trees (and Bowser, for some reason) and corrupting them will only change their X and Y values so we generally don't touch them. Warps just teleport Mario to different places when they are triggered, there is little point in corrupting them.
 
-If you open up any of these categories and click on an object, you'll get several values corresponding to that object. For our purposes, none of these values are important except for the address. The address \(after the 0x\) is the first hexadecimal value corresponding to the addresses associated with that object. For the last address corresponding to that object, go to the next object and subtract from it's address by one. 3D Objects will almost always be 24 bytes in size, and Macro 3D objects will almost always be 10.
+If you open up any of these categories and click on an object, you'll get several values corresponding to that object. For our purposes, none of these values are important except for the address. The address (after the 0x) is the first hexadecimal value corresponding to the addresses associated with that object. For the last address corresponding to that object, go to the next object and subtract from it's address by one. 3D Objects will almost always be 24 bytes in size, and Macro 3D objects will almost always be 10.
 
 ### 3D Objects
 
@@ -48,7 +48,7 @@ A lot of subtle things will change around the level with this kind of corruption
 
 ## Ocarina of Time/Majora's Mask
 
-For Ocarina of Time and Majora's Mask there does not exist a level editor that reveals addresses of specific objects in the ROM. However, Ocarina of Time and Majora's Mask both have decompressed ROMs. For these ROMs, extensive ROM maps exists which give the addresses of objects and other entities in the ROM in table form. There is one for [Ocarina Of Time](https://wiki.cloudmodding.com/oot/File_List/NTSC_1.0), as well as documentation for Majora's Mask, which is split up into a [Actor List](https://wiki.cloudmodding.com/mm/Actor_List) and an [Object List](https://wiki.cloudmodding.com/mm/Object_List_%28U%29). To follow along with either of these, you'll need to decompress your ROM. The tool of choice to decompress either Ocarina of Time or Majora's Mask is [ZDEC](http://www.mediafire.com/file/3v3v94llaqaccaj/ZDEC.rar) by VL-Tone.
+For Ocarina of Time and Majora's Mask there does not exist a level editor that reveals addresses of specific objects in the ROM. However, Ocarina of Time and Majora's Mask both have decompressed ROMs. For these ROMs, extensive ROM maps exists which give the addresses of objects and other entities in the ROM in table form. There is one for [Ocarina Of Time](https://wiki.cloudmodding.com/oot/File\_List/NTSC\_1.0), as well as documentation for Majora's Mask, which is split up into a [Actor List](https://wiki.cloudmodding.com/mm/Actor\_List) and an [Object List](https://wiki.cloudmodding.com/mm/Object\_List\_\(U\)). To follow along with either of these, you'll need to decompress your ROM. The tool of choice to decompress either Ocarina of Time or Majora's Mask is [ZDEC](http://www.mediafire.com/file/3v3v94llaqaccaj/ZDEC.rar) by VL-Tone.
 
 Corrupting using these addresses will be similar to the process used for SM64 targeted corruption, so it's recommended that you read that section first. Like 3D objects, Actors have more pronounced and diverse corruption but are less stable. Objects are like Macro 3D objects in the same way: they're more stable but less pronounced. The File List for Ocarina of Time also gives the addresses for various other files such as textures and scenes, which are also worth experimenting with. Actors should be corrupted one at a time with similar intensity to that of 3D objects, Objects should be corrupted en masse with a corrupt every of one or two, and texture corruptions should be done in large groups but with a much larger corrupt every, similar to that of traditional decompressed corruptions. Care should be taken so that the objects or actors you corrupt are all in the area that you are actually corrupting so that you can see your results.
 
@@ -56,7 +56,7 @@ This section needs to be researched, and should be expanded upon in the future, 
 
 ## Other Games
 
-Decompressed ROMs don't currently exist for N64 ROMs other than Super Mario 64, Ocarina of Time, and Majora's Mask. However, basic ROM maps exist for many games. To find them, try searching "\(game title\) ROM map" and seeing what you can find. For example, this is a basic [Banjo Kazooie ROM map](http://www.therwp.com/forums/showthread.php?t=15763) by Coolboyman. These games will still be more difficult to corrupt because you're going to probably find aggregates for where types of data exist, and the ROM is compressed. However, results are still possible and these ROM maps will allow for more precision when corrupting. When using ROM maps, you'll generally want to corrupt the range over which textures, models, and objects are housed. Try to pick the objects that are in the level you want to corrupt if you can. Many [RDRAM maps](https://github.com/Isotarge/ScriptHawk/tree/master/Watch) like these from Isotarge also exist for N64, but you'll need to [use RTC to corrupt those]().
+Decompressed ROMs don't currently exist for N64 ROMs other than Super Mario 64, Ocarina of Time, and Majora's Mask. However, basic ROM maps exist for many games. To find them, try searching "(game title) ROM map" and seeing what you can find. For example, this is a basic [Banjo Kazooie ROM map](http://www.therwp.com/forums/showthread.php?t=15763) by Coolboyman. These games will still be more difficult to corrupt because you're going to probably find aggregates for where types of data exist, and the ROM is compressed. However, results are still possible and these ROM maps will allow for more precision when corrupting. When using ROM maps, you'll generally want to corrupt the range over which textures, models, and objects are housed. Try to pick the objects that are in the level you want to corrupt if you can. Many [RDRAM maps](https://github.com/Isotarge/ScriptHawk/tree/master/Watch) like these from Isotarge also exist for N64, but you'll need to [use RTC to corrupt those](broken-reference).
 
 ## References
 
@@ -64,7 +64,6 @@ The excerpts of the video below was made with [Weinerless Steve](https://www.you
 
 ## Video Examples
 
-{% embed url="https://youtu.be/cdRs8YNk1pI?t=488" caption="" %}
+{% embed url="https://youtu.be/cdRs8YNk1pI?t=488" %}
 
-\(8:08 to 8:29 for OoT, 8:35 to 10:34 for SM64\)
-
+(8:08 to 8:29 for OoT, 8:35 to 10:34 for SM64)

@@ -1,4 +1,4 @@
-# Rom Corruption \(Deprecated\)
+# Rom Corruption (Deprecated)
 
 {% hint style="danger" %}
 This guide is for corrupting roms directly with classic corruptors such as the Vinesauce ROM Corruptor and VineCorrupt. Some of this documentation can also apply to RTC when corruping the rom domain with the Blast Generator.
@@ -9,7 +9,7 @@ This guide is for corrupting roms directly with classic corruptors such as the V
 {% hint style="info" %}
 > #### The [Real Time Corruptor ](http://redscientist.com/rtc)supports this system natively through MelonDS. Some Vector Engine Lists are provided with it to provide support for the NintendoDS's architechture.
 >
-> \*\*\*\*[**You can view the wiki pages for the Real Time Corruptor here**](../../corruptors/rtc/)\*\*\*\*
+> ****[**You can view the wiki pages for the Real Time Corruptor here**](../../rtcv/rtc/)****
 {% endhint %}
 
 ## Nintendo DS Rom Corruption
@@ -30,7 +30,7 @@ This guide is for corrupting roms directly with classic corruptors such as the V
 
 ## NDS Corruption with the Vinesauce ROM Corruptor
 
-#### Guide Author: [Chris Byrne \(Weinerless Steve\)](https://www.youtube.com/user/Sevelix/)
+#### Guide Author: [Chris Byrne (Weinerless Steve)](https://www.youtube.com/user/Sevelix/)
 
 Unlike traditional N64 games, DS can be corrupted both with and without save states effectively. Without save states, it corrupts like a normal game where corruptions are loaded from the start. When save states are used, it works more like N64 corruption where the only data that is being corrupted is data that is being loaded in real time. It is quite difficult to get results either way, as many games give poor results or have checksums you have to avoid. However, with patience you can have great results corrupting Nintendo DS games.
 
@@ -50,7 +50,7 @@ When corrupting a game that autosaves, you need to wipe the save file path for t
 
 ### Games That Save Manually
 
-For games with manual saving, you'll be fine as long as you don't manually save the game while it is corrupted. Unlike autosaving games, it is recommended that you keep the SaveRam path at it’s default if you want to be able to save manually. For a game like Tomodachi Collection where you are punished for turning the game off without saving too many times you'll want to save the game, shut off the emulator, turn it back on, and make a save state on the start screen. Load this every time you start the game, corrupted or not \(unless of course you want to load a state that takes you to a different part of the game\). If you save the game again, make sure you replace the start screen state with an updated one. Make sure you don't load old states as well, as this will revert the game to the amount of progress made when you made that state. You can undo this by loading the newest state you made.
+For games with manual saving, you'll be fine as long as you don't manually save the game while it is corrupted. Unlike autosaving games, it is recommended that you keep the SaveRam path at it’s default if you want to be able to save manually. For a game like Tomodachi Collection where you are punished for turning the game off without saving too many times you'll want to save the game, shut off the emulator, turn it back on, and make a save state on the start screen. Load this every time you start the game, corrupted or not (unless of course you want to load a state that takes you to a different part of the game). If you save the game again, make sure you replace the start screen state with an updated one. Make sure you don't load old states as well, as this will revert the game to the amount of progress made when you made that state. You can undo this by loading the newest state you made.
 
 ### Games with Checksums
 
@@ -80,15 +80,14 @@ This is what you should try when the first method fails. In this method, you’r
 
 ## References
 
-This wiki article was adapted from the [DS Corruption Guide V 1.1](https://web.archive.org/web/20160519231420/http://vinesauce.com:80/vinetalk/viewtopic.php?f=34&t=99). The videos below were made with corruptions by [Weinerless Steve](https://www.youtube.com/channel/UCrtDW6TfvTKUjXMnXVXhJww) and [Ego](https://www.youtube.com/user/Egoangell) respectively. The videos were commentated and edited by [Vinesauce](https://www.youtube.com/user/vinesauce).
+This wiki article was adapted from the [DS Corruption Guide V 1.1](https://web.archive.org/web/20160519231420/http://vinesauce.com:80/vinetalk/viewtopic.php?f=34\&t=99). The videos below were made with corruptions by [Weinerless Steve](https://www.youtube.com/channel/UCrtDW6TfvTKUjXMnXVXhJww) and [Ego](https://www.youtube.com/user/Egoangell) respectively. The videos were commentated and edited by [Vinesauce](https://www.youtube.com/user/vinesauce).
 
 ## Video Examples
 
-{% embed url="https://www.youtube.com/watch?v=UUARl1\_B34I" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=UUARl1_B34I" %}
 
 An example of a game with manual saving corrupted in a variety of ways.
 
-{% embed url="https://www.youtube.com/watch?v=JIaM-8dHkyY" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=JIaM-8dHkyY" %}
 
 An example of a game where you have to use save states to bypass save checks.
-

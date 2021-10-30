@@ -2,9 +2,9 @@
 
 ### VineCorrupt
 
-**Author:** "Maiddog"  
-**Source:** [https://github.com/Roughsketch/mdcorrupt](https://github.com/Roughsketch/mdcorrupt)  
-**Download:** [http://www.maiddog.com/projects/corrupter/download.php](http://www.maiddog.com/projects/corrupter/download.php)
+**Author: **"Maiddog"\
+**Source: **[https://github.com/Roughsketch/mdcorrupt](https://github.com/Roughsketch/mdcorrupt)****\
+**Download: **[http://www.maiddog.com/projects/corrupter/download.php](http://www.maiddog.com/projects/corrupter/download.php)
 
 > _VineCorrupt is a multi-system corrupter designed to work with game systems ranging from NES to Wii with further inclusive development for other systems. VineCorrupt features opcode and file protection for its supported systems to minimize crashes. Each system has a different protection protocol according to their instruction set or file type to prevent crash inducing modifications. VineCorrupt also features the ability to corrupt specific files within a disc through a directory structure._
 
@@ -37,7 +37,7 @@
     * [Add](vinecorrupt.md#add)
     * [Set To](vinecorrupt.md#set-to)
     * [Random](vinecorrupt.md#random)
-    * [Rotate \(L/R\)](vinecorrupt.md#rotate-lr)
+    * [Rotate (L/R)](vinecorrupt.md#rotate-lr)
     * [Logical AND](vinecorrupt.md#logical-AND)
     * [Logical OR](vinecorrupt.md#logical-OR)
     * [Logical XOR](vinecorrupt.md#logical-XOR)
@@ -103,7 +103,7 @@ The offset into the ROM where the program will start corruption.
 
 **End Byte**
 
-The offset into the ROM where the program will stop corruption. Setting this value to 0 will corrupt from the Start Byte to the end of the file \(similar to "Auto-end"\).
+The offset into the ROM where the program will stop corruption. Setting this value to 0 will corrupt from the Start Byte to the end of the file (similar to "Auto-end").
 
 **Total Bytes**
 
@@ -131,46 +131,46 @@ This section goes over the byte operations of VineCorrupt. For examples of these
 
 **Shift**
 
-Shift grabs a byte a \[Corruption Value\] distance away and puts it in the current position.
+Shift grabs a byte a \[Corruption Value] distance away and puts it in the current position.
 
 **Swap**
 
-Swap grabs the current byte and a byte of \[Corruption Value\] distance away and swaps their values.
+Swap grabs the current byte and a byte of \[Corruption Value] distance away and swaps their values.
 
 **Add**
 
-Adds the \[Corruption Value\] to the current byte.
+Adds the \[Corruption Value] to the current byte.
 
 **Set To**
 
-Sets the value of the current byte to the value of \[Corruption Value\].
+Sets the value of the current byte to the value of \[Corruption Value].
 
 **Random**
 
 Random generates a random value and places it at the current byte. Random does not use the corruption value.
 
-**Rotate \(L/R\)**
+**Rotate (L/R)**
 
-Rotate performs a bitwise rotation of the current value by a distance of \[Corruption Value\].
+Rotate performs a bitwise rotation of the current value by a distance of \[Corruption Value].
 
 **Logical AND**
 
-Performs a logical AND operation at the current byte with the \[Corruption Value\].
+Performs a logical AND operation at the current byte with the \[Corruption Value].
 
 **Logical OR**
 
-Performs a logical OR operation at the current byte with the \[Corruption Value\].
+Performs a logical OR operation at the current byte with the \[Corruption Value].
 
 **Logical XOR**
 
-Performs a logical XOR operation at the current byte with the \[Corruption Value\].
+Performs a logical XOR operation at the current byte with the \[Corruption Value].
 
 **Logical Complement**
 
 Changes the current byte to its logical complement. Complement does not use the corruption value.
 
-* * \*
+*
+  * \*
 
-Write up by TechSupportSparky  
+Write up by TechSupportSparky\
 ![](../../.gitbook/assets/RaccAttack.png)
-

@@ -4,23 +4,23 @@ description: >-
   corrupting games and files.
 ---
 
-# Real-Time Corruptor
+# Main RTC Guide
 
 ## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
 
-### **Currently developped by:** 
+### **Currently developped by: **
 
-\*\*\*\*[**Phil Girard**](http://redscientist.com/) **\(Ircluzar\)**  
-[**Dan B \(Narry\)**](https://narry.land/)  
-**NullShock78  
-AbsenteeSurgeron  
-ChrisNonyminus**
+****[**Phil Girard**](http://redscientist.com)** (Ircluzar)**\
+****[**Dan B (Narry)**](https://narry.land)****\
+**NullShock78**\
+**AbsenteeSurgeron**\
+**ChrisNonyminus**
 
-**All programs from the RTC suite of tools are Open Source and available at:** [**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)\*\*\*\*
+**All programs from the RTC suite of tools are Open Source and available at: **[**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)****
 
-###  <a id="download-httpredscientistcomrtc"></a>
+### &#x20;<a href="download-httpredscientistcomrtc" id="download-httpredscientistcomrtc"></a>
 
-### This is the index page for the help documentation for the Real**-**Time Corruptor \(RTC\). You can view the various guides and help documents from the links below. <a id="download-httpredscientistcomrtc"></a>
+### This is the index page for the help documentation for the Real**-**Time Corruptor (RTC). You can view the various guides and help documents from the links below. <a href="download-httpredscientistcomrtc" id="download-httpredscientistcomrtc"></a>
 
 ## [Introduction](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/introduction.html)
 
@@ -39,4 +39,3 @@ This guide covers auxiliary tools present around the program for the more advanc
 ## [Tips and Tricks](tips.md)
 
 ## [RTC Dev Discord](https://discord.corrupt.wiki)
-
