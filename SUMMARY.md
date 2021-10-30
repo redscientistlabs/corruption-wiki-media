@@ -34,8 +34,10 @@
 ## Consoles
 
 * [NES](consoles/nes/README.md)
+  * [NES Architechture](consoles/nes/nes-architechture.md)
   * [NES Memory Domains](consoles/nes/bizhawk-memory-domains.md)
 * [SNES](consoles/snes/README.md)
+  * [SNES Architechture](consoles/snes/snes-architechture.md)
   * [SNES Memory Domains](consoles/snes/bizhawk-memory-domains.md)
   * [SNES Audio Tinkering](consoles/snes/snes-audio-tinkering.md)
 * [N64](consoles/n64/README.md)
@@ -47,13 +49,12 @@
 * [Nintendo DS](consoles/nintendo-ds/README.md)
   * [MelonDS Memory Domains](consoles/nintendo-ds/melonds-memory-domains.md)
   * [MelonDS-Specific Lists](consoles/nintendo-ds/melonds-specific-lists.md)
-  * [Rom Corruption \(Deprecated\)](consoles/nintendo-ds/nds.md)
+  * [Rom Corruption (Deprecated)](consoles/nintendo-ds/nds.md)
 * [Gamecube/Wii](consoles/gamecubewii/README.md)
   * [Dolphin Memory Domains](consoles/gamecubewii/dolphin-memory-domains.md)
   * [Dolphin-Specific Lists](consoles/gamecubewii/gamecube-and-wii-filesystem-corruption.md)
   * [Using a real Wiimote with Dolphin](consoles/gamecubewii/using-a-real-wiimote-with-dolphin-and-rtc.md)
-  * [Dolphin Narry's mod \(Deprecated\)](consoles/gamecubewii/gamecube-and-wii-savestate-corruption.md)
+  * [Dolphin Narry's mod (Deprecated)](consoles/gamecubewii/gamecube-and-wii-savestate-corruption.md)
 * [Playstation 2](consoles/playstation-2/README.md)
   * [PCSX2 Memory Domains](consoles/playstation-2/pcsx2-memory-domains.md)
   * [PCSX2-specific Lists](consoles/playstation-2/pcsx2-specific-lists.md)
-
