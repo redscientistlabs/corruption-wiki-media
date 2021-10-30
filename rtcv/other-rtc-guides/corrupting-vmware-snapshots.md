@@ -1,3 +1,7 @@
+---
+description: Safely destroying operating systems using Virtual Machines
+---
+
 # Corrupting VMware snapshots
 
 **Guide written by:**_ _Modnark\
