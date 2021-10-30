@@ -36,7 +36,7 @@ The external ROM plugins are additional options that can allow you to get crazy 
 
 ### Control your game from any window
 
-Annoyed that you have to constantly click back and forth between the RTC window and the Bizhawk window in detached mode? Toggle "Accept Background Input" \(Config &gt; Customize\)
+Annoyed that you have to constantly click back and forth between the RTC window and the Bizhawk window in detached mode? Toggle "Accept Background Input" (Config > Customize)
 
 ## Tricks
 
@@ -68,9 +68,8 @@ Sometimes Bizhawk will just break and throw an error about the core accepting th
 
 ### Game Capture Software doesn't work properly with my RTC
 
-Having trouble capturing Bizhawk with OBS or XSplit? Try changing the display option from OpenGL to Direct3D, or vice-versa \(Config &gt; Display &gt; Display Method\).
+Having trouble capturing Bizhawk with OBS or XSplit? Try changing the display option from OpenGL to Direct3D, or vice-versa (Config > Display > Display Method).
 
 ### Game running slow on some engines
 
 Game running slow after using the Pipe, Freeze, or Hellgenie engines? Try turning down the intensity. These engines are significantly more CPU intensive than other engines.
-

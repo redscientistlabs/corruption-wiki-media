@@ -16,7 +16,7 @@
 
 > _As its name implies, this is a web-based corruptor that works with SVG Vectorial Files. A quick selection of SVG Emojis is available to get started fast._
 
-![Corrupted Laughing-Crying Emoji](<../.gitbook/assets/image (31).png>)
+![Corrupted Laughing-Crying Emoji](<../../.gitbook/assets/image (31).png>)
 
 ****
 
@@ -27,7 +27,7 @@
 
 > _jsRTC is a minimalist Real-Time Corruptor written in JavaScript. jsRTC works by creating a bookmark in your browser that contains the corruptor's code. It will pop a frame at the top-left corner of your browser, giving you control over the corruptor._
 
-![jsRTC ran against Youtube's Homepage](<../.gitbook/assets/image (21).png>)
+![jsRTC ran against Youtube's Homepage](<../../.gitbook/assets/image (21).png>)
 
 **jsRTC for js-dosbox (dosgamesarchives.com edition)**
 

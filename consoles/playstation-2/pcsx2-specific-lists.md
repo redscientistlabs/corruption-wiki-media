@@ -13,8 +13,8 @@ __
 
 _Also check this link for the default lists that come with the Vector Engine_
 
-{% content-ref url="../../rtcv/rtc/basic/vector-engine-lists.md" %}
-[vector-engine-lists.md](../../rtcv/rtc/basic/vector-engine-lists.md)
+{% content-ref url="../../corruptors/rtc/basic/vector-engine-lists.md" %}
+[vector-engine-lists.md](../../corruptors/rtc/basic/vector-engine-lists.md)
 {% endcontent-ref %}
 
 ### Usage

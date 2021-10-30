@@ -9,7 +9,7 @@ This guide is for corrupting roms directly with classic corruptors such as the V
 {% hint style="info" %}
 > #### The [Real Time Corruptor ](http://redscientist.com/rtc)supports this system natively through MelonDS. Some Vector Engine Lists are provided with it to provide support for the NintendoDS's architechture.
 >
-> ****[**You can view the wiki pages for the Real Time Corruptor here**](../../rtcv/rtc/)****
+> ****[**You can view the wiki pages for the Real Time Corruptor here**](../../corruptors/rtc/)****
 {% endhint %}
 
 ## Nintendo DS Rom Corruption

@@ -2,13 +2,13 @@
 
 ## &#x20;**Scares Scrambler (v1.21)**
 
-![](<../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59).png>)
 
 &#x20;**Author: **Zach “Scares” Strong\
 **Source: **[https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild](https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild)\
 **Download: **[https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild/releases/tag/v1.22](https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild/releases/tag/v1.22)
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (30).png>)
 
 
 
@@ -31,7 +31,7 @@
 
 File - Choose File (Alt+F)
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25).png>)
 
 This window is used to choose the desired file to corrupt, as well as the name and location for the resulting corrupted file. “Select File” will open a standard dialogue box for selecting the file to corrupt. “Select Folder” will open a custom window for selecting a folder or specific file for the resulting corrupted file (see below). Alternatively, clicking the textbox labelled “Enter new file name…” will let the user enter the file path for the new file manually. “Apply” will set the file to corrupt and the resulting corrupted file to the given values.
 
@@ -41,7 +41,7 @@ If a filepath is given, but no filename, the corrupted file will be given no nam
 
 File – Choose File - Select Folder
 
-![](<../.gitbook/assets/image (37).png>)
+![](<../../.gitbook/assets/image (37).png>)
 
 This window is used to select a specific filepath for the resulting corrupted file, without the need for typing it manually. This window will be replaced with a more standard dialogue box in future releases. The window contains the current filepath (in this example, it’s “C:/Example\”), the contents of the current folder, and three buttons.
 
@@ -49,7 +49,7 @@ Clicking on the name of any file/folder in the list will select it. Clicking “
 
 File - Save Presets (Alt+S)
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../../.gitbook/assets/image (46).png>)
 
 This window is used to save the current settings for the current algorithm to a simple text file. Entering a filename into the textbox and clicking “Ok” will save a preset file to the same folder as the Scares Scrambler.
 
@@ -89,7 +89,7 @@ Algorithms are the different methods which the Scares Scrambler uses to corrupt 
 
 #### **Algorithms – Basic Functions**
 
-![](<../.gitbook/assets/image (45).png>)
+![](<../../.gitbook/assets/image (45).png>)
 
 To change any of the values listed below, simply click the textboxes beside each label and enter the desired value.
 
@@ -159,7 +159,7 @@ Scrambler Algorithm – Block Gap
 
 The Block Gap determines the space between the blocks which get swapped. This value is different from Block Space, which determines how much uncorrupted space to leave between pairs of corrupted blocks.
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17).png>)
 
 Copier Algorithm
 
@@ -211,7 +211,7 @@ The Select File button opens a standard dialogue box to select a secondary file 
 
 ### **Corrupt and Repeat**
 
-![](<../.gitbook/assets/image (69).png>)
+![](<../../.gitbook/assets/image (69).png>)
 
 The Corrupt and Repeat feature allows the user to create multiple corrupted files at once. To open Corrupt and Repeat, click the “Corrupt and Repeat” button below the “Corrupt” button on the main window.
 
@@ -243,7 +243,7 @@ The Scares Scrambler comes with a few Python files and images. The corrupter nee
 
 ### **Example Preset**
 
-{% file src="../.gitbook/assets/good-fearful-harmony-intro.txt" %}
+{% file src="../../.gitbook/assets/good-fearful-harmony-intro.txt" %}
 Example Preset for a PSX Bios Corruption
 {% endfile %}
 

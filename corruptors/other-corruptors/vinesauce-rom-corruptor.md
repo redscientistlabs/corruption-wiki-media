@@ -1,11 +1,11 @@
 # Vinesauce ROM Corruptor
 
 {% hint style="info" %}
-While you can still use this corruptor, we suggest using the [Real Time Corruptor](../../rtcv/rtc/) whenever you can. The RTC is under active development and has far more features than other corruptors.
+While you can still use this corruptor, we suggest using the [Real Time Corruptor](../rtc/) whenever you can. The RTC is under active development and has far more features than other corruptors.
 {% endhint %}
 
-{% content-ref url="../../rtcv/rtc/" %}
-[rtc](../../rtcv/rtc/)
+{% content-ref url="../rtc/" %}
+[rtc](../rtc/)
 {% endcontent-ref %}
 
 

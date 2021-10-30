@@ -1,6 +1,6 @@
 # Blast Editor Guide
 
-## **Note: This guide is somewhat out of date \(written for the 3.2X branch\). Some topics still apply.**
+## **Note: This guide is somewhat out of date (written for the 3.2X branch). Some topics still apply.**
 
 The Blast Editor is a tool for manipulating a StashKey in the Glitch Harvester. This allows the user to edit, add, or remove effects from the BlastLayer.
 
@@ -52,18 +52,18 @@ With larger BlastLayer sizes, unchecking individual Units will take too long. In
 
 Use this method:
 
-\[Random Disable 50%\] then \[Load + Corrupt\].  
-Is the corruption \(effect\) still present?  
-If Yes -&gt; \[Remove Disabled\]  
-If No -&gt; \[Invert Disabled\] then \[Remove Disabled\]
+\[Random Disable 50%] then \[Load + Corrupt].\
+Is the corruption (effect) still present?\
+If Yes -> \[Remove Disabled]\
+If No -> \[Invert Disabled] then \[Remove Disabled]
 
 **Video example**
 
-{% embed url="https://www.youtube.com/watch?v=LwykHjqAIT4" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=LwykHjqAIT4" %}
 
 #### Editing
 
-After a corruption has been reduced to a few Units, their settings can be changed on the fly through the Blast Editor. Changing options such as the BlastUnit Mode \(SET, ADD, SUBTRACT, ETC.\), tilting the Source Address, and changing Parameter Values can result in different variations on the corruption. To change a value, double-click on it to change the value and reload the corruption to see the new effect.
+After a corruption has been reduced to a few Units, their settings can be changed on the fly through the Blast Editor. Changing options such as the BlastUnit Mode (SET, ADD, SUBTRACT, ETC.), tilting the Source Address, and changing Parameter Values can result in different variations on the corruption. To change a value, double-click on it to change the value and reload the corruption to see the new effect.
 
 ## Functions
 
@@ -71,11 +71,11 @@ After a corruption has been reduced to a few Units, their settings can be change
 
 #### BlastLayer Info
 
-The BlastLayer Info provides details about the currently loaded BlastLayer. The size of the BlastLayer \(total Units\) is displayed here.
+The BlastLayer Info provides details about the currently loaded BlastLayer. The size of the BlastLayer (total Units) is displayed here.
 
 #### Shift Selected Rows
 
-The Shift Selected Rows menu adjusts the selected option \(Source Address, Parameter Domain, Parameter Value\) through the drop down menu. The value will be decremented/incremented by the supplied step size.
+The Shift Selected Rows menu adjusts the selected option (Source Address, Parameter Domain, Parameter Value) through the drop down menu. The value will be decremented/incremented by the supplied step size.
 
 #### Disabling
 
@@ -164,4 +164,3 @@ The parameter used for the corruption generation. Depending on the corruption ty
 Allows the user to enter notes about a specific Unit.
 
 Write up by TechSupportSparky ![](../../../.gitbook/assets/RaccAttack.png)
-

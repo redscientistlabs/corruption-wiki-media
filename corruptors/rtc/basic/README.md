@@ -54,11 +54,11 @@ _Type of item that contains_ [_BlastUnits_](./#blastunit) _generated from a_ [_c
 
 A BlastLayer is usually encapsulated within a [StashKey](./#stashkey) and can be manipulated using the [Blast Editor](../expert/blast-generator.md) or by merging multiple BlastLayers in the Glitch Harvester's Stockpile Manager. It can also be appended to another Savestate by using the Inject function of the [Glitch Harvester](../advanced.md#glitch-harvester).
 
-BlastLayers that are ran from the [Stockpile Player](../advanced.md#stockpile-player) or from the [Glitch Harvester](../advanced.md#glitch-harvester) can be deactivated and reactivated on the fly \(if applicable\).
+BlastLayers that are ran from the [Stockpile Player](../advanced.md#stockpile-player) or from the [Glitch Harvester](../advanced.md#glitch-harvester) can be deactivated and reactivated on the fly (if applicable).
 
 #### Blast
 
-_A Blast is the action of generating and/or applying a_ [_BlastLayer_](./#blastlayer) _item \(The action of corrupting\)._
+_A Blast is the action of generating and/or applying a_ [_BlastLayer_](./#blastlayer) _item (The action of corrupting)._
 
 When being generated, a Blast will contain a certain amount of [BlastUnits](./#blastunit). The amount of generated corruption Units is defined by the Intensity setting. The behavior of generated [units ](./#blastunit)can be tweaked by changing the [selected Engine](./#corruption-engines) or building a custom behavior in the [Custom Engine](./#custom-engine).
 
@@ -66,7 +66,7 @@ RTC is built in a way that corruption is always generated and saved in memory be
 
 #### StashKey
 
-_Type of item that contains information about a game, its game state and an attached_ [_BlastLayer_ ](./#blastlayer)_\(Corruption instructions\)._
+_Type of item that contains information about a game, its game state and an attached_ [_BlastLayer_ ](./#blastlayer)_(Corruption instructions)._
 
 Corrupting using the [Glitch Harvester](../advanced.md#glitch-harvester) generates StashKeys and sends them in the [Stash History](../advanced.md#stash-history). They can later be manipulated and/or added to a [Stockpile](./#stockpile).
 
@@ -88,9 +88,9 @@ Memory Domains wrap the native memory areas into our own format. Every [Vanguard
 
 #### Virtual Memory Domain
 
-_Item that represents continuous or non-contiguous part\(s\) of one or many Memory Domains_
+_Item that represents continuous or non-contiguous part(s) of one or many Memory Domains_
 
-Virtual Memory Domains are abstract lists of pointers that act as a Memory Domain. Most of the tools won't know the difference between a normal Memory Domain and a VMD. VMDs are marked with \[V\] to show that they are not real. They can be saved and generated from files and formulas. [BlastLayers](./#blastlayer) can also be converted into VMDs.
+Virtual Memory Domains are abstract lists of pointers that act as a Memory Domain. Most of the tools won't know the difference between a normal Memory Domain and a VMD. VMDs are marked with \[V] to show that they are not real. They can be saved and generated from files and formulas. [BlastLayers](./#blastlayer) can also be converted into VMDs.
 
 _More information about Virtual Memory Domains is available in the_ [_VMD Guide_](../expert/vmd-generator.md)\_\_
 
@@ -120,10 +120,10 @@ _→ Only Applicable to_ [_AutoCorrupt_](./#auto-corrupt)\_\_
 
 The Error Delay is a divider to the amount of generated corruption. This defines Auto-Corrupt will Blast the game every X [steps](./#emulation-step).
 
-_Example of how generation works with Error Delay:  
-1 second @ 60fps with Intensity 500 and Error Delay 1 will generate 30k units  
-1 second @ 60fps with Intensity 30k and Error Delay 60 will generate 30k units.  
-The difference is that the first one will generate a constant stream of units while the second one will generate a big block of units every second._
+_Example of how generation works with Error Delay:_\
+_1 second @ 60fps with Intensity 500 and Error Delay 1 will generate 30k units_\
+_1 second @ 60fps with Intensity 30k and Error Delay 60 will generate 30k units._\
+_The difference is that the first one will generate a constant stream of units while the second one will generate a big block of units every second._
 
 _It should be worth noting the tweaking the Error Delay is NOT necessary to get corruption results. It only serves as a way to space out blasts during auto-corrupt._
 
@@ -133,7 +133,7 @@ The Intensity is a multiplier to the amount of generated [Units ](./#blastunit)i
 
 _Generally, the higher the Intensity is, the more corruption will happen_
 
-Some [engines ](./#corruption-engines)generate [Active Units](./#active-units-and-infinite-units), which execute code on every frame while they're active. There's a maximum amount of 50 active units by default. This setting can be changed in the engine settings \(when applicable\) or in Settings and tools -&gt; Corruption Settings
+Some [engines ](./#corruption-engines)generate [Active Units](./#active-units-and-infinite-units), which execute code on every frame while they're active. There's a maximum amount of 50 active units by default. This setting can be changed in the engine settings (when applicable) or in Settings and tools -> Corruption Settings
 
 _This means that a Blast with 100 Intensity while Max Active Units is set to 50 will have the same result as a blast with 50 intensity, given that the currently selected engine generates Active Units._
 
@@ -151,11 +151,11 @@ Even: Apply the blasts evenly spread through all selected domains.
 
 Proportional: Apply the blasts proportionally through all selected domains based on the sizes
 
-Normalized: Iterate through all selected domains and apply as intensity/\(size of largest domain / size of current domain\)
+Normalized: Iterate through all selected domains and apply as intensity/(size of largest domain / size of current domain)
 
 ### BizHawk: Rewindable Memory Domains
 
-In BizHawk, all emulator cores come with Rewind capabilities. At the time of writing this guide, no other emulator than BizHawk supports native Rewind \(among the ones modded with [Vanguard](./#vanguard)\).
+In BizHawk, all emulator cores come with Rewind capabilities. At the time of writing this guide, no other emulator than BizHawk supports native Rewind (among the ones modded with [Vanguard](./#vanguard)).
 
 By default, RTC will select [Memory Domains](./#memory-domain) that are **Rewind-safe**, meaning that the data edited in these domains can be rewinded out of. Reverting back the corruption that occurs in domains that aren't rewind-safe requires to select "Reboot Core" in the emulation menu of BizHawk or reloading a [Glitch Harvester Savestate](../advanced.md#savestate-manager) or [StashKey](./#stashkey).
 
@@ -167,7 +167,7 @@ _These are the various Engine Templates that you can use for corrupting games. T
 
 ### Nightmare Engine
 
-![](../../../.gitbook/assets/image%20%2838%29%20%281%29.png)
+![](<../../../.gitbook/assets/image (38) (1).png>)
 
 This engine corrupts on the raw byte level.
 
@@ -175,19 +175,19 @@ _Effect: It changes Bytes in Memory once._
 
 **Blast Type**
 
-This parameter defines the effect applied on Byte\(s\)
+This parameter defines the effect applied on Byte(s)
 
-RANDOM: Will replace the Byte\(s\) at the selected address with random Byte\(s\)
+RANDOM: Will replace the Byte(s) at the selected address with random Byte(s)
 
-RANDOMTILT: Will replace the Byte\(s\) with random Byte\(s\) or Increments it or Decrements it.
+RANDOMTILT: Will replace the Byte(s) with random Byte(s) or Increments it or Decrements it.
 
-TILT: Will Increment or Decrement random Byte\(s\).
+TILT: Will Increment or Decrement random Byte(s).
 
 ### Hellgenie Engine
 
-![](../../../.gitbook/assets/image%20%2828%29.png)
+![](<../../../.gitbook/assets/image (28).png>)
 
-This engine generate Active Units, which execute on every frame. The Hellgenie Engine replicates the effect of Cheats \(see Game Genie, Active Replay, GameShark\) and replaces a value with a randomly selected one then applies it on every frame.
+This engine generate Active Units, which execute on every frame. The Hellgenie Engine replicates the effect of Cheats (see Game Genie, Active Replay, GameShark) and replaces a value with a randomly selected one then applies it on every frame.
 
 Effect: It randomly selects a value and forces a selected address to then keep that value.
 
@@ -197,13 +197,13 @@ Infinite Units are resource expensive as they re-write memory on every frame and
 
 **Clear units on rewind**
 
-Rewinding will clear all [infinite units](./#active-units-and-infinite-units) that have an infinite life time \(when applicable\).
+Rewinding will clear all [infinite units](./#active-units-and-infinite-units) that have an infinite life time (when applicable).
 
 ### Freeze Engine
 
-![](../../../.gitbook/assets/image%20%2848%29.png)
+![](<../../../.gitbook/assets/image (48).png>)
 
-This engine generate Active Units, which execute on every frame. The Freeze Engine replicates the effect of Cheats \(see Game Genis, Active Replay, GameShark\) and replaces a value on every frame. The difference between this engine and the Hellgenie Engine is that this doesn't generate a value but instead keeps the value at the target adress and reapplies it on every frame, therefore freezing it into places.
+This engine generate Active Units, which execute on every frame. The Freeze Engine replicates the effect of Cheats (see Game Genis, Active Replay, GameShark) and replaces a value on every frame. The difference between this engine and the Hellgenie Engine is that this doesn't generate a value but instead keeps the value at the target adress and reapplies it on every frame, therefore freezing it into places.
 
 _Effect: It forces Bytes at a selected address to keep their value._
 
@@ -213,11 +213,11 @@ Infinite Units are resource expensive as they re-write memory on every frame and
 
 **Clear units on rewind**
 
-Rewinding will clear all [infinite units](./#active-units-and-infinite-units) that have an infinite life time \(when applicable\).
+Rewinding will clear all [infinite units](./#active-units-and-infinite-units) that have an infinite life time (when applicable).
 
 ### Distortion Engine
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](<../../../.gitbook/assets/image (24).png>)
 
 This engine backups Bytes and restores those backups once, later in time.
 
@@ -233,7 +233,7 @@ This erases all current [active units](./#active-units-and-infinite-units) pendi
 
 ### Pipe Engine
 
-![](../../../.gitbook/assets/image%20%2825%29%20%282%29.png)
+![](<../../../.gitbook/assets/image (25) (2).png>)
 
 This engine generates units that bind addresses together and can make data bleed from a Memory Domain to another. It uses Infinite Units that route memory changes on every Emulator Step or frame.
 
@@ -243,11 +243,11 @@ Prevents any change to be done to the current Active Units
 
 **Clear units on rewind**
 
-Rewinding will clear all [infinite units](./#active-units-and-infinite-units) that have an infinite life time \(when applicable\).
+Rewinding will clear all [infinite units](./#active-units-and-infinite-units) that have an infinite life time (when applicable).
 
 ### Vector Engine
 
-![](../../../.gitbook/assets/image%20%285%29.png)
+![](<../../../.gitbook/assets/image (5).png>)
 
 This engine works exclusively on 32bit systems that use IEEE 754 float values.
 
@@ -265,13 +265,15 @@ After generation of the Unit with this engine, a replacement value is assigned t
 
 ### **Lists**
 
-{% page-ref page="vector-engine-lists.md" %}
+{% content-ref url="vector-engine-lists.md" %}
+[vector-engine-lists.md](vector-engine-lists.md)
+{% endcontent-ref %}
 
 
 
 ### Custom Engine
 
-![](../../../.gitbook/assets/image%20%2826%29.png)
+![](<../../../.gitbook/assets/image (26).png>)
 
 This engine allows you to mix and match parameters to create your own engine.
 
@@ -279,15 +281,15 @@ See the [Custom Engine Guide](../expert/custom-engine.md) for more information a
 
 ### Engine Precision and Alignment
 
-![](../../../.gitbook/assets/image%20%2844%29.png)
+![](<../../../.gitbook/assets/image (44).png>)
 
-Allows you to choose what size BlastUnit will be generated. 8-bit \(one byte\), 16-bit \(2 bytes\), 32-bit \(4 bytes\) or 64-bit \(8 bytes\).
+Allows you to choose what size BlastUnit will be generated. 8-bit (one byte), 16-bit (2 bytes), 32-bit (4 bytes) or 64-bit (8 bytes).
 
 The alignment settings should always be left at 0 unless corruption is done on an experimental target, file or if the game that's being corrupted mispositions its data.
 
 ## Auto-KillSwitch
 
-![](../../../.gitbook/assets/image%20%282%29.png)
+![](<../../../.gitbook/assets/image (2).png>)
 
 In order to give the user, the smoothest experience, RTC will constantly monitor the state of the [Vanguard-modded](./#vanguard) emulator and attempt to kill it if it falls into a non-responsive state.
 
@@ -299,7 +301,7 @@ _When the Auto-KillSwitch is triggered, the user will hear a sound of broken pla
 
 ## Game Protection
 
-![](../../../.gitbook/assets/image%20%2840%29.png)
+![](<../../../.gitbook/assets/image (40).png>)
 
 The Game Protection optional feature has 2 benefits for the user:
 
@@ -311,4 +313,3 @@ If the emulator crashes while Game Protection is enabled and there's at least on
 The Back/Now buttons allow for the user to browse the constantly updating list of savestates in order to rewind back, similarly to BizHawk's rewind feature but in bigger chunks of time.
 
 _It should be worth noting that Game Protection increase the power requirements for a smooth experience. An SSD is required to prevent "hitching", although this is not always the case with every emulator/core. Mileage may vary._
-

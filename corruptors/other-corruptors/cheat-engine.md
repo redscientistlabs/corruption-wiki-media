@@ -1,11 +1,11 @@
 # Cheat Engine
 
 {% hint style="info" %}
-While this method for corrupting Windows Games/Programs still work, we suggest using the [Real Time Corruptor](../rtcv/rtc/) with ProcessStub for a more automated experience.
+While this method for corrupting Windows Games/Programs still work, we suggest using the [Real Time Corruptor](../rtc/) with ProcessStub for a more automated experience.
 {% endhint %}
 
-{% content-ref url="../rtcv/rtc/" %}
-[rtc](../rtcv/rtc/)
+{% content-ref url="../rtc/" %}
+[rtc](../rtc/)
 {% endcontent-ref %}
 
 ###
@@ -18,7 +18,7 @@ While this method for corrupting Windows Games/Programs still work, we suggest u
 
 > _Cheat Engine is an Memory Hacking Software for the _[_Windows_](https://github.com/cheat-engine/cheat-engine/releases)_, _[_OSX_](http://www.cheatengine.org)_ and _[_Android_](http://forum.cheatengine.org/viewtopic.php?t=579943)_, it scans what a program has loaded on a computer's memory (RAM) when it's running and allows you to edit all the values a program has on memory. Normally Cheat Engine is used to cheat in video games like give you infinite health, thus the name._
 
-![](../.gitbook/assets/cheat-engine.png)
+![](../../.gitbook/assets/cheat-engine.png)
 
 Due to Cheat Engine having many features for game hacking and memory editing, this wiki article will focus on the corruption aspect of Cheat Engine and the basics of the software to corrupt with it. Please visit the Cheat Engine Wiki for more information on the memory hacking and scripting side of Cheat Engine here: [http://wiki.cheatengine.org/](http://wiki.cheatengine.org)
 
@@ -43,13 +43,13 @@ Due to Cheat Engine having many features for game hacking and memory editing, th
 
 ## Functions <a href="functions" id="functions"></a>
 
-### ![](../.gitbook/assets/proc-hook.png)
+### ![](../../.gitbook/assets/proc-hook.png)
 
 ## Process Hooking
 
 Hooking processes in Cheat Engine allows you to choose your target application or game for corruption. You can also hook emulators and even system processes.
 
-### ![](../.gitbook/assets/mem-scan.png)
+### ![](../../.gitbook/assets/mem-scan.png)
 
 ## Memory Scanning
 
@@ -87,7 +87,7 @@ All these options speak for themselves. Cheat Engine remembers the values found 
 
 Cheat Engine only scans between the given range markers. Default are these From: 00400000 To: 7FFFFFFF If you know for certain that a certain address must be between two addresses, then you can change these markers and Cheat Engine will only search between those values.
 
-![](../.gitbook/assets/found-values.png)
+![](../../.gitbook/assets/found-values.png)
 
 ## Found Values
 
@@ -95,7 +95,7 @@ After searching for a value it will show the results in the left panel. You can 
 
 Move your selected values to the active table for editing by clicking the red arrow on the bottom right of the results table.
 
-### ![](../.gitbook/assets/active-table.png)
+### ![](../../.gitbook/assets/active-table.png)
 
 ## Active Table
 
@@ -152,7 +152,7 @@ These values are best for getting good corruption results, after scanning for th
 
 You can experiment extensively with Cheat Engine because of it's high flexibility with memory editing so if you'd like to try the and corrupt a game with all of it's features please check the official Cheat Engine Wiki to learn more. [http://wiki.cheatengine.org/](http://wiki.cheatengine.org)
 
-![](../.gitbook/assets/example.png)
+![](../../.gitbook/assets/example.png)
 
 ## Corrupting Emulated Games
 
@@ -192,11 +192,11 @@ The Wii and the Wii U use little endian values so when corrupting with Cemu or D
 
 * Depending on the game, un-checking the "Writable" and "Exectuble" options before doing the first scan can give you better values to corrupt with.
 
-![](../.gitbook/assets/exec-write.png)
+![](../../.gitbook/assets/exec-write.png)
 
 * If your game crashes and you don't want to lose the values you found, you can relaunch the game, choose it from the processes list again and click "Yes" when it asks if you want to keep the current address list/code list. However, this will only work if the addresses are static (colored green as opposed to black).
 
-![](../.gitbook/assets/keep-values.png)
+![](../../.gitbook/assets/keep-values.png)
 
 ## Warnings
 
