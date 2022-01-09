@@ -1,4 +1,0 @@
-# Gamecube ISO Corruption
-
-TODO
-

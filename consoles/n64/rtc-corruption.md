@@ -1,4 +1,0 @@
-# RTC Corruption
-
-TODO
-
