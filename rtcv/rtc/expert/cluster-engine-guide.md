@@ -11,3 +11,5 @@ This guide is written in Google Docs. You can access the[ document directly here
 {% embed url="https://docs.google.com/spreadsheets/d/1u6WiVTRJfO4Z4jlRby9hzDoM6rLpavA_k_BWYrj_jXg/edit?usp=sharing" %}
 Embedded Google Document
 {% endembed %}
+
+[Backup Link for the Google Document](https://docs.google.com/spreadsheets/d/1ENLRdcPzweTsJ9v6kPBvSKoi\_uwNVCbKzvDo5zqd6y4/edit?usp=sharing)
