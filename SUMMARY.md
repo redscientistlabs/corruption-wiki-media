@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-## Real-Time Corruptor <a href="rtcv" id="rtcv"></a>
+## Real-Time Corruptor <a href="#rtcv" id="rtcv"></a>
 
 * [RTC Discord](https://redscientist.com/discord)
 * [Download RTC](https://redscientist.com/rtc)
@@ -18,6 +18,7 @@
     * [VMD Generator Guide](corruptors/rtc/expert/vmd-generator.md)
     * [Active Table Guide](corruptors/rtc/expert/active-table-guide.md)
     * [Custom Engine Guide](corruptors/rtc/expert/custom-engine.md)
+    * [Cluster Engine Guide](rtcv/rtc/expert/cluster-engine-guide.md)
   * [Tips, tricks and quirks](corruptors/rtc/tips.md)
 * [Other RTC Guides](rtcv/other-rtc-guides/README.md)
   * [Running RTCV on Linux](corruptors/rtc/running-rtcv-on-linux.md)
