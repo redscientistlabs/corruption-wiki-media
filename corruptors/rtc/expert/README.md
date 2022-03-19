@@ -13,6 +13,7 @@
   * ****[**VMD Generator Guide**](vmd-generator.md)****
   * ****[**Active Table Guide**](active-table-guide.md)****
   * ****[**Custom Engine Guide**](custom-engine.md)****
+  * ****[**Cluster Engine Guide**](../../../rtcv/rtc/expert/cluster-engine-guide.md)****
 
 ## Hotkeys
 
