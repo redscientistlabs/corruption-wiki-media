@@ -4,9 +4,9 @@ description: Startup guide on how to run RTC on Linux using Wine
 
 # Running RTCV on Linux
 
-__\
-__**Guide written by:**_ _LuckyLuigiX4\
-__**Linux distro used in the making of this guide:** Linux Manjaro__
+__\
+__**Guide written by:** __ LuckyLuigiX4\
+__**Linux distro used in the making of this guide:** Linux Manjaro__
 
 **If you are a Windows user, you do not need to follow this as RTC is already made for Windows**
 
@@ -94,7 +94,7 @@ Wait for them to install, you’ll know they’re done when the “Install Windo
 
 After that all you need to do is click on RTCV in Lutris and the Launcher will open, the Launcher works almost exactly like windows.
 
-**Note: **_This guide was written on May 27th 2021. Any problems may not exist at a later date._
+**Note:** _This guide was written on May 27th 2021. Any problems may not exist at a later date._
 
 _**Currently, Bizhawk Vanguard, Dolphin Vanguard, and FileStub are known to work mostly as intended. Process stub only works on other applications currently running under wine. PCSX2 at the current moment does not work, as it fails to configure plugins.**_
 
@@ -108,7 +108,7 @@ _**Currently, Bizhawk Vanguard, Dolphin Vanguard, and FileStub are known to work
 
 MelonDS can also have strange graphical errors after loading savestates via glitch harvester a few times (such as Objects turning dark in SM64DS. Currently known solution is to restart the emulator and make a new savestate. (This does not seem to happen in all DS games)
 
-**Dolphin Vanguard **does not always save configurations properly. In testing, Multiple controller configs had to be saved before it would remember a controller was plugged in. Volume slider in dolphin resets each time its launched. Same thing with graphics config.
+**Dolphin Vanguard** does not always save configurations properly. In testing, Multiple controller configs had to be saved before it would remember a controller was plugged in. Volume slider in dolphin resets each time its launched. Same thing with graphics config.
 
 _**The above issue was found using Dolphin Vanguard, but could be a thing on on new/future Vanguard Implementations.**_
 

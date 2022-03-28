@@ -14,7 +14,7 @@ Credit: Gizmo The Dragon - Youtube&#x20;
 
 ## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
 
-**All programs from the RTC suite of tools are Open Source and available at: **[**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)****
+**All programs from the RTC suite of tools are Open Source and available at:** [**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)****
 
 First, let’s go over the basic fundamentals of how this corruptor functions.
 
@@ -22,7 +22,7 @@ First, let’s go over the basic fundamentals of how this corruptor functions.
 
 Video game corruption happens when an emulated video game's program files are altered, either in the emulated game’s memory (RAM) or in the ROM itself. A real-time corruption is when the corruption itself occurs while the game is running or when the effects can be altered on the spot.
 
-**RTC **is a collection of modified emulators and stub tools that integrate our corruption software via a solution we called Vanguard. This means that any emulator or program that is modded with Vanguard _should_ be compatible. Every system's memory areas are detailed as a series of zones known as Memory Domains. The corruption will be generated for the selected domains in the main window.&#x20;
+**RTC** is a collection of modified emulators and stub tools that integrate our corruption software via a solution we called Vanguard. This means that any emulator or program that is modded with Vanguard _should_ be compatible. Every system's memory areas are detailed as a series of zones known as Memory Domains. The corruption will be generated for the selected domains in the main window.&#x20;
 
 __
 
@@ -32,7 +32,7 @@ _****_
 
 What is usually known as an iteration in static corruptors, is called a Blast in the RTC. A blast consists of a series of operations that are to be applied in the data located on the emulated game’s memory banks. (RAM, VRAM, ROM, etc.)
 
-**The Auto-Corrupt function **attaches the blast generation to the emulated game’s clock. Smaller blasts on a fast clock will create a constant flow of randomly generated corruption. This flow can be controlled by three parameters: The **Error Delay,** which is a divider linked to the game clock, The **Intensity **which is a multiplier for the number of corruption units to be generated (which depends on the selected engine). The **Blast Radius** determines how the corruption is spread on the selected domains.
+**The Auto-Corrupt function** attaches the blast generation to the emulated game’s clock. Smaller blasts on a fast clock will create a constant flow of randomly generated corruption. This flow can be controlled by three parameters: The **Error Delay,** which is a divider linked to the game clock, The **Intensity** which is a multiplier for the number of corruption units to be generated (which depends on the selected engine). The **Blast Radius** determines how the corruption is spread on the selected domains.
 
 ### Frequently asked questions
 
@@ -44,13 +44,13 @@ The Real-Time Corruptor generates corrupted data independently from the memory i
 
 \-> Make sure your computer is decent. It must be strong enough to run the games and RTC does add a slight increase on the system requirements.
 
-** Why does RTC wants to be allowed in the Windows Firewall?**
+&#x20;**Why does RTC wants to be allowed in the Windows Firewall?**
 
 
 
 RTC uses networking for a bunch of stuff. As it's split between two processes, they need a way to communicate. To do this, they use TCP and UDP. This will prompt the Windows Firewall and if it is not allowed, RTC will not function properly. If you blocked it by accident, you can reverse the rule in the advanced windows firewall panel.
 
-** BizHawk : Why are certain emulator cores running slow or RTC running slow in general ?**
+&#x20;**BizHawk : Why are certain emulator cores running slow or RTC running slow in general ?**
 
 BizHawk is one hell of an emulator. It features a ton of emulator cores and tools to create Tool-Assisted Speedruns. In order for these speedruns to be accurate to the real-life systems that they emulate, some of those do extra operations and disable optimizations that might cause faster but inaccurate emulation.
 
@@ -70,4 +70,4 @@ Absolutely! We provide all of our source code so that you can mod Vanguard into 
 
 Auto-Corrupt does add an extra load to the emulator as it must execute some extra code on every frame, on top of already having to execute Active Units. Certain types of Units are harder to process than others.
 
-**Visit the **[**Tips, tricks and quirks**](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/4.html)** part of the guide for more details**
+**Visit the** [**Tips, tricks and quirks**](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/4.html) **part of the guide for more details**

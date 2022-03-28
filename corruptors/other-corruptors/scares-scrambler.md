@@ -4,9 +4,9 @@
 
 ![](<../../.gitbook/assets/image (59).png>)
 
-&#x20;**Author: **Zach “Scares” Strong\
-**Source: **[https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild](https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild)\
-**Download: **[https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild/releases/tag/v1.22](https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild/releases/tag/v1.22)
+&#x20;**Author:** Zach “Scares” Strong\
+**Source:** [https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild](https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild)\
+**Download:** [https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild/releases/tag/v1.22](https://github.com/Cocoatwix/Scares-Scrambler-Class-Rebuild/releases/tag/v1.22)
 
 ![](<../../.gitbook/assets/image (30).png>)
 

@@ -4,8 +4,8 @@ description: For use on Android devices such as Phones, Tablets, VR Headsets.
 
 # Corrupting Android Unity games
 
-**Guide written by:**_ _bloqhead\
-__**Software used in guide:** RTCV, FileStub, Sidequest, APK Easy Tool, 7zip__
+**Guide written by:** __ bloqhead\
+__**Software used in guide:** RTCV, FileStub, Sidequest, APK Easy Tool, 7zip__
 
 ### WARNING: **This guide was written for corrupting games made for the Oculus Quest. The Quest devices run android and support sideloading APKs but this guide could also apply to other Android devices or Android software running on Bluestacks. Thank you for understanding.**
 

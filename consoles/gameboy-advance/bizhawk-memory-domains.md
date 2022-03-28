@@ -12,7 +12,7 @@ _Bizhawk-Vanguard exposes the following domains in RTC:_
 * **OAM:** Object Attribute Memory. 1KB. Contains the actual "object" of things such as sprites (the mode, the size, what palette to use, etc).
 * **ROM** : The ROM file.
 * **SRAM (Rewindable, unavailable on mGBA) :** Saveram. Want to corrupt a save file? Corrupt this.
-* **Combined WRAM (Rewindable)** **: **IWRAM and EXRAM combined into a single memory domain that contains both.
+* **Combined WRAM (Rewindable)** **:** IWRAM and EXRAM combined into a single memory domain that contains both.
 * **System Bus:** Theoretically allows access to everything that's mapped as it facillitates the communication between pieces of hardware. In execution, not everything mapped will be visible through this domain. It's a matter of if it was properly exposed or not. Corrupt something here and it'll be reflected in the domains derived from it.
   * `0x00000000 - 0x00003FFF`- 16 KB System ROM (executable, but not readable)
   * `0x02000000 - 0x02030000`- 256 KB EWRAM (general purpose RAM external to the CPU)

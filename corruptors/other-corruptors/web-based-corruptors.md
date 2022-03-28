@@ -1,6 +1,6 @@
 # Web-Based Corruptors
 
-> _These are corruptors that run in your browser. _
+> _These are corruptors that run in your browser._&#x20;
 
 
 
@@ -33,4 +33,4 @@
 
 This version of jsRTC is made for a very particular website: dosgamesarchives.com\
 that websites has a built-in dosbox emulator written in JavaScript to which jsRTC hooks to.\
-**Page URL: **[https://github.com/ircluzar/jsRTC/blob/master/jsRTC\_for\_js-dosbox.txt](https://github.com/ircluzar/jsRTC/blob/master/jsRTC\_for\_js-dosbox.txt)
+**Page URL:** [https://github.com/ircluzar/jsRTC/blob/master/jsRTC\_for\_js-dosbox.txt](https://github.com/ircluzar/jsRTC/blob/master/jsRTC\_for\_js-dosbox.txt)

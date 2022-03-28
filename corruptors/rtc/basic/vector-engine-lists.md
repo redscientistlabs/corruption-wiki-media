@@ -6,7 +6,7 @@ _These are the lists that come with the Vector Engine by default._
 
 * **Extended** : -65536.00 to +65536.00 in low res, including tiny decimals
 * **Extended+** : 0 to +65536 in low res, including tiny decimals
-* **Extended- **: 0 to -65536 in low res, including tiny decimals
+* **Extended-** : 0 to -65536 in low res, including tiny decimals
 * **One**: The numbers +1.00 and -1.00
 * **One-**: The number -1.00
 * **One+**: The number 1.00

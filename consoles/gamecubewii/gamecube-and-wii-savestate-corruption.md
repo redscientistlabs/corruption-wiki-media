@@ -35,8 +35,8 @@ A savestate at its core contains the information that the emulator needs to rest
 
 ### The Gamecube has:
 
-* **24MB **of system ram (**SRAM**)
-* **16MB **of audio ram (**ARAM**)
+* **24MB** of system ram (**SRAM**)
+* **16MB** of audio ram (**ARAM**)
 
 The SRAM is the main system memory. While the ARAM is technically designed to be used for storing data related to audio, through various tricks developers were able to use it as low bandwidth memory.
 
@@ -44,8 +44,8 @@ Not all games utilize the ARAM for storing data. Those that do tend to store geo
 
 ### The Wii has:
 
-* **24MB **of system ram (**SRAM**)
-* **64MB **of external ram (**EXRAM**)
+* **24MB** of system ram (**SRAM**)
+* **64MB** of external ram (**EXRAM**)
 
 The SRAM is the main system memory. The EXRAM is additional memory which can be used. The EXRAM is slightly slower than the SRAM. Generally, the most important data will be in the SRAM (code, game vital content, etc).
 

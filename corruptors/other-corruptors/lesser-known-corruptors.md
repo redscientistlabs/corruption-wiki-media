@@ -13,9 +13,9 @@
 
 ### Chain Chomp
 
-**Author: **"Lafolie"\
-**Source: **[https://bitbucket.org/Lafolie/chainchomp](https://bitbucket.org/Lafolie/chainchomp)****\
-**Download: **[https://bitbucket.org/Lafolie/chainchomp/downloads/ChainChomp-0.9.1.zip](https://bitbucket.org/Lafolie/chainchomp/downloads/ChainChomp-0.9.1.zip)
+**Author:** "Lafolie"\
+**Source:** [https://bitbucket.org/Lafolie/chainchomp](https://bitbucket.org/Lafolie/chainchomp)****\
+**Download:** [https://bitbucket.org/Lafolie/chainchomp/downloads/ChainChomp-0.9.1.zip](https://bitbucket.org/Lafolie/chainchomp/downloads/ChainChomp-0.9.1.zip)
 
 > _Chain Chomp is a plugin-based corruptor that is open source. This main concept of this corruptor is that operations on on a chain basis, where operations are driven from plugins, individually configurable._
 

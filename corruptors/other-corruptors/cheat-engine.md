@@ -12,11 +12,11 @@ While this method for corrupting Windows Games/Programs still work, we suggest u
 
 ### Cheat Engine Guide for 3D PC Games
 
-**Author: **Eric "Dark Byte" Heijnen\
-**Source: **[https://github.com/cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine)\
-**Download: **[https://github.com/cheat-engine/cheat-engine/releases](https://github.com/cheat-engine/cheat-engine/releases)
+**Author:** Eric "Dark Byte" Heijnen\
+**Source:** [https://github.com/cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine)\
+**Download:** [https://github.com/cheat-engine/cheat-engine/releases](https://github.com/cheat-engine/cheat-engine/releases)
 
-> _Cheat Engine is an Memory Hacking Software for the _[_Windows_](https://github.com/cheat-engine/cheat-engine/releases)_, _[_OSX_](http://www.cheatengine.org)_ and _[_Android_](http://forum.cheatengine.org/viewtopic.php?t=579943)_, it scans what a program has loaded on a computer's memory (RAM) when it's running and allows you to edit all the values a program has on memory. Normally Cheat Engine is used to cheat in video games like give you infinite health, thus the name._
+> _Cheat Engine is an Memory Hacking Software for the_ [_Windows_](https://github.com/cheat-engine/cheat-engine/releases)_,_ [_OSX_](http://www.cheatengine.org) _and_ [_Android_](http://forum.cheatengine.org/viewtopic.php?t=579943)_, it scans what a program has loaded on a computer's memory (RAM) when it's running and allows you to edit all the values a program has on memory. Normally Cheat Engine is used to cheat in video games like give you infinite health, thus the name._
 
 ![](../../.gitbook/assets/cheat-engine.png)
 
@@ -41,7 +41,7 @@ Due to Cheat Engine having many features for game hacking and memory editing, th
   * [**References**](cheat-engine.md#references)
   * [**Videos**](cheat-engine.md#videos)
 
-## Functions <a href="functions" id="functions"></a>
+## Functions <a href="#functions" id="functions"></a>
 
 ### ![](../../.gitbook/assets/proc-hook.png)
 

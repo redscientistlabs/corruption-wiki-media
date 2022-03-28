@@ -70,7 +70,7 @@ Let’s also skip over "Set pointer" and “Add X bytes of padding” until late
 
 In the "Remove/Add addresses" box, you can list either single addresses (one per line) or ranges of addresses to specify which areas of the currently selected Domain you wish to edit.
 
-One thing may be confusing at first, but it’s **SUPER **important to understand this: Remember when I said the same address on two different busses is like writing on two different pieces of paper? The same concept also applies to individual Domains. Using this tool, you can think of all these domains as having their own separate pieces of paper. So if you were to add the address xFF in this example, you’d be telling RTC to including address xFF of the RAM domain **ONLY**.
+One thing may be confusing at first, but it’s **SUPER** important to understand this: Remember when I said the same address on two different busses is like writing on two different pieces of paper? The same concept also applies to individual Domains. Using this tool, you can think of all these domains as having their own separate pieces of paper. So if you were to add the address xFF in this example, you’d be telling RTC to including address xFF of the RAM domain **ONLY**.
 
 What if you put that same address, xFF, and had WRAM selected instead? Which address on the System Bus do you think you’d be telling RTC to use?
 
