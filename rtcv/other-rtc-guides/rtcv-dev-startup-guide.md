@@ -58,11 +58,11 @@ The MegaSolution will most likely not fully load when you open it. Not just beca
 
 ![](<../../.gitbook/assets/image (61).png>)
 
-Once you're done setting all of this, you can delete the links to the missing projects if you want to get rid of errors on startup. Everything that isn't included in RTCV and Bizhawk50X is non-essential.
+Once you're done setting all of this, you can delete the links to the missing projects if you want to get rid of errors on startup (Not now, do it once it all works). Everything that isn't included in RTCV and Bizhawk50X is non-essential.
 
 ![](<../../.gitbook/assets/image (73).png>)
 
-It seems like in Visual Studio 2022, the MegaSolution no longer refreshes the nuget packages correctly, we'll have to fix that if you have the error shown above.
+It seems like in Visual Studio 2022, the MegaSolution can sometimes fail to refresh the nuget packages correctly, we'll have to fix that if you have the error shown above.
 
 Open the Package Manager Console with Tools -­> Nuget Package Manager -> Open Package Manager Console
 
@@ -80,7 +80,7 @@ The first time it compiles, it might take some time and even throw errors. The c
 
 ![](<../../.gitbook/assets/image (70).png>)
 
-If it fails, do not do a Rebuild. Keep going for Build solution until it succeeds.
+If it fails, do not do a Rebuild. Keep going for Build solution again and see if it succeeds.
 
 ![](<../../.gitbook/assets/image (60).png>)
 
