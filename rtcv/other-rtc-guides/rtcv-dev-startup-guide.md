@@ -116,7 +116,7 @@ Also keep in mind that non-managed emulators (c++ based ones) are much harder to
 
 This could be a topic on its own but if you're debugging RTCV, you need to understand about how data and function calls is running between processes. Our communication method is an UDP+TCP RPC system we call NetCore2 which allows synchronous and asynchronous calls between processes.&#x20;
 
-This means that a sync call between the process will lock the caller's thread automatically until the message returns. This is usually a dangerous process as it would normally be a cause for deadlocks if the RPC ran on the main thread, which it is not. Both processes run NetCore on a separate thread and it is possible to invoke the Form thread in a way that does not deadlock the system even with two sync calls fired both ways at the same time.
+This means that a sync call between the process will lock the caller's thread automatically until the message returns. This could be dangerous process as it would could be a cause for deadlocks if the RPC ran on the main thread, but in the case of NetCore2, it is not. Both processes run NetCore on a separate thread and it is possible to invoke the Form thread in a way that does not deadlock the system even with two sync calls fired both ways at the same time.
 
 Take the following call for example:
 
