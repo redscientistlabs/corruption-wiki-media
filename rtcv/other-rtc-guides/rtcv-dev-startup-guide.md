@@ -160,7 +160,7 @@ If the emulator crashes and restarts, once it connects to RTCV, it will grab a c
 
 ## Ensuring your code runs on the Main thread from anywhere
 
-At any time in the code, if you're attempting to modify something in the UI from another thread, you will get a warning about editing stuff from the wrong thread. Normally, the good practice would be to figure which form holds the handle to the thread and invoking it. We're really lazy so we've wrapped this into an action caller.
+At any time in the code, if you're attempting to modify something in the UI from another thread, you will get an error about editing stuff from the wrong thread. Normally, the good practice would be to figure which form holds the handle to the thread and invoking it. We're really lazy so we've wrapped this into an action caller.
 
 ```
 SyncObjectSingleton.FormExecute(() =>
