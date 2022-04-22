@@ -146,7 +146,7 @@ Chances are that you'll only find a few hits, somewhere in the solution. The one
 
 ![](<../../.gitbook/assets/image (78).png>)
 
-Now you're on the other side, you can follow the code whether it's in the Emulator process or in the RTCV Process. Keep in mind that if you're hooked to another emulator that is not running in debug mode, your breakpoint will not fire. Also if you are debugging with another emulator in a separate solution, you need to have the RTCV projects in that other solution otherwise it will also not trigger the breakpoints.
+Now that you're on the other side, you can follow the code whether it's in the Emulator process or in the RTCV Process. Keep in mind that if you're hooked to another emulator that is not running in debug mode, your breakpoint will not fire. Also if you are debugging with another emulator in a separate solution, you need to have the RTCV projects in that other solution otherwise it will also not trigger the breakpoints.
 
 ## Inter-process Variable Synchronization
 
