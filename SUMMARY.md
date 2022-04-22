@@ -21,6 +21,7 @@
     * [Cluster Engine Guide](rtcv/rtc/expert/cluster-engine-guide.md)
   * [Tips, tricks and quirks](corruptors/rtc/tips.md)
 * [Other RTC Guides](rtcv/other-rtc-guides/README.md)
+  * [RTCV Dev Startup Guide](rtcv/other-rtc-guides/rtcv-dev-startup-guide.md)
   * [Running RTCV on Linux](corruptors/rtc/running-rtcv-on-linux.md)
   * [Corrupting VMware snapshots](rtcv/other-rtc-guides/corrupting-vmware-snapshots.md)
   * [Corrupting Android Unity games](rtcv/other-rtc-guides/corrupting-android-unity-games.md)
