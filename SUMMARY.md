@@ -27,9 +27,9 @@
   * [Corrupting Android Unity games](rtcv/other-rtc-guides/corrupting-android-unity-games.md)
   * [Corrupting PC Games with ProcessStub](rtcv/other-rtc-guides/corrupting-pc-games-with-processstub.md)
 
-## Other Corrutors
+## Other Corruptors
 
-* [Classic Corruptors](other-corrutors/classic-corruptors/README.md)
+* [Classic Corruptors](other-corruptors/classic-corruptors/README.md)
   * [Vinesauce ROM Corruptor](corruptors/other-corruptors/vinesauce-rom-corruptor.md)
   * [VineCorrupt](corruptors/other-corruptors/vinecorrupt.md)
   * [Lesser known corruptors](corruptors/other-corruptors/lesser-known-corruptors.md)
