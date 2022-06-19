@@ -48,7 +48,7 @@
 **Author**: RyanTheNerd\
 **Download**: [https://github.com/RyanTheNerd/rom\_corruptor](https://github.com/RyanTheNerd/rom\_corruptor)
 
-> _A basic rom corruptor written in python. runs exclusively in command line and takes configuration of the corrution through a json file_
+> _A basic rom corruptor written in python. runs exclusively in command line and takes configuration of the corruption through a json file_
 
 ### rcorrupt
 
