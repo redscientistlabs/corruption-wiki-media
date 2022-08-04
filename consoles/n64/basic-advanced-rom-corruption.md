@@ -39,7 +39,7 @@ In standard N64 corruption with the Vinesauce ROM Corruptor, our aim is to corru
 
 An effective way to learn corruption is to look at an example and interpret why the values are what they are, so that will be our starting point. For a point of reference, a standard corruption of Elmo’s Letter Adventure is given below:
 
-![](../../.gitbook/assets/n64-corruption-values-1.png)
+![](<../../assets/n64 corruption values 1.png>)
 
 This screenshot is of VSRC, but none of these values would change with VSRC classic.
 
@@ -69,7 +69,7 @@ When making the save states, you'll want to turn the corruption off and load the
 
 ## Decompressed ROM Corruptions with VSRC
 
-![](../../.gitbook/assets/decompressed-rom-corruption.png)
+![](<../../assets/decompressed ROM corruption.png>)
 
 ### Basis of Decompressed Corruptions
 

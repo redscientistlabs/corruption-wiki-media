@@ -19,7 +19,7 @@
 
 > _Originally made to hack NES ROMs by modifying individual bytes or byte ranges, it's secondary use of breaking games is a popular alternative. ROM Corruptor was_ [_originally used by Vinesauce_](https://youtu.be/b3SubgihMfE?t=6s) _in their early days of streaming corruptions._
 
-![](../../.gitbook/assets/ROMCorruptor.png)
+![](../../assets/old-corruptors/img/ROMCorruptor.png)
 
 ### Corrupster
 
@@ -61,7 +61,7 @@ __**Release date:** January 31, 2005\
 
 > _Sapros is a simple NES ROM corruptor that utilises the CDL files produced by FCEUXD, a NES debugger, to provide added precision to the corruption process._
 
-![](../../.gitbook/assets/sapros.png)
+![](../../assets/old-corruptors/img/sapros.png)
 
 
 

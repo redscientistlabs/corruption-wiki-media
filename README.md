@@ -1,6 +1,6 @@
 # Introduction
 
-![](<.gitbook/assets/corruption-definition (1).png>)
+![](assets/corruption-definition.png)
 
 **Please note that this wiki is still heavily in development.**
 

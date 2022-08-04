@@ -23,7 +23,7 @@
 
 The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master.
 
-_RTC extends emulator savestates into its own format, the _[_StashKey_](basic/#stashkey)_. This allows for corruptions to be attached onto savestates without overwriting the original data._
+_RTC extends emulator savestates into its own format, the_ [_StashKey_](basic/#stashkey)_. This allows for corruptions to be attached onto savestates without overwriting the original data._
 
 Basic usage is fairly simple, you create a savestate, select the domains you would like to corrupt, chose an Intensity and click the “Corrupt" button, the emulator then corrupts the selected [memory domains](basic/#memory-domain) and instantly loads the savestate. (The Glitch Harvester “Corrupt” function can be bound to any key/button)
 
@@ -81,7 +81,7 @@ This allows you quickly/automatically start audio/video rendering when corruptin
 
 ### Savestate Manager
 
-![](<../../.gitbook/assets/190704183858 (3) (6).gif>)
+![](<../../.gitbook/assets/190704183858 (3) (1) (3).gif>)
 
 **Change -> SAVE/LOAD**
 
@@ -113,7 +113,7 @@ This control is linked to the [intensity ](basic/#intensity)controls in the Main
 
 ### Stash History
 
-![](../../.gitbook/assets/190704190157.gif)
+![](<../../.gitbook/assets/190704190157 (1).gif>)
 
 This is where new corruptions are stashed. The items that appear there can be sent to a Stockpile using the "To Stockpile" button. Selecting an item in the list will replay the generated corruption.
 

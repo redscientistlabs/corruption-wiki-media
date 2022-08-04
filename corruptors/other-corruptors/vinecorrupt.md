@@ -8,7 +8,7 @@
 
 > _VineCorrupt is a multi-system corrupter designed to work with game systems ranging from NES to Wii with further inclusive development for other systems. VineCorrupt features opcode and file protection for its supported systems to minimize crashes. Each system has a different protection protocol according to their instruction set or file type to prevent crash inducing modifications. VineCorrupt also features the ability to corrupt specific files within a disc through a directory structure._
 
-![](../../.gitbook/assets/VineCorruptNDS.png)
+![](../../assets/vinecorrupt/VineCorruptNDS.png)
 
 #### Index
 
@@ -45,7 +45,7 @@
 
 #### Functions
 
-![](../../.gitbook/assets/VineCorruptFunctions.png)
+![](../../assets/vinecorrupt/VineCorruptFunctions.png)
 
 This section goes over the functions of VineCorrupt.
 
@@ -83,13 +83,13 @@ If an emulator is selected, it will attempt t o run the emulator with the given 
 
 **Miscellaneous Files**
 
-![](../../.gitbook/assets/vinecorruptmisc.png)
+![](../../assets/vinecorrupt/VineCorruptMisc.png)
 
 VineCorrupt supports non-specific file corruption for unsupported systems. It is not recommended to use this function if the supplied file is already supported by a VineCorrupt system due to the built-in file protection. Miscellaneous file corruption is performed in the same manner as supported system file corruption.
 
 #### Byte Corruption
 
-![](../../.gitbook/assets/vinecorruptoptions.png)
+![](../../assets/vinecorrupt/VineCorruptOptions.png)
 
 This section goes over the "Corruption Options" section of VineCorrupt.
 
@@ -119,13 +119,13 @@ The drop down box lists all the current corruption types. The currently selected
 
 **Corruption Value**
 
-![](../../.gitbook/assets/VineCorruptCorruptionValue.png)
+![](../../assets/vinecorrupt/VineCorruptCorruptionValue.png)
 
 The Corruption Value is currently unlabeled and is located under the corruption selection drop down box. This value modifies byte operations.
 
 #### Byte Operations
 
-![](../../.gitbook/assets/VineCorruptByte.png)
+![](../../assets/vinecorrupt/VineCorruptByte.png)
 
 This section goes over the byte operations of VineCorrupt. For examples of these operations see Maiddog's [Help Section](http://www.maiddog.com/projects/corrupter/help.php#tab-help-2)
 
@@ -173,4 +173,4 @@ Changes the current byte to its logical complement. Complement does not use the 
   * \*
 
 Write up by TechSupportSparky\
-![](../../.gitbook/assets/RaccAttack.png)
+![](../../assets/vinecorrupt/RaccAttack.png)

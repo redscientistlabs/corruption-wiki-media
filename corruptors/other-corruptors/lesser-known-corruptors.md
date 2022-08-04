@@ -1,25 +1,22 @@
 # Lesser known corruptors
 
-*   ****[**Index**](lesser-known-corruptors.md)****
-
-    * [Chain Chomp](lesser-known-corruptors.md#chain-chomp)
-    * [Erosion-v4](lesser-known-corruptors.md#erosion-v4)
-    * [ROM Poison](lesser-known-corruptors.md#rom-poison)
-    * [The Haggleforth Rom Corruptor](lesser-known-corruptors.md#the-haggleforth-rom-corruptor)
-    * [rcorrupt](lesser-known-corruptors.md#rcorrupt)
-    * [oxidizer](lesser-known-corruptors.md#oxidizer)
-
-
+* [**Index**](lesser-known-corruptors.md)
+  * [Chain Chomp](lesser-known-corruptors.md#chain-chomp)
+  * [Erosion-v4](lesser-known-corruptors.md#erosion-v4)
+  * [ROM Poison](lesser-known-corruptors.md#rom-poison)
+  * [The Haggleforth Rom Corruptor](lesser-known-corruptors.md#the-haggleforth-rom-corruptor)
+  * [rcorrupt](lesser-known-corruptors.md#rcorrupt)
+  * [oxidizer](lesser-known-corruptors.md#oxidizer)
 
 ### Chain Chomp
 
 **Author:** "Lafolie"\
-**Source:** [https://bitbucket.org/Lafolie/chainchomp](https://bitbucket.org/Lafolie/chainchomp)****\
+**Source:** [https://bitbucket.org/Lafolie/chainchomp](https://bitbucket.org/Lafolie/chainchomp)\*\*\*\*\
 **Download:** [https://bitbucket.org/Lafolie/chainchomp/downloads/ChainChomp-0.9.1.zip](https://bitbucket.org/Lafolie/chainchomp/downloads/ChainChomp-0.9.1.zip)
 
 > _Chain Chomp is a plugin-based corruptor that is open source. This main concept of this corruptor is that operations on on a chain basis, where operations are driven from plugins, individually configurable._
 
-![](<../../.gitbook/assets/image (6) (2).png>)
+![](<../../.gitbook/assets/image (6) (2) (1).png>)
 
 ### Erosion-v4
 
@@ -40,8 +37,6 @@
 > _ROM Poison is designed to be a simple, but powerful, ROM corruptor. Due to the nature of ROM corruptors, this can be used on any file, but it is intended to be used with video game ROMs (such as NES, SNES, and N64 games). It is written in C++11 using the Qt5 libraries, making it multiplatform._
 
 ![](<../../.gitbook/assets/image (8).png>)
-
-
 
 ### The Haggleforth Rom Corruptor
 

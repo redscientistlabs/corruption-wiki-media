@@ -125,7 +125,7 @@ You’ve basically learned all there is to creating and using VMDs, but I just w
 
 Let’s say you have a range and the data therein follows a strict pattern. Maybe it’s a list with a fixed-length header and then one byte specifying the value.
 
-![](../../../.gitbook/assets/image\_6.png)
+![](../../../assets/vmd-generator-guide/image\_6.png)
 
 In this example, the header is 12 00, and then we have the value, starting with 01 and incrementing. Maybe this is an organised list of NPCs and instead of their usual order, you want to shuffle them around, so that instead of loading up NPC 01 the game instead loads up NPC 09.
 
@@ -135,13 +135,13 @@ Again, there are two ways. One of those ways will be much more suitable for this
 
 **Method 1: Set Pointers.** In the VMD Generation menu, tick the "Set pointer every X addresses" box. What a pointer does, essentially, is filter to these addresses (on a value of 2):
 
-![](../../../.gitbook/assets/image\_7.png)
+![](../../../assets/vmd-generator-guide/image\_7.png)
 
 So when you blast, address x0 is really x1, and address x1 is really x3, and address xC is really x17.
 
 On a value of 3, it would filter to these addresses instead:
 
-![](../../../.gitbook/assets/image\_8.png)
+![](../../../assets/vmd-generator-guide/image\_8.png)
 
 So when you blast, address 0x is really x2, and address x1 is really x5, and address xC is really x23.
 

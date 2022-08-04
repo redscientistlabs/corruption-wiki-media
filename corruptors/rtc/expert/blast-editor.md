@@ -4,7 +4,7 @@
 
 The Blast Editor is a tool for manipulating a StashKey in the Glitch Harvester. This allows the user to edit, add, or remove effects from the BlastLayer.
 
-![RTC 3.28 Blast Editor](../../../.gitbook/assets/blast-full-image.png)
+![RTC 3.28 Blast Editor](../../../assets/blast-editor-guide/blast-full-image.png)
 
 ### Index
 
@@ -44,7 +44,7 @@ Sanitizing corruptions is an important habit that should be regularly practiced.
 
 The BlastLayer size can vary from just a few Units to several thousand depending on the intensity of the corruption.
 
-![Small BlastLayer Size](../../../.gitbook/assets/blast-layer-individual.png)
+![Small BlastLayer Size](../../../assets/blast-editor-guide/blast-layer-individual.png)
 
 With a small number of units, the user may individually disable unnecessary memory writes by unchecking them.
 
@@ -67,7 +67,7 @@ After a corruption has been reduced to a few Units, their settings can be change
 
 ## Functions
 
-![Blast Editor Functions](../../../.gitbook/assets/blast-functions.png)
+![Blast Editor Functions](../../../assets/blast-editor-guide/blast-functions.png)
 
 #### BlastLayer Info
 
@@ -101,7 +101,7 @@ Deletes the highlighted Units.
 
 #### Searching
 
-![](../../../.gitbook/assets/blast-search.png)
+![](../../../assets/blast-editor-guide/blast-search.png)
 
 The Search For Row button opens a pop-up box where the user may search for a Source Address, Parameter Value, Source Address Domain, Parameter Domain, Blast Unit Type, or Blast Unit Mode. The located value will be highlighted and all other Units will be deselected.
 
@@ -119,7 +119,7 @@ The Send to Stash button sends the Units in their current state to the stash as 
 
 ## Unit
 
-![Unit Row](../../../.gitbook/assets/blast-unit.png)
+![Unit Row](../../../assets/blast-editor-guide/blast-unit.png)
 
 A Unit contains several bits of information. These are the functions and descriptions of a Unit's column parameters within the Blast Editor from left to right.
 
@@ -163,4 +163,4 @@ The parameter used for the corruption generation. Depending on the corruption ty
 
 Allows the user to enter notes about a specific Unit.
 
-Write up by TechSupportSparky ![](../../../.gitbook/assets/RaccAttack.png)
+Write up by TechSupportSparky ![](../../../assets/vinecorrupt/RaccAttack.png)

@@ -44,7 +44,7 @@ For the best results, you're looking for something not too late after the DS's l
 
 ### Games That Autosave
 
-![](../../.gitbook/assets/pathsettings.png)
+![](../../assets/pathsettings.png)
 
 When corrupting a game that autosaves, you need to wipe the save file path for the emulator, so that no corrupted saves are created. If a DS game detects a corrupted save, it will attempt to delete the save and often get stuck doing so, so you want to avoid creating them if you can. To do this, open DeSmuME and click “Config”, then “Path Settings”. Find the text box labeled “SaveRam”, make that box blank, and press OK. Just remember to restore the path to what it was originally if you want to use the emulator to play games normally again. You can also create a save state after the game checks for your save, and load that save every time you corrupt the game.
 
@@ -66,7 +66,7 @@ There are two methods of corruption used in NDS corruption. Standard corruption 
 
 ### Standard Corruption
 
-![](../../.gitbook/assets/corrupt1.png)
+![](../../assets/corrupt1.png)
 
 For this type of corruption, depending on the game, you should be somewhere between 7000 and 20000 for your corrupt every xth byte. Don't be afraid to experiment with these numbers, and adjust if you're getting frequent crashes. Most games will not work with this method, or will produce minimal corruption, so while it’s an easy starting point it’s often not effective. If you want to try being precise in pinpointing what you want to corrupt, you can use the “replace x with y” option of corrupting instead. Because of the nature of this tool, you’ll want to corrupt much more frequently. Around every 300 bytes is a good place to start. You’ll have to be patient though, and mess around with the x and y values frequently to get the corruptions you want. Once you find a good one, you can create variations of it by changing y and keeping x the same.
 
@@ -74,7 +74,7 @@ If you’re experiencing crashes at or near startup, creating a save state right
 
 ### Corruption with Save States
 
-![](../../.gitbook/assets/corrupt2.png)
+![](../../assets/corrupt2.png)
 
 This is what you should try when the first method fails. In this method, you’re creating a save state during gameplay so that the only corruptions that are happening are happening in real time. This method limits the types of corruptions you see, but tends to be easier and less crash prone than standard corruption. It's best to create the save state as soon as the gameplay starts so corruption can still show. Because almost everything has already loaded, the only things that will corrupt are your character and other objects, once they move, music, and while you move on further in a level you’ll see some graphics, and the ability to collide with the floor corrupt. These can be unstable, and will crash when you advance to another level. A good range is 1-500 for your corrupt every xth byte. If you’re getting frequent crashes, you may have to go higher than my recommended range, but corrupting higher than in that range tends to produce results that aren’t quite as good. Like corruption with save states on other systems, I would recommend only using the “Add” and “Shift” tools, not the “Replace” tool.
 

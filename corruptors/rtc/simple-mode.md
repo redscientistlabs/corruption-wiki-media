@@ -84,7 +84,7 @@ Now that you've mastered the use of the _Intensity_ parameter and you've seen _"
 
 Here's a quick run-down of some of the easier things you can do with each engine. I recommend you shuffle the engine, then switch to normal view to change the parameters of these engines, then switch back. At first you should only be messing with a few parameters at a time.
 
-![](<../../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (38) (1).png>)
 
 ### Nightmare Engine
 

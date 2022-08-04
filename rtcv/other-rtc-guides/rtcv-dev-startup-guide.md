@@ -11,7 +11,7 @@ Here's the programs that we will use:
 
 If you haven't installed Visual Studio yet, you can grab the community edition from free on microsoft's visualstudio.com website. The 2022 version is the once we currently work with, but 2019 will most likely work too. VS Code is also an alternative if you're into that.
 
-[https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com)
+[https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/)
 
 For the Visual Studio installation, you will need the ".NET desktop environment" in the Installer components. I usually also throw in "ASP.NET" and "Universal Windows Platform" with it but that's not required for RTCV development.
 
@@ -21,7 +21,7 @@ For the Visual Studio installation, you will need the ".NET desktop environment"
 
 This part of the guide will use Github Desktop as the git client. If you've never played with git before (or if you're tired of complicated git interfaces), you will want to give Github Desktop a try.&#x20;
 
-[https://desktop.github.com/](https://desktop.github.com)
+[https://desktop.github.com/](https://desktop.github.com/)
 
 You will now need to clone the following repositories for a base development platform:
 
@@ -66,7 +66,7 @@ It seems like in Visual Studio 2022, the MegaSolution can sometimes fail to refr
 
 Open the Package Manager Console with Tools -­> Nuget Package Manager -> Open Package Manager Console
 
-![](<../../.gitbook/assets/image (76).png>)
+![](<../../.gitbook/assets/image (74).png>)
 
 _In the console, type the following command: Update-Package -reinstall_
 
@@ -98,7 +98,7 @@ _Find StandaloneRTC and set it to Start_
 
 Press OK to save and click the Start icon to boot RTCV in debug mode
 
-![](<../../.gitbook/assets/image (68).png>)
+![](<../../.gitbook/assets/image (75).png>)
 
 You should now have RTCV and Bizhawk starting up and connecting to eachother.
 

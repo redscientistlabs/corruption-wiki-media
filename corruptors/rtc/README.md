@@ -8,10 +8,10 @@ description: >-
 
 ## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
 
-### **Currently developped by:**&#x20;
+### **Development by:**&#x20;
 
-****[**Phil Girard**](http://redscientist.com) **(Ircluzar)**\
-****[**Dan B (Narry)**](https://narry.land)****\
+****[**Phil Girard**](http://redscientist.com/) **(Ircluzar)**\
+****[**Dan B (Narry)**](https://narry.land/)****\
 **NullShock78**\
 **AbsenteeSurgeron**\
 **ChrisNonyminus**

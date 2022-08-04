@@ -22,7 +22,7 @@ For the average person, the best way to corrupt a ROM beyond what you can do wit
 
 To find exact ranges for Super Mario 64, you can use a map editing program like [Quad64](https://www.smwcentral.net/?p=viewthread\&t=90510) by Davideesk. Quad64 is an open source version of [Toad's Tool 64](http://qubedstudios.rustedlogic.net/ToadsTool64.htm) by Qubed Studios with cleaner UI.
 
-![](../../.gitbook/assets/quad64example2.png)
+![](../../assets/quad64example2.png)
 
 The idea here is that instead of making guesses at where different values lie and then using trial and error to get good corruptions, we can look up the values we want in this tool and be more precise. Unfortunately, this tool currently only holds the values for the game's objects, but we can still get some strange results like model replacement and modified object behavior.
 

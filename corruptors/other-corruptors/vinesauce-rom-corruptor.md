@@ -18,7 +18,7 @@ While you can still use this corruptor, we suggest using the [Real Time Corrupto
 
 > _The Vinesauce ROM Corruptor is a corruptor that allows you to change the bytes of any file by tweaking some simple settings. Its development thus far has been biased toward corrupting NES ROM files for the best corruption effects, but since it works on any file, it can be used to corrupt any kind of ROM or game data file._
 
-![](../../.gitbook/assets/vsrc.png)
+![](../../assets/VSRC/VSRC.png)
 
 #### Index
 
@@ -47,7 +47,7 @@ While you can still use this corruptor, we suggest using the [Real Time Corrupto
 
 #### Functions
 
-![](../../.gitbook/assets/vsrcfileselect.png)
+![](../../assets/VSRC/VSRCFileSelect.png)
 
 **File Selection - ROM Directory**
 
@@ -71,7 +71,7 @@ You can load saved corruptions in .txt format or load a TinyURL link to corrupt 
 
 #### Byte Corruption
 
-![](../../.gitbook/assets/VSRCByteCorruption.png)
+![](../../assets/VSRC/VSRCByteCorruption.png)
 
 This section is where you configure the corruptions settings.
 
