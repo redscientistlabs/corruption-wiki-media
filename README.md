@@ -4,7 +4,7 @@
 
 **Please note that this wiki is still heavily in development.**
 
-Videogame corruptions, or the act of "corrupting games", is the process of purposely breaking a game, usually with a program called a corruptor. This program can modify a games data, and sometimes memory, to produce unexpected [graphics](https://youtu.be/1YCfk1FZ7I8?t=215), [gameplay](https://youtu.be/H\_jvZQgLyaE?t=195), or [audio](https://www.youtube.com/watch?v=CzKD52Vvxd8). Often resulting in [hilarity](https://www.youtube.com/watch?t=198\&v=W545DP8CmWQ) and or [invoking Satan](https://youtu.be/wtql-ZllYZ8?t=9).
+Videogame corruptions, or the act of "corrupting games", is the process of purposely breaking a game, usually with a program called a corruptor. This program can modify a game's data, and sometimes memory, to produce unexpected [graphics](https://youtu.be/1YCfk1FZ7I8?t=215), [gameplay](https://youtu.be/H\_jvZQgLyaE?t=195), or [audio](https://www.youtube.com/watch?v=CzKD52Vvxd8). Often resulting in [hilarity](https://www.youtube.com/watch?t=198\&v=W545DP8CmWQ) and or [invoking Satan](https://youtu.be/wtql-ZllYZ8?t=9).
 
 Of importance though is that due to the random nature of corruptions, screen flashing is common. **If you are epileptic, corruptions might not be for you.**
 

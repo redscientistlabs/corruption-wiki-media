@@ -22,7 +22,7 @@ description: >-
 
 ### This is the index page for the help documentation for the Real**-**Time Corruptor (RTC). You can view the various guides and help documents from the links below. <a href="#download-httpredscientistcomrtc" id="download-httpredscientistcomrtc"></a>
 
-## [Introduction](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/introduction.html)
+## [Introduction](introduction.md)
 
 ## [Basic Guide](basic/)
 

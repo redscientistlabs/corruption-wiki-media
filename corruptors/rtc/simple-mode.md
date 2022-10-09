@@ -120,4 +120,4 @@ This engine is able generate algorithmic blasts that are not real-time. It works
 
 ## Finally
 
-I hope this guide has helped you get started in making your first corruptions. It's a continuous learning experience, remember to always try new things and don't be scared to ask questions on the Discord.
+I hope this guide has helped you get started in making your first corruptions. It's a continuous learning experience, remember to always try new things and don't be scared to ask questions in the help channel of the RTC Discord.

@@ -3,7 +3,7 @@
 ### Real-Time Corruptor: Basic Guide
 
 * **Index**
-  * [**RTC Concepts and vocabulary**](./#rtc-concepts-and-vocabulary)
+  * [**RTC Concepts and Vocabulary**](./#rtc-concepts-and-vocabulary)
     * [Vanguard](./#vanguard)
     * [BlastUnit](./#blastunit)
     * [BlastLayer](./#blastlayer)
@@ -34,7 +34,7 @@
   * [Auto-KillSwitch](./#auto-killswitch)
   * [Game Protection](./#game-protection)
 
-## RTC Concepts and vocabulary
+## RTC Concepts and Vocabulary
 
 Before tackling how the corruptor is used, it is recommended to take some time to read the following details about the internals of RTC. These terms are going to be used throughout the entire guide.
 
@@ -54,7 +54,7 @@ _Type of item that contains_ [_BlastUnits_](./#blastunit) _generated from a_ [_c
 
 A BlastLayer is usually encapsulated within a [StashKey](./#stashkey) and can be manipulated using the [Blast Editor](../expert/blast-generator.md) or by merging multiple BlastLayers in the Glitch Harvester's Stockpile Manager. It can also be appended to another Savestate by using the Inject function of the [Glitch Harvester](../advanced.md#glitch-harvester).
 
-BlastLayers that are ran from the [Stockpile Player](../advanced.md#stockpile-player) or from the [Glitch Harvester](../advanced.md#glitch-harvester) can be deactivated and reactivated on the fly (if applicable).
+BlastLayers that are run from the [Stockpile Player](../advanced.md#stockpile-player) or the [Glitch Harvester](../advanced.md#glitch-harvester) can be deactivated and reactivated on the fly (if applicable).
 
 #### Blast
 
@@ -62,11 +62,11 @@ _A Blast is the action of generating and/or applying a_ [_BlastLayer_](./#blastl
 
 When being generated, a Blast will contain a certain amount of [BlastUnits](./#blastunit). The amount of generated corruption Units is defined by the Intensity setting. The behavior of generated [units ](./#blastunit)can be tweaked by changing the [selected Engine](./#corruption-engines) or building a custom behavior in the [Custom Engine](./#custom-engine).
 
-RTC is built in a way that corruption is always generated and saved in memory before being applied. This allows replayability, manipulation and real-time interaction. When applied, byte-changing instructions usually backup values before modifying them. This allows corruption to be theoretically [disabled/reapplied on the fly](../advanced.md#blastlayer-on-off), although this doesn't always work. [Certain types of units](./#active-units-and-infinite-units) do not store backups. Instead, they simply get removed from their execution pools. This means that while their effect may be stopped in real-time, it also may not be completely reverted.
+RTC is built in a way that corruption is always generated and saved in memory before being applied. This allows replayability, manipulation, and real-time interaction. When applied, byte-changing instructions usually backup values before modifying them. This allows corruption to be theoretically [disabled/reapplied on the fly](../advanced.md#blastlayer-on-off), although this doesn't always work. [Certain types of units](./#active-units-and-infinite-units) do not store backups. Instead, they simply get removed from their execution pools. This means that while their effect may be stopped in real-time, it also may not be completely reverted.
 
 #### StashKey
 
-_Type of item that contains information about a game, its game state and an attached_ [_BlastLayer_ ](./#blastlayer)_(Corruption instructions)._
+_Type of item that contains information about a game, its game state, and an attached_ [_BlastLayer_ ](./#blastlayer)_(Corruption instructions)._
 
 Corrupting using the [Glitch Harvester](../advanced.md#glitch-harvester) generates StashKeys and sends them in the [Stash History](../advanced.md#stash-history). They can later be manipulated and/or added to a [Stockpile](./#stockpile).
 
@@ -74,7 +74,7 @@ Corrupting using the [Glitch Harvester](../advanced.md#glitch-harvester) generat
 
 _Type of item that contains_ [_StashKeys_](./#stashkey)_._
 
-It can be saved as a file that includes Stockpile items, Game Binaries, Savestates, corruption instructions, and information related to the targeted program, plugins and config. It is worth noting that saving stockpiles do not save game binaries by default. You must select "Include referenced files" in the [Glitch Harvester](../advanced.md#glitch-harvester) in the Stockpile options.
+Stockpiles are saved files that contain Stockpile items, Game Binaries, Savestates, corruption instructions, and information related to the targeted program, plugins, and config. It is worth noting that Stockpiles will contain Game Binaries by default. This means it is important to deselect "Include referenced files" in the Stockpile Manager of the [Glitch Harvester](../advanced.md#glitch-harvester) when sharing Stockpiles online is the goal.
 
 Stockpiles can be managed using the [Glitch Harvester](../advanced.md#glitch-harvester).
 
@@ -84,7 +84,7 @@ Stockpiles can be replayed using the [Stockpile Player](../advanced.md#stockpile
 
 _Item that represents a chip or memory pool on an emulated system._
 
-Memory Domains wrap the native memory areas into our own format. Every [Vanguard Implementation](./#vanguard) has to wrap memory areas in these interfaces, which allows in return for a complete control by RTC. The high-level Memory Domain interface also allows for them to coexist with Virtual Memory Domains, which are a higher level of abstraction on top of normal Memory Domains.
+Memory Domains wrap the native memory areas into our own format. Every [Vanguard Implementation](./#vanguard) has to wrap memory areas into Memory Domains, which allows for complete control by RTC. The high-level Memory Domain interface also allows for them to coexist with Virtual Memory Domains, which are a higher level of abstraction on top of normal Memory Domains.
 
 #### Virtual Memory Domain
 

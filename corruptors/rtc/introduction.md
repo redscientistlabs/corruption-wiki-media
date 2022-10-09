@@ -18,7 +18,7 @@ Credit: Gizmo The Dragon - Youtube&#x20;
 
 First, let’s go over the basic fundamentals of how this corruptor functions.
 
-![Modded emulators, stubs and extra stuff can be downloaded from the RTC Launcher](<../../.gitbook/assets/image (34).png>)
+![Modded emulators, stubs and extra stuff can be downloaded from the RTC Launcher](../../.gitbook/assets/RTCLauncher.png)
 
 Video game corruption happens when an emulated video game's program files are altered, either in the emulated game’s memory (RAM) or in the ROM itself. A real-time corruption is when the corruption itself occurs while the game is running or when the effects can be altered on the spot.
 
@@ -40,19 +40,17 @@ The Real-Time Corruptor generates corrupted data independently from the memory i
 
 **RTC doesn't start on my computer**
 
-\-> Have you installed the prereqs for BizHawk? This is essential for BizHawk to run properly. You can grab those from there too: [http://tasvideos.org/BizHawk.html](http://tasvideos.org/BizHawk.html)
+\-> Have you run the Prereqs Checker in the launcher?
 
 \-> Make sure your computer is decent. It must be strong enough to run the games and RTC does add a slight increase on the system requirements.
 
 &#x20;**Why does RTC wants to be allowed in the Windows Firewall?**
 
-
-
-RTC uses networking for a bunch of stuff. As it's split between two processes, they need a way to communicate. To do this, they use TCP and UDP. This will prompt the Windows Firewall and if it is not allowed, RTC will not function properly. If you blocked it by accident, you can reverse the rule in the advanced windows firewall panel.
+\-> RTC uses networking for a bunch of stuff. As it's split between two processes, they need a way to communicate. To do this, they use TCP and UDP. This will prompt the Windows Firewall and if it is not allowed, RTC will not function properly. If you blocked it by accident, you can reverse the rule in the advanced windows firewall panel.
 
 &#x20;**BizHawk : Why are certain emulator cores running slow or RTC running slow in general ?**
 
-BizHawk is one hell of an emulator. It features a ton of emulator cores and tools to create Tool-Assisted Speedruns. In order for these speedruns to be accurate to the real-life systems that they emulate, some of those do extra operations and disable optimizations that might cause faster but inaccurate emulation.
+\-> BizHawk is one hell of an emulator. It features a ton of emulator cores and tools to create Tool-Assisted Speedruns. In order for these speedruns to be accurate to the real-life systems that they emulate, some of those do extra operations and disable optimizations that might cause faster but inaccurate emulation.
 
 Some emulator cores are faster than others. QuickNes is generally faster than NesHawk for example.
 
