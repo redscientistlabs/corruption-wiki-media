@@ -4,13 +4,15 @@
 
 **Please note that this wiki is still heavily in development.**
 
-Videogame Corruptions or the act of "corrupting games" is taking a video game and breaking it using whatever means necessary, usually with a program called a corruptor. This software can either modify the bytes in a ROM or a game's files to produce unexpected or unusual graphics, gameplay or audio, often resulting in hilarity and or [invoking Satan](https://youtu.be/W545DP8CmWQ?t=198).
+Videogame corruptions, or the act of "corrupting games", is the process of purposely breaking a game, usually with a program called a corruptor. This program can modify a games data, and sometimes memory, to produce unexpected [graphics](https://youtu.be/1YCfk1FZ7I8?t=215), [gameplay](https://youtu.be/H\_jvZQgLyaE?t=195), or [audio](https://www.youtube.com/watch?v=CzKD52Vvxd8). Often resulting in [hilarity](https://www.youtube.com/watch?t=198\&v=W545DP8CmWQ) and or [invoking Satan](https://youtu.be/wtql-ZllYZ8?t=9).
+
+Of importance though is that due to the random nature of corruptions, screen flashing is common. **If you are epileptic, corruptions might not be for you.**
 
 ## Types of corruption
 
 ### Visual
 
-2D and 3D visuals can be affected by corrupting a game. For example, if you were to corrupt a sprite on the SNES it would result in different colors, offset pixels, flipped textures, or a change in hue. If you were to corrupt a model in a 3D game it would result in stretched, distorted, flat, or just plain broken polygons and mesh.
+2D and 3D visuals can be affected by corrupting a game. For example, if you were to corrupt a sprite on the SNES it could result in different colors, offset pixels, flipped textures, or a change in hue. If you were to corrupt a model in a 3D game it could result in stretched, distorted, flat, or just plain broken polygons and mesh.
 
 ####
 
@@ -40,10 +42,12 @@ Gameplay corruptions happen when a gameplay mechanic is altered by a corruption 
 
 ## A warning
 
-Corruptions are great fun, yet they can be a great danger to both you and your computer.
+While corruptions are great fun, they can be a great danger to both you and your computer.
 
-Sometimes when corrupting games a wild stretching polygon or a broken color palette can fill your screen and flash rapidly, which could cause epilepsy in some people. If you're epileptic, corruptions might not be for you.
+Sometimes when corrupting games a wild stretching polygon or a broken color palette can fill your screen and flash rapidly, which could cause epilepsy in some people. **If you are epileptic, corruptions might not be for you.**
 
 When corrupting certain games on certain platforms you may encounter a blue screen of death (BSOD), while these are very rare and don't have any major adverse effects on your computer, nothing gets in the way of a BSOD and it will restart your computer. Be sure to save anything you are doing prior to corrupting.
 
 Corrupting system processes? Not a good idea. If you really wanted to, do it in a virtual machine.
+
+**Never ever corrupt an online game**. Doing so will adversely effect the experience of other players, lead to the banning of your account, and harms the reputation of RTC and corruptions as a whole.
