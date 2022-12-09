@@ -60,3 +60,5 @@ Download: [https://github.com/ix/oxidizer](https://github.com/ix/oxidizer)
 > _A basic rom corruptor written in rust. runs exclusively in command line with arguments_
 
 ### Alice Corruptor
+
+> _Alice Corruptor was a program that promised corrupting your games without crashing._
