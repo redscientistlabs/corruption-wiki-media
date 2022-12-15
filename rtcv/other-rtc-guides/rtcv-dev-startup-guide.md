@@ -39,7 +39,7 @@ Using the Clone repository function, get those two folders side by side in the p
 
 ![](<../../.gitbook/assets/image (64).png>)
 
-Then, go back to the RTCV repo in Github Desktop and switch to the branch 506v2. This is the current branch we use and we will be changing eventually once 5.1.0 is ready for final testing.\
+Then, go back to the RTCV repo in Github Desktop and switch to the branch 51X ~~506v2~~. This is the current branch we use for final the 5.1.x dev .\
 
 
 ![](<../../.gitbook/assets/image (79).png>)
