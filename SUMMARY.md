@@ -1,6 +1,9 @@
 # Table of contents
 
+## Videogame corruptions
+
 * [Introduction](README.md)
+* [Safety and Ethics of corruptions](videogame-corruptions/safety-and-ethics-of-corruptions.md)
 
 ## Real-Time Corruptor <a href="#rtcv" id="rtcv"></a>
 
