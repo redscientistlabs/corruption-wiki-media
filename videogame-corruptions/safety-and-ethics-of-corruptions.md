@@ -8,7 +8,7 @@ When corrupting with any software (VSRC, SSRC, VineCorrupt, etc.) or Vanguard (F
 
 ## Prepare before corrupting critical software.
 
-When using any software (Cheat Engine) or Vanguard (ProcessStub) that targets running processes make sure that it is safe to corrupt the process you intend to. **Randomly corrupting Windows processes is a very dumb game to play**, especially on your main device. If you don't know what you're doing **make a VM, or prepare a burner PC.** This is less important when targeting games, but **it is never hurts to be safe**.
+When using any software (Cheat Engine) or Vanguard (ProcessStub) that targets running processes make sure that it is safe to corrupt the process you intend to. **Randomly corrupting Windows processes is a very dumb game to play**, especially on your main device. If you don't know what you're doing **make a VM, or prepare a burner PC.** This is less important when targeting games, but **it never hurts to be safe**.
 
 ## Never corrupt uncontrolled local environments
 
