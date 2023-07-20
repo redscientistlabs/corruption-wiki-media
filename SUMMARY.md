@@ -29,6 +29,7 @@
   * [Corrupting VMware snapshots](rtcv/other-rtc-guides/corrupting-vmware-snapshots.md)
   * [Corrupting Android Unity games](rtcv/other-rtc-guides/corrupting-android-unity-games.md)
   * [Corrupting PC Games with ProcessStub](rtcv/other-rtc-guides/corrupting-pc-games-with-processstub.md)
+  * [Corrupting Files with FileStub](rtcv/other-rtc-guides/corrupting-files-with-filestub.md)
 
 ## Other Corruptors
 
