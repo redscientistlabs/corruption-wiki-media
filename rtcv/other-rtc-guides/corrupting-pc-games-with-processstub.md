@@ -6,12 +6,12 @@ ProcessStub is now an optional component of RTC and is not distributed via the L
 
 {% embed url="http://optional.fun" %}
 
-**Guide written by:** __ Jack7D1\[206920373952970753]\
-__**Software used in guide:** RTCV, ProcessStub
+**Guide written by:** Jack7D1\
+**Software used in guide:** RTCV, ProcessStub
 
 ## Corrupting Bug Fables and other Unity games
 
-### Jack7D1\[206920373952970753], May 2021
+### Jack7D1, May 2021
 
 **Abstract:**
 
