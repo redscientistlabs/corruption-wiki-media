@@ -3,7 +3,7 @@
 ### Real-Time Corruptor: Advanced Guide
 
 * **Index**
-  * ****[**Glitch Harvester**](advanced.md#glitch-harvester)****
+  * [**Glitch Harvester**](advanced.md#glitch-harvester)
     * [Blast Tools](advanced.md#blast-tools)
       * [Corrupt button](advanced.md#corrupt-button)
       * [Raw to Stash](advanced.md#raw-to-stash)
@@ -15,11 +15,15 @@
     * [Intensity](advanced.md#intensity)
     * [Stash History](advanced.md#stash-history)
     * [Stockpile Manager](advanced.md#savestate-manager)
-  * ****[**Stockpile Player**](advanced.md#stockpile-player)****
+  * [**Stockpile Player**](advanced.md#stockpile-player)
 
 ## Glitch Harvester
 
-![The Glitch Harvester Interface](<../../.gitbook/assets/image (19).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/image (19).png" alt="The Glitch Harvester Interface">
+
+</div>
 
 The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master.
 
@@ -29,7 +33,11 @@ Basic usage is fairly simple, you create a savestate, select the domains you wou
 
 ### Blast Tools
 
-![](<../../.gitbook/assets/image (12).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/image (12).png" alt="">
+
+</div>
 
 #### Corrupt button
 
@@ -37,7 +45,7 @@ Basic usage is fairly simple, you create a savestate, select the domains you wou
 
 #### Raw to Stash
 
-This will create a item in the [Stash History](advanced.md#stash-history) box. The generated [BlastLayer ](basic/#blastlayer)is applied (Corruption occurs) then a new Savestate is created for this item. Active units will be stored in the attached BlastLayer but destructive corruption (Byte changes) will be compiled in the Savestate.
+This will create a item in the [Stash History](advanced.md#stash-history) box. The generated [BlastLayer ](basic/#blastlayer)is applied (Corruption occurs) then a new Savestate is created for this item. Active units will be stored in the attached BlastLayer, but destructive corruption (Byte changes) will be compiled in the Savestate.
 
 #### Reroll Selected
 
@@ -49,7 +57,11 @@ Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
 ### Blast Tools options
 
-![](<../../.gitbook/assets/image (1).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/image (1).png" alt="">
+
+</div>
 
 The Corrupt, Inject and Original options will change the function of the "Corrupt" button.
 
@@ -71,7 +83,11 @@ The Corrupt, Inject and Original options will change the function of the "Corrup
 
 _**This option is currently only available when RTC is connected to BizHawk**_
 
-![](<../../.gitbook/assets/image (6) (1).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/image (6) (1).png" alt="">
+
+</div>
 
 This allows you quickly/automatically start audio/video rendering when corrupting using the Glitch Harvester. Rendered files will be saved in the “RENDEROUTPUT” folder which is in _RTCV/RENDEROUTPUT_
 
@@ -81,7 +97,11 @@ This allows you quickly/automatically start audio/video rendering when corruptin
 
 ### Savestate Manager
 
-![](<../../.gitbook/assets/190704183858 (3) (1) (3).gif>)
+<div align="left">
+
+<img src="../../.gitbook/assets/190704183858 (3) (1) (3).gif" alt="">
+
+</div>
 
 **Change -> SAVE/LOAD**
 
@@ -107,25 +127,37 @@ These buttons allow you to Save and Load the filled Glitch Harvester Savestates 
 
 ### Intensity
 
-![](<../../.gitbook/assets/image (18).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/image (18).png" alt="">
+
+</div>
 
 This control is linked to the [intensity ](basic/#intensity)controls in the Main Window. It multiplies the amount of generated Units on every Blast.
 
 ### Stash History
 
-![](<../../.gitbook/assets/190704190157 (1).gif>)
+<div align="left">
 
-This is where new corruptions are stashed. The items that appear there can be sent to a Stockpile using the "To Stockpile" button. Selecting an item in the list will replay the generated corruption.
+<img src="../../.gitbook/assets/190704190157 (1).gif" alt="">
+
+</div>
+
+This is where new corruptions are stashed. **I**tems that appear here can be sent to a Stockpile using the "To Stockpile" button. Selecting an item in the list will replay the generated corruption.
 
 ### Stockpile Manager
 
-![](<../../.gitbook/assets/image (22).png>)
+<div align="left">
 
-This part of the Glitch Harvester is dedicated to edit and do operations onto Stockpiles.
+<img src="../../.gitbook/assets/image (22).png" alt="">
+
+</div>
+
+This part of the Glitch Harvester is where you will perform operations on Stockpiles.
 
 The **Load** button allows you to either load a Stockpile or load a Settings file from an _SKS_ file.
 
-Using **Save as** and **Save** buttons will generate/overwrite an _SKS_ file that contains corruption data, binaries and savestates. The _SKS_ file can also contains the config file from the last person who saved it. By default, the Glitch Harvester does not include roms and binaries. This behavior can be changed in the Glitch Harvester settings.
+Using **Save as** and **Save** buttons will generate/overwrite an _SKS_ file that contains corruption data, binaries and savestates. The _SKS_ file can also contains the config file from the last person who saved it. By default, the Glitch Harvester will include Game Binaries. This behavior can be changed in the Glitch Harvester settings.
 
 **Using someone's config file**
 
@@ -143,7 +175,11 @@ Merging items together requires them to be for the same console and same game. T
 
 ## Stockpile Player
 
-![](<../../.gitbook/assets/image (47) (1).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/image (47) (1).png" alt="">
+
+</div>
 
 This is a minimalist version of the Glitch Harvester's [Stockpile Manager](advanced.md#stockpile-manager). It allows you to load [Stockpiles](basic/#stockpile) and replay corruptions.
 
