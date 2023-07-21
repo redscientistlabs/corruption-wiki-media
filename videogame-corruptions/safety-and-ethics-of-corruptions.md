@@ -1,4 +1,4 @@
-# Safety and Ethics of corruptions
+# Safety and Ethics of Corruptions
 
 While corrupting is fun it is important to remember that at core corruption is a form of destructive data manipulation. Thus it is **imperative** to remember to be safe and ethical in corrupting.
 
@@ -35,7 +35,7 @@ Doing this **leads to RTCV being labelled as a tool for online disruption,** and
 \
 **Demonstration of any uncontrolled online corrupting in the various Corruptions communities will get you banned as this is generally deemed as a grave offense.**
 
-## Preforming safe online corrupting
+## Performing safe online corrupting
 
 Client/Server games where you can host your own server should be safe to corrupt. Make sure you disable any anti-cheat option while creating your own private server (such as VAC).
 
