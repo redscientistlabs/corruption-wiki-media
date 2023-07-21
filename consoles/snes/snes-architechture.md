@@ -10,3 +10,9 @@ SNES Processor architechture: [https://en.wikipedia.org/wiki/WDC\_65C816](https:
 
 TIP: NOP is 0xEA42 (Second byte is optional)
 
+
+
+SPC 700 documentation
+
+[https://wiki.superfamicom.org/spc700-reference](https://wiki.superfamicom.org/spc700-reference)
+

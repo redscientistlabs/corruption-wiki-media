@@ -3,7 +3,7 @@
 ## Videogame corruptions
 
 * [Introduction](README.md)
-* [Safety and Ethics of corruptions](videogame-corruptions/safety-and-ethics-of-corruptions.md)
+* [Safety and Ethics of Corruptions](videogame-corruptions/safety-and-ethics-of-corruptions.md)
 
 ## Real-Time Corruptor <a href="#rtcv" id="rtcv"></a>
 
@@ -52,10 +52,13 @@
   * [SNES Memory Domains](consoles/snes/bizhawk-memory-domains.md)
   * [SNES Audio Tinkering](consoles/snes/snes-audio-tinkering.md)
 * [N64](consoles/n64/README.md)
+  * [N64 Architecture](consoles/n64/n64-architecture.md)
   * [N64 Memory Domains](consoles/n64/bizhawk-memory-domains.md)
   * [N64 Basic/Advanced ROM Corruption](consoles/n64/basic-advanced-rom-corruption.md)
   * [N64 Expert ROM Corruption](consoles/n64/expert-rom-corruption.md)
+  * [N64 mupen64 dynarec issues](consoles/n64/n64-mupen64-dynarec-issues.md)
 * [Gameboy Advance](consoles/gameboy-advance/README.md)
+  * [GBA Architecture](consoles/gameboy-advance/gba-architecture.md)
   * [GBA Memory Domains](consoles/gameboy-advance/bizhawk-memory-domains.md)
 * [Nintendo DS](consoles/nintendo-ds/README.md)
   * [MelonDS Memory Domains](consoles/nintendo-ds/melonds-memory-domains.md)
