@@ -3,6 +3,7 @@
 ## Videogame corruptions
 
 * [Introduction](README.md)
+* [Communities](videogame-corruptions/communities.md)
 * [Safety and Ethics of Corruptions](videogame-corruptions/safety-and-ethics-of-corruptions.md)
 
 ## Real-Time Corruptor <a href="#rtcv" id="rtcv"></a>
