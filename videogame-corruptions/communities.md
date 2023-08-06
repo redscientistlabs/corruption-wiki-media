@@ -6,18 +6,6 @@ description: >-
 
 # Communities
 
-WARNING: This page is a work in progress and the text written here will change.
-
-_WARNING: This page is a work in progress and the text written here will change._
-
-**WARNING: This page is a work in progress and the text written here will change.**
-
-_WARNING: This page is a work in progress and the text written here will change._
-
-WARNING: This page is a work in progress and the text written here will change.
-
-_**WARNING: This page is a work in progress and the text written here will change.**_
-
 ## Active Corruption Communities
 
 ### Redscientist Labs (RTC Dev)
