@@ -6,6 +6,8 @@
 
 \-> Have you run the Prereqs Checker in the launcher?
 
+\-> Make sure you have the latest .Net Framework installed on your computer
+
 \-> Make sure your computer is decent. It must be strong enough to run the games and RTC does add a slight increase on the system requirements.
 
 \-> Certain Emulators may have difficulties with certain hardware. Try another emulator if it doesn't work
@@ -16,7 +18,7 @@
 
 Some emulator cores are faster than others. QuickNes is generally faster than NesHawk for example.
 
-\-> Make sure you have the latest .Net Framework installed on your computer
+\-> You can play around with (or disable) the Rewind settings to make emulation less heavy on your system.
 
 
 
