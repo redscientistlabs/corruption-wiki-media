@@ -48,14 +48,14 @@ Brad Corrupts is a channel that focuses on purely random corruptions, emulating 
 
 
 
-## Gruz
+### Gruz
 
 [https://www.youtube.com/@killgruz](https://www.youtube.com/@killgruz)\
 Formarly known as "Killgruz", this channel is known for weird mario mods, hacks and game genie codes. Gruz makes videos where he corrupts mario games by adding multiple effects, intentionally, using game genie codes.
 
 
 
-## MaskOfBrutality
+### MaskOfBrutality
 
 [https://www.youtube.com/@MaskOfBrutality](https://www.youtube.com/@MaskOfBrutality)\
 This youtube channel publishes semi-regular corruptions videos and has been doing Nintendo 3DS corruptions well before it was possible to do it with RTC.
