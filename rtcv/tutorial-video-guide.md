@@ -6,4 +6,4 @@
 Credit: Gizmo The Dragon - Youtube&#x20;
 {% endembed %}
 
-## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
+You can also get more Tutorial videos at this page: [http://rtctutorialvideo.r5x.cc/](http://rtctutorialvideo.r5x.cc/)
