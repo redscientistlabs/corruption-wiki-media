@@ -20,10 +20,10 @@ _**WARNING: This page is a work in progress and the text written here will chang
 
 ## Active Corruption Communities
 
-### RTC Dev - Redscientist Labs
+### Redscientist Labs (RTC Dev)
 
 [https://redscientist.com/discord](https://redscientist.com/discord)\
-Operating mostly from Discord, the RTC Dev Discord is the most active corruption-focused community and is where corruption research happens. This discord server is where all operations for Corruption Shows (for Vinesauce streams) and music corruptions for Chip Furnace take place.
+Operating mostly from Discord, the RTC Dev Discord is currently the most active corruption-focused community and is where corruption research happens. This discord server is where all operations for Corruption Shows (for Vinesauce streams) and music corruptions for Chip Furnace take place.
 
 
 
