@@ -1,4 +1,8 @@
-# Detailed Guide
+# In-Depth Guide
+
+## Preface
+
+This is the most extensive source of documentation for RTC, its concepts and tools. RTC as a project started in 2014 and kept changing throughout the years. A certain stability has been reached before 5.0.0 was released and most information featured in this guide should stay up to date even if the screen captures might sometimes be outdated.
 
 ## Credits
 

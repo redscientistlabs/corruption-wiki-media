@@ -12,7 +12,7 @@
 * [Download RTC](https://redscientist.com/rtc)
 * [Quick Start Guide](rtcv/quickstart-guide.md)
 * [Tutorial Video Guide](rtcv/tutorial-video-guide.md)
-* [Detailed Guide](corruptors/rtc/README.md)
+* [In-Depth Guide](corruptors/rtc/README.md)
   * [Introduction](corruptors/rtc/introduction.md)
   * [Frequently Asked Questions](rtcv/rtc/frequently-asked-questions.md)
   * [Simple Mode](corruptors/rtc/simple-mode.md)
