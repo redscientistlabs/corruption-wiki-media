@@ -2,7 +2,7 @@
 description: The fastest guide to get started with RTC
 ---
 
-# QuickStart Guide
+# Quick Start Guide
 
 Author: MaxMinerva
 

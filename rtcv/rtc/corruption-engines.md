@@ -34,7 +34,7 @@ Infinite Units are resource expensive as they re-write memory on every frame and
 
 **Clear units on rewind**
 
-When enabled, rewinding will clear all [Infinite Units](basic.md#active-units-and-infinite-units) that have an infinite life time (when applicable).
+When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.md#active-units-and-infinite-units) that have an infinite life time (when applicable).
 
 ### Freeze Engine
 
@@ -50,7 +50,7 @@ Infinite Units are resource expensive as they re-write memory on every frame and
 
 **Clear units on rewind**
 
-When enabled, rewinding will clear all [Infinite Units](basic.md#active-units-and-infinite-units) that have an infinite life time (when applicable).
+When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.md#active-units-and-infinite-units) that have an infinite life time (when applicable).
 
 ### Distortion Engine
 
@@ -66,7 +66,7 @@ This is the amounts of steps that each corruption unit has to wait before restor
 
 **Resync Distortion**
 
-This erases all current [active units](basic.md#active-units-and-infinite-units) pending to be restored.
+This erases all current [active units](concepts-and-vocabulary.md#active-units-and-infinite-units) pending to be restored.
 
 ### Pipe Engine
 
@@ -80,7 +80,7 @@ Prevents any change to be done to the current Active Units
 
 **Clear units on rewind**
 
-When enabled, rewinding will clear all [Infinite Units](basic.md#active-units-and-infinite-units) that have an infinite life time (when applicable).
+When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.md#active-units-and-infinite-units) that have an infinite life time (when applicable).
 
 ### Vector Engine
 
@@ -100,12 +100,12 @@ After generation of the Unit with this engine, a replacement value is assigned t
 
 **Unlock**
 
-Allows the Engine [Precision](basic.md#engine-precision-and-alignment) to be changed.
+Allows the Engine [Precision](concepts-and-vocabulary.md#engine-precision-and-alignment) to be changed.
 
 #### **Lists**
 
-{% content-ref url="vector-engine-lists.md" %}
-[vector-engine-lists.md](vector-engine-lists.md)
+{% content-ref url="classic-vector-lists.md" %}
+[classic-vector-lists.md](classic-vector-lists.md)
 {% endcontent-ref %}
 
 ### Cluster Engine

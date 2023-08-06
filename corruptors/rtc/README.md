@@ -22,7 +22,7 @@ description: This guide aims at covering most of RTC with a focus on every compo
 
 ## [Introduction](introduction.md)
 
-## [Basic Guide](../../rtcv/rtc/basic.md)
+## [Basic Guide](../../rtcv/rtc/concepts-and-vocabulary.md)
 
 This guide will cover the general UI, vocabulary used around with RTC and should give you an overall idea of what are the tools at your disposal.
 

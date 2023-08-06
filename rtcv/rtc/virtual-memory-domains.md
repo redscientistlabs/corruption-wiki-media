@@ -8,7 +8,7 @@
 
 </div>
 
-[Virtual Memory Domains](basic.md#virtual-memory-domain), also called VMDs, are virtual representations of areas from one or multiple real Memory Domains. The VMD Generator uses address instructions to make VMD Prototypes which can be used to generate/regenerate VMDs. These prototypes are very lightweight, save/load from a file and can also be created from a Corruption in the Glitch Harvester.
+[Virtual Memory Domains](concepts-and-vocabulary.md#virtual-memory-domain), also called VMDs, are virtual representations of areas from one or multiple real Memory Domains. The VMD Generator uses address instructions to make VMD Prototypes which can be used to generate/regenerate VMDs. These prototypes are very lightweight, save/load from a file and can also be created from a Corruption in the Glitch Harvester.
 
 ## VMD Pool
 
@@ -52,7 +52,7 @@ Displays the memory domain that the VMD is built to target.
 
 </div>
 
-An in-depth [VMD Generator Guide](vmd-generator.md) is also available
+An in-depth [VMD Generator Guide](vmd-generator-advanced.md) is also available
 
 **Load Domains**
 

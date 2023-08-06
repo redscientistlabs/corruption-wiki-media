@@ -13,8 +13,8 @@
 
 _Also check this link for the default lists that come with the Vector Engine_
 
-{% content-ref url="../../rtcv/rtc/vector-engine-lists.md" %}
-[vector-engine-lists.md](../../rtcv/rtc/vector-engine-lists.md)
+{% content-ref url="../../rtcv/rtc/classic-vector-lists.md" %}
+[classic-vector-lists.md](../../rtcv/rtc/classic-vector-lists.md)
 {% endcontent-ref %}
 
 ### Usage
