@@ -10,6 +10,7 @@
 
 * [RTC Discord](https://redscientist.com/discord)
 * [Download RTC](https://redscientist.com/rtc)
+* [QuickStart Guide](rtcv/quickstart-guide.md)
 * [Main RTC Guide](corruptors/rtc/README.md)
   * [Introduction](corruptors/rtc/introduction.md)
   * [Simple Mode](corruptors/rtc/simple-mode.md)

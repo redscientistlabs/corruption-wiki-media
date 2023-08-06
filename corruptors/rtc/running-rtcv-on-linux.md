@@ -4,9 +4,9 @@ description: Startup guide on how to run RTC on Linux using Wine
 
 # Running RTCV on Linux
 
-__\
-__**Guide written by:** __ LuckyLuigiX4\
-__**Linux distro used in the making of this guide:** Linux Manjaro__
+\
+**Guide written by:** LuckyLuigiX4\
+**Linux distro used in the making of this guide:** Linux Manjaro
 
 **If you are a Windows user, you do not need to follow this as RTC is already made for Windows**
 
@@ -88,7 +88,7 @@ Next, click on “Install Windows DLL or Component”
 
 Once you are there, look for the components – dotnet40, dotnet48, and vcrun2019
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 Wait for them to install, you’ll know they’re done when the “Install Windows DLL or Component” Windows appears again.  Close winetricks.
 

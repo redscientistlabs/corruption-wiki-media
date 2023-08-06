@@ -14,7 +14,7 @@ Credit: Gizmo The Dragon - Youtube&#x20;
 
 ## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
 
-**All programs from the RTC suite of tools are Open Source and available at:** [**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)****
+**All programs from the RTC suite of tools are Open Source and available at:** [**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)
 
 First, let’s go over the basic fundamentals of how this corruptor functions.
 
@@ -24,11 +24,11 @@ Video game corruption happens when an emulated video game's program files are al
 
 **RTC** is a collection of modified emulators and stub tools that integrate our corruption software via a solution we called Vanguard. This means that any emulator or program that is modded with Vanguard _should_ be compatible. Every system's memory areas are detailed as a series of zones known as Memory Domains. The corruption will be generated for the selected domains in the main window.&#x20;
 
-__
+
 
 _**Take note that this guide was written with emulated game corruption in mind. All details of how internals work will be described for the use of a Vanguard modded emulator. Usage with stubs & wgh may differ.**_
 
-_****_
+
 
 What is usually known as an iteration in static corruptors, is called a Blast in the RTC. A blast consists of a series of operations that are to be applied in the data located on the emulated game’s memory banks. (RAM, VRAM, ROM, etc.)
 

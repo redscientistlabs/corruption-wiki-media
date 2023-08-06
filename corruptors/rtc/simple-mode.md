@@ -64,11 +64,11 @@ With either of these tools _(Manual Blast and Auto-Corrupt)_ you're likely going
 
 _"Shuffle Algorithm"_ lets you try out different engines. Check the _Basic Guide_ for a more thorough run-down on what each of these engines do. Try shuffling the engine a few times.&#x20;
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/image (15) (1).png>)
 
 An unique feature to the Real-Time Corruptor next to its ability to corrupt in real-time is its ability to also uncorrupt in real-time, sorta. Whenever a corruption is created using the "_Glitch Harvester_", it is possible to attempt to disable it while the game is still running. You can play around with this feature using the button "_BlastLayer : ON/OFF_"
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 When you're ready to start learning the rest of the program, simply click, _"Switch to Normal Mode."_ Here you can start making changes to the rest of the parameters each engine uses. Each engine has it's own way of working, so check each section of the _Basic Guide_ respectively. You can freely switch back and forth between normal mode and simple mode if you so desire, so as to access the rest of the parameters.
 

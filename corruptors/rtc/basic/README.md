@@ -325,7 +325,7 @@ The alignment settings should always be left at 0 unless corruption is done on a
 
 ## Auto-KillSwitch
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 In order to give the user the smoothest experience, RTC will constantly monitor the state of the connected [Vanguard-Modded](./#vanguard) emulator and attempt to kill it if it falls into a non-responsive state.
 

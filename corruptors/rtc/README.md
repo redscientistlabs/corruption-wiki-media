@@ -10,13 +10,13 @@ description: >-
 
 ### **Development by:**&#x20;
 
-****[**Phil Girard**](http://redscientist.com/) **(Ircluzar)**\
-****[**Dan B (Narry)**](https://narry.land/)****\
+[**Phil Girard**](http://redscientist.com/) **(Ircluzar)**\
+[**Dan B (Narry)**](https://narry.land/)\
 **NullShock78**\
 **AbsenteeSurgeron**\
 **ChrisNonyminus**
 
-**All programs from the RTC suite of tools are Open Source and available at:** [**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)****
+**All programs from the RTC suite of tools are Open Source and available at:** [**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)
 
 ### &#x20;<a href="#download-httpredscientistcomrtc" id="download-httpredscientistcomrtc"></a>
 

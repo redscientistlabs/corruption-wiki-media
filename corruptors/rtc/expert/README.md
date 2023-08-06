@@ -8,16 +8,16 @@
   * [**Virtual Memory Domains**](./#virtual-memory-domains)
     * [VMD Pool](./#vmd-pool)
     * [VMD Generator](./#vmd-generator)
-  * [**Blast Editor Guide**](blast-editor.md)****
-  * ****[**Blast Generator Guide**](blast-generator.md)****
-  * ****[**VMD Generator Guide**](vmd-generator.md)****
-  * ****[**Active Table Guide**](active-table-guide.md)****
-  * ****[**Custom Engine Guide**](custom-engine.md)****
-  * ****[**Cluster Engine Guide**](../../../rtcv/rtc/expert/cluster-engine-guide.md)****
+  * [**Blast Editor Guide**](blast-editor.md)
+  * [**Blast Generator Guide**](blast-generator.md)
+  * [**VMD Generator Guide**](vmd-generator.md)
+  * [**Active Table Guide**](active-table-guide.md)
+  * [**Custom Engine Guide**](custom-engine.md)
+  * [**Cluster Engine Guide**](../../../rtcv/rtc/expert/cluster-engine-guide.md)
 
 ## Hotkeys
 
-![As of version 5, RTC has its own hotkeys in the Settings and tools menu](<../../../.gitbook/assets/image (9).png>)
+![As of version 5, RTC has its own hotkeys in the Settings and tools menu](<../../../.gitbook/assets/image (9) (1).png>)
 
 **Manual Blast**
 
@@ -63,7 +63,11 @@ Triggers the Back button on Game Protection (If available)
 
 Triggers the Now button on Game Protection (If available)
 
-![](<../../../.gitbook/assets/image (33) (1).png>)
+<div align="left">
+
+<img src="../../../.gitbook/assets/image (33) (1).png" alt="">
+
+</div>
 
 **Load and Corrupt**
 
@@ -97,11 +101,19 @@ Does a Manual Blast to the game then creates a Raw Stashkey in the Stash History
 
 Creates a Raw StashKey in the StashHistory
 
-![The Blast Editor hotkeys correspond directly to their buttons](<../../../.gitbook/assets/image (20).png>)
+<div align="left">
+
+<img src="../../../.gitbook/assets/image (20).png" alt="The Blast Editor hotkeys correspond directly to their buttons">
+
+</div>
 
 ## Blast Editor
 
-![](<../../../.gitbook/assets/image (32).png>)
+<div align="left">
+
+<img src="../../../.gitbook/assets/image (32).png" alt="">
+
+</div>
 
 Any [StashKey ](../basic/#stashkey)in the [Glitch Harvester](../advanced.md#glitch-harvester) can be opened in the Blast Editor by right-clicking on it and select _"Open Selected Item in Blast Editor"_.
 
@@ -109,13 +121,21 @@ Read the [Blast Editor Guide](blast-editor.md) for a detailed explanation of how
 
 ## Virtual Memory Domains
 
-![](<../../../.gitbook/assets/image (11).png>)
+<div align="left">
+
+<img src="../../../.gitbook/assets/image (11) (1).png" alt="">
+
+</div>
 
 [Virtual Memory Domains](../basic/#virtual-memory-domain), also called VMDs, are virtual representations of areas from one or multiple real Memory Domains. The VMD Generator uses address instructions to make VMD Prototypes which can be used to generate/regenerate VMDs. These prototypes are very lightweight, save/load from a file and can also be created from a Corruption in the Glitch Harvester.
 
 ## VMD Pool
 
-![](<../../../.gitbook/assets/image (27).png>)
+<div align="left">
+
+<img src="../../../.gitbook/assets/image (27).png" alt="">
+
+</div>
 
 The Virtual Memory Domain Pool is your main interaction window for loading and working with already loaded VMDs.
 
@@ -145,7 +165,11 @@ Displays the memory domain that the VMD is built to target.
 
 ## VMD Generator
 
-![](<../../../.gitbook/assets/image (14).png>)
+<div align="left">
+
+<img src="../../../.gitbook/assets/image (14) (1).png" alt="">
+
+</div>
 
 An in-depth [VMD Generator Guide](vmd-generator.md) is also available
 

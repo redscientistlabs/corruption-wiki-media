@@ -14,18 +14,18 @@
 
 #### Index
 
-* ****[**Index**](scares-scrambler.md#index)****
-  * ****[**Functions**](scares-scrambler.md#functions)****
-  * ****[**Algorithms**](scares-scrambler.md#algorithms)****
+* [**Index**](scares-scrambler.md#index)
+  * [**Functions**](scares-scrambler.md#functions)
+  * [**Algorithms**](scares-scrambler.md#algorithms)
     * [Basic Functions](scares-scrambler.md#algorithms-basic-functions)
     * [Special Functions](scares-scrambler.md#algorithms-special-functions)
-  * ****[**Corrupt and Repeat**](scares-scrambler.md#corrupt-and-repeat)****
-  * ****[**Miscellaneous**](scares-scrambler.md#miscellaneous)****
-  * ****[**Example Preset**](scares-scrambler.md#example-preset)****
-  * ****[**Video Tutorial**](scares-scrambler.md#video-tutorial)****
-  * ****[**Feedback**](scares-scrambler.md#feedback)****
+  * [**Corrupt and Repeat**](scares-scrambler.md#corrupt-and-repeat)
+  * [**Miscellaneous**](scares-scrambler.md#miscellaneous)
+  * [**Example Preset**](scares-scrambler.md#example-preset)
+  * [**Video Tutorial**](scares-scrambler.md#video-tutorial)
+  * [**Feedback**](scares-scrambler.md#feedback)
 
-****
+
 
 ### **Functions**
 

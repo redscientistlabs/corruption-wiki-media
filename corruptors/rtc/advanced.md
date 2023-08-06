@@ -35,7 +35,7 @@ Basic usage is fairly simple, you create a savestate, select the domains you wou
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (12).png" alt="">
+<img src="../../.gitbook/assets/image (12) (1).png" alt="">
 
 </div>
 
@@ -59,7 +59,7 @@ Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (1).png" alt="">
+<img src="../../.gitbook/assets/image (1) (1).png" alt="">
 
 </div>
 
