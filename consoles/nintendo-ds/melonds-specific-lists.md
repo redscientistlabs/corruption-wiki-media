@@ -16,8 +16,8 @@ The Nintendo DS's architechture does not support IEEE754 Floats and isn't compat
 
 _Also check this link for the default lists that come with the Vector Engine_
 
-{% content-ref url="../../corruptors/rtc/basic/vector-engine-lists.md" %}
-[vector-engine-lists.md](../../corruptors/rtc/basic/vector-engine-lists.md)
+{% content-ref url="../../rtcv/rtc/vector-engine-lists.md" %}
+[vector-engine-lists.md](../../rtcv/rtc/vector-engine-lists.md)
 {% endcontent-ref %}
 
 ### Usage

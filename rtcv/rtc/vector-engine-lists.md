@@ -1,6 +1,6 @@
-# Vector Engine Lists
+# Classic Vector Lists
 
-### **Lists**
+### **Common Floating point numbers**
 
 _These are the lists that come with the Vector Engine by default._
 

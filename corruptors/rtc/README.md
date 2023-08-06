@@ -1,12 +1,10 @@
 ---
-description: >-
-  The Real-Time Corruptor is a suite of programs and modded emulators for
-  corrupting games and files.
+description: This guide aims at covering most of RTC with a focus on every component.
 ---
 
-# Main RTC Guide
+# Detailed Guide
 
-## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
+## Download RTC at [https://redscientist.com/RTC](https://redscientist.com/rtc)
 
 ### **Development by:**&#x20;
 
@@ -24,7 +22,7 @@ description: >-
 
 ## [Introduction](introduction.md)
 
-## [Basic Guide](basic/)
+## [Basic Guide](../../rtcv/rtc/basic.md)
 
 This guide will cover the general UI, vocabulary used around with RTC and should give you an overall idea of what are the tools at your disposal.
 
@@ -38,4 +36,4 @@ This guide covers auxiliary tools present around the program for the more advanc
 
 ## [Tips and Tricks](tips.md)
 
-## [RTC Dev Discord](https://discord.corrupt.wiki)
+##
