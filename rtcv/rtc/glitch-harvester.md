@@ -10,9 +10,9 @@
 
 The Glitch Harvester is one of the biggest features of RTC. It is simple to use, yet difficult to master.
 
-_RTC extends emulator savestates into its own format, the_ [_StashKey_](../../rtcv/rtc/concepts-and-vocabulary.md#stashkey)_. This allows for corruptions to be attached onto savestates without overwriting the original data._
+_RTC extends emulator savestates into its own format, the_ [_StashKey_](concepts-and-vocabulary.md#stashkey)_. This allows for corruptions to be attached onto savestates without overwriting the original data._
 
-Basic usage is fairly simple, you create a savestate, select the domains you would like to corrupt, chose an Intensity and click the “Corrupt" button, the emulator then corrupts the selected [memory domains](../../rtcv/rtc/concepts-and-vocabulary.md#memory-domain) and instantly loads the savestate. (The Glitch Harvester “Corrupt” function can be bound to any key/button)
+Basic usage is fairly simple, you create a savestate, select the domains you would like to corrupt, chose an Intensity and click the “Corrupt" button, the emulator then corrupts the selected [memory domains](concepts-and-vocabulary.md#memory-domain) and instantly loads the savestate. (The Glitch Harvester “Corrupt” function can be bound to any key/button)
 
 ### Blast Tools
 
@@ -24,15 +24,15 @@ Basic usage is fairly simple, you create a savestate, select the domains you wou
 
 #### Corrupt button
 
-"Corrupt" is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items. If _Stash Results_ is selected in the Blast Tools options, it will create a new item in the [Stash History](advanced.md#stash-history) box.
+"Corrupt" is the corruption button of the Glitch Harvester. It can corrupt, inject, replay and merge saved items. If _Stash Results_ is selected in the Blast Tools options, it will create a new item in the [Stash History](glitch-harvester.md#stash-history) box.
 
 #### Raw to Stash
 
-This will create a item in the [Stash History](advanced.md#stash-history) box. The generated [BlastLayer ](../../rtcv/rtc/concepts-and-vocabulary.md#blastlayer)is applied (Corruption occurs) then a new Savestate is created for this item. Active units will be stored in the attached BlastLayer, but destructive corruption (Byte changes) will be compiled in the Savestate.
+This will create a item in the [Stash History](glitch-harvester.md#stash-history) box. The generated [BlastLayer ](concepts-and-vocabulary.md#blastlayer)is applied (Corruption occurs) then a new Savestate is created for this item. Active units will be stored in the attached BlastLayer, but destructive corruption (Byte changes) will be compiled in the Savestate.
 
 #### Reroll Selected
 
-Rerolls the corruption values of the selected item in the [Stash History](advanced.md#stash-history) or [Stockpile Manager](advanced.md#stockpile-manager). This allows to attempt to get better results from a corruption. The result will be sent in the Stash History.
+Rerolls the corruption values of the selected item in the [Stash History](glitch-harvester.md#stash-history) or [Stockpile Manager](glitch-harvester.md#stockpile-manager). This allows to attempt to get better results from a corruption. The result will be sent in the Stash History.
 
 #### BlastLayer ON/OFF
 
@@ -48,19 +48,19 @@ Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
 The Corrupt, Inject and Original options will change the function of the "Corrupt" button.
 
-**Corrupt** is the default setting. Corrupt will have its default behavior and loaded [StashKeys ](../../rtcv/rtc/concepts-and-vocabulary.md#stashkey)will include corruption when replayed.
+**Corrupt** is the default setting. Corrupt will have its default behavior and loaded [StashKeys ](concepts-and-vocabulary.md#stashkey)will include corruption when replayed.
 
-**Inject** will make the Corrupt button load the corruption layer from the selected item in the [Stash History](advanced.md#stash-history) or [Stockpile Manager](advanced.md#savestate-manager) into the currently selected Glitch Harvester Savestate. The same action will happen when clicking on an item in the Stash History or Stockpile Manager.
+**Inject** will make the Corrupt button load the corruption layer from the selected item in the [Stash History](glitch-harvester.md#stash-history) or [Stockpile Manager](glitch-harvester.md#savestate-manager) into the currently selected Glitch Harvester Savestate. The same action will happen when clicking on an item in the Stash History or Stockpile Manager.
 
-**Original** will load the selected item from the [Stash History](advanced.md#stash-history) or [Stockpile Manager](advanced.md#stockpile-manager) without the corruption layer.
+**Original** will load the selected item from the [Stash History](glitch-harvester.md#stash-history) or [Stockpile Manager](glitch-harvester.md#stockpile-manager) without the corruption layer.
 
 ### Behaviors
 
-**Auto-Load State** makes it so a Savestate is loaded during Corruption or Replaying and item. When the _Corrupt_ modifier is selected, loading an item from the Stash History or Stockpile Manager will use the embedded Savestate in the [StashKey](../../rtcv/rtc/concepts-and-vocabulary.md#stashkey). Otherwise, it comes from the selected item in the Savestate Manager.
+**Auto-Load State** makes it so a Savestate is loaded during Corruption or Replaying and item. When the _Corrupt_ modifier is selected, loading an item from the Stash History or Stockpile Manager will use the embedded Savestate in the [StashKey](concepts-and-vocabulary.md#stashkey). Otherwise, it comes from the selected item in the Savestate Manager.
 
-**Load on select** causes the [StashKey ](../../rtcv/rtc/concepts-and-vocabulary.md#stashkey)to be loaded when an item is selected from the Stash History or Stockpile Manager. When this option is unchecked, loading a selected item requires to press the Blast/Send button.
+**Load on select** causes the [StashKey ](concepts-and-vocabulary.md#stashkey)to be loaded when an item is selected from the Stash History or Stockpile Manager. When this option is unchecked, loading a selected item requires to press the Blast/Send button.
 
-**Stash Results** makes it so generated corruption will be added to the Stash History upon generation of a BlastLayer. If a generated BlastLayer has 0 units, the [StashKey ](../../rtcv/rtc/concepts-and-vocabulary.md#stashkey)will not be added to the [Stash History](advanced.md#stash-history).
+**Stash Results** makes it so generated corruption will be added to the Stash History upon generation of a BlastLayer. If a generated BlastLayer has 0 units, the [StashKey ](concepts-and-vocabulary.md#stashkey)will not be added to the [Stash History](glitch-harvester.md#stash-history).
 
 ### Render Output
 
@@ -76,7 +76,7 @@ This allows you quickly/automatically start audio/video rendering when corruptin
 
 **Render type** allows you to select a file format for rendering. If you're getting an error with AVI rendering, it might mean that no codec is selected in BizHawk. In order to do so, you must start an AVI rendering from BizHawk at least once.
 
-**Render at load** will start the render when an item from the [Stash History](advanced.md#stash-history) or [Stockpile Manager](advanced.md#stockpile-manager) is loaded.
+**Render at load** will start the render when an item from the [Stash History](glitch-harvester.md#stash-history) or [Stockpile Manager](glitch-harvester.md#stockpile-manager) is loaded.
 
 ### Savestate Manager
 
@@ -116,7 +116,7 @@ These buttons allow you to Save and Load the filled Glitch Harvester Savestates 
 
 </div>
 
-This control is linked to the [intensity ](../../rtcv/rtc/concepts-and-vocabulary.md#intensity)controls in the Main Window. It multiplies the amount of generated Units on every Blast.
+This control is linked to the [intensity ](general-parameters.md#intensity)controls in the Main Window. It multiplies the amount of generated Units on every Blast.
 
 ### Stash History
 
@@ -164,7 +164,7 @@ Merging items together requires them to be for the same console and same game. T
 
 </div>
 
-This is a minimalist version of the Glitch Harvester's [Stockpile Manager](advanced.md#stockpile-manager). It allows you to load [Stockpiles](../../rtcv/rtc/concepts-and-vocabulary.md#stockpile) and replay corruptions.
+This is a minimalist version of the Glitch Harvester's [Stockpile Manager](glitch-harvester.md#stockpile-manager). It allows you to load [Stockpiles](concepts-and-vocabulary.md#stockpile) and replay corruptions.
 
 The Previous and Next buttons are for jumping from a corruption to another. They do the same thing as clicking on the corruptions directly.
 
@@ -174,5 +174,5 @@ BlastLayer Button: Toggles ON/OFF the BlastLayer of the last executed StashKey, 
 
 If the button in the Note column has a ⚠ Symbol, it means that a note is attached to the corruption. Click on it to open the note.
 
-Various options from RTC's [Engine Config](../../rtcv/rtc/concepts-and-vocabulary.md#corruption-engines) menu are present in a contextual menu if you right-click on corruptions.
+Various options from RTC's [Engine Config](corruption-engines.md) menu are present in a contextual menu if you right-click on corruptions.
 

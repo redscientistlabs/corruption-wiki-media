@@ -21,7 +21,7 @@
   * [Corruption Engines](rtcv/rtc/corruption-engines.md)
   * [Emulation-centric features](rtcv/rtc/emulation-centric-features.md)
   * [Classic Vector Lists](rtcv/rtc/classic-vector-lists.md)
-  * [Glitch Harvester](corruptors/rtc/advanced.md)
+  * [Glitch Harvester](rtcv/rtc/glitch-harvester.md)
   * [Blast Editor](rtcv/rtc/blast-editor.md)
   * [Blast Generator](rtcv/rtc/blast-generator.md)
   * [Virtual Memory Domains](rtcv/rtc/virtual-memory-domains.md)

@@ -33,6 +33,6 @@ _It should be worth noting that Game Protection increase the power requirements 
 
 In BizHawk, all emulator cores come with Rewind capabilities. At the time of writing this guide, no other emulator than BizHawk supports native Rewind (among the ones modded with [Vanguard](concepts-and-vocabulary.md#vanguard)).
 
-By default, RTC will select [Memory Domains](concepts-and-vocabulary.md#memory-domain) that are **Rewind-safe**, meaning that the data edited in these domains can be rewinded out of. Reverting back the corruption that occurs in domains that aren't rewind-safe requires the selection of "Reboot Core" in the emulation menu of BizHawk or reloading a [Glitch Harvester Savestate](../../corruptors/rtc/advanced.md#savestate-manager) or [StashKey](concepts-and-vocabulary.md#stashkey).
+By default, RTC will select [Memory Domains](concepts-and-vocabulary.md#memory-domain) that are **Rewind-safe**, meaning that the data edited in these domains can be rewinded out of. Reverting back the corruption that occurs in domains that aren't rewind-safe requires the selection of "Reboot Core" in the emulation menu of BizHawk or reloading a [Glitch Harvester Savestate](glitch-harvester.md#savestate-manager) or [StashKey](concepts-and-vocabulary.md#stashkey).
 
 It should be worth noting that RTC's Game Protection feature can act as a pseudo-rewind as it allows the user to jump back in the past using savestates. This feature should be available to any emulator with a Real-Time [vanguard implementation](concepts-and-vocabulary.md#vanguard).
