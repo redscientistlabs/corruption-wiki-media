@@ -2,13 +2,13 @@
 
 ### Auto-Corrupt
 
-When this is enabled, RTC will attempt to Generate and Execute a [BlastLayer](concepts-and-vocabulary.md#blastlayer) on every [Emulation Step](concepts-and-vocabulary.md#emulation-step). The amount of corruption can be set by changing the [Intensity](concepts-and-vocabulary.md#intensity) and [Error Delay](concepts-and-vocabulary.md#error-delay) settings.
+When this is enabled, RTC will attempt to Generate and Execute a [BlastLayer](concepts-and-vocabulary.md#blastlayer) on every [Emulation Step](concepts-and-vocabulary.md#emulation-step). The amount of corruption can be set by changing the [Intensity](general-parameters.md#intensity) and [Error Delay](general-parameters.md#error-delay) settings.
 
 ### Manual Blast
 
-_Alternatively to_ [_Auto-Corrupt_](concepts-and-vocabulary.md#auto-corrupt)_, Blasting a game with corruption can be triggered manually._
+_Alternatively to_ [_Auto-Corrupt_](general-parameters.md#auto-corrupt)_, Blasting a game with corruption can be triggered manually._
 
-Blasts with a bigger [Intensity ](concepts-and-vocabulary.md#intensity)can be as effective as a controlled stream of corruption. It does give the user more control on when the game is altered.
+Blasts with a bigger [Intensity ](general-parameters.md#intensity)can be as effective as a controlled stream of corruption. It does give the user more control on when the game is altered.
 
 ### Error Delay
 
@@ -29,7 +29,7 @@ The Intensity is a multiplier to the amount of generated [Units ](concepts-and-v
 
 _Generally, the higher the Intensity is, the more corruption will happen_
 
-Some [engines ](concepts-and-vocabulary.md#corruption-engines)generate [Active Units](concepts-and-vocabulary.md#active-units-and-infinite-units), which execute code on every frame that they are active. There is a maximum amount of 50 active units by default. This setting can be changed in the engine settings (when applicable) or in Settings and tools -> Corruption Settings
+Some [engines ](corruption-engines.md)generate [Active Units](concepts-and-vocabulary.md#active-and-infinite-units), which execute code on every frame that they are active. There is a maximum amount of 50 active units by default. This setting can be changed in the engine settings (when applicable) or in Settings and tools -> Corruption Settings
 
 _This means that a Blast with 100 Intensity while Max Active Units is set to 50 will have the same result as a blast with 50 intensity, given that the currently selected engine generates Active Units._
 

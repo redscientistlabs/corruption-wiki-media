@@ -10,13 +10,13 @@ Throughout this entire guide, Emulators and other programs that interface with R
 
 _This represents one Unit of corruption instructions._
 
-The BlastUnit's behavior is defined by the engine that generated it and may contain one or many Addresses, Values and extra parameters. Said behavior can be customized through the [Custom Engine](concepts-and-vocabulary.md#custom-engine).
+The BlastUnit's behavior is defined by the engine that generated it and may contain one or many Addresses, Values and extra parameters. Said behavior can be customized through the Custom Engine.
 
 ### BlastLayer
 
-_Type of item that contains_ [_BlastUnits_](concepts-and-vocabulary.md#blastunit) _generated from a_ [_corruption engine_](concepts-and-vocabulary.md#corruption-engines)_._
+_Type of item that contains_ [_BlastUnits_](concepts-and-vocabulary.md#blastunit) _generated from a_ [_corruption engine_](corruption-engines.md)_._
 
-A BlastLayer is usually encapsulated within a [StashKey](concepts-and-vocabulary.md#stashkey) and can be manipulated using the [Blast Editor](blast-generator.md) or by merging multiple BlastLayers in the Glitch Harvester's Stockpile Manager. It can also be appended to another Savestate by using the Inject function of the [Glitch Harvester](../../corruptors/rtc/advanced.md#glitch-harvester).
+A BlastLayer is usually encapsulated within a [StashKey](concepts-and-vocabulary.md#stashkey) and can be manipulated using the [Blast Editor](blast-editor.md) or by merging multiple BlastLayers in the Glitch Harvester's Stockpile Manager. It can also be appended to another Savestate by using the Inject function of the [Glitch Harvester](../../corruptors/rtc/advanced.md#glitch-harvester).
 
 BlastLayers that are run from the [Stockpile Player](../../corruptors/rtc/advanced.md#stockpile-player) or the [Glitch Harvester](../../corruptors/rtc/advanced.md#glitch-harvester) can be deactivated and reactivated on the fly (if applicable).
 
@@ -24,15 +24,15 @@ BlastLayers that are run from the [Stockpile Player](../../corruptors/rtc/advanc
 
 _A Blast is the action of generating and/or applying a_ [_BlastLayer_](concepts-and-vocabulary.md#blastlayer) _item (The action of corrupting)._
 
-When being generated, a Blast will contain a certain amount of [BlastUnits](concepts-and-vocabulary.md#blastunit). The amount of generated corruption Units is defined by the Intensity setting. The behavior of generated [units ](concepts-and-vocabulary.md#blastunit)can be tweaked by changing the [selected Engine](concepts-and-vocabulary.md#corruption-engines) or building a custom behavior in the [Custom Engine](concepts-and-vocabulary.md#custom-engine).
+When being generated, a Blast will contain a certain amount of [BlastUnits](concepts-and-vocabulary.md#blastunit). The amount of generated corruption Units is defined by the Intensity setting. The behavior of generated units can be tweaked by changing the selected Engine or building a custom behavior in the Custom Engine.
 
-RTC is built in a way that corruption is always generated and saved in memory before being applied. This allows replayability, manipulation, and real-time interaction. When applied, byte-changing instructions usually backup values before modifying them. This allows corruption to be theoretically [disabled/reapplied on the fly](../../corruptors/rtc/advanced.md#blastlayer-on-off), although this doesn't always work. [Certain types of units](concepts-and-vocabulary.md#active-units-and-infinite-units) do not store backups. Instead, they simply get removed from their execution pools. This means that while their effect may be stopped in real-time, it also may not be completely reverted.
+RTC is built in a way that corruption is always generated and saved in memory before being applied. This allows replayability, manipulation, and real-time interaction. When applied, byte-changing instructions usually backup values before modifying them. This allows corruption to be theoretically [disabled/reapplied on the fly](../../corruptors/rtc/advanced.md#blastlayer-on-off), although this doesn't always work. Certain types of units do not store backups. Instead, they simply get removed from their execution pools. This means that while their effect may be stopped in real-time, it also may not be completely reverted.
 
 ### StashKey
 
 _Type of item that contains information about a game, its game state, and an attached_ [_BlastLayer_ ](concepts-and-vocabulary.md#blastlayer)_(Corruption instructions)._
 
-Corrupting using the [Glitch Harvester](../../corruptors/rtc/advanced.md#glitch-harvester) generates StashKeys and sends them in the [Stash History](../../corruptors/rtc/advanced.md#stash-history). They can later be manipulated and/or added to a [Stockpile](concepts-and-vocabulary.md#stockpile).
+Corrupting using the [Glitch Harvester](../../corruptors/rtc/advanced.md) generates StashKeys and sends them in the [Stash History](../../corruptors/rtc/advanced.md#stash-history). They can later be manipulated and/or added to a [Stockpile](concepts-and-vocabulary.md#stockpile).
 
 ### Stockpile
 
@@ -40,7 +40,7 @@ _Type of item that contains_ [_StashKeys_](concepts-and-vocabulary.md#stashkey)_
 
 Stockpiles are saved files that contain Stockpile items, Game Binaries, Savestates, corruption instructions, and information related to the targeted program, plugins, and config. It is worth noting that Stockpiles will contain Game Binaries by default. This means it is important to deselect "Include referenced files" in the Stockpile Manager of the [Glitch Harvester](../../corruptors/rtc/advanced.md#glitch-harvester) when sharing Stockpiles online is the goal.
 
-Stockpiles can be managed using the [Glitch Harvester](../../corruptors/rtc/advanced.md#glitch-harvester).
+Stockpiles can be managed using the [Glitch Harvester](../../corruptors/rtc/advanced.md).
 
 Stockpiles can be replayed using the [Stockpile Player](../../corruptors/rtc/advanced.md#stockpile-player).
 

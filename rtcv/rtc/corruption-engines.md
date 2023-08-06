@@ -34,7 +34,7 @@ Infinite Units are resource expensive as they re-write memory on every frame and
 
 **Clear units on rewind**
 
-When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.md#active-units-and-infinite-units) that have an infinite life time (when applicable).
+When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.md#active-and-infinite-units) that have an infinite life time (when applicable).
 
 ### Freeze Engine
 
@@ -50,7 +50,7 @@ Infinite Units are resource expensive as they re-write memory on every frame and
 
 **Clear units on rewind**
 
-When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.md#active-units-and-infinite-units) that have an infinite life time (when applicable).
+When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.md#active-and-infinite-units) that have an infinite life time (when applicable).
 
 ### Distortion Engine
 
@@ -66,7 +66,7 @@ This is the amounts of steps that each corruption unit has to wait before restor
 
 **Resync Distortion**
 
-This erases all current [active units](concepts-and-vocabulary.md#active-units-and-infinite-units) pending to be restored.
+This erases all current [active units](concepts-and-vocabulary.md#active-and-infinite-units) pending to be restored.
 
 ### Pipe Engine
 
@@ -80,7 +80,7 @@ Prevents any change to be done to the current Active Units
 
 **Clear units on rewind**
 
-When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.md#active-units-and-infinite-units) that have an infinite life time (when applicable).
+When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.md#active-and-infinite-units) that have an infinite life time (when applicable).
 
 ### Vector Engine
 
@@ -100,7 +100,7 @@ After generation of the Unit with this engine, a replacement value is assigned t
 
 **Unlock**
 
-Allows the Engine [Precision](concepts-and-vocabulary.md#engine-precision-and-alignment) to be changed.
+Allows the Engine [Precision](corruption-engines.md#engine-precision-and-alignment) to be changed.
 
 #### **Lists**
 
@@ -150,12 +150,12 @@ Makes the filter check of each units in the cluster rather than just the base ad
 
 This engine allows you to mix and match parameters to create your own engine.
 
-See the [Custom Engine Guide](broken-reference) for more information about it.
+Every other engine is in fact just running templates for the Custom Engine. before RTC 5.X, each engine was really its own engine, now they're all living as templates. The parameters you input in here will reflect what you get in the [Blast Editor](blast-editor.md).
 
 ### Engine Precision and Alignment
 
 ![](<../../.gitbook/assets/image (44).png>)
 
-Allows you to choose what size BlastUnit will be generated. 8-bit (one byte), 16-bit (2 bytes), 32-bit (4 bytes) or 64-bit (8 bytes).
+Allows you to choose what size [BlastUnit ](concepts-and-vocabulary.md#blastunit)will be generated. 8-bit (one byte), 16-bit (2 bytes), 32-bit (4 bytes) or 64-bit (8 bytes).
 
 The alignment settings should always be left at 0 unless corruption is done on an experimental target or file, or if the game that is being corrupted mispositions its data.
