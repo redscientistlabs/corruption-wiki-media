@@ -92,7 +92,7 @@ Not a lot is publicly known about Digital Doofus but they mainly do Wii corrupti
 
 ## Cheatbug community
 
-Cheatbug : The Japanese scene
+チートバグ : The Japanese scene
 
 {% embed url="https://www.youtube.com/watch?v=fnVkVUppso4" %}
 
@@ -132,6 +132,7 @@ Interesting Facts:
 * The cheatbug Discord community has about 200 members, indicating an active and engaged group of enthusiasts interested in video game corruptions.
 * Cheatbug videos on Nico Nico Douga, a popular Japanese video sharing website, have garnered significant views, indicating a level of popularity and interest in the genre.
 * The most popular cheatbug videos are the ones featuring JoJo's Bizarre Adventure games
+* The japanese cheatbug community also has done Switch corruptions
 * While cheatbug videos have gained popularity on platforms like Nico Nico Douga, the genre remains relatively niche within the gaming community, and there are discussions about its decreasing excitement in recent times.
 * Like in the western corruptions community, the Japanese cheatbug scene also faces challenges in maintaining interest when corrupting the same games repeatedly.
 * The cheatbug community utilizes various software and tools based on the hardware and games they are working with. For PlayStation 2 corruptions, the PCSX2 emulator with debugger functionality is employed, while older games might be debugged using the "no$" series of debugging emulators.
