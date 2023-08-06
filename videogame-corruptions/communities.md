@@ -8,15 +8,15 @@ description: >-
 
 WARNING: This page is a work in progress and the text written here will change.
 
-WARNING: This page is a work in progress and the text written here will change.
+_WARNING: This page is a work in progress and the text written here will change._
+
+**WARNING: This page is a work in progress and the text written here will change.**
+
+_WARNING: This page is a work in progress and the text written here will change._
 
 WARNING: This page is a work in progress and the text written here will change.
 
-WARNING: This page is a work in progress and the text written here will change.
-
-WARNING: This page is a work in progress and the text written here will change.
-
-WARNING: This page is a work in progress and the text written here will change.
+_**WARNING: This page is a work in progress and the text written here will change.**_
 
 ## Active Corruption Communities
 
@@ -25,20 +25,40 @@ WARNING: This page is a work in progress and the text written here will change.
 [https://redscientist.com/discord](https://redscientist.com/discord)\
 Operating mostly from Discord, the RTC Dev Discord is the most active corruption-focused community and is where corruption research happens. This discord server is where all operations for Corruption Shows (for Vinesauce streams) and music corruptions for Chip Furnace take place.
 
+
+
 ### Vinesauce
 
 [https://www.youtube.com/@vinesauce](https://www.youtube.com/@vinesauce)\
 Vinesauce is a popular streamer on Twitch and YouTube, known for their corruptions, playing bad games and making funny voices. Most of the videos you see on their YouTube channel are cut and edited from their live streams. Vinny Vinesauce started doing corruptions using a tool called "Corrupt" which was extremely basic. The Vinesauce Rom Corruptor was then developed for them by Rikerz. Vinesauce exploded in popularity following the release of their "SNES Corruptions" video.
+
+
 
 ### Killysunt
 
 [https://www.youtube.com/@Killysunt](https://www.youtube.com/@Killysunt)\
 Killysunt is a YouTuber and Twitch Streamer that uploads gameplay videos, mainly poorly translated games, corruptions and modded games. His corruption videos involve him playing a game while using the real-time corruptor. This style of video tends to be his most viewed, and the most viewed of which include corrupting a PlayStation 1 Bios, and various Wii games such as Wii Music and Wii Party.
 
+
+
 ### Brad Corrupts
 
 [https://www.youtube.com/@BradCorrupts](https://www.youtube.com/@BradCorrupts)\
 Brad Corrupts is a channel that focuses on purely random corruptions, emulating the classic process of inputting random Game Genie codes and exploring the results.
+
+
+
+## Gruz
+
+[https://www.youtube.com/@killgruz](https://www.youtube.com/@killgruz)\
+Formarly known as "Killgruz", this channel is known for weird mario mods, hacks and game genie codes. Gruz makes videos where he corrupts mario games by adding multiple effects, intentionally, using game genie codes.
+
+
+
+## MaskOfBrutality
+
+[https://www.youtube.com/@MaskOfBrutality](https://www.youtube.com/@MaskOfBrutality)\
+This youtube channel publishes semi-regular corruptions videos and has been doing Nintendo 3DS corruptions well before it was possible to do it with RTC.
 
 ## Less Active Corruption Communities
 
