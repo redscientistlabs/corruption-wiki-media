@@ -81,7 +81,7 @@ RTC formats list entries in _Little Endian_ format by default. You can add an un
 
 To convert between the formats, you must put all bytes in reverse order. Below is a table representing data values in both endian formats:
 
-<figure><img src="../../.gitbook/assets/msedge_OQjXkBu9zV.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/msedge_OQjXkBu9zV.png" alt="" width="470"><figcaption></figcaption></figure>
 
 In this example, we have a 16-bit word, both in hexadecimal(0x) and binary(0b). The most-significant byte is highlighted in green, while the least-significant byte is highlighted in red. The two bytes change locations, depending on their endianness.
 
@@ -95,18 +95,18 @@ Below is the instruction in question:&#x20;
 
 In this example, the register fields (**rs** and **rt**) are 5 bits long, while the **offset** field is 16 bits long. Since we want to change the registers, we will replace every register bit with a _variable symbol_ in the list. For the offset, we will replace every offset bit with the _static symbol_. This will prevent these bits from changing when using the list. After inserting the new characters, our current list file will look like this:
 
-<figure><img src="https://lh4.googleusercontent.com/uKtKDEmN0uKzWMINMP2cpkJr7ApONG3gwUcQy1y8TEZ7K3CoM4mrDwXjKvaiwbrTEZwyeWopiJeO8VzdPXZ71xLz3OimmsDYdFf2DnesAI-qJmAQb3N57RXAVgRrOWJBhEScUTvOx12Pa9SzPOYK2zs" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh4.googleusercontent.com/uKtKDEmN0uKzWMINMP2cpkJr7ApONG3gwUcQy1y8TEZ7K3CoM4mrDwXjKvaiwbrTEZwyeWopiJeO8VzdPXZ71xLz3OimmsDYdFf2DnesAI-qJmAQb3N57RXAVgRrOWJBhEScUTvOx12Pa9SzPOYK2zs" alt="" width="375"><figcaption></figcaption></figure>
 
 However, if you notice, our entry is in Big Endian format. If we want to convert the following into Little Endian, we must reverse the order of bytes. As a result, we get the following:
 
 \
 
 
-<figure><img src="https://lh4.googleusercontent.com/OXyJ-0Sc_0hJ4ZNmjeAeN3-y0jU3nTwlPXxzx13FqLs_uYQHvnbV3XwJXA1B9F2rLVwyLpfc6zv-v8QcADfjmDKl1aNUsL3zsZ36bk58tfmf-ibDeR-zDBfADZOgQmIfqKWk4PXwM7HRxC50g9-_8kA" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh4.googleusercontent.com/OXyJ-0Sc_0hJ4ZNmjeAeN3-y0jU3nTwlPXxzx13FqLs_uYQHvnbV3XwJXA1B9F2rLVwyLpfc6zv-v8QcADfjmDKl1aNUsL3zsZ36bk58tfmf-ibDeR-zDBfADZOgQmIfqKWk4PXwM7HRxC50g9-_8kA" alt="" width="375"><figcaption></figcaption></figure>
 
 Using this method, we can convert the remaining conditional branch opcodes to get the following file:&#x20;
 
-<figure><img src="https://lh4.googleusercontent.com/KT3dbTUIYOWiOdDrS6OL6ZoOfdKYqB0F4ptI6k4JxfuvFciWytLGyk9Nq4qk1Gqst7fs5qMC2b8YR8QiOBQsfzggnWRykP6sRYcpZFyTzDzXhZ1GsUIs9C8fSS7kwEWyLF-sGod-bA86w5-CpiidSDY" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh4.googleusercontent.com/KT3dbTUIYOWiOdDrS6OL6ZoOfdKYqB0F4ptI6k4JxfuvFciWytLGyk9Nq4qk1Gqst7fs5qMC2b8YR8QiOBQsfzggnWRykP6sRYcpZFyTzDzXhZ1GsUIs9C8fSS7kwEWyLF-sGod-bA86w5-CpiidSDY" alt="" width="375"><figcaption></figcaption></figure>
 
 We have now created the lists. To use it, place **\[MIPS]\_BC\_REGISTER** as both the limiter and value list.&#x20;
 
@@ -123,17 +123,17 @@ In this section, you will need two lists:
 
 We can utilize the list in the simple tutorial for both with some changes. For our first list, we will copy **\[MIPS]\_BC\_REGISTER** in the current directory and rename it to **\[MIPS]\_BC**. Then, we will open the text document and replace all _static symbols_ with _variable symbols_. When you finish, it should look like the following:
 
-<figure><img src="https://lh4.googleusercontent.com/PrdFRQoLiltmlJRLpfH9KJw70n1hVIe51r_MnP-QecvKs9OFBIYwdXE4PWQdhVWhTA6dHRq1u-cSfOy0Jxw-VaZIjP1BRej6_Jm0BM2ZmfgmyWekpJbgBvde4iVAp18UqXRRs4RN3-xpoxS_RLAeNUw" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh4.googleusercontent.com/PrdFRQoLiltmlJRLpfH9KJw70n1hVIe51r_MnP-QecvKs9OFBIYwdXE4PWQdhVWhTA6dHRq1u-cSfOy0Jxw-VaZIjP1BRej6_Jm0BM2ZmfgmyWekpJbgBvde4iVAp18UqXRRs4RN3-xpoxS_RLAeNUw" alt="" width="375"><figcaption></figcaption></figure>
 
 Creating our second list will require different changes. We will, again, copy **\[MIPS]\_BC\_REGISTER** in the current directory but rename it to **\[MIPS]\_ReplaceRegister**. Next, we will open the file. However, we will delete all opcodes except for **beq**. Finally, we will replace all numbers with the _static symbol_. When you finish, the second list should look like this:
 
-<figure><img src="https://lh4.googleusercontent.com/MWxsI_gDBFFHf758sVx2DhK8xGuNwenas4_fsPFiQIJXeqnuWw5yrh2TC-r6qaQhIDnuRZGGjt0VDZPoYaglfKR7fyJEmc79gBkQGD-Y8rP3kx3kgNwSkYbQlisfKQbRCob7GdCY-8upc2bOI3yG_f8" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh4.googleusercontent.com/MWxsI_gDBFFHf758sVx2DhK8xGuNwenas4_fsPFiQIJXeqnuWw5yrh2TC-r6qaQhIDnuRZGGjt0VDZPoYaglfKR7fyJEmc79gBkQGD-Y8rP3kx3kgNwSkYbQlisfKQbRCob7GdCY-8upc2bOI3yG_f8" alt="" width="375"><figcaption></figcaption></figure>
 
 You are now ready to use these lists. Just place **\[MIPS]\_BC** as the limiter list and **\[MIPS]\_ReplaceRegister** as the value list.
 
 This method is more complicated and abstract compared to the simple tutorial. Yet, it is also more practical. CPUs follow a universal arrangement for each instruction. Regarding MIPS, there are three instruction types: R-Type, I-Type, and J-Type. Conditional branches fall under the I-Type, which includes a 6-bit opcode, two 5-bit registers, and a 16-bit immediate/offset value.
 
-<figure><img src="https://lh4.googleusercontent.com/GHaTUcDdvyI2YF-Z1tCFUwmCOSykCZ084YZIEasZylzrANkhBAwxLIc1WIZ9xSYtZWVOby58dCDD4Tad_o8u2VSXb0XrcUeWLLVS3nxzUBVpN1zsLPbR4CRVBXUlq9cOWGup_pkk3zlfrHl3FafUVFg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh4.googleusercontent.com/GHaTUcDdvyI2YF-Z1tCFUwmCOSykCZ084YZIEasZylzrANkhBAwxLIc1WIZ9xSYtZWVOby58dCDD4Tad_o8u2VSXb0XrcUeWLLVS3nxzUBVpN1zsLPbR4CRVBXUlq9cOWGup_pkk3zlfrHl3FafUVFg" alt="" width="563"><figcaption></figcaption></figure>
 
 Our register replacement list will work for all I-Type instructions. To make our list more universal, I can rename it **\[MIPS]\_ReplaceRegister\_Itype** to highlight this fact.
 
