@@ -60,3 +60,10 @@ Download: [https://github.com/ix/oxidizer](https://github.com/ix/oxidizer)
 > _A basic rom corruptor written in rust. runs exclusively in command line with arguments_
 
 ### Alice Corruptor
+
+Author: AliceTS\
+Download: [https://cdn.discordapp.com/attachments/1137901970087227462/1137902013380837456/alicecorruptor.zip](https://cdn.discordapp.com/attachments/1137901970087227462/1137902013380837456/alicecorruptor.zip)
+
+<figure><img src="../../.gitbook/assets/alicecorrupt.png" alt=""><figcaption></figcaption></figure>
+
+> _A basic process corruptor written in Cheat Engine. Predates the launch of RTC's ProcessStub_
