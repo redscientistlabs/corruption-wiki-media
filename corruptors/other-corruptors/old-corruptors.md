@@ -49,14 +49,14 @@
 
 > _NoChaos is more of a recursive Hex editor than it is meant to be a corruptor. However it's description on his website states that it is used for "Controlled corruption"._
 >
-> __
+>
 
 ![](<../../.gitbook/assets/image (55).png>)
 
 ### Sapros
 
 **Author:** "Dan"\
-__**Release date:** January 31, 2005\
+**Release date:** January 31, 2005\
 **Download:** [https://www.romhacking.net/utilities/254/](https://www.romhacking.net/utilities/254/)
 
 > _Sapros is a simple NES ROM corruptor that utilises the CDL files produced by FCEUXD, a NES debugger, to provide added precision to the corruption process._

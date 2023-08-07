@@ -3,25 +3,31 @@
 ## Videogame corruptions
 
 * [Introduction](README.md)
+* [Communities](videogame-corruptions/communities.md)
 * [Safety and Ethics of Corruptions](videogame-corruptions/safety-and-ethics-of-corruptions.md)
 
 ## Real-Time Corruptor <a href="#rtcv" id="rtcv"></a>
 
 * [RTC Discord](https://redscientist.com/discord)
 * [Download RTC](https://redscientist.com/rtc)
-* [Main RTC Guide](corruptors/rtc/README.md)
+* [Quick Start Guide](rtcv/quickstart-guide.md)
+* [Tutorial Video Guide](rtcv/tutorial-video-guide.md)
+* [In-Depth Guide](corruptors/rtc/README.md)
   * [Introduction](corruptors/rtc/introduction.md)
+  * [Frequently Asked Questions](rtcv/rtc/frequently-asked-questions.md)
   * [Simple Mode](corruptors/rtc/simple-mode.md)
-  * [Basic Guide](corruptors/rtc/basic/README.md)
-    * [Vector Engine Lists](corruptors/rtc/basic/vector-engine-lists.md)
-  * [Advanced Guide](corruptors/rtc/advanced.md)
-  * [Expert Guide](corruptors/rtc/expert/README.md)
-    * [Blast Editor Guide](corruptors/rtc/expert/blast-editor.md)
-    * [Blast Generator Guide](corruptors/rtc/expert/blast-generator.md)
-    * [VMD Generator Guide](corruptors/rtc/expert/vmd-generator.md)
-    * [Active Table Guide](corruptors/rtc/expert/active-table-guide.md)
-    * [Custom Engine Guide](corruptors/rtc/expert/custom-engine.md)
-    * [Cluster Engine Guide](rtcv/rtc/expert/cluster-engine-guide.md)
+  * [Concepts and Vocabulary](rtcv/rtc/concepts-and-vocabulary.md)
+  * [General Parameters](rtcv/rtc/general-parameters.md)
+  * [Corruption Engines](rtcv/rtc/corruption-engines.md)
+  * [Emulation-centric features](rtcv/rtc/emulation-centric-features.md)
+  * [Classic Vector Lists](rtcv/rtc/classic-vector-lists.md)
+  * [Glitch Harvester](rtcv/rtc/glitch-harvester.md)
+  * [Blast Editor](rtcv/rtc/blast-editor.md)
+  * [Blast Generator](rtcv/rtc/blast-generator.md)
+  * [Virtual Memory Domains](rtcv/rtc/virtual-memory-domains.md)
+  * [VMD Generator (Advanced)](rtcv/rtc/vmd-generator-advanced.md)
+  * [Cluster Engine (Advanced)](rtcv/rtc/cluster-engine-guide.md)
+  * [Hotkeys](rtcv/rtc/hotkeys.md)
   * [Tips, tricks and quirks](corruptors/rtc/tips.md)
 * [Other RTC Guides](rtcv/other-rtc-guides/README.md)
   * [RTCV Dev Startup Guide](rtcv/other-rtc-guides/rtcv-dev-startup-guide.md)
@@ -30,6 +36,7 @@
   * [Corrupting Android Unity games](rtcv/other-rtc-guides/corrupting-android-unity-games.md)
   * [Corrupting PC Games with ProcessStub](rtcv/other-rtc-guides/corrupting-pc-games-with-processstub.md)
   * [Corrupting Files with FileStub](rtcv/other-rtc-guides/corrupting-files-with-filestub.md)
+  * [How to make Passthrough Lists](rtcv/other-rtc-guides/how-to-make-passthrough-lists.md)
 
 ## Other Corruptors
 

@@ -4,7 +4,7 @@
 
 
 
-* ****[**Index**](web-based-corruptors.md)****
+* [**Index**](web-based-corruptors.md)
   * [Emoji/SVG Corrupt](web-based-corruptors.md#emoji-svg-corrupt)
   * [jsRTC](web-based-corruptors.md#jsrtc)
 
@@ -18,7 +18,7 @@
 
 ![Corrupted Laughing-Crying Emoji](<../../.gitbook/assets/image (31).png>)
 
-****
+
 
 ## jsRTC&#x20;
 

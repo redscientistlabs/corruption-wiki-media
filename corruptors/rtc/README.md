@@ -1,41 +1,30 @@
----
-description: >-
-  The Real-Time Corruptor is a suite of programs and modded emulators for
-  corrupting games and files.
----
+# In-Depth Guide
 
-# Main RTC Guide
+## Preface
 
-## Download: [https://redscientist.com/RTC](https://redscientist.com/rtc)
+This is the most extensive source of documentation for RTC, its concepts and tools. RTC as a project started in 2014 and kept changing throughout the years. A certain stability has been reached before 5.0.0 was released and most information featured in this guide should stay up to date even if the screen captures might sometimes be outdated.
 
-### **Development by:**&#x20;
+## Credits
 
-****[**Phil Girard**](http://redscientist.com/) **(Ircluzar)**\
-****[**Dan B (Narry)**](https://narry.land/)****\
-**NullShock78**\
-**AbsenteeSurgeron**\
-**ChrisNonyminus**
+**\[RTC Team]**\
+Ircluzar\
+Narry\
+NullShock78\
+AbsenteeSurgeron\
+ChrisNonyminus\
+Moogie\
+MaxMinerva\
+Mistsofnowh3r3\
+Goodblue77\
+Melody\
+xperia64\
+Freelance Astronaut\
+BLiNX PERSON\
+Tenta\
+\
+**\[Various testers and content contributors]** \
+BitRain, brand175, chinchilla\_paladin, CornObjects, Ego, VGDCMario, Freelance Astronaut, Frus, GizmoTheDragon, Impromptunite, Jojo, LuckyLuigiX4, Mr.Apple, Naransolongo Boldbayer, SuperHobbit, Unbyte, Unknown Samurai, unkyz, Killysunt, Lawn Meower, Matty G, re11ding, retrocombine, Skeletoxin, Spotty Len, vinesauce, Weinerless Steve, ZeroDucksGiven
 
-**All programs from the RTC suite of tools are Open Source and available at:** [**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)****
 
-### &#x20;<a href="#download-httpredscientistcomrtc" id="download-httpredscientistcomrtc"></a>
 
-### This is the index page for the help documentation for the Real**-**Time Corruptor (RTC). You can view the various guides and help documents from the links below. <a href="#download-httpredscientistcomrtc" id="download-httpredscientistcomrtc"></a>
-
-## [Introduction](introduction.md)
-
-## [Basic Guide](basic/)
-
-This guide will cover the general UI, vocabulary used around with RTC and should give you an overall idea of what are the tools at your disposal.
-
-## [Advanced Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/advanced.html)
-
-This guide mostly covers the Glitch Harvester and its intricacies. The Glitch Harvester is the most powerful tool of RTC as it is the center piece of replayability and searching for good corruptions.
-
-## [Expert Guide](https://corrupt.wiki/corruptors/rtc-real-time-corruptor/expert.html)
-
-This guide covers auxiliary tools present around the program for the more advanced users.
-
-## [Tips and Tricks](tips.md)
-
-## [RTC Dev Discord](https://discord.corrupt.wiki)
+**All programs from the RTC suite of tools are Open Source and available at:** [**https://github.com/redscientistlabs**](https://github.com/redscientistlabs)

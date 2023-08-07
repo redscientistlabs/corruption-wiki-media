@@ -1,6 +1,6 @@
 # Introduction
 
-![](assets/corruption-definition.png)
+<figure><img src=".gitbook/assets/corrupt_def.png" alt=""><figcaption></figcaption></figure>
 
 **Please note that this wiki is still heavily in development.**
 

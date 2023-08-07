@@ -8,8 +8,8 @@
 
 _Also check this link for the default lists that come with the Vector Engine_
 
-{% content-ref url="../../corruptors/rtc/basic/vector-engine-lists.md" %}
-[vector-engine-lists.md](../../corruptors/rtc/basic/vector-engine-lists.md)
+{% content-ref url="../../rtcv/rtc/classic-vector-lists.md" %}
+[classic-vector-lists.md](../../rtcv/rtc/classic-vector-lists.md)
 {% endcontent-ref %}
 
 ### Usage
@@ -18,4 +18,3 @@ These are lists that contain many variations of values used by program code. Cor
 
 For general purposes, a recommended usage is the Giga list as Limiter and the NOP list as a Value. Play around with the Value lists. You can also swap the Limiter and Value lists for different results.
 
-__

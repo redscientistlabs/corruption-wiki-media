@@ -185,7 +185,7 @@ Param2: Unused
 
 
 _Additional details on Bitwise Operations can be found here:_\
-__[_https://en.wikipedia.org/wiki/Bitwise\_operation_](https://legacy.gitbook.com/book/x8bitrain/corrupt-wiki/edit#)__
+[_https://en.wikipedia.org/wiki/Bitwise\_operation_](https://legacy.gitbook.com/book/x8bitrain/corrupt-wiki/edit)
 
 ## Type : Store
 

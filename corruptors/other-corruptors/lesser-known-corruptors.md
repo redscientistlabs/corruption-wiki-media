@@ -25,7 +25,7 @@
 
 > _A small file corrupter project from 2016 emerged from the need for an actual fast and advanced ROM and file corrupter. Only the binary was released, being this the first time the source code is available._
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (15).png>)
 
 ###
 
@@ -36,7 +36,7 @@
 
 > _ROM Poison is designed to be a simple, but powerful, ROM corruptor. Due to the nature of ROM corruptors, this can be used on any file, but it is intended to be used with video game ROMs (such as NES, SNES, and N64 games). It is written in C++11 using the Qt5 libraries, making it multiplatform._
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (2).png>)
 
 ### The Haggleforth Rom Corruptor
 
