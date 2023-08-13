@@ -60,9 +60,7 @@ Formarly known as WelshGamer, Scott helped testing RTC while streaming, which of
 ### Scares009
 
 [https://www.youtube.com/@scares009](https://www.youtube.com/@scares009)\
-Scares009, also known as cocoatwix, is a Corruptor from Canada who also developped their own corruptor, the Scares Scrambler. Scares has mostly done BIOS corruptions on various consoles.
-
-
+Scares009, also known as cocoatwix, is a Corruptor from Canada who also developped their own corruptor, the Scares Scrambler. Scares gained fame with a YouTube video "Gamecube BIOS Corruptions" in 2017, inspired by ZeroDucksGiven. His content ranges from corruptions to essays, with separate YouTube and Twitch (Cocoatwix) communities. Despite university, he's active on Discord and makes videos at a slower pace.
 
 ### Jordan
 
