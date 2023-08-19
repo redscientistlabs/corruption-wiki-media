@@ -32,7 +32,7 @@ Killysunt is a YouTuber and Twitch Streamer that uploads gameplay videos, mainly
 ### Brad Corrupts
 
 [https://www.youtube.com/@BradCorrupts](https://www.youtube.com/@BradCorrupts)\
-Brad Corrupts is a channel that focuses on purely random corruptions, emulating the classic process of inputting random Game Genie codes and exploring the results.
+Brad Corrupts uses his homemade Python script to corrupt different games from various systems such as the NES, Sega Genesis, PlayStation, and TurboGrafx-16. The channel uploads videos in a consistent format, and in high quality with proper pixel aspect ratio. The channel also employs crash mitigation techniques that make the games last longer when corrupted, for some systems such as the Sega Genesis. The channel is also known for its strong anti-apple message.
 
 
 
