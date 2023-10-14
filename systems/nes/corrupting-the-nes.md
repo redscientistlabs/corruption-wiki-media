@@ -10,7 +10,7 @@ Recommended setup: Nightmare engine, Hellgenie, Freeze, Pipe
 
 ## Recommended Settings
 
-The NES is a system with very little memory. It runs its programs directly from the ROM. The default settings in RTC are adequate for corrupting the system. If you add the System Bus and PRG ROM to the selected domains, it will unlock many more effects but makes rewind unusable for uncorrupting.
+The NES is a system with very little memory. It runs its programs directly from the ROM. The default settings in RTC are adequate for corrupting the system. If you add the System Bus or PRG ROM to the selected domains, it will unlock many more effects but makes rewind unusable for uncorrupting.
 
 ## Expected results
 

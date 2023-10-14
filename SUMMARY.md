@@ -52,6 +52,7 @@
   * [NES Architechture](systems/nes/nes-architechture.md)
   * [NES Memory Domains](systems/nes/bizhawk-memory-domains.md)
 * [SNES](systems/snes/README.md)
+  * [Corrupting the SNES](systems/snes/corrupting-the-snes.md)
   * [SNES Architechture](systems/snes/snes-architechture.md)
   * [SNES Memory Domains](systems/snes/bizhawk-memory-domains.md)
   * [SNES Audio Tinkering](systems/snes/snes-audio-tinkering.md)
