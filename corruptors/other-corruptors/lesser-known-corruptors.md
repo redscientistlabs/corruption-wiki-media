@@ -7,6 +7,7 @@
   * [The Haggleforth Rom Corruptor](lesser-known-corruptors.md#the-haggleforth-rom-corruptor)
   * [rcorrupt](lesser-known-corruptors.md#rcorrupt)
   * [oxidizer](lesser-known-corruptors.md#oxidizer)
+  * [Alice Corruptor](lesser-known-corruptors.md#alice-corruptor)
 
 ### Chain Chomp
 
@@ -66,4 +67,4 @@ Download: [https://cdn.discordapp.com/attachments/1137901970087227462/1137902013
 
 <figure><img src="../../.gitbook/assets/alicecorrupt.png" alt=""><figcaption></figcaption></figure>
 
-> _A basic process corruptor written in Cheat Engine. Predates the launch of RTC's ProcessStub_
+> _A basic process corruptor written in Cheat Engine. Brought PC games corruptions to life before the development of ProcessStub was finished._
