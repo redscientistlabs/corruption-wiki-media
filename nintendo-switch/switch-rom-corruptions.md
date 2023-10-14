@@ -1,4 +1,4 @@
-# ROM Corruptions
+# Switch ROM Corruptions
 
 This guide explains how to get Nintendo Switch corruptions working using FileStub and Ryujinx the Nintendo Switch emulator. This method allows for Switch corruptions, but ultimately it is a slow and tedious process due to the lack of savestates.
 

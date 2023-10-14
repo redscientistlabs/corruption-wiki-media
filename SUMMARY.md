@@ -83,4 +83,4 @@
 ***
 
 * [Nintendo Switch](nintendo-switch/README.md)
-  * [ROM Corruptions](nintendo-switch/rom-corruptions.md)
+  * [Switch ROM Corruptions](nintendo-switch/switch-rom-corruptions.md)
