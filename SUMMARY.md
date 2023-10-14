@@ -79,8 +79,5 @@
 * [Playstation 2](consoles/playstation-2/README.md)
   * [PCSX2 Memory Domains](consoles/playstation-2/pcsx2-memory-domains.md)
   * [PCSX2-specific Lists](consoles/playstation-2/pcsx2-specific-lists.md)
-
-***
-
-* [Nintendo Switch](nintendo-switch/README.md)
-  * [Switch ROM Corruptions](nintendo-switch/switch-rom-corruptions.md)
+* [Nintendo Switch](consoles/nintendo-switch/README.md)
+  * [Switch ROM Corruptions](consoles/nintendo-switch/switch-rom-corruptions.md)
