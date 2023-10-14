@@ -48,6 +48,7 @@
 ## Systems
 
 * [NES](systems/nes/README.md)
+  * [Corrupting the NES](systems/nes/corrupting-the-nes.md)
   * [NES Architechture](systems/nes/nes-architechture.md)
   * [NES Memory Domains](systems/nes/bizhawk-memory-domains.md)
 * [SNES](systems/snes/README.md)
