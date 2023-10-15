@@ -30,7 +30,15 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
 
-\[Slide 9 : Video of SMB2, manual blasting]
+
+
+
+
+{% file src="../../.gitbook/assets/Exercise01.mp4" %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
@@ -40,7 +48,11 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
-\[Video where DKC gets corrupted]
+
+
+{% file src="../../.gitbook/assets/Exercise02.mp4" %}
+
+
 
 <figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
@@ -50,7 +62,13 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of the Hellgenie with autocorrupt slide 19]
+
+
+{% file src="../../.gitbook/assets/Exercise03 (2).mp4" %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 
@@ -68,7 +86,11 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of making savestates with kirby nes]
+
+
+{% file src="../../.gitbook/assets/Exercise04 (5).mp4" %}
+
+
 
 <figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
@@ -76,7 +98,15 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of kirby getting corrupted and sent to stockpile]
+
+
+
+
+{% file src="../../.gitbook/assets/Exercise05 (2).mp4" %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
@@ -86,7 +116,15 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of saving savestates to an ssk file]
+
+
+
+
+{% file src="../../.gitbook/assets/Exercise06.mp4" %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
@@ -96,7 +134,15 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of sanitizing sephiroth in KH2]
+
+
+
+
+{% file src="../../.gitbook/assets/Exercise07.mp4" %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
@@ -106,7 +152,15 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of making timed corruptions in KH2]
+
+
+
+
+{% file src="../../.gitbook/assets/Exercise08.mp4" %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
@@ -128,7 +182,15 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of using the vector engine with MIPS branches]
+
+
+
+
+{% file src="../../.gitbook/assets/Exercise09.mp4" %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
@@ -138,7 +200,15 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of using the vector engine with MIPS LBU and MIPS NOP]
+
+
+
+
+{% file src="../../.gitbook/assets/Exercise10.mp4" %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
@@ -150,7 +220,11 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of using One and Two on mario sunshine]
+
+
+{% file src="../../.gitbook/assets/Exercise12 (2).mp4" %}
+
+
 
 <figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
@@ -158,7 +232,11 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of floats being re-recorded]
+
+
+{% file src="../../.gitbook/assets/Exercise11 (2).mp4" %}
+
+
 
 <figure><img src="../../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
 
@@ -176,7 +254,13 @@ Wiki version:
 
 <figure><img src="../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
-\[Video of cleaning effects after making a stockpile]
+
+
+{% file src="../../.gitbook/assets/Exercise13.mp4" %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
 
