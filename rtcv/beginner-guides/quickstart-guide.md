@@ -1,8 +1,8 @@
 ---
-description: The fastest guide to get started with RTC
+description: The fastest condensed guide to get started with RTC
 ---
 
-# Quick Start Guide
+# Cheat Sheet Guide
 
 Author: MaxMinerva
 

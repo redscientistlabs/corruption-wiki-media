@@ -11,7 +11,7 @@
 * [RTC Discord](https://redscientist.com/discord)
 * [Download RTC](https://redscientist.com/rtc)
 * [Beginner Guides](rtcv/beginner-guides/README.md)
-  * [Quick Start Guide](rtcv/beginner-guides/quickstart-guide.md)
+  * [Cheat Sheet Guide](rtcv/beginner-guides/quickstart-guide.md)
   * [Tutorial Video Guide](rtcv/beginner-guides/tutorial-video-guide.md)
 * [In-Depth Guide](corruptors/rtc/README.md)
   * [Introduction](corruptors/rtc/introduction.md)
