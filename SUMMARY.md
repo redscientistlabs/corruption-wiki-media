@@ -63,6 +63,7 @@
   * [N64 Basic/Advanced ROM Corruption](systems/n64/basic-advanced-rom-corruption.md)
   * [N64 Expert ROM Corruption](systems/n64/expert-rom-corruption.md)
 * [Gameboy Advance](systems/gameboy-advance/README.md)
+  * [Corrupting the GBA](systems/gameboy-advance/corrupting-the-gba.md)
   * [GBA Architecture](systems/gameboy-advance/gba-architecture.md)
   * [GBA Memory Domains](systems/gameboy-advance/bizhawk-memory-domains.md)
 * [Nintendo DS](systems/nintendo-ds/README.md)
