@@ -22,7 +22,7 @@ Nightmare engine also works sometimes but it is less stable
 
 Bizhawk doesn't come with the DS fixed-point lists preinstalled, it is recommended to get them in the Package Downloader (named VectorClassicLists\_FixedPoint.pkg)
 
-MainRAM and SharedWRAM are where the currently loaded game stores its memory. These domains can be rewinded in Bizhawk. It is possible to corrupt DS with the ROM domain but due to the DS using compression heavily, this will rarely work.
+MainRAM and SharedWRAM are where the currently loaded game stores its memory. These domains can be rewinded in Bizhawk. It is possible to corrupt DS with the ROM domain but due to the DS using compression heavily, this will rarely work. You can get more results using ARM Instruction Lists.
 
 ## Expected results
 

@@ -14,7 +14,7 @@ Startup vector suggestions:\
 
 ## Recommended Settings
 
-The N64 is a complete departure from what you'd see in more classic systems like NES, SNES, Gameboy, Genesis. The entire system relies on a pool of either 4mb or 8mb of Ram which is accessed by the whole machine. This is called the RDRAM in the memory domains and it is the best domain to target. The ROM can also be corrupted with the memory domains but it is most of the time compressed data unless you're using a decompressed rom.
+The N64 is a complete departure from what you'd see in more classic systems like NES, SNES, Gameboy, Genesis. The entire system relies on a pool of either 4mb or 8mb of Ram which is accessed by the whole machine. This is called the RDRAM in the memory domains and it is the best domain to target. The ROM can also be corrupted with the memory domains but it is most of the time compressed data unless you're using a decompressed rom. You can get more results using MIPS Instruction Lists.
 
 ## Expected results
 

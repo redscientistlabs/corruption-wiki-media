@@ -10,7 +10,7 @@ Recommended setup: Nightmare engine, Hellegine, Freeze, Pipe
 
 ## Recommended Settings
 
-The SNES is a somewhat similar to the NES but has more memory and visual features to mess with. It also runs its programs directly from the ROM. The default settings in RTC are adequate for corrupting the system. If you add the System Bus or CARTROM to the selected domains, it will unlock many more effects but makes rewind unusable for uncorrupting.
+The SNES is a somewhat similar to the NES but has more memory and visual features to mess with. It also runs its programs directly from the ROM. The default settings in RTC are adequate for corrupting the system. If you add the System Bus or CARTROM to the selected domains, it will unlock many more effects but makes rewind unusable for uncorrupting. You can get more results using 65C816 Instruction Lists.
 
 ## Expected results
 

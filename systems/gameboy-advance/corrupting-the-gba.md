@@ -10,7 +10,7 @@ Recommended setup: Nightmare engine, Hellgenie, Freeze, Pipe
 
 ## Recommended Settings
 
-The GBA cores in Bizhawk will auto-select RAM domains that can be rewinded. The ROM can also be corrupted for more effects but corrupting this one means that using rewind for uncorrupting is not an option.
+The GBA cores in Bizhawk will auto-select RAM domains that can be rewinded. The ROM can also be corrupted for more effects but corrupting this one means that using rewind for uncorrupting is not an option. You can get more results using ARMThumb Instruction Lists.
 
 ## Expected results
 
