@@ -4,7 +4,7 @@
 
 Author: Gizmo The Dragon\
 Covers: Wii/Gamecube, Corruption 101, Sanitize + Merge, Making stockpiles\
-Follow along with RTC + Dolphin
+
 
 {% embed url="https://www.youtube.com/watch?v=1J4GEMICWpw" %}
 Credit: Gizmo The Dragon - Youtube&#x20;
