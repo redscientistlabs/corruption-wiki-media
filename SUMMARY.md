@@ -72,6 +72,7 @@
   * [MelonDS-Specific Lists](systems/nintendo-ds/melonds-specific-lists.md)
   * [Rom Corruption (Deprecated)](systems/nintendo-ds/nds.md)
 * [Gamecube/Wii](systems/gamecubewii/README.md)
+  * [Corrupting the GC/Wii](systems/gamecubewii/corrupting-the-gc-wii.md)
   * [Dolphin Memory Domains](systems/gamecubewii/dolphin-memory-domains.md)
   * [Dolphin-Specific Lists](systems/gamecubewii/gamecube-and-wii-filesystem-corruption.md)
   * [Using a real Wiimote with Dolphin](systems/gamecubewii/using-a-real-wiimote-with-dolphin-and-rtc.md)
