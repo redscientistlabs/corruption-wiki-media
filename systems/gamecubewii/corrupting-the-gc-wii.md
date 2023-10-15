@@ -1,6 +1,6 @@
 # Corrupting the GC/Wii
 
-### ntroduction
+### Introduction
 
 Gamecube and Wii corruption are very similar due to the fact the Wii is essentially an upgraded Gamecube at its core.
 
@@ -27,4 +27,4 @@ Systems emulated with Dolphin are arguably the most stable of the emulated 3d co
 
 ## Expected results
 
-These system exhibit the golden standard in terms of corruption results. The stability of the emulator makes it much simpler to harvest effects. When using instruction lists, expect the classic wii crash noise.
+These system exhibit the golden standard in terms of corruption results. The stability of the emulator makes it much simpler to harvest effects. When using instruction lists, expect the classic Wii crash noise.
