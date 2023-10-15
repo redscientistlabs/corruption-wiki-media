@@ -67,6 +67,7 @@
   * [GBA Architecture](systems/gameboy-advance/gba-architecture.md)
   * [GBA Memory Domains](systems/gameboy-advance/bizhawk-memory-domains.md)
 * [Nintendo DS](systems/nintendo-ds/README.md)
+  * [Corrupting the DS](systems/nintendo-ds/corrupting-the-ds.md)
   * [MelonDS Memory Domains](systems/nintendo-ds/melonds-memory-domains.md)
   * [MelonDS-Specific Lists](systems/nintendo-ds/melonds-specific-lists.md)
   * [Rom Corruption (Deprecated)](systems/nintendo-ds/nds.md)
