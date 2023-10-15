@@ -1,6 +1,10 @@
 # Tutorial Video Guide
 
-#### Video tutorial on using RTCV for corrupting with Dolphin
+## From 0 to 100 with a simple 17 min video.
+
+Author: Gizmo The Dragon\
+Covers: Wii/Gamecube, Corruption 101, Sanitize + Merge, Making stockpiles\
+Follow along with RTC + Dolphin
 
 {% embed url="https://www.youtube.com/watch?v=1J4GEMICWpw" %}
 Credit: Gizmo The Dragon - Youtube&#x20;
