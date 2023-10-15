@@ -5,10 +5,10 @@ description: The official course on how to create your own corruption
 # Corruption Classroom
 
 Author: MaxMinerva\
-Covers: From "Corrupting 101" to "Crafting materpieces"\
+Covers: From "Corrupting 101" to "Crafting masterpieces"\
 
 
-View in Google Slides at: [https://docs.google.com/presentation/d/1YNRRPgvTEHuS6A2SDPmDKt2J9LtjisqeODasl9FAgBs/edit?usp=sharing](https://docs.google.com/presentation/d/1YNRRPgvTEHuS6A2SDPmDKt2J9LtjisqeODasl9FAgBs/edit?usp=sharing)
+Google Slides version: [https://docs.google.com/presentation/d/1YNRRPgvTEHuS6A2SDPmDKt2J9LtjisqeODasl9FAgBs/edit?usp=sharing](https://docs.google.com/presentation/d/1YNRRPgvTEHuS6A2SDPmDKt2J9LtjisqeODasl9FAgBs/edit?usp=sharing)
 
 
 
