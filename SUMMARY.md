@@ -78,6 +78,7 @@
   * [Using a real Wiimote with Dolphin](systems/gamecubewii/using-a-real-wiimote-with-dolphin-and-rtc.md)
   * [Dolphin Narry's mod (Deprecated)](systems/gamecubewii/gamecube-and-wii-savestate-corruption.md)
 * [Playstation 2](systems/playstation-2/README.md)
+  * [Corrupting the PS2](systems/playstation-2/corrupting-the-ps2.md)
   * [PCSX2 Memory Domains](systems/playstation-2/pcsx2-memory-domains.md)
   * [PCSX2-specific Lists](systems/playstation-2/pcsx2-specific-lists.md)
 * [Nintendo Switch](systems/nintendo-switch/README.md)
