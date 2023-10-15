@@ -23,7 +23,7 @@ Notable Vector Engine Combo for breaking game engine physics:\
 
 ## Recommended Settings
 
-Systems emulated with Dolphin are arguably the most stable of the emulated 3d consoles. Because of that, you could possibly corrupt a lot with the Classic Vector Lists and turn the game into pulp before it crashes. The Auto-selected domains are the one to use. Avoid old engines such as Nightmare, Hellgenie, Freeze, etc.
+Systems emulated with Dolphin are arguably the most stable of the emulated 3d consoles. Because of that, you could possibly corrupt a lot with the Classic Vector Lists and turn the game into pulp before it crashes. The Auto-selected domains are the one to use. Avoid old engines such as Nightmare, Hellgenie, Freeze, etc. You can get more results using PowerPC Instruction Lists.
 
 ## Expected results
 
