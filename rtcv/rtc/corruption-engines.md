@@ -4,7 +4,7 @@ _These are the various Engine Templates that you can use for corrupting games. T
 
 ### Nightmare Engine
 
-![](<../../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
 This engine corrupts on the raw byte level.
 
@@ -22,7 +22,7 @@ TILT: Will Increment or Decrement random Byte(s).
 
 ### Hellgenie Engine
 
-![](<../../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (67).png>)
 
 This engine generate Active Units, which execute on every frame. The Hellgenie Engine replicates the effect of Cheats (see Game Genie, Active Replay, GameShark) and replaces a value with a randomly selected one then applies it on every frame.
 
@@ -38,7 +38,7 @@ When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.
 
 ### Freeze Engine
 
-![](<../../.gitbook/assets/image (48).png>)
+![](<../../.gitbook/assets/image (56).png>)
 
 This engine generate Active Units, which execute on every frame. The Freeze Engine replicates the effect of Cheats (see Game Genis, Active Replay, GameShark) and replaces a value on every frame. The difference between this engine and the Hellgenie Engine is that this doesn't generate a value but instead keeps the value at the target address and reapplies it on every frame, therefore freezing its value in place.
 
@@ -54,7 +54,7 @@ When enabled, rewinding will clear all [Infinite Units](concepts-and-vocabulary.
 
 ### Distortion Engine
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (46).png>)
 
 This engine backups Bytes and restores those backups once, later in time.
 
@@ -70,7 +70,7 @@ This erases all current [active units](concepts-and-vocabulary.md#active-and-inf
 
 ### Pipe Engine
 
-![](<../../.gitbook/assets/image (25) (2).png>)
+![](<../../.gitbook/assets/image (55).png>)
 
 This engine generates units that bind addresses together and can make data bleed from a Memory Domain to another. It uses Infinite Units that route memory changes on every Emulator Step or frame.
 
@@ -146,7 +146,7 @@ Makes the filter check of each units in the cluster rather than just the base ad
 
 ### Custom Engine
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (41).png>)
 
 This engine allows you to mix and match parameters to create your own engine.
 
@@ -154,7 +154,7 @@ Every other engine is in fact just running templates for the Custom Engine. befo
 
 ### Engine Precision and Alignment
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../.gitbook/assets/image (49).png>)
 
 Allows you to choose what size [BlastUnit ](concepts-and-vocabulary.md#blastunit)will be generated. 8-bit (one byte), 16-bit (2 bytes), 32-bit (4 bytes) or 64-bit (8 bytes).
 

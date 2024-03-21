@@ -39,7 +39,7 @@ In standard N64 corruption with the Vinesauce ROM Corruptor, our aim is to corru
 
 An effective way to learn corruption is to look at an example and interpret why the values are what they are, so that will be our starting point. For a point of reference, a standard corruption of Elmo’s Letter Adventure is given below:
 
-![](<../../assets/n64 corruption values 1.png>)
+![](<../../.gitbook/assets/n64 corruption values 1.png>)
 
 This screenshot is of VSRC, but none of these values would change with VSRC classic.
 
@@ -65,11 +65,11 @@ There are a couple of special cases, and these are text corruption and what I ca
 
 ### Save States
 
-When making the save states, you'll want to turn the corruption off and load the ROM in an unchanged state. You can make these in cutscenes or gameplay, as long as either is not pre-rendered. Avoid making them before load screens, or on menu screens. It's best to experiment to see what save states work well and what save states don't really show much corruption and go from there. To make save states, you’ll have to create them manually in your emulator of choice or use the Glitch Harvester, which is covered [elsewhere](../../corruptors/rtc/) in this wiki. Unless you've managed to find a value range where the game doesn't crash at or near startup, you'll have to load these states every single time. Keep in mind that you'll sometimes have to interact with an NPC or activate some sort of trigger before you see the effects of a corruption.
+When making the save states, you'll want to turn the corruption off and load the ROM in an unchanged state. You can make these in cutscenes or gameplay, as long as either is not pre-rendered. Avoid making them before load screens, or on menu screens. It's best to experiment to see what save states work well and what save states don't really show much corruption and go from there. To make save states, you’ll have to create them manually in your emulator of choice or use the Glitch Harvester, which is covered [elsewhere](../../rtcv/rtc/) in this wiki. Unless you've managed to find a value range where the game doesn't crash at or near startup, you'll have to load these states every single time. Keep in mind that you'll sometimes have to interact with an NPC or activate some sort of trigger before you see the effects of a corruption.
 
 ## Decompressed ROM Corruptions with VSRC
 
-![](<../../assets/decompressed ROM corruption.png>)
+![](<../../.gitbook/assets/decompressed ROM corruption.png>)
 
 ### Basis of Decompressed Corruptions
 

@@ -4,7 +4,7 @@ Some components run in the RTC process and some of them run in the Emulator proc
 
 ### Auto-KillSwitch
 
-![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (57).png>)
 
 In order to give the user the smoothest experience, RTC will constantly monitor the state of the connected [Vanguard-Modded](concepts-and-vocabulary.md#vanguard) emulator and attempt to kill it if it falls into a non-responsive state.
 

@@ -8,7 +8,7 @@ description: by Moogie
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (17) (1).png" alt="">
+<img src="../../.gitbook/assets/image (69).png" alt="">
 
 </div>
 
@@ -28,7 +28,7 @@ RTC comes with a pre-defined set of these called simply Domains. That’s this s
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (10) (1).png" alt="">
+<img src="../../.gitbook/assets/image (54).png" alt="">
 
 </div>
 
@@ -66,7 +66,7 @@ You do this from the main RTC window. In "Advanced Memory Tools," select “VMD 
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (8) (1).png" alt="">
+<img src="../../.gitbook/assets/image (40).png" alt="">
 
 </div>
 
@@ -105,7 +105,7 @@ That’s all well and good, but really, what VMDs are best for are _ranges_ of a
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (7) (1).png" alt="">
+<img src="../../.gitbook/assets/image (42).png" alt="">
 
 </div>
 
@@ -117,13 +117,13 @@ When you input a name and click "Generate VMD," it appears both in the list of s
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (49).png" alt="">
+<img src="../../.gitbook/assets/image (36).png" alt="">
 
 </div>
 
 Now I can select my custom Domain and use it to blast just those areas of memory which I specified in the list. You can see the results of these blasts in the Blast Editor window. (The Blast Editor is accessed via the Glitch Harvester screen, by right-clicking the BlastLayer in the stash history or stockpile lists and selecting it from the context menu).
 
-![](<../../.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (48).png>)
 
 But, hang on. Does something about the numbers in the "Source address" column seem wrong to you? I specified a range starting from xA950, so why is it blasting addresses of x27B and x2BA?
 
@@ -133,7 +133,7 @@ There’s a handy way to make this simpler for ourselves. From the Tools menu in
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (3) (1) (1).png" alt="">
+<img src="../../.gitbook/assets/image (53).png" alt="">
 
 </div>
 
@@ -151,7 +151,7 @@ Let’s say you have a range and the data therein follows a strict pattern. Mayb
 
 <div align="left">
 
-<img src="../../assets/vmd-generator-guide/image_6.png" alt="">
+<img src="../../.gitbook/assets/image_6.png" alt="">
 
 </div>
 
@@ -165,7 +165,7 @@ Again, there are two ways. One of those ways will be much more suitable for this
 
 <div align="left">
 
-<img src="../../assets/vmd-generator-guide/image_7.png" alt="">
+<img src="../../.gitbook/assets/image_7.png" alt="">
 
 </div>
 
@@ -175,7 +175,7 @@ On a value of 3, it would filter to these addresses instead:
 
 <div align="left">
 
-<img src="../../assets/vmd-generator-guide/image_8.png" alt="">
+<img src="../../.gitbook/assets/image_8.png" alt="">
 
 </div>
 
@@ -187,7 +187,7 @@ In this example, that’s exactly what we want: all the value bytes, none of the
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (39) (1).png" alt="">
+<img src="../../.gitbook/assets/image (44).png" alt="">
 
 </div>
 

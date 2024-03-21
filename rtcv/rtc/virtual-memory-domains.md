@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (11) (1).png" alt="">
+<img src="../../.gitbook/assets/image (105).png" alt="">
 
 </div>
 
@@ -14,7 +14,7 @@
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (27).png" alt="">
+<img src="../../.gitbook/assets/image (85).png" alt="">
 
 </div>
 
@@ -48,7 +48,7 @@ Displays the memory domain that the VMD is built to target.
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (14) (1).png" alt="">
+<img src="../../.gitbook/assets/image (108).png" alt="">
 
 </div>
 

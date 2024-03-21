@@ -68,4 +68,4 @@ If the error message still appears after putting the files in the folder, you di
 
 
 
-**Visit the** [**Tips, tricks and quirks**](../../corruptors/rtc/tips.md) **part of the guide for more details**
+**Visit the** [**Tips, tricks and quirks**](tips.md) **part of the guide for more details**

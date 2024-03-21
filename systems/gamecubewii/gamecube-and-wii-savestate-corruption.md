@@ -53,13 +53,13 @@ The SRAM is the main system memory. The EXRAM is additional memory which can be 
 
 First you'll need to load the Savestate in the Windows Glitch Harvester, once it's loaded, you're going to want to enable caching on the file to speed things up.
 
-![](../../assets/cachine.png)
+![](../../.gitbook/assets/cachine.png)
 
 ### The Savestate Info Tool
 
 Recent versions of the [Windows Glitch Harvester ](broken-reference)have a tool called the "Savestate Info" tool. This tool gives you information on the addresses of the SRAM, ARAM, and EXRAM within a Dolphin Savestate. Just load up the savestate, press the button, and you'll be able to see the starting addresses.
 
-![](../../assets/savestateinfo093.png)
+![](../../.gitbook/assets/savestateinfo093.png)
 
 * The "Domain" column shows the name of the memory domain
 * The "Offset" column shows you the starting address. You can calculate the end address by adding the size of the domain to the starting address (domain sizes listed above)
@@ -76,4 +76,4 @@ The Gamecube and Wii are both based on the PowerPC architecture, so they're **Bi
 
 A good starting value for the Intensity is around 50,000-100,000 and you can go from there. Here's an example screenshot of what your config may look like:
 
-![](../../assets/wgh\_interface.png)
+![](../../.gitbook/assets/wgh\_interface.png)

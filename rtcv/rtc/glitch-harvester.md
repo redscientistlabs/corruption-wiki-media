@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (19).png" alt="The Glitch Harvester Interface">
+<img src="../../.gitbook/assets/image (28).png" alt="The Glitch Harvester Interface">
 
 </div>
 
@@ -18,7 +18,7 @@ Basic usage is fairly simple, you create a savestate, select the domains you wou
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (12) (1).png" alt="">
+<img src="../../.gitbook/assets/image (20).png" alt="">
 
 </div>
 
@@ -42,7 +42,7 @@ Attempts to uncorrupt/recorrupt the game on the fly. Results not guaranteed.
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (1) (1).png" alt="">
+<img src="../../.gitbook/assets/image (51).png" alt="">
 
 </div>
 
@@ -68,7 +68,7 @@ _**This option is currently only available when RTC is connected to BizHawk**_
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (6) (1).png" alt="">
+<img src="../../.gitbook/assets/image (38).png" alt="">
 
 </div>
 
@@ -82,7 +82,7 @@ This allows you quickly/automatically start audio/video rendering when corruptin
 
 <div align="left">
 
-<img src="../../.gitbook/assets/190704183858 (3) (1) (3).gif" alt="">
+<img src="../../.gitbook/assets/190704183858 (3) (1).gif" alt="">
 
 </div>
 
@@ -112,7 +112,7 @@ These buttons allow you to Save and Load the filled Glitch Harvester Savestates 
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (18).png" alt="">
+<img src="../../.gitbook/assets/image (37).png" alt="">
 
 </div>
 
@@ -122,7 +122,7 @@ This control is linked to the [intensity ](general-parameters.md#intensity)contr
 
 <div align="left">
 
-<img src="../../.gitbook/assets/190704190157 (1).gif" alt="">
+<img src="../../.gitbook/assets/190704190157.gif" alt="">
 
 </div>
 
@@ -132,7 +132,7 @@ This is where new corruptions are stashed. **I**tems that appear here can be sen
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (22).png" alt="">
+<img src="../../.gitbook/assets/image (68).png" alt="">
 
 </div>
 
@@ -160,7 +160,7 @@ Merging items together requires them to be for the same console and same game. T
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (47) (1).png" alt="">
+<img src="../../.gitbook/assets/image (34).png" alt="">
 
 </div>
 

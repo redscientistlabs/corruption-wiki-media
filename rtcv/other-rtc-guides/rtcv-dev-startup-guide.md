@@ -15,7 +15,7 @@ If you haven't installed Visual Studio yet, you can grab the community edition f
 
 For the Visual Studio installation, you will need the ".NET desktop environment" in the Installer components. I usually also throw in "ASP.NET" and "Universal Windows Platform" with it but that's not required for RTCV development.
 
-![](<../../.gitbook/assets/image (67).png>)
+![](<../../.gitbook/assets/image (59).png>)
 
 ## Getting the source code
 
@@ -37,12 +37,12 @@ I personally prefer creating a PROJECTS folder in my documents and put all the r
 
 Using the Clone repository function, get those two folders side by side in the project folder.
 
-![](<../../.gitbook/assets/image (64).png>)
+![](<../../.gitbook/assets/image (86).png>)
 
 Then, go back to the RTCV repo in Github Desktop and switch to the branch 51X ~~506v2~~. This is the current branch we use for final the 5.1.x dev .\
 
 
-![](<../../.gitbook/assets/image (79).png>)
+![](<../../.gitbook/assets/image (88).png>)
 
 Usually, the main branch for emulators and plugins will be master, with ocasionally the "Vanguard" branch in certain emulators. This guide will not cover the setup for any other emulator than Bizhawk50X. This version of Bizhawk is currently our modded emulator of choice for testing plugins and new features. The reason being that it is in a detached repository that is not tailored to any external development (such as most of our emulator forks).
 
@@ -56,17 +56,17 @@ _SLN file: ..\Bizhawk50X-Vanguard\Real-Time Corruptor\BizHawk\_RTC\RTCV\_MegaSol
 
 The MegaSolution will most likely not fully load when you open it. Not just because of the amount of plugins and projects that your Visual Studio is not going to be able to load, but due to the nuget packages having to be refreshed.
 
-![](<../../.gitbook/assets/image (61).png>)
+![](<../../.gitbook/assets/image (77).png>)
 
 Once you're done setting all of this, you can delete the links to the missing projects if you want to get rid of errors on startup (Not now, do it once it all works). Everything that isn't included in RTCV and Bizhawk50X is non-essential.
 
-![](<../../.gitbook/assets/image (73).png>)
+![](<../../.gitbook/assets/image (62).png>)
 
 It seems like in Visual Studio 2022, the MegaSolution can sometimes fail to refresh the nuget packages correctly, we'll have to fix that if you have the error shown above.
 
 Open the Package Manager Console with Tools -­> Nuget Package Manager -> Open Package Manager Console
 
-![](<../../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (104).png>)
 
 _In the console, type the following command: Update-Package -reinstall_
 
@@ -74,15 +74,15 @@ This will force-reinstall all nuget packages from their original repos. This can
 
 Try building the solution like that
 
-![](<../../.gitbook/assets/image (66).png>)
+![](<../../.gitbook/assets/image (15).png>)
 
 The first time it compiles, it might take some time and even throw errors. The compilation progress bar looks like this:
 
-![](<../../.gitbook/assets/image (70).png>)
+![](<../../.gitbook/assets/image (96).png>)
 
 If it fails, do not do a Rebuild. Keep going for Build solution again and see if it succeeds.
 
-![](<../../.gitbook/assets/image (60).png>)
+![](<../../.gitbook/assets/image (22).png>)
 
 If after a few builds it still doesn't fully compile, check the Error List and Output tabs to get a clue of what's going on. Probably a nuget package not working or something. These are a mess sometimes.
 
@@ -98,7 +98,7 @@ _Find StandaloneRTC and set it to Start_
 
 Press OK to save and click the Start icon to boot RTCV in debug mode
 
-![](<../../.gitbook/assets/image (75).png>)
+![](<../../.gitbook/assets/image (63).png>)
 
 You should now have RTCV and Bizhawk starting up and connecting to eachother.
 
@@ -136,15 +136,15 @@ Every endpoint except for Vanguard will be routed within the StandaloneRTC proce
 
 _**"How do I follow a NetCore call through the program while debugging?"**_
 
-![](<../../.gitbook/assets/image (63).png>)
+![](<../../.gitbook/assets/image (19).png>)
 
 First of all, you don't want to go step-by-step through NetCore. This is wayyy too many abstraction layers to go through. Instead, you'll want to find the destination using the string-enum. Right-click on the command and do "Find all references".&#x20;
 
-![](<../../.gitbook/assets/image (71).png>)
+![](<../../.gitbook/assets/image (79).png>)
 
 Chances are that you'll only find a few hits, somewhere in the solution. The one you want is the one that ends in a big switch statement. You can expect your call to land at that point. Put a new break point in the switch case and let the program run. It will break at the other end.
 
-![](<../../.gitbook/assets/image (78).png>)
+![](<../../.gitbook/assets/image (43).png>)
 
 Now that you're on the other side, you can follow the code whether it's in the Emulator process or in the RTCV Process. Keep in mind that if you're hooked to another emulator that is not running in debug mode, your breakpoint will not fire. Also if you are debugging with another emulator in a separate solution, you need to have the RTCV projects in that other solution otherwise it will also not trigger the breakpoints.
 

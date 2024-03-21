@@ -6,7 +6,7 @@ If your controller isn't automatically detected, you can refresh controllers in 
 
 ## Hotkey Config interface
 
-![As of version 5, RTC has its own hotkeys in the Settings and tools menu](<../../.gitbook/assets/image (9) (1).png>)
+![As of version 5, RTC has its own hotkeys in the Settings and tools menu](<../../.gitbook/assets/image (78).png>)
 
 **Manual Blast**
 
@@ -54,7 +54,7 @@ Triggers the Now button on Game Protection (If available)
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (33) (1).png" alt="">
+<img src="../../.gitbook/assets/image (74).png" alt="">
 
 </div>
 
@@ -92,6 +92,6 @@ Creates a Raw StashKey in the StashHistory
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (20).png" alt="The Blast Editor hotkeys correspond directly to their buttons">
+<img src="../../.gitbook/assets/image (33).png" alt="The Blast Editor hotkeys correspond directly to their buttons">
 
 </div>
