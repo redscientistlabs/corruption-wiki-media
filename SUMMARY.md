@@ -37,6 +37,7 @@
   * [Running RTCV on Linux](rtcv/other-rtc-guides/running-rtcv-on-linux.md)
   * [How to make Passthrough Lists](rtcv/other-rtc-guides/how-to-make-passthrough-lists.md)
   * [Sequence Loader Plugin](rtcv/other-rtc-guides/sequence-loader-plugin.md)
+  * [Java Corruptor Plugin](rtcv/other-rtc-guides/java-corruptor-plugin.md)
 
 ## Other Corruptors
 
