@@ -12,6 +12,10 @@ The Java corruptor is a plugin made to easily corrupt games written in Java. It 
 
 The JVM (Java Virtual Machine) is a stack machine, which means that each instruction ran modifies a stack of values. An instruction might switch items around on the top of the stack, remove an item from the stack, add one, add/remove multiple, or any combination of these. It's important that when you corrupt the bytecode, it will result in the stack having the same value on it as it did originally. If you run an instruction that removes a value from the top of the stack, but there are no items left, Java will detect the possibility of that before the program even starts. If you try to return from a method with more than one value on the stack (or any at all in the case of a void), the program won't start. If you replace an instruction that takes a different type of value from the stack than the original, the program won't start either. You can find a list of each instruction, its operands, and its stack behavior [here](https://en.wikipedia.org/wiki/List\_of\_Java\_bytecode\_instructions).
 
+## Normal Usage
+
+The Java Corruptor Plugin makes use of FileStub for loading files as input. Its interface is loaded from the Custom Layouts item in the Main menu. The Corruptor comes with custom replacement controls that replaces the main window's usual tools.
+
 ## Java blast units
 
 A Java blast unit includes the name of method to corrupt, the index of the instruction to corrupt, a number of instructions to replace at the index, and a list of instructions to place there instead. If the `Replaces` value is set to 0, the instructions will be inserted before the index without removing it.
