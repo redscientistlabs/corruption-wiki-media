@@ -96,7 +96,7 @@
   * [PCSX2 Memory Domains](systems/playstation-2/pcsx2-memory-domains.md)
   * [PCSX2-specific Lists](systems/playstation-2/pcsx2-specific-lists.md)
 * [Xbox 360](systems/xbox-360/README.md)
-  * [Xbox 360 Corruption Wiki](systems/xbox-360/xbox-360-corruption-wiki.md)
+  * [Xbox 360 Executable Corruptions](systems/xbox-360/xbox-360-executable-corruptions.md)
 * [Nintendo Switch](systems/nintendo-switch/README.md)
   * [Switch ROM Corruptions](systems/nintendo-switch/switch-rom-corruptions.md)
 * [Computers & Mobile](systems/computers-and-mobile/README.md)

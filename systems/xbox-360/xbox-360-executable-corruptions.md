@@ -1,6 +1,12 @@
-# Xbox 360 Corruption Wiki
+---
+description: by Snuffles
+---
 
+# Xbox 360 Executable Corruptions
 
+Xbox 360 Executable (XEX) Corruptions
+
+using a JTAGed/RGHed Xbox 360 and FileStub
 
 This guide explains how to get Xbox 360 corruptions working using FileStub and a JTAGed/RGHed Xbox 360. This method allows for Xbox 360 corruptions, but ultimately it is a slow and tedious process due to the lack of savestates.
 
