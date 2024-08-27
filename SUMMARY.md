@@ -95,6 +95,8 @@
   * [Corrupting the PS2](systems/playstation-2/corrupting-the-ps2.md)
   * [PCSX2 Memory Domains](systems/playstation-2/pcsx2-memory-domains.md)
   * [PCSX2-specific Lists](systems/playstation-2/pcsx2-specific-lists.md)
+* [Playstation 3](systems/playstation-3/README.md)
+  * [Playstation 3 Executable Corruptions](systems/playstation-3/playstation-3-executable-corruptions.md)
 * [Xbox 360](systems/xbox-360/README.md)
   * [Xbox 360 Executable Corruptions](systems/xbox-360/xbox-360-executable-corruptions.md)
 * [Nintendo Switch](systems/nintendo-switch/README.md)
