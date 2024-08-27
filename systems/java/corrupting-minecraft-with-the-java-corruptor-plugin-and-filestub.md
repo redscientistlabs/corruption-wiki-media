@@ -4,6 +4,12 @@ description: Plugin and Guide made by NoSkillPureAndy
 
 # Corrupting Minecraft with the Java Corruptor Plugin and FileStub
 
+
+
+{% hint style="info" %}
+This guide assumes that you have already read the base guide for the Java Corruptor plugin. If you haven't already, check it out at[ this page](java-corruptor-plugin.md)
+{% endhint %}
+
 ## Minecraft Launcher
 
 {% embed url="https://www.youtube.com/watch?v=dqG2TcqVDQQ" %}
