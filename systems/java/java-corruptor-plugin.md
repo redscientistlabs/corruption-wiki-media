@@ -81,7 +81,7 @@ This engine replaces calls to any of the selected limiter functions with any of 
 
 ### Custom Engine
 
-This engine allows you to create your own engine with regular expressions (regex). You can right the Corruption Engine title bar to pop the window out and resize it for more space, and you can resize the two sections by clicking and dragging between the text boxes. Before corrupting, use the "Check For Errors" button to ensure that the engine won't generate any invalid instructions. It will run your engine on every instruction in the currently loaded JAR, then report back with which lines produced errors and why. If your engine produces invalid instructions in the test, but you decide to corrupt with it anyway, expect a cloud debug box to show up when the plugin fails to parse a broken instruction string.
+This engine allows you to create your own engine with regular expressions (regex). You can right-click the Corruption Engine title bar to pop the window out and resize it for more space, and you can resize the two sections by clicking and dragging between the text boxes. Before corrupting, use the "Check For Errors" button to ensure that the engine won't generate any invalid instructions. It will run your engine on every instruction in the currently loaded JAR, then report back with which lines produced errors and why. If your engine produces invalid instructions in the test, but you decide to corrupt with it anyway, expect a cloud debug box to show up when the plugin fails to parse a broken instruction string.
 
 **Find**\
 A list of instructions to corrupt. Opcodes must be in ALL CAPS. All text in a line after `//` is ignored. Multi-line comments are also supported with `/*` at the beginning and `*/` at the end. Regexes should be put in \<angle brackets>. You may not use named groups within your find group, because they require usage of the `<` and `>` characters. Regex subroutines are also not allowed because .NET does not support pattern recursion. Prior to corrupting, all `$`s at the ends of lines are removed, the first line of the find section has `^` prepended, and the last has `\r?$` appended.
@@ -151,9 +151,9 @@ These let you choose.which types should be corrupted. Floats and doubles are gen
 The operations to corrupt when "Math operations" is selected under 'Kinds'.
 
 **Round to x decimal places**\
-The number of decimal places to round to. Amounts of places between whole numbers won't work how you probably think they will. 0.5 rounded to the nearest 0.5 places is not 0.75. The formula used to round values is: !\[\[Equation.png]] You can visualize this by graphing it with the x axis as places and any number for value.
+The number of decimal places to round to. Amounts of places between whole numbers won't work how you probably think they will. 0.5 rounded to the nearest 0.5 places is not 0.75. The formula used to round values is:
 
-<figure><img src="../../.gitbook/assets/Equation.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Equation.png" alt=""><figcaption><p>You can visualize this by graphing it with the x axis as places and any number for value.</p></figcaption></figure>
 
 **Replaces:** 1 instruction\
 **Creates:** Depends

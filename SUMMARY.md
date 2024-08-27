@@ -37,7 +37,6 @@
   * [Running RTCV on Linux](rtcv/other-rtc-guides/running-rtcv-on-linux.md)
   * [How to make Passthrough Lists](rtcv/other-rtc-guides/how-to-make-passthrough-lists.md)
   * [Sequence Loader Plugin](rtcv/other-rtc-guides/sequence-loader-plugin.md)
-  * [Java Corruptor Plugin](rtcv/other-rtc-guides/java-corruptor-plugin.md)
 
 ## Other Corruptors
 
@@ -107,3 +106,7 @@
   * [Corrupting Files with FileStub](systems/computers-and-mobile/corrupting-files-with-filestub.md)
   * [Corrupting PC Games with ProcessStub](systems/computers-and-mobile/corrupting-pc-games-with-processstub.md)
   * [Corrupting VMware snapshots](systems/computers-and-mobile/corrupting-vmware-snapshots.md)
+* [Java](systems/java/README.md)
+  * [Java Corruptor Plugin](systems/java/java-corruptor-plugin.md)
+  * [Corrupting Minecraft with the Java Corruptor Plugin and FileStub](systems/java/corrupting-minecraft-with-the-java-corruptor-plugin-and-filestub.md)
+  * [Corrupting Project Zomboid with the Java Corruptor Plugin and FileStub](systems/java/corrupting-project-zomboid-with-the-java-corruptor-plugin-and-filestub.md)
