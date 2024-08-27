@@ -2,20 +2,19 @@
 description: by Snuffles
 ---
 
-# Xbox 360 Executable Corruptions
-
-Xbox 360 Executable (XEX) Corruptions
+# Xbox 360 Executable Corruptions (Real Console)
 
 using a JTAGed/RGHed Xbox 360 and FileStub
 
 This guide explains how to get Xbox 360 corruptions working using FileStub and a JTAGed/RGHed Xbox 360. This method allows for Xbox 360 corruptions, but ultimately it is a slow and tedious process due to the lack of savestates.
 
-**Extracting the Files**
+**DISCLAIMER: THIS IS THE GUIDE FOR REAL CONSOLE. IF YOU WANT TO USE XENIA PLEASE FOLLOW THE OTHER GUIDE.**
 
-### **Disc** <a href="#be3nhx3c8my7" id="be3nhx3c8my7"></a>
+## **Extracting the Files**
 
-This guide is assuming you have Aurora as your modded dashboard on your Xbox 360, as well as a FAT32 formatted USB drive to reliably transfer and edit files between your Xbox 360 and PC. Insert your disc into your Xbox 360. Press the select button to open the system menu and go into the file manager. Go to the DVD drive and select all folders and files. Copy the files and go to your USB drive. Create a folder for your game and paste the files in that folder. You should now have the files for the game you want to corrupt. Note that if the disc default.xex just launches an XBLA title file (disc games like Minecraft) you will need to follow the XBLA guide instead. \
+### Disc
 
+This guide is assuming you have Aurora as your modded dashboard on your Xbox 360, as well as a FAT32 formatted USB drive to reliably transfer and edit files between your Xbox 360 and PC. Insert your disc into your Xbox 360. Press the select button to open the system menu and go into the file manager. Go to the DVD drive and select all folders and files. Copy the files and go to your USB drive. Create a folder for your game and paste the files in that folder. You should now have the files for the game you want to corrupt. Note that if the disc default.xex just launches an XBLA title file (disc games like Minecraft) you will need to follow the XBLA guide instead.&#x20;
 
 <figure><img src="../../.gitbook/assets/0.png" alt=""><figcaption><p>A screenshot of the Minecraft disc. Notice the small Default.xex and Content folder? That most likely means that the disc is an XBLA game and the XBLA title in the Content folder should be extracted instead.</p></figcaption></figure>
 
@@ -25,15 +24,11 @@ This guide is assuming you have Aurora as your modded dashboard on your Xbox 360
 
 ![](../../.gitbook/assets/1.png)
 
-
-
 The folders will be the title ids of the games. Aurora should automatically show the actual game name next to the title id but if for whatever reason it’s not showing up you can go to [Microsoft Xbox 360 games list with Title ID (gamesdatabase.org)](https://www.gamesdatabase.org/xbox\_360\_games\_list\_with\_title\_ids) to see what title id the game you want is.
 
 ![The game name is next to the title id of the folder.](../../.gitbook/assets/2.png)
 
 After you find the game you are looking for you can copy the title id folder containing the game and paste it onto your USB drive. After the files are done copying, put the USB drive into your PC. Next, you’re going to want to download a program called “god2iso” in order to convert the file into iso format. You can get it from here: [God2ISO - Xbox 360 Games on Demand to CD Image Converter | Digiex](https://digiex.net/threads/god2iso-xbox-360-games-on-demand-to-cd-image-converter.7115/#google\_vignette). Launch the “God2Iso.exe” file from the download and add a GOD package. Go to your USB drive and open the folder of the game you put on there. Go into the 00007000 folder and add the file that is a bunch of letters and numbers (not the folder that has .data at the end).&#x20;
-
-
 
 ![](../../.gitbook/assets/3.png)
 
@@ -43,7 +38,7 @@ Choose an output directory and press the “Go!” button.&#x20;
 
 ![The destination doesn’t have to be on your USB drive but the extracted files have to be on the USB drive when you are ready to corrupt in order to load the corrupted game.](../../.gitbook/assets/4.png)
 
-&#x20;After it is done you will find an iso that has the same name as the GOD package you added. Now you need to download a program called “isoextract” which you can get from here: [Xbox 360 XISO Extract - BEST an easiest XDG3 extraction tool, with GUI + FTP. | Digiex](https://digiex.net/threads/xbox-360-xiso-extract-best-an-easiest-xdg3-extraction-tool-with-gui-ftp.9711/). Launch the “XBOX360 ISO Extract.exe” file from the downloaded program. Choose the ISO folder and the destination for the extracted files to go. After you are done choosing, press the “go” button.&#x20;
+After it is done you will find an iso that has the same name as the GOD package you added. Now you need to download a program called “isoextract” which you can get from here: [Xbox 360 XISO Extract - BEST an easiest XDG3 extraction tool, with GUI + FTP. | Digiex](https://digiex.net/threads/xbox-360-xiso-extract-best-an-easiest-xdg3-extraction-tool-with-gui-ftp.9711/). Launch the “XBOX360 ISO Extract.exe” file from the downloaded program. Choose the ISO folder and the destination for the extracted files to go. After you are done choosing, press the “go” button.&#x20;
 
 ![](../../.gitbook/assets/5.png)
 
@@ -61,7 +56,7 @@ This guide is assuming you have Aurora as your modded dashboard on your Xbox 360
 
 The process for extracting files from Indie games is similar to XBLA but there is currently no way to corrupt them. There may be some way some time in the future.
 
-**Decompressing and Unencrypting the XEX**
+## **Decompressing and Unencrypting the XEX**
 
 No matter the method you used to extract the files, you should have a “default.xex” file in the root folder of the game you extracted. This file needs to be decompressed and unencrypted before being able to be corrupted. In order to do this, you’re going to need a tool called “XexTool”, which you can get here: [XEXTool 6.3 Download | Digiex](https://digiex.net/threads/xextool-6-3-download.9523/). Alternatively, if you prefer to use a GUI tool, you can use a program called “Xbox 360 Game Hack”, which you can download here: [Xbox 360 Game Hack 6.3 - Patch Xbox 360 .xex files (patch region, media, kinect) | Digiex](https://digiex.net/threads/xbox-360-game-hack-6-3-patch-xbox-360-xex-files-patch-region-media-kinect.7430/#post38498), although note that this guide will be using the command line tool. Copy over the default.xex file to the folder where “xextool.exe” is stored.&#x20;
 
@@ -87,7 +82,7 @@ and press enter. Command prompt should now open. To keep things simple, just typ
 
 &#x20;“!.xex” can be whatever you want, but it is recommended that you keep it as “!.xex” as the ! character shows up the highest in file explorers and it could take a while to launch the XEX file every time if it isn’t at the top of the file list. Copy the “!.xex” file to the root of the extracted game folder on your USB drive. The unmodified default.xex should be there alongside your newly decompressed and unencrypted !.xex file.
 
-**Corrupting and Loading**
+## **Corrupting and Loading**
 
 ### **Corrupting the XEX** <a href="#fvo2i2sfj69h" id="fvo2i2sfj69h"></a>
 
@@ -95,11 +90,11 @@ First thing’s first, you should make 4 copies of the !.xex so you have 5 modif
 
 ![What a finalized file setup should look like.](../../.gitbook/assets/11.png)
 
-&#x20;Open the RTC launcher and download Dolphin. Download FileStub if you haven’t already and open it. Click the settings icon in the top right corner of FileStub and turn Big Endian on. Change the target type to multiple files (many domains). Add the modified !.xex and the 4 copies you have created into FileStub. Click load targets into RTCV.0
+Open the RTC launcher and download Dolphin. Download FileStub if you haven’t already and open it. Click the settings icon in the top right corner of FileStub and turn Big Endian on. Change the target type to multiple files (many domains). Add the modified !.xex and the 4 copies you have created into FileStub. Click load targets into RTCV.
 
 ![This is what FileStub should look like when you load targets in RTCV.](../../.gitbook/assets/12.png)
 
-Change the blast radius to normalized and the corruption engine to vector. Click the “My Lists” button and then click “Import List File”. Go to your RTC folder and go into VERSIONS -> RTCV\_(version) -> Dolphin -> LISTS and import all of the lists in this folder. 4
+Change the blast radius to normalized and the corruption engine to vector. Click the “My Lists” button and then click “Import List File”. Go to your RTC folder and go into VERSIONS -> RTCV\_(version) -> Dolphin -> LISTS and import all of the lists in this folder.
 
 ![](../../.gitbook/assets/13.png)
 
@@ -111,58 +106,35 @@ Go back to “My Lists” and click “Refresh List Files”. Go back to engine 
 
 ![Here’s what your first setup should look like.](../../.gitbook/assets/15.png)
 
-&#x20;The guide will detail other list combinations later. Open up the Glitch Harvester. You’re going to want to go for a layer size of around 500-1000 depending on the game’s XEX size.&#x20;
-
-
+&#x20;The guide will detail other list combinations later. Open up the Glitch Harvester. You’re going to want to go for a layer size of around 500 (around 100 units for each of the XEXs).
 
 ![](../../.gitbook/assets/16.png)
 
-
-
-&#x20;Play around with the intensity to see if you can get around that range. Too little and you’re not going to see much broken stuff, too much and all you’ll see is bars stretched across your screen. The amount of blast units you’ll get depends on the lists you use and the XEX size. If you’re getting way too many or way too little, make sure you have Big Endian set in FileStub or didn’t accidentally increase the alignment past 0. Once you feel like you have the right layer size, proceed to the next step.
+Play around with the intensity to see if you can get around that range. Too little and you’re not going to see much broken stuff, too much and all you’ll see is bars stretched across your screen. The amount of blast units you’ll get depends on the lists you use and the XEX size. If you’re getting way too many or way too little, make sure you have Big Endian set in FileStub or didn’t accidentally increase the alignment past 0. Once you feel like you have the right layer size, proceed to the next step.
 
 ### **Loading the Corrupt XEX** <a href="#s276ugssnfna" id="s276ugssnfna"></a>
 
-Once you have corrupted the files you should be ready to load them. Double check to make sure you have the extracted files on your USB drive and the corrupted xex files are in the root game folder along with the uncorrupted default.xex. Plug the USB drive into your Xbox 360. Press the select button to open the system menu and open the file manager. Go to your USB drive and go to the extracted game folder. Launch one of the 5 corrupted xex files.
+Once you have corrupted the files you should be ready to load them. Double check to make sure you have the extracted files on your USB drive and the corrupted XEX files are in the root game folder along with the uncorrupted default.xex. Plug the USB drive into your Xbox 360. Press the select button to open the system menu and open the file manager. Go to your USB drive and go to the extracted game folder. Launch one of the 5 corrupted XEX files.
 
-![](../../.gitbook/assets/18.png)
+![](../../.gitbook/assets/spaces\_-LcqJi9IA\_QZw1mG64CY\_uploads\_JUQMOitULp6hmniRos7x\_17.png)
 
-&#x20;Congratulations! You have (hopefully) successfully done your first Xbox 360 corruption. If the game crashes on the first one you load, try another one, you may have gotten unlucky. If you want to load another corruption you don’t even have to quit back to the Aurora menu. Press the Xbox button, go to File Browser, navigate to your USB drive and game folder and you can load a different XEX from there.
+Congratulations! You have (hopefully) successfully done your first Xbox 360 corruption. If the game crashes on the first one you load, try another one, you may have gotten unlucky. If you want to load another corruption you don’t even have to quit back to the Aurora menu. Press the Xbox button, go to File Browser, navigate to your USB drive and game folder and you can load a different XEX from there.
 
+![You can even reload the current corruption with this.](../../.gitbook/assets/spaces\_-LcqJi9IA\_QZw1mG64CY\_uploads\_Z7WQKMN463z9VikO2Tci\_18.png)
 
+## **List Combinations and Info**
 
-![](../../.gitbook/assets/17.png)
-
-&#x20;You can even reload the current corruption with this.
-
-**List Combinations and Info**
-
-Here are some of the lists and combinations that have been tested and work well. If a list is not listed here, that probably means it should be avoided.\
+Here are some of the lists and combinations that have been tested and work well. If a list is not listed here, that probably means it should be avoided unless you know what you're doing.\
 Guide: (limiter) -> (value)
 
 \_Dolphin\_PT\_FLT\_MATH -> \_Dolphin\_PT\_FLT\_MATH\
 This is what you should use if you’re just beginning, it is the least crashy out of everything that will be here but it is not completely crash proof.
 
 \_Dolphin\_FLT\_DBL\_GIGA -> \_Dolphin\_FLT\_DBL\_GIGA\
-Second least crashy. Gives various unique results when compared to other things on here.
+Medium crashiness. Gives various unique results when compared to other things on here.
 
 \_Dolphin\_FLT\_DBL\_MATH -> \_Dolphin\_FLT\_DBL\_MATH\
-Second least crashy. Gives various unique results when compared to other things on here.
-
-\_Dolphin\_FLT\_DBL\_GIGA -> \_Dolphin\_FLT\_DBL\_MATH\
-Second least crashy. Gives various unique results when compared to other things on here.
-
-\_Dolphin\_FLT\_DBL\_MATH -> \_Dolphin\_FLT\_DBL\_GIGA\
-Second least crashy. Gives various unique results when compared to other things on here.
-
-\_Dolphin\_PT\_FLT\_MATH -> \_Dolphin\_NOP\
-Second most crashy. Gives various unique results when compared to other things on here.
-
-\_Dolphin\_FLT\_DBL\_GIGA -> \_Dolphin\_NOP\
-Second most crashy. Gives various unique results when compared to other things on here.
-
-\_Dolphin\_FLT\_DBL\_MATH -> \_Dolphin\_NOP\
-Second most crashy. Gives various unique results when compared to other things on here.
+Medium crashiness. Gives less results than \_Dolphin\_FLT\_DBL\_GIGA.
 
 \_Dolphin\_FLT\_LOAD -> \_Dolphin\_NOP\
 Most crashy. One of the most difficult ones there are here while still at least semi-consistently being able to get results. Requires lower intensity than others to not get crashes.
@@ -173,7 +145,7 @@ Most crashy. One of the most difficult ones there are here while still at least 
 \_Dolphin\_FMR -> \_Dolphin\_NOP\
 Not all that crashy, but results mostly consist of unplayable and unwatchable screen warping. Results and success very much vary per game. Requires high intensity to get even remotely anything. Provides the most unique effects out of anything here when you aren’t looking at an enlarged concrete texture covering your entire screen.
 
-**Potential Weird Scenarios**
+## **Potential Weird Scenarios**
 
 Sometimes, it’s not as simple as decompressing and decrypting the default.xex and corrupting it. There may be some scenarios where you need to do more.
 
@@ -183,7 +155,7 @@ You should generally avoid trying to use Title Updates while corrupting games. A
 
 ![](../../.gitbook/assets/19.png)
 
-&#x20;You will notice how there is now a “default.xexp” file next to the normal default.xex file. This is the patch file for the default.xex file. Copy over both files to the xextool folder.&#x20;
+You will notice how there is now a “default.xexp” file next to the normal default.xex file. This is the patch file for the default.xex file. Copy over both files to the xextool folder.&#x20;
 
 ![This is what the XexTool folder should look like.](../../.gitbook/assets/20.png)
 
@@ -199,7 +171,7 @@ without quotation marks. After you do that you’re going to need to fix it so i
 
 <figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXcQgayYBnOnFD2Zs3wEVXFn56AqZyRXTqqefG1KAdBZY2pHX1_ceI1Pmf7lXCzH7Q-fgXbCjoUD1TM-_9YsjqkYlJDglhFE4E4l33q2Hj6clgmBYOrJFvDF84l4Rt7cu3-r-I1lTDapucQqW83X0HcP9thE?key=_jrZtwIW3o5nmQ4IxCUJiQ" alt=""><figcaption></figcaption></figure>
 
-&#x20;Finally, after all that you can decompress and unencrypt the XEX file. Remember, you can do that by typing “xextool -c u -e u -o !.xex default.xex”. Now, copy the XEX five times, corrupt them and put your USB drive into the Xbox 360.&#x20;
+Finally, after all that you can decompress and unencrypt the XEX file. Remember, you can do that by typing “xextool -c u -e u -o !.xex default.xex”. Now, copy the XEX five times, corrupt them and put your USB drive into the Xbox 360.&#x20;
 
 <figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXdz78N2NohVAvwW0sSNKKxydxE7MFejWVVBg_XqiBF9JjM5Woxrdhk5cDpkHMjEtmHeyRrgs5EWXrx2Nm_hUxK6A-aB10SOU4YreCGUzDncch_czqId0VaBGUXEVcsroVW371bwHvph94Ham8dowsEmW8n5?key=_jrZtwIW3o5nmQ4IxCUJiQ" alt=""><figcaption></figcaption></figure>
 
@@ -211,11 +183,11 @@ and then from there you can open the file browser while in the game and launch t
 
 <figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXeSLd4tC5v4WN7iLaNHulppXZd5HeXvoHxjiBEWOlV3pp-IlANVidfp4AfwquR7M_RVnFdbxVn1_D_vUwGXzSizODT8TNZ7i0ETk3584-zE3JQE7gNVr8HvxDCatfneKbauW57wAK8ghUYKpqqiWEmTorfw?key=_jrZtwIW3o5nmQ4IxCUJiQ" alt=""><figcaption></figcaption></figure>
 
-&#x20;Only then will the Title Update be applied to the corrupted XEX.
+Only then will the Title Update be applied to the corrupted XEX.
 
 ### **Corrupting Games With “DLL” Files** <a href="#id-7f6zf7dfad3y" id="id-7f6zf7dfad3y"></a>
 
-There is this weird case scenario with Valve games on the Xbox 360 (and Terraria with no Title Update) where there are “DLL” files (they’re just XEX files disguised as a DLL file) running alongside the normal default.xex. Valve games are currently the only known games that are like this, but there are more than likely other games on the Xbox 360 that are like this that this guide would help with. To tell if you should be corrupting the “DLL” files and not the default.xex, look at the size of the default.xex compared to the “DLL” files. If the default.xex doesn’t even reach the megabyte range, the “DLL” files are more than likely the files you want to corrupt. In order to corrupt these types of games, you need to decompress and decrypt the “DLL” files like any normal xex file. You don’t even want to touch the default.xex as it will cause the game to crash on boot when loading a modified one. For this guide, we will be using the game “Portal: Still Alive”. The common “DLL” files you want to corrupt are “engine\_360.dll”, “vphysics\_360.dll”, “MaterialSystem\_360.dll”, “shaderapidx9\_360.dll” and “stdshader\_dx9\_360.dll”. You can corrupt the other “DLL” files if you want. Decompress and decrypt those files, but you may want to decompress all the “DLL” files just in case you want to have those at the ready.&#x20;
+There is this weird case scenario with Valve games on the Xbox 360 (and Terraria with no Title Update) where there are “DLL” files (they’re just XEX files disguised as a DLL file) running alongside the normal default.xex. Valve games are currently the only known games that are like this, but there are more than likely other games on the Xbox 360 that are like this that this guide would help with. To tell if you should be corrupting the “DLL” files and not the default.xex, look at the size of the default.xex compared to the “DLL” files. If the default.xex doesn’t even reach the megabyte range, the “DLL” files are more than likely the files you want to corrupt. In order to corrupt these types of games, you need to decompress and decrypt the “DLL” files like any normal XEX file. You don’t even want to touch the default.xex as it will cause the game to crash on boot when loading a modified one. For this guide, we will be using the game “Portal: Still Alive”. The common “DLL” files you want to corrupt are “engine\_360.dll”, “vphysics\_360.dll”, “MaterialSystem\_360.dll”, “shaderapidx9\_360.dll” and “stdshader\_dx9\_360.dll”. You can corrupt the other “DLL” files if you want. Decompress and decrypt those files, but you may want to decompress all the “DLL” files just in case you want to have those at the ready.&#x20;
 
 <figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXd14R5Bn3tb_tlngpfPsxKe4QOq9ORQJ3Tj-CyHZgC9WFng7yYdcyqI1nv9faOYSvzQZ9qJiY1g21HNdI7Mf-fvotzyjWsIZ73IA9d3zowpGY1hd1GMqlheAk0DMjXcSPP0rzPgRxfRE5K1GnY-D4KYcGwc?key=_jrZtwIW3o5nmQ4IxCUJiQ" alt=""><figcaption></figcaption></figure>
 
@@ -227,7 +199,7 @@ There is this weird case scenario with Valve games on the Xbox 360 (and Terraria
 
 The corruption settings you should use are like before except for a few things. Instead of using a normalized blast radius, you’ll want to use a spread or even blast radius. You’ll also want to have a layer size of around 80 if you’re only corrupting the common “DLL” files mentioned earlier as the game is a lot more sensitive than most. This may not be the case for other games. You may want to try to get a bigger layer size if you are corrupting more of them. After you are done corrupting the files plug the USB drive into your Xbox 360 and load the normal default.xex and the game should be corrupted.
 
-**Notes**
+## **Notes**
 
 You don’t have to just use 5 copies of the XEX. Create as many as you see fit. Just make sure that you increase the intensity and the layer size you should be looking for the more copies you add.
 
