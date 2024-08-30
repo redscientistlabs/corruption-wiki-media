@@ -29,7 +29,7 @@ This documentation was written with classic corruptors such as Vinesauce ROM Cor
 
 **Guide Author: Chris Byrne (Weinerless Steve)**
 
-This guide is currently based on [version 1.2.2](http://corruptedbytes.com/the-vinesauce-rom-corruptor/) of the Vinesauce ROM Corruptor, which is what is included with RTC and [version 2.3.2](http://www.pj64-emu.com/download/project64-latest) of Project64. Instructions may differ slightly for older versions of either. These instructions will also more or less work for VineCorrupt.
+This guide is currently based on [version 1.2.2](https://web.archive.org/web/20231203015643/http://corruptedbytes.com/the-vinesauce-rom-corruptor/) of the Vinesauce ROM Corruptor, which is what is included with RTC and [version 2.3.2](http://www.pj64-emu.com/download/project64-latest) of Project64. Instructions may differ slightly for older versions of either. These instructions will also more or less work for VineCorrupt.
 
 ### Basis
 

@@ -36,7 +36,7 @@ Unlike traditional N64 games, DS can be corrupted both with and without save sta
 
 ## Setup
 
-Although there are multiple up and coming DS emulators, this guide is based on [version 0.9.11 of DeSMuMe](http://desmume.org/download/) and [version 1.2.2 of the Vinesauce ROM Corruptor](http://corruptedbytes.com/the-vinesauce-rom-corruptor). Earlier versions of the emulator should work the same. The best way to try corrupting a DS game is without save states, but you could set some during gameplay to go back to later. You’ll figure out the best places to put save states while experimenting during corruption, and we’ll go over this experimentation in later sections. It's also worth noting that the "+" and "-" keys are for fast foward and rewind, and to use your mic for a game like Nintendogs, you go into “Config”, then “Microphone Settings”. Depending on how your game saves, there are also additional steps to take.
+Although there are multiple up and coming DS emulators, this guide is based on [version 0.9.11 of DeSMuMe](http://desmume.org/download/) and [version 1.2.2 of the Vinesauce ROM Corruptor](https://web.archive.org/web/20231203005818/http://corruptedbytes.com/vinesauce-rom-corruptor-color-replacement-guide/). Earlier versions of the emulator should work the same. The best way to try corrupting a DS game is without save states, but you could set some during gameplay to go back to later. You’ll figure out the best places to put save states while experimenting during corruption, and we’ll go over this experimentation in later sections. It's also worth noting that the "+" and "-" keys are for fast foward and rewind, and to use your mic for a game like Nintendogs, you go into “Config”, then “Microphone Settings”. Depending on how your game saves, there are also additional steps to take.
 
 ### Picking Your ROM
 
@@ -62,7 +62,7 @@ There are two methods of corruption used in NDS corruption. Standard corruption 
 
 ### Start/End Byte
 
-150000 is the best estimate for a good start byte. A good way to go from there to the end of the ROM, and use [Rikerz’s bisection method](http://corruptedbytes.com/vinesauce-rom-corruptor-color-replacement-guide/) to find the best range. Move the start and end byte closer together until you still consistently get corruption. Using this method, you’ll get the Use this until the game is somewhat stable, while still giving the desired results. Unlike NES corruption though, I would recommend steps of 50000-100000.
+150000 is the best estimate for a good start byte. A good way to go from there to the end of the ROM, and use [Rikerz’s bisection method](https://web.archive.org/web/20231203005818/http://corruptedbytes.com/vinesauce-rom-corruptor-color-replacement-guide/) to find the best range. Move the start and end byte closer together until you still consistently get corruption. Using this method, you’ll get the Use this until the game is somewhat stable, while still giving the desired results. Unlike NES corruption though, I would recommend steps of 50000-100000.
 
 ### Standard Corruption
 

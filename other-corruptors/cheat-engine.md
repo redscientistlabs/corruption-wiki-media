@@ -8,8 +8,6 @@ While this method for corrupting Windows Games/Programs still work, we suggest u
 [rtc](../rtcv/rtc/)
 {% endcontent-ref %}
 
-###
-
 ### Cheat Engine Guide for 3D PC Games
 
 **Author:** Eric "Dark Byte" Heijnen\

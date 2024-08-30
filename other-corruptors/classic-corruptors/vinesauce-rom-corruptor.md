@@ -119,13 +119,13 @@ Text To Replace **-** Enter the text to replace into this field. Multiple sectio
 
 Replace With **-** Enter what to replace the matching sections of text with into this field. If multiple sections of text were added into the box above, the same number of sections must also be entered into this box. Again, the pipe character (|) is used to separate sections.
 
-A more detailed guide can be found here: [http://corruptedbytes.com/vinesauce-rom-corruptor-text-replacement-guide/](http://corruptedbytes.com/vinesauce-rom-corruptor-text-replacement-guide/)
+A more detailed guide can be found here: [http://corruptedbytes.com/vinesauce-rom-corruptor-text-replacement-guide/](https://web.archive.org/web/20231001124022/http://corruptedbytes.com/vinesauce-rom-corruptor-text-replacement-guide/)
 
 **Color Replacement - Hex**
 
 This allows you to arbitrarily replace colors in games. Enter the hexadecimal value of the color to replace into the first text box. Multiple colors can be replaced at the same time by putting pipe characters (|) between them. Enter the hexadecimal value to replace the matching color with into this text box. If multiple colors were added into the box above, the same number of colors must also be entered into this box.
 
-A more detailed guide can be found here: [http://corruptedbytes.com/vinesauce-rom-corruptor-color-replacement-guide/](http://corruptedbytes.com/vinesauce-rom-corruptor-color-replacement-guide/)
+A more detailed guide can be found here: [http://corruptedbytes.com/vinesauce-rom-corruptor-color-replacement-guide/](https://web.archive.org/web/20231203005818/http://corruptedbytes.com/vinesauce-rom-corruptor-color-replacement-guide/)
 
 #### Quick Corruption Setup
 
