@@ -4,6 +4,10 @@ description: Plugin and Guide made by NoSkillPureAndy
 
 # Java Corruptor Plugin
 
+{% hint style="info" %}
+NOTE: If you have no other plugins the Java Corruptor layout will load automatically when clicking "Load Custom Layout".
+{% endhint %}
+
 ## Introduction
 
 The Java corruptor is a plugin made to easily corrupt games written in Java. It was written with similarity to the usual RTC experience in mind, so your prior experience with RTC will be applicable when using it. This overview will cover the behavior of the different engines, important facts about Java to keep in mind, and notable differences between the Java corruptor and RTC.

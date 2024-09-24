@@ -8,6 +8,10 @@ description: Plugin and Guide made by NoSkillPureAndy
 This guide assumes that you have already read the base guide for the Java Corruptor plugin. If you haven't already, check it out at[ this page](java-corruptor-plugin.md)
 {% endhint %}
 
+{% hint style="info" %}
+NOTE: If you have no other plugins the Java Corruptor layout will load automatically when clicking "Load Custom Layout". This was not mentioned in the video.
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=k68aZRh4lKg" %}
 Video Tutorial
 {% endembed %}
