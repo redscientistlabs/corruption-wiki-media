@@ -26,7 +26,12 @@ Do not upload corrupt media directly to Discord or similar.
 
 It is unlikely, but possible, that when trying to display a corrupt image, audio, or video file Discord could freak out and crash for anyone that tries to view the media. So for this reason it is better to externally capture the corrupt media using something like OBS or the Snipping Tool.
 
-Another reason to externally capture the media is that it will likely be displayed differently in different applications, so externally capturing it is better.
+Another reason to externally capture the media is that it will likely be displayed differently in different applications, so externally capturing it is better.\
+
+
+## General Usage
+
+FileStub acts as a middle point between files on your computer and RTC. Start by loading one or multiple files in FileStub using its interface and then use the Load targets to RTC button to send them to RTC. These will appear in the Memory Domains the same way as Emulators show their memory areas. When loading multiple files, you can change parameters to display files as separate memory domains or consolidating them to a single one.
 
 ## Basic Layout
 
