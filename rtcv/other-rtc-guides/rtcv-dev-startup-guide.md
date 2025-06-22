@@ -39,10 +39,10 @@ Using the Clone repository function, get those two folders side by side in the p
 
 ![](<../../.gitbook/assets/image (86).png>)
 
-Then, go back to the RTCV repo in Github Desktop and switch to the branch 51X ~~506v2~~. This is the current branch we use for final the 5.1.x dev .\
+Then, go back to the RTCV repo in GitHub Desktop and switch to the branch 52X ~~51X~~ ~~506v2~~. This is the current branch we use for the final 5.2.x dev.\
 
 
-![](<../../.gitbook/assets/image (88).png>)
+<figure><img src="../../.gitbook/assets/GitHubDesktop_pnjd9q2l1N (4).png" alt=""><figcaption></figcaption></figure>
 
 Usually, the main branch for emulators and plugins will be master, with ocasionally the "Vanguard" branch in certain emulators. This guide will not cover the setup for any other emulator than Bizhawk50X. This version of Bizhawk is currently our modded emulator of choice for testing plugins and new features. The reason being that it is in a detached repository that is not tailored to any external development (such as most of our emulator forks).
 
@@ -92,7 +92,7 @@ In the Solution Explorer (usually on the right), right click on the top icon of 
 
 Here, you will want to switch your startup project to Multiple startup projects.
 
-_Find Bizhawk.Client.EmuHawk and set it to Star_t
+_Find Bizhawk.Client.EmuHawk and set it to Sta&#x72;_&#x74;
 
 _Find StandaloneRTC and set it to Start_
 
