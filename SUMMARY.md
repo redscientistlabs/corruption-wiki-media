@@ -85,6 +85,7 @@
   * [Rom Corruption (Deprecated)](systems/nintendo-ds/nds.md)
 * [Nintendo 3DS](systems/nintendo-3ds/README.md)
   * [Corrupting the 3DS](systems/nintendo-3ds/corrupting-the-3ds.md)
+  * [Architecture](systems/nintendo-3ds/architecture.md)
   * [Memory Domains](systems/nintendo-3ds/memory-domains.md)
 * [Gamecube/Wii](systems/gamecubewii/README.md)
   * [Corrupting the GC/Wii](systems/gamecubewii/corrupting-the-gc-wii.md)

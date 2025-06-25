@@ -34,14 +34,3 @@ The custom VFP lists from the Package Downloader are the best for corrupting the
 
 In addition to the Vector Engine, creating VMDs (#link=Virtual Memory Domains) is crucial for getting results on the system. The target area for each domain is large, and the data is very concentrated. The FCRam domain in the range 7000000-8000000 houses most of the code, so it’s a good idea to create a VMD within that range to start.
 
-
-
-### Architecture:
-
-A custom SoC developed by Nintendo. It includes four ARM CPUs of three types: two ARM11 MPCores, an ARM946E-S, and an ARM7TDMI. Fun fact, the latter two were used in the Nintendo DS and GameBoy Advance respectively. It also included a PICA200 GPU, which helped render the 3d graphics.
-
-
-
-For more information, visit the following website: [https://www.copetti.org/writings/consoles/nintendo-3ds/](https://www.copetti.org/writings/consoles/nintendo-3ds/)
-
-\
