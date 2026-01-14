@@ -5,33 +5,22 @@
 
 ### **There are 2 parts to this guide. If the first part works, you don't need to do the second part.**
 
-First, you have to connect the Wiimote via bluetooth in control panel. To do so, open control panel. Then click “Hardware and Sound”, “Devices and Printers”, and “Add a device” at the top left. Press 1 and 2 at the same time, or the red button underneath the battery cover and wait for it to include “Nintendo RVL-CNT-01”. When it does, click on it and then click “Next” on the bottom right. Click it again if it tells you to enter a passcode, it doesn’t exist. Wait for it to install what it needs, and you’re done with this step.\
+First, you have to connect the Wiimote via bluetooth in control panel. To do so, open control panel. Then click “Hardware and Sound”, “Devices and Printers”, and “Add a device” at the top left. Press 1 and 2 at the same time, or the red button underneath the battery cover and wait for it to include “Nintendo RVL-CNT-01”. When it does, click on it and then click “Next” on the bottom right. Click it again if it tells you to enter a passcode, it doesn’t exist. Wait for it to install what it needs, and you’re done with this step.<br>
 
-
-Next, open Dolphin and click “Controllers” in the top right. Change “Emulated Wii Remote” to “Real Wii Remote” in the new menu, and click “Continuous Scanning” below. When you’ve done that, press 1 and 2 at the same time, or the red button underneath the battery cover and then click “Refresh” to the right of that. Click it a few times if it doesn’t work, and wait for it to give you a notification that “Nintendo RVL-CNT-01” is being set up. If this doesn’t happen or it does and your Wiimote continues to flash, you should continue reading. If not, congrats! Your sanity is spared.\
-
+Next, open Dolphin and click “Controllers” in the top right. Change “Emulated Wii Remote” to “Real Wii Remote” in the new menu, and click “Continuous Scanning” below. When you’ve done that, press 1 and 2 at the same time, or the red button underneath the battery cover and then click “Refresh” to the right of that. Click it a few times if it doesn’t work, and wait for it to give you a notification that “Nintendo RVL-CNT-01” is being set up. If this doesn’t happen or it does and your Wiimote continues to flash, you should continue reading.<br>
 
 ## **Only do this next section if your Wiimote did not work with the previous method.**
 
-Next, you need to download **WiimoteHook**. At the time of writing, the official download link\
-[**http://drive.google.com/uc?export=download\&id=123Lq-uX2lwL2Y42iiYi6fUJVwTawiHU9**\
-](http://drive.google.com/uc?export=download\&id=123Lq-uX2lwL2Y42iiYi6fUJVwTawiHU9)found at the bottom of the official guide website
-
-
-
-**"**[**https://epigramx.github.io/WiimoteHook/**](https://epigramx.github.io/WiimoteHook/)**"** seems to be non-functional, at the time this guide was written so here's an alternative link via Google Drive:\
-[**https://drive.google.com/file/d/1BOYwYOGaYe6V70k24sMlz1R2cM4zQ6Gg/view?usp=sharing**](https://drive.google.com/file/d/1BOYwYOGaYe6V70k24sMlz1R2cM4zQ6Gg/view?usp=sharing)
+Next, you need to download **WiimoteHook**. It can be downloaded from [https://github.com/epigramx/WiimoteHook/releases/download/WiimoteHook\_20180616\_080042\_beta/WiimoteHook\_20180616\_080042\_beta.zip](https://github.com/epigramx/WiimoteHook/releases/download/WiimoteHook_20180616_080042_beta/WiimoteHook_20180616_080042_beta.zip). The official website is [**https://epigramx.github.io/WiimoteHook/**](https://epigramx.github.io/WiimoteHook/)**.**
 
 **If you have any issues with this guide, you can also try an alternative guide on the WiimoteHook website**
 
-First, unzip the file you downloaded, preferably to your desktop. Open the folder and run “InstallEmulatedGamepadsDriver(run as admin).bat” as administrator. Press any key to continue, and restart your computer. Next, run “WiimoteHook.exe” (not necessarily as an administrator) and press B. When you’ve done that, press 1 and 2 at the same time, or the red button underneath the battery cover and wait for it to discover your WiiMote. If it says it was paired and it’s unpairing, yell at it and try again. Try running it as an administrator, try sacrificing the perfectly good double A batteries from the controller, anything to make it function. You’ll know it’s ready when you get a notification and “USB In” sound effect from your computer, and a bunch of gray text appears in the window. Calibrate the MotionPlus with C on your computer for good luck.\
-
+First, unzip the file you downloaded, preferably to your desktop. Open the folder and run “InstallEmulatedGamepadsDriver(run as admin).bat” as administrator. Press any key to continue, and restart your computer. Next, run “WiimoteHook.exe” (not necessarily as an administrator) and press B. When you’ve done that, press 1 and 2 at the same time, or the red button underneath the battery cover and wait for it to discover your WiiMote. If it says it was paired and it’s unpairing, just try again. You may have to run it as an administrator or get new batteries. You’ll know it’s ready when you get a notification and “USB In” sound effect from your computer, and a bunch of gray text appears in the window. Calibrate the MotionPlus with C on your computer after.<br>
 
 Next, you need to download GlovePIE from here\
 [**https://github.com/Ravbug/GlovePIE/releases/download/Release/GlovePIE-0.45.zip**](https://github.com/Ravbug/GlovePIE/releases/download/Release/GlovePIE-0.45.zip)
 
-and unzip it to your desktop. Run “PIEFree.exe” and paste in this code sample in:\
-
+and unzip it to your desktop. Run “PIEFree.exe” and paste in this code sample in:<br>
 
 ```
 key.RepeatMultipleFakeKeys = false
@@ -162,22 +151,18 @@ if Wiimote.Nunchuk.Roll < 65 {
 
 ```
 
-(Note: This code sample doesn’t support swinging the Nunchuk. Swinging the Wiimote is already janky enough.)\
-
+(Note: This code sample doesn’t support swinging the Nunchuk. Swinging the Wiimote is already janky enough.)<br>
 
 Next, click “File” in the top left corner and then click “Save As…” in the dropdown. Name it “dolphin wiimote keybinds.PIE” or something to that effect and click “Save” in the bottom right.
 
-Now you have to make the Dolphin settings to work with this. Luckily for you, I’ve already done it. Download this file
+Now you have to import the Dolphin settings that work with this. Download this file
 
-[**https://drive.google.com/file/d/1BtVLYKoa1sNDRE9Fb9E9K8Z9JKI\_Kcrj/view?usp=sharing**](https://drive.google.com/file/d/1BtVLYKoa1sNDRE9Fb9E9K8Z9JKI\_Kcrj/view?usp=sharing)
+[**https://drive.google.com/file/d/1BtVLYKoa1sNDRE9Fb9E9K8Z9JKI\_Kcrj/view?usp=sharing**](https://drive.google.com/file/d/1BtVLYKoa1sNDRE9Fb9E9K8Z9JKI_Kcrj/view?usp=sharing)
 
-**and put it into your Dolphin configs folder. This can be found here**\
+**and put it into your Dolphin configs folder. This can be found here**<br>
 
+\[wherever you put your rtc launcher]\VERSIONS\\\[most recent version, such as RTCV\_5.1.1-b2]\Dolphin\User\Config\Profiles\Wiimote<br>
 
-\[wherever you put your rtc launcher]\VERSIONS\\\[most recent version, such as RTCV\_5.0.6]\Dolphin\User\Config\Profiles\Wiimote\
+When you’ve done this, you should now be able to open Dolphin and click “Controllers” in the top right. Change “Real Wii Remote” to “Emulated Wii Remote” in the new menu, and click “Configure” to the right of that. In the top right there should be a section labeled “Profile” with an empty rectangle and downward arrow. Click the downward arrow and select “dolphin pie” from the dropdown. Click “Save” to the right and click “Close” at the bottom right.<br>
 
-
-When you’ve done this, you should now be able to open Dolphin and click “Controllers” in the top right. Change “Real Wii Remote” to “Emulated Wii Remote” in the new menu, and click “Configure” to the right of that. In the top right there should be a section labeled “Profile” with an empty rectangle and downward arrow. Click the downward arrow and select “dolphin pie” from the dropdown. Click “Save” to the right and click “Close” at the bottom right.\
-
-
-Finally, you can now put all that you set up together. Close WiimoteHook and reopen it. Do what you learned previously to get your Wiimote connected to it. Then, press M to enable mouse emulation. Next, go to GlovePIE and click “▶ Run” at the middle top. Now, click onto Dolphin and open whatever game you want. Fullscreen said game, and you should be good to go now. My condolences to your sanity after this.\
+Finally, you can now put all that you set up together. Close WiimoteHook and reopen it. Do what you learned previously to get your Wiimote connected to it. Then, press M to enable mouse emulation. Next, go to GlovePIE and click “▶ Run” at the top-middle. Finally, click onto Dolphin and open whatever game you want. Fullscreen said game, and you should be good to go.<br>
