@@ -1,5 +1,5 @@
 ---
-description: Plugin and Guide made by NoSkillPureAndy
+description: Plugin and Guide made by PurelyAndy
 ---
 
 # Corrupting Minecraft with the Java Corruptor Plugin and FileStub
