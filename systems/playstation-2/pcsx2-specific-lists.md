@@ -29,5 +29,5 @@ The PCSX2 lists were added in 5.0.4. The Branch lists currently only a limited a
 
 ### Extra documentation on PS2 Architechture
 
-[http://www.cs.tau.ac.il/\~afek/MipsInstructionSetReference.pdf](http://www.cs.tau.ac.il/\~afek/MipsInstructionSetReference.pdf) : General documentation on the Mips Instruction set\
-[http://www-soc.lip6.fr/\~marchett/Archi\_Memento\_MIPS-nup.pdf](http://www-soc.lip6.fr/\~marchett/Archi\_Memento\_MIPS-nup.pdf) : Arithmetic-specific documentation on the MIPS Instruction set (French)
+[https://cgi.cse.unsw.edu.au/\~cs1521/26T3/resources/MIPS32-II-r5.04.pdf](https://cgi.cse.unsw.edu.au/~cs1521/26T3/resources/MIPS32-II-r5.04.pdf) : General documentation on the MIPS Instruction set\
+[http://www-soc.lip6.fr/\~marchett/Archi\_Memento\_MIPS-nup.pdf](http://www-soc.lip6.fr/~marchett/Archi_Memento_MIPS-nup.pdf) : Arithmetic-specific documentation on the MIPS Instruction set (French)
